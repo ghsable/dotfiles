@@ -1,0 +1,192 @@
+始 {{{
+
+### 目的 ###
+- 工場出荷状態から環境を構築する。
+- ローカルで高速に作業が行える環境にする。
+
+### 前提 ###
+- システム環境設定>省エネルギーの"コンピューターのスリープ"を1時間にする。(待ち時間が長いため)
+- AppStoreの"アップデート"からシステムを最新にする。"購入済み"から"Xcode"をインストール・実行しライセンスに同意をする。
+  ※ライセンスに同意をしておかないとHomebrewの導入でエラーが出る。
+- Homebrewの環境を構築する。(コードが変わる時があるため公式HPへアクセスする)
+  https://brew.sh/index_ja.html
+
+### 手順 ###
++ git  
+  - GitHubのdotfilesをCloneしてからinstall.shを実行する。
+    $ git clone https://github.com/ghsable/dotfiles.git
+    $ sh ~/dotfiles/bin/install.sh
+
+++ ここからCLI自動化が及ばないGUIの設定手順 ++
+
++ sh ~/dotfiles/bin/install_defaults.shを実行する。
+  + 林檎>再起動...から"ログイン時に再度ウィンドウを開く"のチェックを外し再起動をする。
+    ※Dockの削除が効いていなかった等の事例があったため再度実行している。
+    - Dockに"ダウンロード"が残っているので、右クリック>オプション>Dockから削除を選択する。 
+
++ 1Password
+  ※アカウントのアクセスが必要な場面が増えるので先に利用可能にしておく。
+  - 初回起動ではQRコードからアカウントと同期をして"1Password miniを常に実行し続ける"にチェックを入れる。
+  - 1Password>環境設定>一般>miniアプリの"アイコンをメニューバーに表示する"のチェックを外す。
+
++ PreinstallのApp
+  ※動作確認完了を契機にLaunchpadに「Preinstall+」グループを作成し配置する。(以下繰返)
+  + #AppStore
+    - アップデート確認のみ行う。
+  + #システム環境設定
+    - セキュリティとプライバシー>ファイアウォールTabより"ファイアウォールを入にする"をクリックして有効にする。
+    - ディスプレイ>ディスプレイTabの"輝度を自動調節"のチェックを外す。
+    - ディスプレイ>Night ShiftTabのスケジュールを"日の入から日の出まで"にしてから色温度:を"暖かく"の最大にする。
+    - キーボード>ユーザー辞書Tabへ~/dotfiles/etc/local_mac/ユーザ辞書.plistをドラッグ&ドロップする。
+    - キーボード>ショートカットTabより全ての項目に対し"デフォルトに戻す"を実行する。
+    - キーボード>入力ソースTabより"ライブ変換"のチェックを外す。
+    - iCloudより"サインアウト"をクリックする。
+    + インターネットアカウントよりアカウントを設定していく。
+      + #Mail
+        ※各1種類で判別が容易なため"説明"は設定不要とする。
+        - personal用 ※選択状態から"メール"にのみチェックを入力する。詳細>"名前"に本名を入力する。
+        - work用     ※選択状態から"名前"に本名を入力する。
+  + #Terminal
+    - ~/dotfiles/etc/local_mac/Solarized_Dark_ansi.terminalを実行する。
+    - 環境設定>プロファイルから上記テーマを"デフォルト"に設定する。
+    - "背景"から"不透明度:90%","ブラー:0%"に設定する。
+    - "フォント"から"変更..."をクリックしサイズを"18"に設定,"ボールドフォントを使用/点滅カーソル"にチェックを入れる。
+  + #メール
+    - 全アカウントで受信できるか確認をする。
+    - 全メールを"開封済"にする。スマートメールボックスは全アカウント隠す。
+    - メール>環境設定>署名から"+"をクリックし「'--'+改行+本名+改行+各メールアドレス」の形式で登録・修正をする。
+  + #Safari
+    - ブックマーク>ブックマークを編集から"お気に入り"を全選択しdeleteを押す事で削除する。
+      更に、"お気に入り"に対して~/dotfiles/etc/local_mac/Bookmark/*をドラッグ&ドロップする。
+    - ツールバーを右クリック>ツールバーをカスタマイズ...から"タブの概要を表示/終了"を除外し、残りを整列させる。
+    + Safari用の拡張機能を個別設定していく。
+      + #Safari Buffer
+        - 動作確認のみを行う。
+      + #Safari 1Password extension
+        - 1Password>ブラウザの拡張機能をインストール...からSafariが開くので
+          "今取得する"をクリックして"ギャラリーから追加する"を選択する。
+      + #Safari Evernote Web Clipper
+        - ノートブックの選択>"常に選択:"でRecheckを選択する。
+        - タグの選択>"スマートファイリングを使用"にチェックを入れる。
+        - デフォルトのクリップ操作>"最後に実効した操作"にチェックを入れる。
+        - クリップした後>"クリップが成功した時の画面を表示(関連ノートは非表示)"にチェックを入れる。
+        - 関連結果>"Webを検索した際に、Evernoteからも関連情報を表示"のチェックを外す。
+        - PDFページのボタン>"PDFページでEvernoteからも関連情報を表示"のチェックを入れる。
+      + #Adobe Flash Player
+        - 公式HP(https://get.adobe.com/jp/flashplayer/)からインストールを行う。
+        - Safari>環境設定>セキュリティ>プラグイン設定の"Adobe Flash Player"にチェックを入れる,
+        - "ほかのWebサイトを閲覧しようとしたとき"をオンにする。
+  + #Finder
+  + #iTunes
+    - "+ 個別設定"を参照。
+      ※Launchpad上にアイコンが無い場合、配置は無視する。
+
++ AppStoreのApp
+  ※動作確認完了を契機にLaunchpadに「mas」グループを作成し配置する。(以下繰返)
+  + #1Password
+    - 既に動作確認が済んでいるので確認不要。
+  + #Evernote
+    - 表示>サマリービューにチェックを入れる。
+    - サイドメニュを左詰にする。右クリック>地図のチェックを外す。
+    - ツールバーで右クリック>カスタマイズ…から"アカウント名"と"鐘マーク"を削除する。
+    - Evernote>環境設定>全般から"メニューバーにEvernoteHelpreを表示"のチェックを外す
+  + #Reeder
+    - Feedlyアカウントでログイン確認をする。
+  + #夜フクロウ
+    - 夜フクロウ>環境設定>アカウントから該当アカウントを追加する。"未読管理機能を有効化する"のチェックを外す。
+    - 夜フクロウ>環境設定>通知の"効果音を有効化する"のチェックを外す。
+    - 夜フクロウ>サイレントモードのチェックを入れる。
+  + #The Unarchiver
+  + #Xcode
+  + #EXIFPurge
+    - 起動確認のみ行う。
+
++ BinaryのApp
+  ※動作確認完了を契機にLaunchpadに「cask」グループを作成し配置する。(以下繰返)
+  + #5KPlayer
+    - 登録画面に従って1Passwordを参照しながら登録を完了させる。
+    - ウィンドウ>"再生中はトップに固定"にチェックを入れる。
+    - 5KPlayer>お好み設定...>全般Tabから"アップデート確認:"で"一度もしない"に変更する。
+    - ステータスバーのアイコンをクリック>"ログイン時に起動"のチェックを外す。
+  + #Firefox
+    - Safariからの設定を読まない。デフォルトにしてポップアップを二度と表示させないようにする。
+    - 初期画面からFirefoxアカウントでログインを行い、受信するメールのリンクからFirefox Syncを完了させる。
+    - 1Password>ブラウザの拡張機能をインストール...から"Firefox 1Password extension"をInstallする。
+    - ツールバーのボタンを下記の順番で並び替える。その他のボタンは適宜振り分ける。
+      [Video DownloadHelper][Evernote Web Clipper][1Password extension]
+    - 他のブックマーク内が下記の順番になっているか確認をする。
+      [Bookmark][Bookmarklet]
+    + Firefox用の拡張機能を個別設定していく。
+      + #Firefox 1Password extension
+      + #Firefox Adblock Plus
+      + #Firefox Video DownloadHelper
+      + #Firefox Buffer
+      + #Firefox Twit Side
+        - 動作確認のみを行う。
+      + #Firefox Evernote Web Clipper
+        - ノートブックの選択>"常に選択:"でRecheckを選択する。
+        - タグの選択>"スマートファイリングを使用"にチェックを入れる。
+        - デフォルトのクリップ操作>"最後に実効した操作"にチェックを入れる。
+        - クリップした後>"クリップが成功した時の画面を表示(関連ノートは非表示)"にチェックを入れる。
+        - 関連結果>"Webを検索した際に、Evernoteからも関連情報を表示"のチェックを外す。
+        - PDFページのボタン>"PDFページでEvernoteからも関連情報を表示"のチェックを入れる。
+  + #Google Chrome
+    - ログインを行い、同期パスフレーズを入力して環境を"すべて同期"する。
+    + Google Chrome用の拡張機能を個別設定していく。
+      + #Google Chrome 1Password extension
+      + #Google Chrome AdBlock Plus
+      + #Google Chrome Video DownloadHelper
+      + #Google Chrome Buffer
+      + #Google Chrome アプリ群
+        - 動作確認のみを行う。
+      + #Google Chrome Evernote Web Clipper
+        - ノートブックの選択>"常に選択:"でRecheckを選択する。
+        - タグの選択>"スマートファイリングを使用"にチェックを入れる。
+        - デフォルトのクリップ操作>"最後に実効した操作"にチェックを入れる。
+        - クリップした後>"クリップが成功した時の画面を表示(関連ノートは非表示)"にチェックを入れる。
+        - 関連結果>"Webを検索した際に、Evernoteからも関連情報を表示"のチェックを外す。
+        - PDFページのボタン>"PDFページでEvernoteからも関連情報を表示"のチェックを入れる。
+  + #MacZip4Win
+    - "Zip Each","No Compress","Encypt"にチェックを入れて"Make default"をクリックする。
+  + #Steam
+    - Steam>Preferences...>インターフェース>"コンピュータの起動時にSteamを実行する"のチェックを外す。
+  + #Minecraft
+  + #Dropbox
+  + #BathyScaphe
+  + #Appcleaner
+  + #Atom
+  + #Arduino
+    - 動作確認のみを行う。
+
++ 個別設定
+  ※この行より上の手順が全て完了した場合に限り、下記の手順を行う。
+  + Finder
+    - Finder>環境設定>"新規Finderウインドウで次を表示:"で"ダウンロード"を選択する。
+    - Finder>環境設定>サイドバー>"アプリケーション","ダウンロード","ユーザー名($HOME)","外部ディスク"のみチェックを入れる。
+    + 下記の通りサイドバーを編集する。Dropbox等はドラッグ&ドロップで追加する。
+      - アプリケーション
+      - $HOME
+      - ダウンロード
+      - Dropbox
+      - Files
+      - Recheck
+    + 個別で表示形式を変更する。
+      - 表示>カラムで表示を変更後、表示>表示オプションを表示の"常にカラム表示で開く"にチェックを入れる。
+
+  + iTunes
+    - ~/dotfiles/doc/mac-itunes.txtの"### 前提 ###"を参照。
+
+  + Microsoft Office
+    - 公式HP(https://stores.office.com/myaccount/home.aspx?ms.officeurl=myaccount)からインストールを行う。
+    - いずれかのOfficeAppにおいてMicrosoftアカウントでライセンス認証をする。
+    - Excel,Word,PowerPoint,OneNoteの起動確認を行う。(Outlookはライセンスが及ばない)
+    -> Launchpadにおいて「Office」グループを作成し配置する。
+
++ 整列
+  - Launchpadの「その他」を「Other」にリネームする。まだグループに属していないAppは「Preinstall」グループを作成し配置する。
+  - Launchpadのグループの順序を、[Preinstall][Other][Preinstall+][Office][mas][cask]に整列・整理させる。
+  - Dockの順序を[Finder][メール][AppStore][Safari][ターミナル][システム環境設定]
+    [Reeder][Evernote][夜フクロウ][1Password][Firefox][Google Chrome][5KPlayer]
+    [Microsoft Excel][MacZip4Win][Atom][Arduino][Steam][iTunes][Minecraft]に整列させる。
+
+}}} 終

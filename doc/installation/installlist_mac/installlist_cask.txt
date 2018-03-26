@@ -1,0 +1,12 @@
+5kplayer
+appcleaner
+arduino
+atom
+bathyscaphe
+dropbox
+firefox
+google-chrome
+java
+maczip4win
+minecraft
+steam

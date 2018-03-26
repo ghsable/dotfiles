@@ -1,0 +1,7 @@
+install01_defaults.sh
+install02_config.sh
+install03_brew.sh
+install04_cask.sh
+install05_mas.sh
+install06_ln.sh
+install07_check.sh

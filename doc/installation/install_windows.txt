@@ -1,0 +1,43 @@
+始 {{{
+
+### 目的 ###
+- Boot Campによるインストール後の状態から環境を構築する。
+
+### 前提 ###
+- [インターネット接続 + Microsoftアカウントログイン + Windows Defender起動 + 各種アップデート]が済んでいる。
+
+### 手順 ###
++ アプリケーション導入
+  + 各公式サイトから各アプリケーションのインストーラーをダウンロードし実行する。
+    ※ChocolateyのようなCLI自動化は、導入するアプリケーション数や動作安定性の観点から利用しない。
+    + MicrosoftストアのApp
+      - なし
+    + BinaryのApp  
+      - #Steam
+        http://store.steampowered.com/about/ 
+      - #Visual Studio
+        https://www.visualstudio.com/ja/downloads/
+      - #マイナポータル
+        https://myna.go.jp/SCK0101_03_001/SCK0101_03_001_Reload.form
+      - #e-Tax
+        http://www.e-tax.nta.go.jp/e-taxsoftweb/e-taxsoftweb1.htm
+      - #eLTAX
+        http://www.eltax.jp/www/contents/1397034807379/index.html
+      - #e-Gov
+        http://www.e-gov.go.jp/help/shinsei/flow/setup/index.html
+
++ デスクトップ最適化
+  + タスクバーにピン留めを行う。
+    - #メモ帳
+    - #Internet Explorer
+    - #Visual Studio
+      ※SteamやPCdesk等は既にデスクトップにショートカットが配置されているため省略。
+
++ IEにBookmark追加
+  + IEで利用するサイトをブックマークに追加する。
+    - #マイナポータル
+      ※e-TaxやMyPost等はマイナポータル経由でログイン可能なためブックマークへは追加しない。
+    - #eLTAX
+    - #e-Gov 電子申請システム
+
+}}} 終
