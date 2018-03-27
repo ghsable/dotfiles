@@ -21,7 +21,7 @@ if [ "${TERM_PROGRAM}" = "Apple_Terminal" ] ; then
 
    # 終了メッセージ
    echo "#################### >> [macOS] Finish!! ${0} . Thanks :D"
-elif [ "${XXX}" = "" ]; then
+elif [ "${XXX}" = "" ] ; then
    ### ArchLinuxの処理 ###
 
    # 終了メッセージ

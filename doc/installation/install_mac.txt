@@ -19,7 +19,7 @@
 
 ++ ここからCLI自動化が及ばないGUIの設定手順 ++
 
-+ sh ~/dotfiles/bin/install_defaults.shを実行する。
++ sh ~/dotfiles/bin/install01_defaults.shを実行する。
   + 林檎>再起動...から"ログイン時に再度ウィンドウを開く"のチェックを外し再起動をする。
     ※Dockの削除が効いていなかった等の事例があったため再度実行している。
     - Dockに"ダウンロード"が残っているので、右クリック>オプション>Dockから削除を選択する。 
@@ -187,6 +187,6 @@
   - Launchpadのグループの順序を、[Preinstall][Other][Preinstall+][Office][mas][cask]に整列・整理させる。
   - Dockの順序を[Finder][メール][AppStore][Safari][ターミナル][システム環境設定]
     [Reeder][Evernote][夜フクロウ][1Password][Firefox][Google Chrome][5KPlayer]
-    [Microsoft Excel][MacZip4Win][Atom][Arduino][Steam][iTunes][Minecraft]に整列させる。
+    [Microsoft Excel][MacZip4Win][Atom][Arduino][iTunes]に整列させる。
 
 }}} 終

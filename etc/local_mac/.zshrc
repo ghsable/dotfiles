@@ -8,8 +8,6 @@ alias mkdir='mkdir -p'
 alias grep='grep --color=auto'
 alias df='df -h'
 alias df='du -h'
-alias vim='nvim'
-alias gitacp='git add --all && git commit -m "bugfix" && git push -u origin master'
 
 ## PROMPT ##
 PROMPT="🍣  %B%F{cyan}[%f %F{cyan}%m@%U%n%u%f %F{cyan}]%f [ %~ ]%b

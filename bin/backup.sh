@@ -14,11 +14,11 @@ if [ "${TERM_PROGRAM}" = "Apple_Terminal" ] ; then
    ls ${dir_b}    > ${dir_a}installlist_sh.txt         # install.shの構成要素
    brew list      > ${dir_a}installlist_brew.txt       # brew list
    brew cask list > ${dir_a}installlist_cask.txt       # brew cask list
-   mas list       > ${dir_a}installist_mas.txt         # mas list
+   mas list       > ${dir_a}installlist_mas.txt        # mas list
 
    # 終了メッセージ
    echo "#################### >> [macOS] Finish!! ${0} . Thanks :D"
-elif [ "${XXX}" = "" ]; then
+elif [ "${XXX}" = "" ] ; then
    ### ArchLinuxの処理 ### 
           
    # 終了メッセージ

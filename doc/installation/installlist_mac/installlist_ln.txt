@@ -5,3 +5,5 @@
 ### ファイルパス ###
 # bin
 dotfiles/bin/
+# Makefile
+dotfiles/Makefile
