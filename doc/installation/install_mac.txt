@@ -174,7 +174,7 @@
       - 表示>カラムで表示を変更後、表示>表示オプションを表示の"常にカラム表示で開く"にチェックを入れる。
 
   + iTunes
-    - ~/dotfiles/doc/mac-itunes.txtの"### 前提 ###"を参照。
+    - ~/dotfiles/doc/install_itunes.txtの"### 前提 ###"を参照。
 
   + Microsoft Office
     - 公式HP(https://stores.office.com/myaccount/home.aspx?ms.officeurl=myaccount)からインストールを行う。
