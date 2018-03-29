@@ -17,7 +17,7 @@ gitconfig:
 	# git commit -m "first commit"
 	# git push -u origin master
 
-# GitHubの$git add 〜 $git pushまで
+# GitHubの$git add 〜 $git push まで実行
 gitacp:
 	git add --all
 	git commit -m "bugfix"
