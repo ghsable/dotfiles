@@ -1,0 +1,109 @@
+始 {{{
+
+### 目的 ###
+既存のArchLinux環境を他のUSBドライブに複製する。
+
+### 前提 ###
+- 速度の出る比較的高価なUSBドライブである。(性能が悪いとpackageインストール時に"time out"が頻発し効率が悪い)
+- arch-install-scripts(pacstrap,arch-chrootが走る)をインストールしている。
++ LiveUSB
+[[[ - 公式ミラー(https://www.archlinuxjp.org/download/)から*.isoをダウンロードする。
+    - 公式ミラーに掲載されているチェックサムと*.isoのチェックサムが一致するか確認する。
+      $ md5sum *.iso
+    - インストール先のドライブをgptテーブルで初期化する。("y"ではなく"yes"と入力する)
+      $ lsblk
+      $ dd if=/bin/false of=/dev/sdX
+      $ cfdisk /dev/sdX
+    - 該当のUSBを調べて書き込みUEFIから起動する。(bs=8192は無くても問題無い)
+      $ dd if=*.iso of=/dev/sdX bs=8192
+     ($ eject /dev/sdX) or ($ reboot)
+]]]
+
+### 導入手順 ###
+
+++ chrootまでの作業 ++
+
++ 既存ArchLinux or LiveUSB
+[[[ # USBを挿入しsdXのXの値を把握。"512MB+残り"でパーティションを区切る。
+      $ lsblk
+      $ cfdisk /dev/sdX
+
+    # フォーマットを行い、EFI,ext2か確認をする。("y"ではなく"yes"と入力する)
+      $ lsblk
+      $ mkfs.vfat -cvF 32 /dev/sdX1
+      $ mkfs.ext4 -cvO "^has_journal" /dev/sdX2
+      $ parted -l
+     ($ eject /dev/sdX) or ($ reboot)
+]]]
+
++ LiveUSB
+[[[ # キーマッピングを行いインターネット接続を確立する。
+      $ loadkeys jp106 && wifi-menu && ping www.google.com
+    # システムクロックを更新し確認する。
+      $ timedatectl set-ntp true
+      $ timedatectl status
+    # ベースシステムのミラーの"Japan"を最上位に移動させる。
+      $ vi /etc/pacman.d/mirrorlist
+]]]
+
++ LiveUSB
+[[[ # 順番通りマウントをして確認をする。
+      $ mount /dev/sdX2 /mnt
+      $ mkdir /mnt/boot
+      $ mount /dev/sdX1 /mnt/boot
+      $ lsblk
+
+    # ベースシステムをインストールする。("time out"で失敗しても次に進んでしまうため一部失敗したら再度実行をする)
+      $ pacstrap /mnt base base-devel
+
+    # fstabの作成し確認をする。
+      $ genfstab -U /mnt >> /mnt/etc/fstab
+      $ lsblk -f
+      $ cat /mnt/etc/fstab
+
+    # chrootでインストール先USBのシステムに入る。
+      $ arch-chroot /mnt
+]]]
+
+++ chrootからの作業 ++
+
++ LiveUSB
+[[[ # システム全体をアップデートしgitをインストールする。(chroot前にやると壊れるためここで行う)
+    # dotfilesを/homeにダウンロードしておく。(/tmpに保存すると消去されるので/homeにCloneする)
+      $ pacman -Syu && pacman -S git
+      $ cd /home
+      $ git clone https://glsara@gitlab.com/glsara/dotfiles.git
+
+    # installbaseusb.shを実行する。(packageのインストールが一部失敗したら再度実行をする)
+      (念のため/etc/mkinitcpio.confにおいて既存の"HOOK=~udev~"と最終行に追加した"HOOK=~udev block~"を置き換える)
+      $ sh /home/dotfiles/bin/installbaseusb.sh
+
+    # chrootを抜け、アンマウントをして再起動をする。
+      $ exit
+      $ umount -R /mnt
+      $ reboot
+]]]
+
+### 導入後手順 ###
++ 新規ArchLinux
+[[[ # rootでログインをし、一般ユーザーを作成しログインし直す。
+      $ useradd -m -g wheel suna
+      $ passwd suna
+      $ exit
+
+    # 一般ユーザーでNetworkManagerをスタートさせ、ネットワーク接続を行う。(デーモンの設定はinstall_config.shで行う)
+      $ sudo systemctl start NetworkManager
+      $ nmtui && ping google.com
+
+    # /home/dotfilesの権限を変更し一般ユーザーの~/に移動させinstall.shを実行する。(install_apps.shが一部失敗したら再度実行をする)
+      $ sudo chown -R suna:wheel /home/dotfiles
+      $ sudo mv /home/dotfiles ~/ && ls -l ~/dotfiles/*
+      $ sh ~/dotfiles/bin/install.sh
+      $ reboot
+      (再起動後の起動が通常よりも遅いが複数回再起動していれば改善される)
+
+    # Webブラウザを下記の順番でセットアップする。
+    # Firefox起動 -> 1Passwordへアクセス -> Firefox Sync -> ツールバーのボタンを整理 -> アカウント認証 .
+]]]
+
+}}} 終

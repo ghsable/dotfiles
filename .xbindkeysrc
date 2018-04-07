@@ -1,0 +1,74 @@
+###########################
+# xbindkeys configuration #
+###########################
+
+## Set xbindkeys ##
+
+# xbacklight down | Control + XF86MonBrightnessDown | Control + F1
+"xbacklight -dec 2"
+  m:0x4 + c:232 
+
+# xbacklight up | Control + XF86MonBrightnessUp | Control + F2
+"xbacklight -inc 2"
+   m:0x4 + c:233
+
+# dmenu | XF86LaunchA | F3
+"dmenu_run"
+   m:0x0 + c:128
+   
+# Startup_Apps | Control + XF86LaunchA | Control + F3
+"sh ~/bin/startup_apps.sh"
+   m:0x4 + c:128
+
+# Screenshot FocusWindow | Control + XF86LaunchB | Control + F4
+"scrot -u ~/Screenshots/%m%d_%H%M%S.png"
+   m:0x4 + c:212
+
+# Screenshot SelectSize |  Shift + XF86LaunchB | Shift + F4
+"sleep 0.5 && scrot -s ~/Screenshots/%m%d_%H%M%S.png"
+   m:0x1 + c:212
+
+# Screenshot Desktop | Control+Shift + XF86LaunchB | Control+Shift + F4
+"scrot ~/Screenshots/%m%d_%H%M%S.png"
+   m:0x5 + c:212
+
+# set ScreenSaver off | Control + XF86KbdBrightnessDown | Control + F5
+"xset +dpms; xset s 60"
+   m:0x4 + c:237
+
+# set ScreenSaver on | Control + XF86KbdBrightnessUp | Control + F6 
+"xset -dpms; xset s off"
+   m:0x4 + c:238
+
+# amixer mute | XF86AudioMute | F10
+# "amixer set Master toggle"
+"amixer sset Master mute"
+   m:0x0 + c:121
+   
+# amixer mute | Control + XF86AudioMute | Control + F10
+"amixer sset Master unmute"
+   m:0x4 + c:121
+
+# amixer down | Control + XF86AudioLowerVolume | Control + F11
+"amixer set Master 5%-"
+   m:0x4 + c:122
+
+# amixer up | Control + XF86AudioRaiseVolume | Control + F12
+"amixer set Master 5%+"
+   m:0x4 + c:123
+
+# xset suspend -> slock | XF86PowerOff | powerkey
+"xset dpms force suspend && slock"
+   m:0x0 + c:124
+
+# shutdown | Control+Alt + BackSpace
+"poweroff"
+   m:0xc + c:22
+
+# Strat XTerm | Control + Return
+"sh ~/bin/transset-df_xterm.sh"
+   m:0x4 + c:36
+
+##################################
+# End of xbindkeys configuration #
+##################################

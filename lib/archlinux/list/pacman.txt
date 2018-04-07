@@ -1,0 +1,62 @@
+### SYSTEM ###
+# ArchInstallScripts
+arch-install-scripts
+# Partition Utility (mkfs.vfat)
+dosfstools
+# Partition Utility (parted)
+parted
+
+### SHELL ###
+# zsh
+zsh 
+# zsh syntax highlight
+zsh-syntax-highlighting
+
+### X Window System [Base] ###
+# X Server
+xorg-server
+# X Utility Group
+xorg-apps
+
+### Driver ###
+# Video Driver
+xf86-video-intel
+# TouchPad Driver
+libinput
+
+### X Window System [Utility] ###
+# Backlight Utility
+xorg-xbacklight
+# Sound Utility (alsamixer)
+alsa-utils
+# KeyMap Utility (xmodmap -pke > ~/.Xmodmap)
+xorg-xmodmap
+# Keybind Utility (xbindkeys)
+xbindkeys
+
+
+
+LIST09="uim anthy otf-ipafont"                   #InputMethodFramework    + JPInputSystem          + JPFont
+LIST10="ttf-symbola noto-fonts-emoji ttf-dejavu" #EmojiFont*2             + ENFont
+LIST11="xorg-xset"                               #DisplayPowerManagement
+LIST12="tlp tlp-rdw"                             #BatteryManager          + TLP(RadioDeviceWizard)
+LIST13="slock"                                   #ScreenLock
+LIST14="scrot simplescreenrecorder"              #ScreenShot              + ScreenCast
+LIST15="xterm xorg-xrdb"                         #Terminal                + Xresources
+LIST16="xorg-xinit"                              #DM
+LIST17="xmonad xmonad-contrib"                   #WM
+LIST18="xmobar"                                  #StatusBar
+LIST19="xcompmgr transset-df xorg-xwininfo"      #CompositManager         + TranssetUtility        + GetWinInfo
+LIST20="feh"                                     #SetWallpaper & ImgViwer
+LIST21="neovim"                                  #Console Editor
+LIST22="dmenu"                                   #AppsLauncher
+LIST23="thunar tumbler"                          #FileManager             + Show IMGthumbnail
+LIST24="zip unzip"                               #ZIP                     + unZIP
+LIST25="screenfetch"                             #Show SystemInformation
+LIST26="firefox firefox-i18n-ja flashplugin"     #WebBrowser              + JPFont                 + FlashPlugin
+LIST27="mplayer"                                 #MoviePlayer
+LIST28="leafpad"                                 #Memo
+LIST29="graphicsmagick"                          #MakeGif
+LIST30="libreoffice-fresh libreoffice-fresh-ja"  #Libreoffice             + JPFontUI
+LIST31="jdk8-openjdk"                            #Java OpenJDK8
+LIST32="mono"                                    #C#   Mono

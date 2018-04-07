@@ -1,0 +1,40 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>preferences-desktop-wallpaper</icon>
+	<name>Feh Launcher</name>
+	<unique-id>1488024629425750-1</unique-id>
+	<command>feh --start-at ./%n</command>
+	<description>Feh Launcher</description>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>system-file-manager-symbolic.symbolic</icon>
+	<name>zip archiver</name>
+	<unique-id>1485935216113369-1</unique-id>
+	<command>zip -e ./%n.zip ./%n</command>
+	<description>zip archiver</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>system-file-manager-symbolic.symbolic</icon>
+	<name>unzip</name>
+	<unique-id>1485934109726863-5</unique-id>
+	<command>unzip ./%n</command>
+	<description>unzip</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>

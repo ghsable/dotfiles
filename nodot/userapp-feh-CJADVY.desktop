@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+NoDisplay=true
+Exec=feh --start-at ./%n %f
+Name=Feh Launcher +
+Comment=feh に対する独自の設定
