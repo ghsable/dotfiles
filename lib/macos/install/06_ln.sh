@@ -23,5 +23,5 @@ do
   ln -snfv ~/${line} ~/
 done
 
-# 終了メッセージ
-echo "#################### >> Finish!! Thanks :D"
+# End Message
+echo "#################### >> Complete!! Thanks :D"

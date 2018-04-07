@@ -1,34 +1,34 @@
 #!/bin/sh
 
-# 開始メッセージ
+# Start Message
 echo "install now ..."
 
-# OSの種類によって実行内容を分岐させる(環境変数を利用)
+# IF [ MacOS | ArchLinux ]
 if [ "${TERM_PROGRAM}" = "Apple_Terminal" ] ; then
-   ### macOSの処理 ###
-   # 変数代入
-   # install.shの構成要素のファイル名リスト
-   file_a=~/dotfiles/doc/installation/installlist_mac/installlist_sh.txt
-   # install.shの構成要素の格納先
-   dir_a=~/dotfiles/bin/lib/install_mac/
+   ### macOS ###
+   # Variable
+   #lib(install.sh) ListFile
+   file_a=~/dotfiles/lib/macos/list/install.txt
+   #lib(install.sh) Directory
+   dir_a=~/dotfiles/lib/macos/install/
 
-   # install.shの構成要素を順次実行
-   cat ${file_a} | grep -v -e '^$' -e '^#' | while read -r line
+   # sh install.sh
+   grep -v -e '^$' -e '^#' ${file_a} | while read -r line
    do
-     echo "start ${line} ..."
+     echo "${line} ..."
      sh ${dir_a}${line}
    done
 
-   # 終了メッセージ
-   echo "#################### >> [macOS] Finish!! ${0} . Thanks :D"
+   # End Message
+   echo "#################### >> [macOS] Complete!! ${0} . Thanks :D"
 elif [ "${XXX}" = "" ] ; then
-   ### ArchLinuxの処理 ###
+   ### Arch Linux ###
 
-   # 終了メッセージ
-   echo "#################### >> [ArchLinux] Finish!! ${0} . Thanks :D"
+   # End Message
+   echo "#################### >> [ArchLinux] Complete!! ${0} . Thanks :D"
 else
-   ## エラー処理 ###
+   ## ERROR ###
 
-   # 終了メッセージ
+   # End Message
    echo "#################### >> ELLOR!! Sorry :("
 fi

@@ -3,5 +3,5 @@
 chsh -s /bin/zsh                  # set zsh
 cd ~/dotfiles/ && make gitconfig  # ~/.gitconfig
 
-# 終了メッセージ
-echo "#################### >> Finish!! Thanks :D"
+# End Message
+echo "#################### >> Complete!! Thanks :D"

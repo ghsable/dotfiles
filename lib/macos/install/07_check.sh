@@ -7,5 +7,5 @@ brew list                     # $brew list でインストール済みAppを表�
 brew cask list                # $brew cask list でインストール済みAppを表示
 mas list                      # $mas list でインストール済みAppを表示
 
-# 終了メッセージ
-echo "#################### >> Finish!! Thanks :D"
+# End Message
+echo "#################### >> Complete!! Thanks :D"

@@ -1,32 +1,32 @@
 # 変数代入
 
 
-# 検証
+# TEST
 all:
 	@echo "HELLO WORLD!!"
 
-# GitHubアカウント設定
+# [GitHub] Set Account
 gitconfig:
 	git config --global user.name "ghsable"
 	git config --global user.email sn.sable005@gmail.com
 	git config --global core.editor "vim"
-	### $git init 〜 $push の忘備録 ###
+	### git init ~ git push ###
 	# git init
 	# git git remote add origin <URL>
 	# git add --all
 	# git commit -m "first commit"
 	# git push -u origin master
 
-# GitHubの$git add 〜 $git push まで実行
+# [GitHub] git add ~ git push
 gitacp:
 	git add --all
 	git commit -m "bugfix"
 	git push -u origin master
 
-# バックアップ
+# Backup
 backup:
 	@sh ~/dotfiles/bin/backup.sh
 
-# デプロイ(macOS)
+# Deploy (macOS)
 macdeploy:
-	@sh ~/dotfiles/bin/lib/install_mac/install06_ln.sh
+	@sh ~/dotfiles/lib/macos/install/06_ln.sh

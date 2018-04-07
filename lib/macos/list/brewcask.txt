@@ -10,3 +10,4 @@ java
 maczip4win
 minecraft
 steam
+virtualbox
