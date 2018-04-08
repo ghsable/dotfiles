@@ -13,7 +13,7 @@
 
 ### 手順 ###
 + git
-  - GitHubの"README.md"の通りにinstall.shを実行する。
+  - GitHubの"~/dotfiles/README.md"の通りにinstall.shを実行する。
 
 ++ ここからCLI自動化が及ばないGUIの設定手順 ++
 
