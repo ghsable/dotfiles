@@ -6,7 +6,7 @@ file_a=$(grep -v -e '^$' -e '^#' ~/dotfiles/lib/macos/list/brewcask.txt)
 
 # brew cask file -> Upgragde(ReInstall "all brew cask file")
 #brew cask upgrade --greedy
-# Homebrew cask file -> Upgragde
+# brew cask file -> Upgragde
 brew cask upgrade
 
 # brew cask install file
