@@ -1,10 +1,10 @@
 ## Variable
 # bin
-dir_a := ~/dotfiles/bin/
+$(eval dir_a := ~/dotfiles/bin/)
 # lib (macOS)
-dir_b := ~/dotfiles/lib/macos/install/
+$(eval dir_b := ~/dotfiles/lib/macos/install/)
 # lib (Arch Linux)
-lib_c := ~/dotfiles/lib/archlinux/install/
+$(eval lib_c := ~/dotfiles/lib/archlinux/install/)
 
 # TEST
 all:
