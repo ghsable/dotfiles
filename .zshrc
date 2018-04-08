@@ -12,7 +12,6 @@ alias zip='zip -e'
 alias vim='nvim'
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -e "time to full:" -e "time to empty:" -e "percentage:"'
 alias feh='sh ~/bin/feh_browser.sh'
-alias gitacp='git add --all && git commit -m "bugfix" && git push -u origin master'
 
 ## PROMPT ##
 PROMPT="%B%F{cyan}☠%f %F{cyan}[ %m@%U%n%u ] [ %~ ]%f
