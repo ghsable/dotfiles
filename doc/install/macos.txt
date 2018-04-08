@@ -12,14 +12,14 @@
   https://brew.sh/index_ja.html
 
 ### 手順 ###
-+ git  
++ git
   - GitHubのdotfilesをCloneしてからinstall.shを実行する。
     $ git clone https://github.com/ghsable/dotfiles.git
     $ sh ~/dotfiles/bin/install.sh
 
 ++ ここからCLI自動化が及ばないGUIの設定手順 ++
 
-+ sh ~/dotfiles/bin/install01_defaults.shを実行する。
++ sh ~/dotfiles/lib/macos/install/01_defaults.shを実行する。
   + 林檎>再起動...から"ログイン時に再度ウィンドウを開く"のチェックを外し再起動をする。
     ※Dockの削除が効いていなかった等の事例があったため再度実行している。
     - Dockに"ダウンロード"が残っているので、右クリック>オプション>Dockから削除を選択する。 
