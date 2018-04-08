@@ -18,6 +18,10 @@ gitconfig:
 gitacp:
 	@sh $(dir_a)github_acp.sh
 
+# install.sh
+installation:
+	@sh $(dir_a)install.sh
+
 # Backup
 backup:
 	@sh $(dir_a)backup.sh

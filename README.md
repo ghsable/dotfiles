@@ -4,5 +4,4 @@
 
 ## Installation
 
-    git clone https://github.com/ghsable/dotfiles.git
-    sh ~/dotfiles/bin/install.sh
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install.sh)" 
