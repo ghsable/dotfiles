@@ -1,11 +1,16 @@
 #!/bin/sh
 
-brew cleanup                  # $brew のキャッシュファイルを削除
-brew cask cleanup --outdated  # $brew cask のキャッシュファイルを削除
+# Display installed brew file
+echo "##### installed brew file #####"
+brew list
 
-brew list                     # $brew list でインストール済みAppを表示
-brew cask list                # $brew cask list でインストール済みAppを表示
-mas list                      # $mas list でインストール済みAppを表示
+# Display installed brew cask file
+echo "##### installed brew cask file #####"
+brew cask list
+
+# Display installed mas file
+echo "##### installed mas file #####"
+mas list
 
 # End Message
-echo "#################### >> Complete!! Thanks :D"
+cat ~/dotfiles/lib/macos/list/endmessage.txt

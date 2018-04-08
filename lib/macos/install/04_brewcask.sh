@@ -1,15 +1,19 @@
 #!/bin/sh
 
-# 変数代入
-# $brew cask list の標準出力をリダイレクトしたファイル
-file_a=~/dotfiles/doc/installation/installlist_mac/installlist_cask.txt
+## Variable
+# brew cask list file
+file_a=$(grep -v -e '^$' -e '^#' ~/dotfiles/lib/macos/list/brewcask.txt)
 
-# $brew cask install を順次実行
-cat ${file_a} | grep -v -e '^$' -e '^#' | while read -r line
-do
-  echo "install ${line} ..."
-  brew cask install ${line}
-done
+# brew cask file -> Upgragde(ReInstall "all brew cask file")
+#brew cask upgrade --greedy
+# Homebrew cask file -> Upgragde
+brew cask upgrade
+
+# brew cask install file
+brew cask install ${file_a}
+
+# Delete Cache "all brew cask file"
+brew cask cleanup
 
 # End Message
-echo "#################### >> Complete!! Thanks :D"
+cat ~/dotfiles/lib/macos/list/endmessage.txt

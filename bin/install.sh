@@ -6,7 +6,7 @@ echo "install now ..."
 # IF [ MacOS | ArchLinux ]
 if [ "${TERM_PROGRAM}" = "Apple_Terminal" ] ; then
    ### macOS ###
-   # Variable
+   ## Variable
    #lib(install.sh) ListFile
    file_a=~/dotfiles/lib/macos/list/install.txt
    #lib(install.sh) Directory

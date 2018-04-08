@@ -1,7 +1,9 @@
 #!/bin/sh
 
 # Variable
+# Delimiter
 delimiter=~/dotfiles/etc/archlinux/redirect/Delimiter.txt
+# RedirectFile Directory
 dir_a=~/dotfiles/etc/archlinux/redirect/
 
 ### Command ###

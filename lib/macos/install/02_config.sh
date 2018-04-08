@@ -1,7 +1,9 @@
 #!/bin/sh
 
-chsh -s /bin/zsh                  # set zsh
-cd ~/dotfiles/ && make gitconfig  # ~/.gitconfig
+# Set ZSH
+chsh -s /bin/zsh                  
+# create -> "~/.gitconfig"
+cd ~/dotfiles/ && make gitconfig  
 
 # End Message
-echo "#################### >> Complete!! Thanks :D"
+cat ~/dotfiles/lib/macos/list/endmessage.txt

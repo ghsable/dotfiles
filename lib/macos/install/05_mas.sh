@@ -1,15 +1,14 @@
 #!/bin/sh
 
-# 変数代入
-# $mas list の標準出力をリダイレクトしたファイル
-file_a=~/dotfiles/doc/installation/installlist_mac/installlist_mas.txt
+## Variable
+# mas list file
+file_a=$(grep -v -e '^$' -e '^#' ~/dotfiles/lib/macos/list/mas.txt | cut -d " " -f 1-1)
 
-# $mas install を順次実行
-cat ${file_a} | grep -v -e '^$' -e '^#' | cut -d " " -f 1-1 | while read -r line
-do
-  echo "install ${line} ..."
-  mas install ${line}
-done
+# Homebrew mas file -> Upgrade
+mas upgrade
+
+# mas install file
+mas install ${file_a}
 
 # End Message
-echo "#################### >> Complete!! Thanks :D"
+cat ~/dotfiles/lib/macos/list/endmessage.txt

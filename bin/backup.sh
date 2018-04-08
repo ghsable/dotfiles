@@ -6,7 +6,7 @@ echo "backup now ..."
 # IF [ MacOS | ArchLinux ]
 if [ "${TERM_PROGRAM}" = "Apple_Terminal" ] ; then
    ### macOS ###
-   # Variable
+   ## Variable
    dir_a=~/dotfiles/lib/macos/list/       # BackupFile Directory
    dir_b=~/dotfiles/lib/macos/install/    # lib(install.sh) Directory
 

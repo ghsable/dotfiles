@@ -1,8 +1,8 @@
-#### 注意事項 ###
-# $ln を実行したいファイルパスを記載する
-# 書き始めは、$ln の都合上、'dotfiles/'にする必要有り
+#### Attention ###
+# Please write "other than .??*" FilePATH
+# example -> dotfiles/"other than .??*"
 
-### ファイルパス ###
+### File PATH ###
 # bin
 dotfiles/bin/
 # Makefile

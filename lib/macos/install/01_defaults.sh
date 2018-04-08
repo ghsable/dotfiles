@@ -48,4 +48,4 @@ defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
 defaults write com.apple.Safari AutoFillPasswords -bool false
 
 # End Message
-echo "#################### >> Complete!! Thanks :D"
+cat ~/dotfiles/lib/macos/list/endmessage.txt
