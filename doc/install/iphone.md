@@ -1,5 +1,5 @@
 # Description
-- INSTALL MANUAL on iPhone
+- INSTALL MANUAL
 
 # Install
 **⚙管理**
