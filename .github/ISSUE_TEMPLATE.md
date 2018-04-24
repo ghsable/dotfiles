@@ -1,6 +1,6 @@
-## Issue description
+## What
 -  
 
-## Technical details
+## Why
 -  
 
