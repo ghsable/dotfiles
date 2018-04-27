@@ -1,0 +1,7 @@
+[user]
+	name = ghsable
+	email = sn.sable005@gmail.com
+[core]
+	editor = vim
+[alias]
+	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
