@@ -10,10 +10,6 @@ $(eval lib_c := ~/dotfiles/lib/archlinux/install/)
 all:
 	@sh $(dir_a)test.sh
 
-# [GitHub] Set Account
-gitconfig:
-	@sh $(dir_a)github_config.sh
-
 # [GitHub] git add ~ git push
 gitacp:
 	@sh $(dir_a)github_acp.sh
