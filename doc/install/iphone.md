@@ -18,7 +18,7 @@
 
 **🐚法定通貨**
 - - -
-- [ ] Wallet
+- [x] Wallet
 - [ ] [Suica](https://itunes.apple.com/jp/app/suica/id1156875272?mt=8)
 - [ ] [家計簿マネーフォワード](https://itunes.apple.com/jp/app/%E5%AE%B6%E8%A8%88%E7%B0%BF%E3%83%9E%E3%83%8D%E3%83%BC%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89-%E8%87%AA%E5%8B%95%E9%80%A3%E6%90%BA%E3%81%A7%E7%B0%A1%E5%8D%98-%E4%BA%BA%E6%B0%97%E3%81%AE%E5%AE%B6%E8%A8%88%E7%B0%BF/id594145971?mt=8) 
 - [ ] [住信SBIネット銀行](https://itunes.apple.com/jp/app/%E4%BD%8F%E4%BF%A1sbi%E3%83%8D%E3%83%83%E3%83%88%E9%8A%80%E8%A1%8C/id436755036?mt=8)
@@ -102,9 +102,9 @@
 
 **🎲ゲーム**
 - - -
+- [ ] [将棋ウォーズ](https://itunes.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA/id496801169?mt=8)
 - [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1067790324?mt=8)
 - [ ] [FINAL FANTASY Record Keeper](https://itunes.apple.com/jp/app/final-fantasy-record-keeper/id866037912?mt=8)
-- [ ] [将棋ウォーズ](https://itunes.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA/id496801169?mt=8)
 
 **🎨製作編集**
 - - -
