@@ -1,7 +1,0 @@
-01_defaults.sh
-02_config.sh
-03_brew.sh
-04_brewcask.sh
-05_mas.sh
-06_ln.sh
-07_check.sh

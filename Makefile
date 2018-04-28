@@ -1,34 +1,36 @@
-## Variable
-# bin
-$(eval dir_a := ~/dotfiles/bin/)
-# lib (macOS)
-$(eval dir_b := ~/dotfiles/lib/macos/install/)
-# lib (Arch Linux)
-$(eval lib_c := ~/dotfiles/lib/archlinux/install/)
+$(eval BIN_DIR := ~/dotfiles/bin)
+$(eval MACOS_INSTALL_DIR := $(BIN_DIR)/install/macos)
 
-# TEST
+# test
 all:
-	@sh $(dir_a)test.sh
+	@sh $(BIN_DIR)/test.sh
 
-# [GitHub] git add ~ git push
-gitacp:
-	@sh $(dir_a)github_acp.sh
+# install.sh (ArchLinux)
+archlinux_install:
+	@echo hello world
 
-# install.sh
-installation:
-	@sh $(dir_a)install.sh
+# install.sh (macOS)
+macos_install:
+	@make macos_initialize
+	@make macos_upgrade
+	@make macos_deploy
+	@make macos_list
 
-# Backup
-backup:
-	@sh $(dir_a)backup.sh
+# Initialize (macOS)
+macos_initialize:
+	@sh $(MACOS_INSTALL_DIR)/defaults.sh
+	@sh $(MACOS_INSTALL_DIR)/etc.sh
 
-# Update (mac0S)
-macosupgrade:
-	make backup
-	@sh $(dir_b)03_brew.sh
-	@sh $(dir_b)04_brewcask.sh
-	@sh $(dir_b)05_mas.sh
+# Upgrade (mac0S)
+macos_upgrade:
+	@sh $(MACOS_INSTALL_DIR)/brew.sh
+	@sh $(MACOS_INSTALL_DIR)/brewcask.sh
+	@sh $(MACOS_INSTALL_DIR)/mas.sh
 
 # Deploy (macOS)
-macosdeploy:
-	@sh $(dir_b)06_ln.sh
+macos_deploy:
+	@sh $(MACOS_INSTALL_DIR)/ln.sh
+
+# Display Installed list (macOS)
+macos_list:
+	@sh $(MACOS_INSTALL_DIR)/eof.sh

@@ -1,0 +1,17 @@
+# SYSTEM
+appcleaner
+dropbox
+virtualbox
+maczip4win
+
+# PLAYER
+5kplayer
+steam
+
+# WEB
+google-chrome
+firefox
+
+# PROGRAMMING
+atom
+arduino

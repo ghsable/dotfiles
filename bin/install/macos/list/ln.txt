@@ -1,0 +1,10 @@
+# dotfiles/<FILE PATH> or <DIRECTORY PATH>
+
+# FILE PATH
+Makefile
+.gitconfig
+
+# DIRECTORY PATH
+doc
+bin
+bin/install/macos/etc

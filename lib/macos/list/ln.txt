@@ -1,9 +1,0 @@
-#### Attention ###
-# Please write "other than .??*" FilePATH
-# example -> dotfiles/"other than .??*"
-
-### File PATH ###
-# bin
-dotfiles/bin/
-# Makefile
-dotfiles/Makefile
