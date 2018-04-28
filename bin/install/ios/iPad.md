@@ -59,7 +59,7 @@
 - - -
 - [ ] [Tayasui Sketches Pro](https://itunes.apple.com/jp/app/tayasui-sketches-pro/id671867510?mt=8)
 
-**🛠 便利ツール*
+**🛠 便利ツール**
 - - -
 - [x] カメラ
 - [x] 時計
