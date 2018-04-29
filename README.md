@@ -1,15 +1,13 @@
 # Dotfiles
   
 ## DEMO
-<table>
-  <tbody> 
+<table style="table-layout:fixed;" width="100%">
+  <tbody align="center">
     <tr>
-      <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/
-macos/README.gif" alt="macos_README.gif" width="100%"></td>
-      <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/
-archlinux/etc/wallpaper/01.png" alt="archlinux_README.gif" width="100%"></td>
+      <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.gif" alt="macos_README.gif"></td>
+      <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/archlinux/etc/wallpaper/01.png" alt="archlinux_README.gif"></td>
     </tr>
-    <tr align="center">
+    <tr>
       <td>macOS</td>
       <td>Arch Linux</td>
     </tr>
