@@ -1,5 +1,9 @@
 # Dotfiles
   
+## DEMO
+macos : 
+![macos_README.gif](https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.gif)
+
 ## Installation
 one-liner : 
 
