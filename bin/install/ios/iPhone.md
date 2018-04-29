@@ -1,6 +1,3 @@
-# Description
-- Install Manual
-
 # Installation
 **⚙管理**
 - - -

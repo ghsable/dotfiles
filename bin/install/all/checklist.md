@@ -1,6 +1,3 @@
-# Description
-- Install Checklist
-
 # Bookmark
 **all**
 - - -

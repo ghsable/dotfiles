@@ -1,6 +1,3 @@
-# Description
-- Install Manual
-
 # Installation
   
 - [ ] [Steam](http://store.steampowered.com/about/)
