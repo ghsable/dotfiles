@@ -32,7 +32,7 @@ or :
          - `<OS>/`
               - `*.sh` : install script
               - `.??*` : dotfiles(NOT Linux)
-              - `list/` : `*.sh` needs list
+              - `list/` : `*.sh` needs this list
               - `etc/` : other config
 
 ## Install Manual
