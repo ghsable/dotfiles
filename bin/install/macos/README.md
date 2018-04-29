@@ -11,13 +11,13 @@
   - Firewall
   - Display
   - Keyboard ... `~/etc/ユーザ辞書.plist`
-  - iCloud   ... `sign out`
+  - iCloud ... `sign out`
 7. `open -a /Applications/Mail.app`
   - Account
   - Signature
-8. Setup -> `open -a /Applications/TextEdit.app`
-  - Theme    ... `~/etc/Solarized_Dark_ansi.terminal`
-9. Setup -> `open -a /Applications/Safari.app`
+8. terminal.app
+  - Theme ... `~/etc/Solarized_Dark_ansi.terminal`
+9. `open -a /Applications/Safari.app`
   - Bookmark ... `~/etc/Bookmark/*`
   - Addon
     - [Safari 1Password extension](https://safari-extensions.apple.com/details/?id=com.agilebits.onepassword4-safari-2BUA8C4S2C)
@@ -30,9 +30,9 @@
 11. `open -a /Applications/Firefox.app`
   - Account
   - Addon
-    - [1Password](https://1password.com/browsers/)
 12. `open -a /Applications/Google\ Chrome.app`
   - Account
+  - Addon
 13. `open -a /Applications/MacZip4Win.app`
   - Check ... `Zip Each`,`No Compress`,`Encypt` -> `Make default`
 14. `open ~/`
@@ -45,8 +45,8 @@
 15. `open -a /Applications/iTunes.app`
   - 環境設定
     - iTunes Media ... Dropbox
-    - Check        ... iTunes Media フォルダを整理
-    - Check        ... iTunes Media フォルダにコピーする
+    - Check ... iTunes Media フォルダを整理
+    - Check ... iTunes Media フォルダにコピーする
   - Dropbox -(drag-and-drop)-> iTunesライブラリ
 16. Install
   - [Microsoft Office](https://stores.office.com/myaccount/home.aspx?ms.officeurl=myaccount)
