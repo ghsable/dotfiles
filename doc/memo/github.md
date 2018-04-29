@@ -20,10 +20,10 @@ git add 取り消し :
 
     git rev-parse --show-toplevel
 
-削除したファイルの復旧 : 
+削除したファイル(file)の復旧 : 
 
     git branch --contains=HEAD         # 現在のブランチを確認
     git log --diff-filter=D --summary  # 削除履歴の有るコミットIDを確認
     git checkout <commit>              # 目的のブランチへ移動
-    cp -r <削除したファイル> ~/        # 削除したファイルを一時退避
+    cp -r <file> ~/                    # 削除したファイルを一時退避
     git checkout master                # 元のブランチへ移動
