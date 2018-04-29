@@ -1,2 +1,2 @@
-# ReInstall(all brew cask file)
-1. `brew cask upgrade --greedy`
+ReInstall(all brew cask file) :
+    brew cask upgrade --greedy
