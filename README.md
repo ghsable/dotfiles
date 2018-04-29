@@ -1,6 +1,17 @@
 # Dotfiles
   
 ## DEMO
+<table>
+  <tbody>
+    <tr>
+      <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.gif" alt="macos_README.gif" width="100%"></td>
+    </tr>
+    <tr arign="center">
+      <td>macOS</td>
+    </tr>
+  </tbody>
+</table>
+
 macos : 
 ![macos_README.gif](https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.gif)
 
@@ -32,12 +43,13 @@ or :
   - `.??*` : dotfiles(Linux)
   - `doc/` : documents
   - `bin/` : scripts
+     - `*.sh` : scripts(Linux)
      - `install/`
          - `<OS>/`
-              - `*.sh` : install script
+              - `*.sh` : install scripts
               - `.??*` : dotfiles(NOT Linux)
-              - `list/` : `*.sh` needs this list
-              - `etc/` : other config
+              - `list/` : `*.sh` needs this lists
+              - `etc/` : other configfiles
 
 ## Install Manual
 - [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.md)
