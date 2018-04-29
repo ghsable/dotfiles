@@ -16,11 +16,11 @@ or :
 
     # CLONE DOTFILES
     git clone https://github.com/ghsable/dotfiles.git ~/dotfiles
-    cd ~/dotfiles/
-    # SETUP
-    vi .gitconfig
-    vi bin/<OS>/list/*.txt
+    # EDIT
+    vi ~/dotfiles/.gitconfig
+    vi ~/dotfiles/bin/<OS>/list/*.txt  # namelist(pkg,symbolic link...)
     # INSTALL
+    cd ~/dotfiles
     make <OS>_install
 
 ## Install Manual
