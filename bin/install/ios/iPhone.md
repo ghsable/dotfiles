@@ -47,6 +47,7 @@
 - [x] メッセージ
 - [x] [メール](https://itunes.apple.com/jp/app/%E3%83%A1%E3%83%BC%E3%83%AB/id1108187098?mt=8)
 - [ ] [LINE](https://itunes.apple.com/jp/app/line/id443904275?mt=8)
+- [ ] [Slack](https://itunes.apple.com/jp/app/slack/id618783545?mt=8)
 - [ ] [Discord](https://itunes.apple.com/jp/app/discord/id985746746?mt=8)
 
 **✒️勉強**
