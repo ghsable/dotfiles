@@ -4,6 +4,8 @@
 [core]
 	editor = vim
 [alias]
+	deleted = log --diff-filter=D --summary
 	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
+	test = "!f() { echo $1 ;}; f"
 [color]
 	ui = 1
