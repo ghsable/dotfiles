@@ -1,19 +1,18 @@
 # Description
-- Install List
+- Install Checklist
 
 # Bookmark
-**All**
+**all**
 - - -
 - [ ] [booky.io](https://booky.io)
 - [ ] [Amazon](https://www.amazon.co.jp)
 - [ ] [YouTube](https://m.youtube.com)
 
-**iPhone**
-**iPad**
+**iOS**
 - - -
 - [ ] メモリ解放(sysight://allkill)
 
-# Check
+# Installed
 - [ ] Application
 - [ ] Addon
 - [ ] Account
