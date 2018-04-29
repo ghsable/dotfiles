@@ -9,3 +9,6 @@
 1. `git add --all`
 2. `git commit -m "COMMENT"`
 3. `git push -u origin master`
+
+# 現在いるレポジトリのトップディレクトリの絶対パスを返す
+1. `git rev-parse --show-toplevel`
