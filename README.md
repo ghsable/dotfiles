@@ -7,8 +7,10 @@ one-liner :
 
 OS selection :
 `macos`,`archlinux`
+
 this script : 
 [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/install/install.sh)
+
 
 or : 
 
