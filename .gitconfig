@@ -5,7 +5,7 @@
 	editor = vim
 [alias]
 	deleted = log --diff-filter=D --summary
-	restore = "!er() { git checkout $1^ -- $2 ;}; er"
+	thisbranch = branch --contains=HEAD
 	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
 	test = "!et() { echo $1 ;}; et"
 [color]
