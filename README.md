@@ -5,17 +5,14 @@
   <tbody>
     <tr>
       <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.gif" alt="macos_README.gif" width="100%"></td>
-      <td>COMINGSOON...?</td>
+      <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/archlinux/etc/wallpaper/01.png" alt="archlinux_README.gif" width="100%"></td>
     </tr>
     <tr align="center">
       <td>macOS</td>
-      <td>Linux</td>
+      <td>Arch Linux</td>
     </tr>
   </tbody>
 </table>
-
-macos : 
-![macos_README.gif](https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.gif)
 
 ## Installation
 one-liner : 
