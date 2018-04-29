@@ -4,7 +4,7 @@
 # A
 function cd_dotfiles() {
   cd ~/
-  git clone https://github.com/ghsable/dotfiles.git
+  git clone https://github.com/ghsable/dotfiles.git ~/dotfiles
   cd ~/dotfiles/
   return 0
 }
