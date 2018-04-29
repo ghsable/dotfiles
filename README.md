@@ -5,9 +5,11 @@
   <tbody>
     <tr>
       <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.gif" alt="macos_README.gif" width="100%"></td>
+      <td>COMINGSOON...?</td>
     </tr>
-    <tr arign="center">
+    <tr align="center">
       <td>macOS</td>
+      <td>Linux</td>
     </tr>
   </tbody>
 </table>
