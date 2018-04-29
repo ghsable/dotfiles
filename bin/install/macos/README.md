@@ -48,7 +48,7 @@
     - Check ... iTunes Media フォルダを整理
     - Check ... iTunes Media フォルダにコピーする
   - Dropbox -(drag-and-drop)-> iTunesライブラリ
-16. Install
+16. Install by binaryfile
   - [Microsoft Office](https://stores.office.com/myaccount/home.aspx?ms.officeurl=myaccount)
     - Account
   - [Adobe Flash Player](https://get.adobe.com/jp/flashplayer/)
