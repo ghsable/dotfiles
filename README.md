@@ -1,7 +1,7 @@
 # Dotfiles
   
 ## DEMO
-<table>
+<table border="1" style="table-layout:fixed;" width="100%">
   <tbody>
     <tr>
       <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.gif" alt="macos_README.gif" width="100%"></td>
