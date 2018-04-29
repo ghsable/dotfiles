@@ -11,13 +11,17 @@ OS selection :
 this script : 
 [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/install/install.sh)
 
-
+- - -
 or : 
 
+    # CLONE DOTFILES
     git clone https://github.com/ghsable/dotfiles.git ~/dotfiles
-    # vi ~/dotfiles/bin/<OS>/list/*.txt
     cd ~/dotfiles/
-    # make <OS>_install
+    # SETUP
+    vi .gitconfig
+    vi bin/<OS>/list/*.txt
+    # INSTALL
+    make <OS>_install
 
 ## Install Manual
 - [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.md)
