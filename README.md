@@ -5,8 +5,17 @@ one-liner :
 
     bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/install.sh)"
 
-selection :
+OS selection :
 `macos`,`archlinux`
+this script : 
+[install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/install/install.sh)
+
+or : 
+
+    git clone https://github.com/ghsable/dotfiles.git ~/dotfiles
+    # vi ~/dotfiles/bin/<OS>/list/*.txt
+    cd ~/dotfiles/
+    # make <OS>_install
 
 ## Install Manual
 - [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.md)
