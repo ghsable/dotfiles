@@ -37,11 +37,11 @@
   - Check ... `Zip Each`,`No Compress`,`Encypt` -> `Make default`
 14. `open ~/`
   - Side Display(Column)
-    - /Applocation
-    - ~/
-    - ~/Download
-    - /Dropbox
-    - Dropbox/Recheck
+    - `/Applocation`
+    - `~/`
+    - `~/Download`
+    - `/Dropbox`
+    - `Dropbox/Recheck`
 15. `open -a /Applications/iTunes.app`
   - 環境設定
     - iTunes Media ... Dropbox
