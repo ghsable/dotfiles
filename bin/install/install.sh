@@ -3,8 +3,8 @@
 ### Function ###
 # A
 function cd_dotfiles() {
-  #cd ~/
-  #git clone https://github.com/ghsable/dotfiles.git
+  cd ~/
+  git clone https://github.com/ghsable/dotfiles.git
   cd ~/dotfiles/
   return 0
 }
