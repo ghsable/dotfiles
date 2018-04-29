@@ -2,14 +2,14 @@
   
 ## DEMO
 <table>
-  <tbody align="center">
+  <tbody> 
     <tr>
       <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/
 macos/README.gif" alt="macos_README.gif" width="100%"></td>
       <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/
 archlinux/etc/wallpaper/01.png" alt="archlinux_README.gif" width="100%"></td>
     </tr>
-    <tr>
+    <tr align="center">
       <td>macOS</td>
       <td>Arch Linux</td>
     </tr>
