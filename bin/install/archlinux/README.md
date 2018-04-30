@@ -39,8 +39,9 @@ example :
   </tbody>
 </table>
 
-```# 日本語キーボード読み込み
-loadkeys jp106
+```
+loadkeys jp106                         # 日本語キーボード読み込み
+<br>
 # パーティショニング
 parted -l                              # /dev/sdXを把握
 cfdisk /dev/sdX                        # パーティショニング
