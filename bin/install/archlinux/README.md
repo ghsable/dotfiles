@@ -4,13 +4,12 @@
 - [USBキーにArch Linuxをインストール](https://wiki.archlinux.jp/index.php/USB_キーに_Arch_Linux_をインストール)
 
 ## 事前準備
-- https://wiki.archlinux.jp/index.php/パーティショニング
+https://wiki.archlinux.jp/index.php/パーティショニング
 
-- 日本語キーボード読み込み
+日本語キーボード読み込み
     loadkeys jp106
 
-- パーティショニング
-
+パーティショニング
 example :
 <table style="table-layout:fixed;" width="100%">
   <tbody align="left">
@@ -52,40 +51,34 @@ example :
     mkfs.ext4 -O "^has_journal" /dev/sdX3  # format 3
     parted -l                              # 確認
 
-- マウント
-
+マウント
     mount /dev/sdX3 /mnt
     mkdir /mnt/boot /mnt/windows
     mount /dev/sdX2 /mnt/boot
     mount /dev/sdX1 /mnt/windows
     lsblk
 
-- インターネット接続を確認
-
+インターネット接続/確認
     ping archlinux.jp
 
-- システムクロックを更新/確認
+システムクロックを更新/確認
     timedatectl set-ntp true
     timedatectl status
 
 ## インストール
-- ミラー選択で`Japan`を最上位に移動
+ミラー選択で`Japan`を最上位に移動
+    vi /etc/pacman.d/mirrorlist
 
-   vi /etc/pacman.d/mirrorlist
-
-- ベースシステムのインストール(`time out`は再実行)
-
-   pacstrap /mnt base base-devel
+ベースシステムのインストール(`time out`は再実行)
+    pacstrap /mnt base base-devel
 
 ## システム設定
-- `fstab`の作成/確認
-
+`fstab`の作成/確認
     genfstab -U /mnt >> /mnt/etc/fstab
     lsblk -f
     cat /mnt/etc/fstab
 
-- インストール先USBに入る
-
+インストール先USBに入る
     arch-chroot /mnt
 
 - - -
