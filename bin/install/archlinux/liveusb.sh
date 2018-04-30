@@ -24,8 +24,8 @@ echo "127.0.1.1\tlocalarch.localdomain\tlocalarch" >>/etc/hosts
 
 # Set /etc/mkinitcpio.conf + Create 'Initial RAM Disk'
 {
-echo '#################### THIS CONFIG ####################'
-echo 'HOOKS="base udev block autodetect modconf block filesystems keyboard fsck"'
+echo '#################### PLEASE REPLACE THIS HOOKS ####################'
+echo 'HOOKS=(base udev block autodetect modconf block filesystems keyboard fsck)'
 } >>/etc/mkinitcpio.conf
 vi /etc/mkinitcpio.conf
 mkinitcpio -p linux
