@@ -7,9 +7,11 @@
 - https://wiki.archlinux.jp/index.php/パーティショニング
 
 - 日本語キーボード読み込み
+
     loadkeys jp106
 
 - パーティショニング
+
 example :
 <table style="table-layout:fixed;" width="100%">
   <tbody align="left">
@@ -50,32 +52,45 @@ example :
     mkfs.vfat -F 32 /dev/sdX2              # format 2
     mkfs.ext4 -O "^has_journal" /dev/sdX3  # format 3
     parted -l                              # 確認
+
 - マウント
+
     mount /dev/sdX3 /mnt
     mkdir /mnt/boot /mnt/windows
     mount /dev/sdX2 /mnt/boot
     mount /dev/sdX1 /mnt/windows
     lsblk
+
 - インターネット接続を確認
+
     ping archlinux.jp
+
 - システムクロックを更新/確認
+
     timedatectl set-ntp true
     timedatectl status
 
 ## インストール
 - ミラー選択で`Japan`を最上位に移動
+
     vi /etc/pacman.d/mirrorlist
+
 - ベースシステムのインストール(`time out`は再実行)
+
     pacstrap /mnt base base-devel
 
 ## システム設定
 - `fstab`の作成/確認
+
     genfstab -U /mnt >> /mnt/etc/fstab
     lsblk -f
     cat /mnt/etc/fstab
+
 - インストール先USBに入る
     arch-chroot /mnt
+
 - - -
+
 ## 初期設定
     pacman -Syu     # リポジトリ,パッケージのアップデート
     pacman -S git   # Gitをインストール
@@ -83,7 +98,9 @@ example :
     exit            # chrootを抜ける
     umount -R /mnt  # アンマウント
     reboot          # 再起動
+
 - - -
+
 ## 般ユーザー作成
     useradd -m -g wheel <YOUR NAME>
     passwd <YOUR NAME>
