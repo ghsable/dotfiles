@@ -41,7 +41,6 @@ example :
 
 ```
 loadkeys jp106                         # 日本語キーボード読み込み
-<br>
 # パーティショニング
 parted -l                              # /dev/sdXを把握
 cfdisk /dev/sdX                        # パーティショニング
@@ -71,7 +70,7 @@ cat /mnt/etc/fstab
 # インストール先USBに入る
 arch-chroot /mnt
 # 初期設定
-pacman -Syu     # リポジトリ,パッケージのアップデート
+pacman -Syu     # システム全体のアップデート
 pacman -S git   # Gitをインストール
 bash -c "$(curl -fsSL <URL>)"
 exit            # chrootを抜ける
