@@ -19,7 +19,7 @@ echo 'LANG=en_US.UTF-8' >/etc/locale.conf
 echo 'KEYMAP=jp106'     >/etc/vconsole.conf
 
 # Set hostname
-echo 'localarch' > /etc/hostname
+echo 'localarch' >/etc/hostname
 echo "127.0.1.1\tlocalarch.localdomain\tlocalarch" >>/etc/hosts
 
 # Set /etc/mkinitcpio.conf + Create 'Initial RAM Disk'
