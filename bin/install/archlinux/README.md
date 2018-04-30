@@ -6,7 +6,7 @@
 
 ## Installation
 example :
-<table style="table-layout:fixed;" width="100%">
+<table style="table-layout: auto;" width="100%">
   <tbody align="left">
     <tr>
       <td>Device</td>
