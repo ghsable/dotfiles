@@ -40,7 +40,7 @@ example :
       <td>*GB</td>
       <td>Linux</td>
       <td>[8300]Linux filesystem</td>
-      <td>archlinux</td>
+      <td>*linux</td>
       <td>ext4(ext2)</td>
       <td>/</td>
     </tr>
@@ -78,7 +78,7 @@ vi /etc/pacman.d/mirrorlist
 # ベースシステムのインストール(`time out`は再実行)
 pacstrap /mnt base base-devel
 # `fstab`の作成/確認
-genfstab -U /mnt >> /mnt/etc/fstab
+genfstab -U /mnt >>/mnt/etc/fstab
 lsblk -f
 cat /mnt/etc/fstab
 # インストール先USBに入る
