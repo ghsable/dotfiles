@@ -7,7 +7,6 @@
 - https://wiki.archlinux.jp/index.php/パーティショニング
 
 - 日本語キーボード読み込み
-
     loadkeys jp106
 
 - パーティショニング
@@ -66,18 +65,17 @@ example :
     ping archlinux.jp
 
 - システムクロックを更新/確認
-
     timedatectl set-ntp true
     timedatectl status
 
 ## インストール
 - ミラー選択で`Japan`を最上位に移動
 
-    vi /etc/pacman.d/mirrorlist
+   vi /etc/pacman.d/mirrorlist
 
 - ベースシステムのインストール(`time out`は再実行)
 
-    pacstrap /mnt base base-devel
+   pacstrap /mnt base base-devel
 
 ## システム設定
 - `fstab`の作成/確認
@@ -87,6 +85,7 @@ example :
     cat /mnt/etc/fstab
 
 - インストール先USBに入る
+
     arch-chroot /mnt
 
 - - -
@@ -101,7 +100,7 @@ example :
 
 - - -
 
-## 般ユーザー作成
+## 一般ユーザー作成
     useradd -m -g wheel <YOUR NAME>
     passwd <YOUR NAME>
     exit
