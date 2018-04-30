@@ -11,7 +11,8 @@ example :
     <tr>
       <td>Device</td>
       <td>Size</td>
-      <td>Type</td>
+      <td>Type(cfdisk)</td>
+      <td>Type(cgdisk)</td>
       <td>Format</td>
       <td>Mount</td>
     </tr>
@@ -19,6 +20,7 @@ example :
       <td>/dev/sdX1</td>
       <td>*GB</td>
       <td>HPFS/NTFS/exFAT</td>
+      <td>[4200]Windows LDM data</td>
       <td>exFat</td>
       <td>Windows</td>
     </tr>
@@ -26,6 +28,7 @@ example :
       <td>/dev/sdX2</td>
       <td>512MB</td>
       <td>W95 FAT32(LBA)</td>
+      <td>[ef00]EFI System</td>
       <td>fat32</td>
       <td>/boot *Bootable</td>
     </tr>
@@ -33,6 +36,7 @@ example :
       <td>/dev/sdX3</td>
       <td>*GB</td>
       <td>Linux</td>
+      <td>[8300]Linux filesystem</td>
       <td>ext4(ext2)</td>
       <td>/</td>
     </tr>
@@ -42,12 +46,17 @@ example :
 ```
 loadkeys jp106                         # 日本語キーボード読み込み
 # パーティショニング
-parted -l                              # /dev/sdXを把握
-cfdisk /dev/sdX                        # パーティショニング
+lsblk                                  # /dev/sdXを把握
+gdisk /dev/sdX                         # 対話モードで初期化処理
+(d) -> パーティション削除
+(o) -> GPTテーブル作成
+(w) -> 保存して終了
+parted -l                              # /dev/sdXのPartition Tableを確認
+cgdisk /dev/sdX                        # パーティショニング
 mkfs.exfat /dev/sdX1                   # format 1
 mkfs.vfat -F 32 /dev/sdX2              # format 2
 mkfs.ext4 -O "^has_journal" /dev/sdX3  # format 3
-parted -l                              # 確認
+parted -l                              # file system確認
 # マウント
 mount /dev/sdX3 /mnt
 mkdir /mnt/boot /mnt/windows
@@ -72,7 +81,7 @@ arch-chroot /mnt
 # 初期設定
 pacman -Syu     # システム全体のアップデート
 pacman -S git   # Gitをインストール
-bash -c "$(curl -fsSL <URL>)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/archlinux/liveusb.sh)"  # GitHubより自動セットアップ
 exit            # chrootを抜ける
 umount -R /mnt  # アンマウント
 reboot          # 再起動
