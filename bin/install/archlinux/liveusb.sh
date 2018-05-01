@@ -20,7 +20,11 @@ echo 'KEYMAP=jp106'     >/etc/vconsole.conf
 
 # Set hostname
 echo 'localarch' >/etc/hostname
-echo -e "127.0.1.1\tlocalarch.localdomain\tlocalarch" >>/etc/hosts
+{
+echo -e '127.0.0.1\tlocalhost.localdomain\tlocalhost'
+echo -e '::1\t\tlocalhost.localdomain\tlocalhost'
+echo -e '127.0.1.1\tlocalarch.localdomain\tlocalarch'
+} >>/etc/hosts
 
 # Set /etc/mkinitcpio.conf + Create 'Initial RAM Disk'
 {
@@ -63,6 +67,7 @@ echo '%wheel ALL=(ALL) ALL'
 } >>/etc/sudoers
 
 # Set journald(journal -> RAM)
+mkdir -pv /etc/systemd/journald.conf.d
 {
 echo '[Journal]'
 echo 'Storage=volatile'
