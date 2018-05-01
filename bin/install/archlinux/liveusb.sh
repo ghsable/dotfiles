@@ -77,6 +77,7 @@ vi /etc/locale.gen
 vi /etc/locale.conf
 vi /etc/vconsole.conf
 vi /etc/hostname
+vi /etc/hosts
 vi /etc/sudoers
 vi /boot/grub/grub.cfg
 vi /etc/systemd/journald.conf.d/usbstick.conf
