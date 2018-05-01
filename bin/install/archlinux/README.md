@@ -14,7 +14,7 @@ example :
       <td>Partition Type(MBR)</td>
       <td>Partition Type(GPT)</td>
       <td>Partition Name</td>
-      <td>Format</td>
+      <td>Filesystem</td>
       <td>Mount</td>
     </tr>
     <tr>
@@ -90,12 +90,13 @@ exit            # chrootを抜ける
 umount -R /mnt  # アンマウント
 reboot          # 再起動
 # 一般ユーザー作成
-useradd -m -g wheel <YOUR NAME>
-passwd <YOUR NAME>
+useradd -m -g wheel <YOUR_NAME>
+passwd <YOUR_NAME>
 exit
-# ネットワーク接続
+# ネットワーク接続/確認
 sudo systemctl start NetworkManager
-nmtui && ping google.com
+nmtui
+ping google.com
 # GitHubより自動セットアップ
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/install.sh)"
 reboot
