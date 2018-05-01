@@ -62,7 +62,7 @@ mkfs.exfat /dev/sdX1                   # /dev/sdX1 format
 mkfs.vfat -F 32 /dev/sdX2              # /dev/sdX2 format
 mkfs.ext4 -O "^has_journal" /dev/sdX3  # /dev/sdX3 format
 cfdisk /dev/sdX                        # filesystemを確認
-# マウント
+# マウント/状態確認
 mount /dev/sdX3 /mnt
 mkdir /mnt/boot
 mount /dev/sdX2 /mnt/boot
@@ -78,13 +78,10 @@ vi /etc/pacman.d/mirrorlist
 pacstrap /mnt base base-devel
 # fstabの作成/確認
 genfstab -U /mnt >>/mnt/etc/fstab
-lsblk -f
-cat /mnt/etc/fstab
+lsblk -f && cat /mnt/etc/fstab
 # インストール先USBに入る
 arch-chroot /mnt
 # 初期設定
-pacman -Syu     # システム全体のアップデート
-pacman -S git   # Gitをインストール
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/archlinux/liveusb.sh)"  # GitHubより自動セットアップ
 exit            # chrootを抜ける
 umount -R /mnt  # アンマウント

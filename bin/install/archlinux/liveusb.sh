@@ -69,6 +69,9 @@ echo 'Storage=volatile'
 echo 'RuntimeMaxUse=30M'
 } >/etc/systemd/journald.conf.d/usbstick.conf
 
+# Install git
+pacman -S git
+
 # Check Status
 vi /etc/locale.gen
 vi /etc/locale.conf
