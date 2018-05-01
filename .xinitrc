@@ -55,7 +55,7 @@ xset s 60
 xset dpms 120
 
 # Feh
-feh --randomize --bg-fill ~/.wallpaper/*
+feh --randomize --bg-fill ~/wallpaper/*
 
 # Xmobar
 # xmobar ~/.xmobarrc &

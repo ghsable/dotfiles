@@ -12,19 +12,24 @@ echo '#################### THIS CONFIG ####################'
 echo 'en_US.UTF-8 UTF-8'
 echo 'ja_JP.UTF-8 UTF-8'
 }  >>/etc/locale.gen
+vi /etc/locale.gen
 locale-gen
 
 # Set LANG/KEYMAP
 echo 'LANG=en_US.UTF-8' >/etc/locale.conf
+vi /etc/locale.conf
 echo 'KEYMAP=jp106'     >/etc/vconsole.conf
+vi /etc/vconsole.conf
 
 # Set hostname
 echo 'localarch' >/etc/hostname
+vi /etc/hostname
 {
 echo -e '127.0.0.1\tlocalhost.localdomain\tlocalhost'
 echo -e '::1\t\tlocalhost.localdomain\tlocalhost'
 echo -e '127.0.1.1\tlocalarch.localdomain\tlocalarch'
 } >>/etc/hosts
+vi /etc/hosts
 
 # Set /etc/mkinitcpio.conf + Create 'Initial RAM Disk'
 {
@@ -46,6 +51,7 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub --re
 
 # Add /boot/grub/grub.cfg
 grub-mkconfig -o /boot/grub/grub.cfg
+vi /boot/grub/grub.cfg
 
 # OFF Kernel Mode Setting(KMS)
 {
@@ -65,6 +71,7 @@ echo '#################### THIS CONFIG ####################'
 echo 'Defaults env_keep += "HOME"'
 echo '%wheel ALL=(ALL) ALL'
 } >>/etc/sudoers
+vi /etc/sudoers
 
 # Set journald(journal -> RAM)
 mkdir -pv /etc/systemd/journald.conf.d
@@ -73,16 +80,7 @@ echo '[Journal]'
 echo 'Storage=volatile'
 echo 'RuntimeMaxUse=30M'
 } >/etc/systemd/journald.conf.d/usbstick.conf
+vi /etc/systemd/journald.conf.d/usbstick.conf
 
 # Install git
 pacman -S git
-
-# Check Status
-vi /etc/locale.gen
-vi /etc/locale.conf
-vi /etc/vconsole.conf
-vi /etc/hostname
-vi /etc/hosts
-vi /etc/sudoers
-vi /boot/grub/grub.cfg
-vi /etc/systemd/journald.conf.d/usbstick.conf

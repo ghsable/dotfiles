@@ -58,7 +58,6 @@ LIST17="xmonad xmonad-contrib"                   #WM
 LIST18="xmobar"                                  #StatusBar
 LIST19="xcompmgr transset-df xorg-xwininfo"      #CompositManager         + TranssetUtility        + GetWinInfo
 LIST20="feh"                                     #SetWallpaper & ImgViwer
-LIST21="neovim"                                  #Console Editor
 LIST22="dmenu"                                   #AppsLauncher
 LIST23="thunar tumbler"                          #FileManager             + Show IMGthumbnail
 LIST24="zip unzip"                               #ZIP                     + unZIP

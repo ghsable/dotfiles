@@ -1,0 +1,17 @@
+# dotfiles/<FILE PATH> or <DIRECTORY PATH>
+
+### FILE PATH ###
+Makefile
+# Xmonad
+.xmonad/xmonad.hs
+# Thunar(DefaultOpen+)
+.loacal/share/applications/userapp-feh-CJADVY.desktop
+
+### DIRECTORY PATH ###
+doc
+bin
+bin/install/archlinux/etc
+# Thunar(CustomAction)
+.config/Thunar
+# Authy(cannadic)
+.anthy/imported_words_default.d

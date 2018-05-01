@@ -10,7 +10,7 @@ brew upgrade --cleanup
 # Install(brew file)
 brew install $(grep -v -e '^$' -e '^#' ./list/brew.txt)
 
-# Delete Cache "all brew file"
+# Delete Cache(all brew file)
 brew cleanup -s
 
 # End Message

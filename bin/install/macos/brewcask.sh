@@ -10,7 +10,7 @@ brew cask upgrade
 # Install(brew cask file)
 brew cask install $(grep -v -e '^$' -e '^#' ./list/brewcask.txt)
 
-# Delete Cache "all brew cask file"
+# Delete Cache(all brew cask file)
 brew cask cleanup
 
 # End Message
