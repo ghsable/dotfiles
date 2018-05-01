@@ -53,3 +53,6 @@
     - Account
   - [Adobe Flash Player](https://get.adobe.com/jp/flashplayer/)
     - Safari
+  - [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)
+    - USBポート共有 ... `sudo dscl . -append /Groups/vboxusers GroupMembership <USER NAME> ; id -p`
+    - USBポート共有 ... [VirtualBoxでのUSBデバイス認識](https://qiita.com/civic/items/684c4b82428feb0c4ae1)
