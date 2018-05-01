@@ -96,7 +96,7 @@ exit
 # ネットワーク接続/確認
 sudo systemctl start NetworkManager
 nmtui
-ping google.com
+ping archlinux.jp
 # GitHubより自動セットアップ
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/install.sh)"
 reboot
