@@ -86,12 +86,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/
 exit            # chrootを抜ける
 umount -R /mnt  # アンマウント
 reboot          # 再起動
-# 一般ユーザー作成
+# 一般ユーザー作成/rootユーザーログアウト
 useradd -m -g wheel <YOUR_NAME>
 passwd <YOUR_NAME>
 exit
+# 一般ユーザーでログイン
 # ネットワーク接続/確認
-sudo systemctl start NetworkManager
 nmtui
 ping archlinux.jp
 # GitHubより自動セットアップ(install.sh)
