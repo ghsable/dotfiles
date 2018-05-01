@@ -76,3 +76,4 @@ vi /etc/vconsole.conf
 vi /etc/hostname
 vi /etc/sudoers
 vi /boot/grub/grub.cfg
+vi /etc/systemd/journald.conf.d/usbstick.conf
