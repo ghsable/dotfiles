@@ -1,14 +1,12 @@
 #!/bin/bash
 
 ### Function ###
-# A
 function cd_dotfiles() {
   git clone https://github.com/ghsable/dotfiles.git ~/dotfiles
   cd ~/dotfiles/
   return 0
 }
 
-# B
 function select_install() {
   echo "--------------------"
   echo "# Please type ..."
@@ -21,7 +19,5 @@ function select_install() {
 }
 
 ### Run ###
-# A
 cd_dotfiles
-# B
 select_install
