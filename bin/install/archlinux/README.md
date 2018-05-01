@@ -22,7 +22,7 @@ example :
       <td>*GB</td>
       <td>HPFS/NTFS/exFAT</td>
       <td>[0700]Windows basic data</td>
-      <td>windows</td>
+      <td>-</td>
       <td>exFat</td>
       <td>Windows</td>
     </tr>
@@ -64,20 +64,19 @@ mkfs.ext4 -O "^has_journal" /dev/sdX3  # /dev/sdX3 format
 cfdisk /dev/sdX                        # filesystemを確認
 # マウント
 mount /dev/sdX3 /mnt
-mkdir /mnt/boot /mnt/windows
+mkdir /mnt/boot
 mount /dev/sdX2 /mnt/boot
-mount /dev/sdX1 /mnt/windows
 lsblk
-# インターネット接続/確認
+# インターネット接続確認
 ping archlinux.jp
 # システムクロックを更新/確認
 timedatectl set-ntp true
 timedatectl status
 # ミラー選択で`Japan`を最上位に移動
 vi /etc/pacman.d/mirrorlist
-# ベースシステムのインストール(`time out`は再実行)
+# ベースシステムのインストール(time outは再実行)
 pacstrap /mnt base base-devel
-# `fstab`の作成/確認
+# fstabの作成/確認
 genfstab -U /mnt >>/mnt/etc/fstab
 lsblk -f
 cat /mnt/etc/fstab

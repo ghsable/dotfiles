@@ -1,10 +1,17 @@
 ### SYSTEM ###
-# ArchInstallScripts
+# Arch Linux Auto Setup Tool
 arch-install-scripts
-# Partition Utility (mkfs.vfat)
-dosfstools
-# Partition Utility (parted)
+
+# Partitioning Tool
+util-linux
+gptfdisk
 parted
+
+# Filesystem Support(VFAT,exFAT,NTFS,ext234)
+dosfstools
+exfat-utils
+ntfs-3g
+e2fsprogs
 
 ### SHELL ###
 # zsh
@@ -20,7 +27,10 @@ xorg-apps
 
 ### Driver ###
 # Video Driver
+xf86-video-vesa
+xf86-video-ati
 xf86-video-intel
+xf86-video-nouveau 
 # TouchPad Driver
 libinput
 

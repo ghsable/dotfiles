@@ -20,11 +20,11 @@ echo 'KEYMAP=jp106'     >/etc/vconsole.conf
 
 # Set hostname
 echo 'localarch' >/etc/hostname
-echo "127.0.1.1\tlocalarch.localdomain\tlocalarch" >>/etc/hosts
+echo -e "127.0.1.1\tlocalarch.localdomain\tlocalarch" >>/etc/hosts
 
 # Set /etc/mkinitcpio.conf + Create 'Initial RAM Disk'
 {
-echo '#################### PLEASE REPLACE THIS HOOKS ####################'
+echo '#################### PLEASE REPLACE THIS LINE ####################'
 echo 'HOOKS=(base udev block autodetect modconf block filesystems keyboard fsck)'
 } >>/etc/mkinitcpio.conf
 vi /etc/mkinitcpio.conf
@@ -43,6 +43,13 @@ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub --re
 # Add /boot/grub/grub.cfg
 grub-mkconfig -o /boot/grub/grub.cfg
 
+# OFF Kernel Mode Setting(KMS)
+{
+echo '#################### PLEASE REPLACE THIS LINE ####################'
+echo 'GRUB_CMDLINE_LINUX_DEFAULT="nomodeset"'
+} >>/etc/default/grub
+vi /etc/default/grub
+
 # Set Network(Install NetworkManager + systemctl enable)
 pacman -S networkmanager
 systemctl enable NetworkManager.service
@@ -54,6 +61,13 @@ echo '#################### THIS CONFIG ####################'
 echo 'Defaults env_keep += "HOME"'
 echo '%wheel ALL=(ALL) ALL'
 } >>/etc/sudoers
+
+# Set journald(journal -> RAM)
+{
+echo '[Journal]'
+echo 'Storage=volatile'
+echo 'RuntimeMaxUse=30M'
+} >/etc/systemd/journald.conf.d/usbstick.conf
 
 # Check Status
 vi /etc/locale.gen
