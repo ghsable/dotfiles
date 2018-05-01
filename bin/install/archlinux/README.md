@@ -22,9 +22,9 @@ example :
       <td>*GB</td>
       <td>HPFS/NTFS/exFAT</td>
       <td>[0700]Windows basic data</td>
-      <td>-</td>
+      <td>windows</td>
       <td>exFat</td>
-      <td>Windows</td>
+      <td>-</td>
     </tr>
     <tr>
       <td>/dev/sdX2</td>
