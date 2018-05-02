@@ -13,10 +13,6 @@ exfat-utils
 ntfs-3g
 e2fsprogs
 
-# Battery Manager(RadioDeviceWizard)
-tlp
-tlp-rdw
-
 # zip/uzip
 zip
 unzip
@@ -25,7 +21,7 @@ unzip
 screenfetch
 
 ### SHELL ###
-# zsh
+# ZSH(Syntax-hilight)
 zsh 
 zsh-syntax-highlighting
 
@@ -38,9 +34,6 @@ xf86-video-nouveau
 
 # Sound(alsamixer)
 alsa-utils
-
-# Touch pad
-libinput
 
 ### X WINDOW SYSTEM ###
 # X Server , X Utility(Group)

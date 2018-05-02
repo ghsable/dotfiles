@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Function ###
+### FUNCTION ###
 function cd_dotfiles() {
   git clone https://github.com/ghsable/dotfiles.git ~/dotfiles
   cd ~/dotfiles/
@@ -18,6 +18,6 @@ function select_install() {
   return 0
 }
 
-### Run ###
+### RUN ###
 cd_dotfiles
 select_install

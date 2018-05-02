@@ -8,7 +8,7 @@ hwclock --systohc --utc
 
 # Set /etc/locale.gen
 {
-echo '#################### THIS CONFIG ####################'
+echo '#################### PLEASE REPLACE THIS LINE ####################'
 echo 'en_US.UTF-8 UTF-8'
 echo 'ja_JP.UTF-8 UTF-8'
 }  >>/etc/locale.gen
@@ -67,7 +67,7 @@ systemctl enable NetworkManager.service
 # Install sudo + Set /etc/sudoers
 pacman -S sudo
 {
-echo '#################### THIS CONFIG ####################'
+echo '#################### PLEASE REPLACE THIS LINE ####################'
 echo 'Defaults env_keep += "HOME"'
 echo '%wheel ALL=(ALL) ALL'
 } >>/etc/sudoers
