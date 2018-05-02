@@ -52,4 +52,4 @@ defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
 defaults write com.apple.Safari AutoFillPasswords -bool false
 
 # End Message
-cat ../all/complete.txt
+cat ./complete.txt

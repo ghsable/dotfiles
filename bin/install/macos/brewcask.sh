@@ -14,4 +14,4 @@ brew cask install $(grep -v -e '^$' -e '^#' ./list/brewcask.txt)
 brew cask cleanup
 
 # End Message
-cat ../all/complete.txt
+cat ./complete.txt

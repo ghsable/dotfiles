@@ -11,4 +11,4 @@ mas upgrade
 mas install $(grep -v -e '^$' -e '^#' ./list/mas.txt | cut -d " " -f 1-1)
 
 # End Message
-cat ../all/complete.txt
+cat ./complete.txt

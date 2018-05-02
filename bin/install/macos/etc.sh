@@ -4,8 +4,11 @@ echo "${0} ..."
 
 cd $(dirname ${0})
 
-# Set ZSH
-chsh -s /bin/zsh                  
+# Set /etc/*
+for shfile in $(ls ./etc/*.sh)
+do
+  sh ${shfile}
+done
 
 # End Message
-cat ../all/complete.txt
+cat ./complete.txt

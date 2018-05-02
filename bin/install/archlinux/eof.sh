@@ -8,4 +8,4 @@ cd $(dirname ${0})
 screenfetch
 
 # End Message
-cat ../all/complete.txt
+cat ./complete.txt

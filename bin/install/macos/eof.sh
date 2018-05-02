@@ -17,4 +17,4 @@ echo "##### installed mas file #####"
 mas list
 
 # End Message
-cat ../all/complete.txt
+cat ./complete.txt

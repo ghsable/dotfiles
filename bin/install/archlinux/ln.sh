@@ -30,4 +30,4 @@ do
 done
 
 # End Message
-cat ../all/complete.txt
+cat ./complete.txt

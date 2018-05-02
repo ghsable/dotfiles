@@ -14,4 +14,4 @@ sudo pacman -S $(grep -v -e '^$' -e '^#' ./list/pacman.txt)
 sudo pacman -Sc
 
 # End Message
-cat ../all/complete.txt
+cat ./complete.txt

@@ -14,4 +14,4 @@ brew install $(grep -v -e '^$' -e '^#' ./list/brew.txt)
 brew cleanup -s
 
 # End Message
-cat ../all/complete.txt
+cat ./complete.txt

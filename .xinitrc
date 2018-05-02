@@ -30,35 +30,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+# Make sure this is before the 'exec' command or it won't be sourced.
+[ -f /etc/xprofile ] && source /etc/xprofile
+[ -f ~/.xprofile ] && source ~/.xprofile
+
 # Xmodmap
-if [ -s ~/.Xmodmap ]; then
- xmodmap ~/.Xmodmap
-fi
-
-# LANG(X11)
-export LANG=ja_JP.UTF-8
-
-# Uim
-export GTK_IM_MODULE='uim'
-export QT_IM_MODULE='uim'
-uim-xim &
-export XMODIFIERS='@im=uim'
-
-# Xbindkeys
-xbindkeys
-
-# Xcompmgr
-xcompmgr -c &
-
-# Xset
-xset s 60
-xset dpms 120
-
-# Feh
-feh --randomize --bg-fill ~/wallpaper/*
-
-# Xmobar
-# xmobar ~/.xmobarrc &
-
-# Xmonad
-exec xmonad
+[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
