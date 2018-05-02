@@ -1,14 +1,16 @@
 #!/bin/bash
 
-mkdir -pvm 700 ~/.anthy ~/.xmonad ~/.config ~/.local/share/applications
-mkdir -pvm 700 ~/Downloads ~/Pictures ~/Screenshots
-mkdir -pvm 700 ~/Develop/java ~/Develop/cs
-
 echo "${0} ..."
 
-cd ~/dotfiles
+# Make Directory
+# general
+mkdir -pvm 700 ~/.config ~/.local/share/applications
+mkdir -pvm 700 ~/Downloads ~/Pictures ~/Screenshots
+# anthy,xmonad
+mkdir -pvm 700 ~/.anthy ~/.xmonad
 
 # Deploy(symbolic link) - "./.??*"
+cd ~/dotfiles
 for dotfile in .??*
 do
   [ "${dotfile}" = ".xmonad" ] && continue
@@ -20,14 +22,12 @@ do
   ln -snfv ~/dotfiles/${dotfile} ~/
 done
 
-cd $(dirname ${0})
-
 # Deploy(symbolic link) - "Not ./.??*"
+cd $(dirname ${0})
 for lnlist in $(grep -v -e '^$' -e '^#' ./list/ln.txt)
 do
   ln -snfv ~/dotfiles/${lnlist} ~/
 done
 
-
-${CMND02} ${PATH01_0}${PATH01_2}.uim.d/                    ${PATH03}                            &&  #Uim
-${CMND02} ${PATH01_0}${PATH01_2}imported_words_default.d/  ${PATH03}.anthy/                     &&  #Anthy(cannadic)
+# End Message
+cat ../all/complete.txt

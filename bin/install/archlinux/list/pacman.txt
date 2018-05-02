@@ -13,59 +13,136 @@ exfat-utils
 ntfs-3g
 e2fsprogs
 
+# Battery Manager(RadioDeviceWizard)
+tlp
+tlp-rdw
+
+# zip/uzip
+zip
+unzip
+
+# Display system Information
+screenfetch
+
 ### SHELL ###
 # zsh
 zsh 
-# zsh syntax highlight
 zsh-syntax-highlighting
 
-### X Window System [Base] ###
-# X Server
-xorg-server
-# X Utility Group
-xorg-apps
-
-### Driver ###
-# Video Driver
+### DRIVER ###
+# Video
 xf86-video-vesa
 xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau 
-# TouchPad Driver
+
+# Sound(alsamixer)
+alsa-utils
+
+# Touch pad
 libinput
 
-### X Window System [Utility] ###
+### X WINDOW SYSTEM ###
+# X Server , X Utility(Group)
+xorg-server
+xorg-apps
+
+# Xresources
+xorg-xrdb
+
+# Xinitrc
+xorg-xinit
+
 # Backlight Utility
 xorg-xbacklight
-# Sound Utility (alsamixer)
-alsa-utils
-# KeyMap Utility (xmodmap -pke > ~/.Xmodmap)
+
+# Display Power Management
+xorg-xset
+
+# Get window ID(xwininfo -> click)
+xorg-xwininfo
+
+### DESKTOP ###
+# Terminal
+xterm
+
+# Window Manager
+xmonad
+xmonad-contrib
+
+# Status bar
+xmobar
+
+# Apps Launcher
+dmenu
+
+# Screen Lock
+slock
+
+# Composit Manager/Transset Utility
+xcompmgr
+transset-df
+
+# Set Wallpaper + img viwer
+feh
+
+### KEYBOARD ###
+# KeyMap Utility(xmodmap -pke > ~/.Xmodmap)
 xorg-xmodmap
-# Keybind Utility (xbindkeys)
+
+# Keybind Utility(xbindkeys)
 xbindkeys
 
+# Input method Framework
+uim
 
+# Input System
+anthy
 
-LIST09="uim anthy otf-ipafont"                   #InputMethodFramework    + JPInputSystem          + JPFont
-LIST10="ttf-symbola noto-fonts-emoji ttf-dejavu" #EmojiFont*2             + ENFont
-LIST11="xorg-xset"                               #DisplayPowerManagement
-LIST12="tlp tlp-rdw"                             #BatteryManager          + TLP(RadioDeviceWizard)
-LIST13="slock"                                   #ScreenLock
-LIST14="scrot simplescreenrecorder"              #ScreenShot              + ScreenCast
-LIST15="xterm xorg-xrdb"                         #Terminal                + Xresources
-LIST16="xorg-xinit"                              #DM
-LIST17="xmonad xmonad-contrib"                   #WM
-LIST18="xmobar"                                  #StatusBar
-LIST19="xcompmgr transset-df xorg-xwininfo"      #CompositManager         + TranssetUtility        + GetWinInfo
-LIST20="feh"                                     #SetWallpaper & ImgViwer
-LIST22="dmenu"                                   #AppsLauncher
-LIST23="thunar tumbler"                          #FileManager             + Show IMGthumbnail
-LIST24="zip unzip"                               #ZIP                     + unZIP
-LIST25="screenfetch"                             #Show SystemInformation
-LIST26="firefox firefox-i18n-ja flashplugin"     #WebBrowser              + JPFont                 + FlashPlugin
-LIST27="mplayer"                                 #MoviePlayer
-LIST28="leafpad"                                 #Memo
-LIST29="graphicsmagick"                          #MakeGif
-LIST30="libreoffice-fresh libreoffice-fresh-ja"  #Libreoffice             + JPFontUI
-LIST31="jdk8-openjdk"                            #Java OpenJDK8
-LIST32="mono"                                    #C#   Mono
+### Font ###
+# EN moji
+ttf-dejavu
+
+# JP moji
+otf-ipafont
+
+# emoji
+ttf-symbola
+noto-fonts-emoji
+
+### BROWSER ###
+# file Manager/Display thumbnail
+thunar
+tumbler
+
+# Movie Player
+mplayer
+
+# firefox/WebBrowser/JPFont/FlashPlugin
+firefox
+firefox-i18n-ja
+flashplugin
+
+### TOOL ###
+# Memo
+leafpad
+
+# Libreoffice/JPFontUI
+libreoffice-fresh
+libreoffice-fresh-ja
+
+# Screen shot              
+scrot
+
+# Screen cast
+simplescreenrecorder
+
+# Make Gif
+graphicsmagick
+
+### PROGRAMMING ###
+# Java OpenJDK8
+jdk8-openjdk
+
+# C#
+mono

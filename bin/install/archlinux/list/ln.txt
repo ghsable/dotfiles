@@ -15,3 +15,5 @@ bin/install/archlinux/etc
 .config/Thunar
 # Authy(cannadic)
 .anthy/imported_words_default.d
+# Uim
+.uim.d/customs
