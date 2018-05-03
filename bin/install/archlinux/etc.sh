@@ -2,10 +2,10 @@
 
 echo "${0} ..."
 
-cd $(dirname ${0})
+cd $(dirname ${0})/etc
 
 # Set /etc/*
-for shfile in $(ls ./etc/*.sh)
+for shfile in *.sh
 do
   sh ${shfile}
 done
