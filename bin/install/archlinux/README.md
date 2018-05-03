@@ -72,7 +72,7 @@ ping archlinux.jp
 # システムクロックを更新/確認
 timedatectl set-ntp true
 timedatectl status
-# ミラー選択で`Japan`を最上位に移動
+# ミラー選択で全ての`Japan`を最上位に移動
 vi /etc/pacman.d/mirrorlist
 # ベースシステムのインストール(time outは再実行)
 pacstrap /mnt base base-devel
