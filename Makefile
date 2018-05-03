@@ -6,29 +6,6 @@ $(eval ARCHLINUX_INSTALL_DIR := $(BIN_DIR)/install/archlinux)
 all:
 	@sh $(BIN_DIR)/test.sh
 
-# install.sh (ArchLinux)
-archlinux_install:
-	@make archlinux_initialize
-	@make archlinux_pacman
-	@make archlinux_deploy
-	@make archlinux_list
-
-# Initialize (ArchLinux)
-archlinux_initialize:
-	@sh $(ARCHLINUX_INSTALL_DIR)/etc.sh
-
-# Pacman (ArchLinux)
-archlinux_pacman:
-	@sh $(ARCHLINUX_INSTALL_DIR)/pacman.sh
-
-# Deploy (ArchLinux)
-archlinux_deploy:
-	@sh $(ARCHLINUX_INSTALL_DIR)/ln.sh
-
-# Display all system Information (ArchLinux)
-archlinux_list:
-	@sh $(ARCHLINUX_INSTALL_DIR)/eof.sh
-
 # install.sh (macOS)
 macos_install:
 	@make macos_initialize
@@ -53,3 +30,26 @@ macos_deploy:
 # Display Installed list (macOS)
 macos_list:
 	@sh $(MACOS_INSTALL_DIR)/eof.sh
+
+# install.sh (ArchLinux)
+archlinux_install:
+	@make archlinux_initialize
+	@make archlinux_pacman
+	@make archlinux_deploy
+	@make archlinux_list
+
+# Initialize (ArchLinux)
+archlinux_initialize:
+	@sh $(ARCHLINUX_INSTALL_DIR)/etc.sh
+
+# Pacman (ArchLinux)
+archlinux_pacman:
+	@sh $(ARCHLINUX_INSTALL_DIR)/pacman.sh
+
+# Deploy (ArchLinux)
+archlinux_deploy:
+	@sh $(ARCHLINUX_INSTALL_DIR)/ln.sh
+
+# Display all system Information (ArchLinux)
+archlinux_list:
+	@sh $(ARCHLINUX_INSTALL_DIR)/eof.sh
