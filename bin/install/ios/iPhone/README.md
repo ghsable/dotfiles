@@ -55,7 +55,7 @@
 * [ ] [Kindle](https://itunes.apple.com/jp/app/kindle/id302584613?mt=8)
 * [ ] [究極英単語](https://itunes.apple.com/jp/app/%E7%A9%B6%E6%A5%B5%E8%8B%B1%E5%8D%98%E8%AA%9E/id556736118?mt=8)
 * [ ] [Schoo](https://itunes.apple.com/jp/app/schoo-%E5%8B%95%E7%94%BB%E5%AD%A6%E7%BF%92%E3%82%A2%E3%83%97%E3%83%AA/id903311774?mt=8)
-- [ ] [ひゃくもん＋－](https://itunes.apple.com/jp/app/%E3%81%B2%E3%82%83%E3%81%8F%E3%82%82%E3%82%93-%E5%9F%BA%E7%A4%8E%E8%A8%88%E7%AE%97%E5%8A%9B%E3%81%AE%E5%AE%9A%E7%9D%80-%E5%90%91%E4%B8%8A%E3%82%92%E5%9B%B3%E3%82%8B%E7%99%BE%E3%83%9E%E3%82%B9%E8%A8%88%E7%AE%97%E3%82%A2%E3%83%97%E3%83%AA/id1093683479?mt=8)
+* [ ] [ひゃくもん＋－](https://itunes.apple.com/jp/app/%E3%81%B2%E3%82%83%E3%81%8F%E3%82%82%E3%82%93-%E5%9F%BA%E7%A4%8E%E8%A8%88%E7%AE%97%E5%8A%9B%E3%81%AE%E5%AE%9A%E7%9D%80-%E5%90%91%E4%B8%8A%E3%82%92%E5%9B%B3%E3%82%8B%E7%99%BE%E3%83%9E%E3%82%B9%E8%A8%88%E7%AE%97%E3%82%A2%E3%83%97%E3%83%AA/id1093683479?mt=8)
 * [ ] [アルゴリズム図鑑](https://itunes.apple.com/jp/app/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0%E5%9B%B3%E9%91%91/id1047532631?mt=8)
 * [ ] [PAUSE](https://itunes.apple.com/jp/app/pause-relaxation-at-your-fingertip/id991764216?mt=8)
 
