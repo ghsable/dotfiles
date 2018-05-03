@@ -15,8 +15,6 @@ sudo systemctl enable tlp-sleep.service
 # systemctl mask
 sudo systemctl mask systemd-rfkill.service
 sudo systemctl mask systemd-rfkill.socket
-#sudo ln -snfv /dev/null /etc/systemd/system/systemd-rfkill@.service
-#sudo ln -snfv /dev/null /etc/systemd/system/systemd-rfkill@.socket
 
 # redirect config
 echo 'Update -> /etc/default/tlp'

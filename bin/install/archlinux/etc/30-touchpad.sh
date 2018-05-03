@@ -9,7 +9,7 @@ cd $(dirname ${0})
 sudo pacman -S libinput xf86-input-libinput xorg-xinput
 
 # Set default libinput
-ln -snfv /usr/share/X11/xorg.conf.d/40-libinput.conf /etc/X11/xorg.conf.d/40-libinput.conf
+sudo ln -snfv /usr/share/X11/xorg.conf.d/40-libinput.conf /etc/X11/xorg.conf.d/40-libinput.conf
 
 # redirect config
 echo 'Update -> /etc/X11/xorg.conf.d/30-touchpad.conf'
