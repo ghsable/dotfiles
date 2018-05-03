@@ -43,17 +43,17 @@ or :
 
 ## Tree Description
 * `dotfiles/`
- * `.??*` : dotfiles(Linux)
- * `doc/` : documents
- * `bin/` : scripts
-  * `*.sh` : scripts(Linux)
-  * `install/`
-   * `<OS>/`
-    * `*.sh` : install scripts
-    * `.??*` : dotfiles(NOT Linux)
-    * `list/` : `*.sh` needs this lists
-    * `etc/` : other configfiles
-     * `*.sh` : `etc.sh` needs this scripts
+    * `.??*` : dotfiles(Linux)
+    * `doc/` : documents
+    * `bin/` : scripts
+    * `*.sh` : scripts(Linux)
+        * `install/`
+            * `<OS>/`
+                * `*.sh` : install scripts
+                * `.??*` : dotfiles(NOT Linux)
+                * `list/` : `*.sh` needs this lists
+                * `etc/` : other configfiles
+                    * `*.sh` : `etc.sh` needs this scripts
 
 ## Install Manual
 - [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.md)
