@@ -2,8 +2,6 @@
 
 echo "${0} ..."
 
-cd $(dirname ${0})
-
 ### General ###
 # Set Name
 sudo scutil --set ComputerName "MacBook"
@@ -50,6 +48,3 @@ defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
 defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
 # Disable AutoFillPasswords
 defaults write com.apple.Safari AutoFillPasswords -bool false
-
-# End Message
-cat ./complete.txt

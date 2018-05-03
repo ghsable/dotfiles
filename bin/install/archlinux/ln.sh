@@ -9,7 +9,7 @@ mkdir -pvm 700 ~/Downloads ~/Pictures ~/Screenshots
 # anthy,xmonad
 mkdir -pvm 700 ~/.anthy ~/.xmonad
 
-# Deploy(symbolic link) - "./.??*"
+# Deploy(symbolic link) - "~/dotfiles/.??*"
 cd ~/dotfiles
 for dotfile in .??*
 do
@@ -22,7 +22,7 @@ do
   ln -snfv ~/dotfiles/${dotfile} ~/
 done
 
-# Deploy(symbolic link) - "Not ./.??*"
+# Deploy(symbolic link) - "Not ~/dotfiles/.??*"
 cd $(dirname ${0})
 for lnlist in $(grep -v -e '^$' -e '^#' ./list/ln.txt)
 do

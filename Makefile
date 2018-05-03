@@ -38,7 +38,6 @@ macos_install:
 
 # Initialize (macOS)
 macos_initialize:
-	@sh $(MACOS_INSTALL_DIR)/defaults.sh
 	@sh $(MACOS_INSTALL_DIR)/etc.sh
 
 # Upgrade (mac0S)

@@ -53,6 +53,7 @@ or :
               - `.??*` : dotfiles(NOT Linux)
               - `list/` : `*.sh` needs this lists
               - `etc/` : other configfiles
+                    - `*.sh` : `etc.sh` needs this scripts
 
 ## Install Manual
 - [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.md)
