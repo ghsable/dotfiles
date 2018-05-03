@@ -7,6 +7,8 @@ cd $(dirname ${0})
 # Deploy(symbolic link) - "./.??*"
 for dotfile in .??*
 do
+  [ "${dotfile}" = ".git"      ] && continue
+  [ "${dotfile}" = ".github"   ] && continue
   [ "${dotfile}" = ".DS_Store" ] && continue
 
   ln -snfv ~/dotfiles/bin/install/macos/${dotfile} ~/

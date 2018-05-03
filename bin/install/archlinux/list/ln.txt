@@ -5,12 +5,11 @@ Makefile
 # Xmonad
 .xmonad/xmonad.hs
 # Thunar(DefaultOpen+)
-.loacal/share/applications/userapp-feh-CJADVY.desktop
+.local/share/applications/userapp-feh-CJADVY.desktop
 
 ### DIRECTORY PATH ###
 doc
 bin
-bin/install/archlinux/etc
 # Thunar(CustomAction)
 .config/Thunar
 # Authy(cannadic)

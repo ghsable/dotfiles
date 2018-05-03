@@ -6,13 +6,15 @@ echo "${0} ..."
 # general
 mkdir -pvm 700 ~/.config ~/.local/share/applications
 mkdir -pvm 700 ~/Downloads ~/Pictures ~/Screenshots
-# anthy,xmonad
-mkdir -pvm 700 ~/.anthy ~/.xmonad
+# anthy,xmonad,uim
+mkdir -pvm 700 ~/.anthy ~/.xmonad ~/.uim.d
 
 # Deploy(symbolic link) - "~/dotfiles/.??*"
 cd ~/dotfiles
 for dotfile in .??*
 do
+  [ "${dotfile}" = ".git"    ] && continue
+  [ "${dotfile}" = ".github" ] && continue
   [ "${dotfile}" = ".xmonad" ] && continue
   [ "${dotfile}" = ".loacal" ] && continue
   [ "${dotfile}" = ".config" ] && continue
@@ -23,7 +25,7 @@ do
 done
 
 # Deploy(symbolic link) - "Not ~/dotfiles/.??*"
-cd $(dirname ${0})
+cd ~/dotfiles/bin/install/archlinux
 for lnlist in $(grep -v -e '^$' -e '^#' ./list/ln.txt)
 do
   ln -snfv ~/dotfiles/${lnlist} ~/${lnlist}
