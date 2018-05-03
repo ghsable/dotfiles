@@ -1,11 +1,15 @@
 # LANG(X11)
 export LANG=ja_JP.UTF-8
 
+# Xset
+xset s 60 &
+xset dpms 120 &
+
 # Uim
 export GTK_IM_MODULE='uim'
 export QT_IM_MODULE='uim'
-export XMODIFIERS='@im=uim'
 uim-xim &
+export XMODIFIERS='@im=uim'
 
 # Xbindkeys
 xbindkeys &
@@ -13,15 +17,11 @@ xbindkeys &
 # Xcompmgr
 xcompmgr -c &
 
-# Xset
-xset s 60 &
-xset dpms 120 &
-
 # Feh
 feh --randomize --bg-fill ~/wallpaper/* &
 
 # Xmobar
-xmobar ~/.xmobarrc &
+xmobar &
 
 # Xmonad
 exec xmonad

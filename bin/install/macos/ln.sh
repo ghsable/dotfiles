@@ -15,7 +15,7 @@ done
 # Deploy(symbolic link) - "Not ./.??*"
 for lnlist in $(grep -v -e '^$' -e '^#' ./list/ln.txt)
 do
-  ln -snfv ~/dotfiles/${lnlist} ~/
+  ln -snfv ~/dotfiles/${lnlist} ~/${lnlist}
 done
 
 # End Message

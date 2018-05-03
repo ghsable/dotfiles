@@ -32,8 +32,9 @@ xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau 
 
-# Sound(alsamixer)
+# Sound(alsamixer,firmware)
 alsa-utils
+alsa-firmware
 
 ### X WINDOW SYSTEM ###
 # X Server , X Utility(Group)
