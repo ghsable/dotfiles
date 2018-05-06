@@ -59,8 +59,8 @@ or :
 * [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.md)
 * [ArchLinux](https://github.com/ghsable/dotfiles/blob/master/bin/install/archlinux/README.md)
 * [Windows](https://github.com/ghsable/dotfiles/blob/master/bin/install/windows/README.md)
-* [iOS(iPhone)](https://github.com/ghsable/dotfiles/blob/master/bin/install/ios/iPhone.md)
-* [iOS(iPad)](https://github.com/ghsable/dotfiles/blob/master/bin/install/ios/iPad.md)
+* [iOS(iPhone)](https://github.com/ghsable/dotfiles/blob/master/bin/install/ios/iPhone/README.md)
+* [iOS(iPad)](https://github.com/ghsable/dotfiles/blob/master/bin/install/ios/iPad/README.md)
 
 ## Install Checklist
 * [checklist](https://github.com/ghsable/dotfiles/blob/master/bin/install/all/checklist.md)

@@ -1,6 +1,6 @@
-(define custom-activate-default-im-name? #f)
+(define custom-activate-default-im-name? #t)
 (define custom-preserved-default-im-name 'direct)
-(define default-im-name #f)
+(define default-im-name 'direct)
 (define enabled-im-list '(anthy-utf8))
 (define enable-im-switch? #f)
 (define switch-im-key '("<Control>Shift_key" "<Shift>Control_key"))

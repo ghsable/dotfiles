@@ -20,45 +20,48 @@ unzip
 # Display system Information
 screenfetch
 
-### SHELL ###
-# ZSH(Syntax-hilight)
-zsh 
-zsh-syntax-highlighting
-
 ### DRIVER ###
-# Video
-xf86-video-vesa
-xf86-video-ati
-xf86-video-intel
-xf86-video-nouveau 
+# Video(intel OpenGL)-(check ->$ lspci | grep -e VGA -e 3D)
+mesa
 
 # Sound(alsamixer,firmware)
 alsa-utils
 alsa-firmware
 
+### SHELL ###
+# ZSH(Syntax-hilight)
+zsh 
+zsh-syntax-highlighting
+
 ### X WINDOW SYSTEM ###
+# X(Groups)
+xorg
 # X Server , X Utility(Group)
 xorg-server
 xorg-apps
-
+# Terminal
+xterm
 # Xresources
 xorg-xrdb
-
-# Xinitrc
-xorg-xinit
-
-# Backlight Utility
+# KeyMap Utility(xmodmap -pke >~/.Xmodmap)
+xorg-xmodmap
+# Get window ID(xwininfo ->click)
+xorg-xwininfo
+# Backlight Utility(-> Nousing)
 xorg-xbacklight
-
 # Display Power Management
 xorg-xset
 
-# Get window ID(xwininfo -> click)
-xorg-xwininfo
+# Xinitrc(startx)
+xorg-xinit
 
 ### DESKTOP ###
-# Terminal
-xterm
+# Composit Manager/Transset Utility
+xcompmgr
+transset-df
+
+# Apps Launcher
+dmenu
 
 # Window Manager
 xmonad
@@ -67,31 +70,23 @@ xmonad-contrib
 # Status bar
 xmobar
 
-# Apps Launcher
-dmenu
+# Set Wallpaper + img viwer
+feh
 
 # Screen Lock
 slock
 
-# Composit Manager/Transset Utility
-xcompmgr
-transset-df
-
-# Set Wallpaper + img viwer
-feh
-
 ### KEYBOARD ###
-# KeyMap Utility(xmodmap -pke > ~/.Xmodmap)
-xorg-xmodmap
-
 # Keybind Utility(xbindkeys)
 xbindkeys
 
-# Input method Framework
-uim
+# Input method Framework(Fcitx(Group),Uim(-> Nousing))
+fcitx-im
+#uim
 
-# Input System
-anthy
+# Input System(Fcitx-mozc,anthy(-> Nousing))
+fcitx-mozc
+#anthy
 
 ### Font ###
 # EN moji
@@ -105,25 +100,30 @@ ttf-symbola
 noto-fonts-emoji
 
 ### BROWSER ###
-# file Manager/Display thumbnail
+# file Manager/Display img thumbnail
 thunar
 tumbler
 
 # Movie Player
 mplayer
 
-# firefox/WebBrowser/JPFont/FlashPlugin
+# firefox/JPFont(->Nousing)/FlashPlugin(->Nousing)
 firefox
-firefox-i18n-ja
-flashplugin
+#firefox-i18n-ja
+#flashplugin
 
 ### TOOL ###
+# Display AC(battery...)
+upower
+
 # Memo
 leafpad
 
-# Libreoffice/JPFontUI
-libreoffice-fresh
-libreoffice-fresh-ja
+# Libreoffice(still)/JPFontUI(still)/Libreoffice(fresh)/JPFontUI(fresh)
+libreoffice-still
+#libreoffice-still-ja
+#libreoffice-fresh
+#libreoffice-fresh-ja
 
 # Screen shot              
 scrot
@@ -131,7 +131,8 @@ scrot
 # Screen cast
 simplescreenrecorder
 
-# Make Gif
+# Edit img(ImageMagic,GraphicsMagick)
+imagemagick
 graphicsmagick
 
 ### PROGRAMMING ###
@@ -140,3 +141,6 @@ jdk8-openjdk
 
 # C#
 mono
+
+# Python
+python

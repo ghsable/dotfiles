@@ -2,15 +2,14 @@
 # xbindkeys configuration #
 ###########################
 
-## Set xbindkeys ##
+### Check Kyecode ###
+# $ xbindkeys -k
 
-# xbacklight down | Control + XF86MonBrightnessDown | Control + F1
-"xbacklight -dec 2"
-  m:0x4 + c:232 
+### Set xbindkeys ###
 
-# xbacklight up | Control + XF86MonBrightnessUp | Control + F2
-"xbacklight -inc 2"
-   m:0x4 + c:233
+# Strat XTerm | Control + Return
+"sh ~/bin/transset-df_xterm.sh"
+   m:0x4 + c:36
 
 # dmenu | XF86LaunchA | F3
 "dmenu_run"
@@ -20,54 +19,65 @@
 "sh ~/bin/startup_apps.sh"
    m:0x4 + c:128
 
-# Screenshot FocusWindow | Control + XF86LaunchB | Control + F4
-"scrot -u ~/Screenshots/%m%d_%H%M%S.png"
+# Screen Shot (Desktop) | Control + XF86LaunchB | Control + F4
+"scrot ~/Screenshots/%m%d_%H%M%S.png"
    m:0x4 + c:212
 
-# Screenshot SelectSize |  Shift + XF86LaunchB | Shift + F4
-"sleep 0.5 && scrot -s ~/Screenshots/%m%d_%H%M%S.png"
+# Screen Shot (Focus Window) |  Shift + XF86LaunchB | Shift + F4
+"scrot -u ~/Screenshots/%m%d_%H%M%S.png"
    m:0x1 + c:212
 
-# Screenshot Desktop | Control+Shift + XF86LaunchB | Control+Shift + F4
-"scrot ~/Screenshots/%m%d_%H%M%S.png"
-   m:0x5 + c:212
-
-# set ScreenSaver off | Control + XF86KbdBrightnessDown | Control + F5
-"xset +dpms; xset s 60"
-   m:0x4 + c:237
-
-# set ScreenSaver on | Control + XF86KbdBrightnessUp | Control + F6 
-"xset -dpms; xset s off"
-   m:0x4 + c:238
-
-# amixer mute | XF86AudioMute | F10
-# "amixer set Master toggle"
-"amixer sset Master mute"
+# volume mute | XF86AudioMute | F10
+"sh ~/bin/alsa.sh mute"
    m:0x0 + c:121
    
-# amixer mute | Control + XF86AudioMute | Control + F10
-"amixer sset Master unmute"
+# volume unmute | Control + XF86AudioMute | Control + F10
+"sh ~/bin/alsa.sh unmute"
    m:0x4 + c:121
 
-# amixer down | Control + XF86AudioLowerVolume | Control + F11
-"amixer set Master 5%-"
-   m:0x4 + c:122
+# volume down | Control + XF86AudioLowerVolume | F11
+"sh ~/bin/alsa.sh -"
+   m:0x0 + c:122
 
-# amixer up | Control + XF86AudioRaiseVolume | Control + F12
-"amixer set Master 5%+"
-   m:0x4 + c:123
+# volume up | Control + XF86AudioRaiseVolume | F12
+"sh ~/bin/alsa.sh +"
+   m:0x0 + c:123
 
-# xset suspend -> slock | XF86PowerOff | powerkey
-"xset dpms force suspend && slock"
-   m:0x0 + c:124
+# NONE | Control + XF86MonBrightnessDown | Control + F1
+#""
+#  m:0x4 + c:232 
 
-# shutdown | Control+Alt + BackSpace
-"poweroff"
-   m:0xc + c:22
+# NONE | Control + XF86MonBrightnessUp | Control + F2
+#""
+#   m:0x4 + c:233
 
-# Strat XTerm | Control + Return
-"sh ~/bin/transset-df_xterm.sh"
-   m:0x4 + c:36
+# NONE | Control+Shift + XF86LaunchB | Control+Shift + F4
+#""
+#   m:0x5 + c:212
+
+# NONE | Control + XF86KbdBrightnessDown | Control + F5
+#""
+#   m:0x4 + c:237
+
+# NONE | Control + XF86KbdBrightnessUp | Control + F6 
+#""
+#   m:0x4 + c:238
+
+# NONE | Control + XF86AudioLowerVolume | Control + F11
+#""
+#   m:0x4 + c:122
+
+# NONE | Control + XF86AudioRaiseVolume | Control + F12
+#""
+#   m:0x4 + c:123
+
+# NONE | XF86PowerOff | powerkey
+#""
+#   m:0x0 + c:124
+
+# NONE | Control + Alt + BackSpace
+#""
+#   m:0xc + c:22
 
 ##################################
 # End of xbindkeys configuration #

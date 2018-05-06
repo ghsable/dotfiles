@@ -1,6 +1,6 @@
 [user]
-	name = ghsable
-	email = sn.sable005@gmail.com
+	name = "ghsable"
+	email = "sn.sable005@gmail.com"
 [core]
 	editor = vi
 [alias]

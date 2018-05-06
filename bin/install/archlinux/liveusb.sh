@@ -71,7 +71,7 @@ echo '#################### PLEASE REPLACE THIS LINE ####################'
 echo 'Defaults env_keep += "HOME"'
 echo '%wheel ALL=(ALL) ALL'
 } >>/etc/sudoers
-vi /etc/sudoers
+visudo
 
 # Set journald(journal -> RAM)
 mkdir -pv /etc/systemd/journald.conf.d

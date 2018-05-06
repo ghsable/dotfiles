@@ -12,6 +12,8 @@ doc
 bin
 # Thunar(CustomAction)
 .config/Thunar
+# Input Method Framework(fcitx)
+.config/fcitx
 # Authy(cannadic)
 .anthy/imported_words_default.d
 # Uim

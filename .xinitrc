@@ -57,6 +57,19 @@ fi
 
 #################### THIS CONFIG #################### 
 
+# Input Method Framework(fcitx)
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export DefaultIMModule=fcitx
+fcitx autostart&
+
+# Input Method Framework(Uim)
+#export GTK_IM_MODULE='uim'
+#export QT_IM_MODULE='uim'
+#uim-xim &
+#export XMODIFIERS='@im=uim'
+
 # Make sure this is before the 'exec' command or it won't be sourced.
 [ -f /etc/xprofile ] && source /etc/xprofile
 [ -f ~/.xprofile ] && source ~/.xprofile
