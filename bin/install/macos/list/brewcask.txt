@@ -1,18 +1,12 @@
-# SYSTEM
 appcleaner
 dropbox
 virtualbox
 maczip4win
 licecap
-
-# PLAYER
+real-vnc
 5kplayer
 steam
-
-# WEB
 google-chrome
 firefox
-
-# PROGRAMMING
 atom
 arduino
