@@ -36,7 +36,7 @@ setopt no_beep
 
 ## HISTFILE ##
 # Set HISTFILE
-HISTFILE=~/dotfiles/.zsh_history
+HISTFILE=~/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
 # Ignore All Overlap
