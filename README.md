@@ -4,13 +4,13 @@
 <table style="table-layout:fixed;" width="100%">
   <tbody align="center">
     <tr>
-      <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/macos/README.gif" alt="macos_README.gif"></td>
+      <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/macos/README.gif" alt="macos_README.gif"></td>
     </tr>
     <tr>
       <td>macOS</td>
     </tr>
     <tr>
-      <td><img src="https://github.com/ghsable/dotfiles/blob/master/bin/install/archlinux/README.png" alt="archlinux_README.gif"></td>
+      <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/archlinux/README.png" alt="archlinux_README.png"></td>
     </tr>
     <tr>
       <td>Arch Linux</td>
