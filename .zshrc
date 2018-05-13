@@ -14,14 +14,11 @@ alias vim='vi'
 # other
 alias sd='dirs -v; echo -n "select number: "; read newdir; cd +"$newdir"'
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -e "time to full:" -e "time to empty:" -e "percentage:"'
-alias rec='simplescreenrecorder'
 # sh
 alias feh='sh ~/bin/feh_browser.sh'
+alias suspend='sh ~/bin/xset.sh suspend'
 alias incbrightness='sh ~/bin/brightness_acpi.sh +'
 alias decbrightness='sh ~/bin/brightness_acpi.sh -'
-alias onscreensaver='sh ~/bin/xset.sh on 60'
-alias offscreensaver='sh ~/bin/xset.sh off'
-alias suspend='sh ~/bin/xset.sh suspend'
 
 ### PROMPT ###
 PROMPT="%B%F{cyan}☠%f %F{cyan}[ %m@%U%n%u ] [ %~ ]%f

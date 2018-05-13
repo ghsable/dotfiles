@@ -17,10 +17,9 @@ xcompmgr -c &
 # Feh
 feh --randomize --bg-fill ~/wallpaper/*
 
+# Xmodmap
+sh ~/bin/xmodmap.sh make
+sh ~/bin/xmodmap.sh load
+
 # Xmonad
 exec xmonad
-
-### Nousing ###
-
-# XFCE4
-#exec startxfce4

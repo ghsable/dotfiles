@@ -2,7 +2,7 @@
 # xbindkeys configuration #
 ###########################
 
-### Check Kyecode ###
+### Check Keycode ###
 # $ xbindkeys -k
 
 ### Set xbindkeys ###
@@ -12,29 +12,25 @@
    m:0x4 + c:36
 
 # dmenu | XF86LaunchA | F3
-"dmenu_run"
+"sh ~/bin/tools.sh launch_a"
    m:0x0 + c:128
    
 # Startup_Apps | Control + XF86LaunchA | Control + F3
 "sh ~/bin/startup_apps.sh"
    m:0x4 + c:128
 
-# Screen Shot (Desktop) | Control + XF86LaunchB | Control + F4
-"scrot ~/Screenshots/%m%d_%H%M%S.png"
+# Screen Shot(Desktop) | Control + XF86LaunchB | Control + F4
+"sh ~/bin/scrot.sh"
    m:0x4 + c:212
 
-# Screen Shot (Focus Window) |  Shift + XF86LaunchB | Shift + F4
-"scrot -u ~/Screenshots/%m%d_%H%M%S.png"
+# ScreenShot(Focus Window) |  Shift + XF86LaunchB | Shift + F4
+"sh ~/bin/scrot.sh -u"
    m:0x1 + c:212
 
-# volume mute | XF86AudioMute | F10
-"sh ~/bin/alsa.sh mute"
+# volume toggle | XF86AudioMute | F10
+"sh ~/bin/alsa.sh toggle"
    m:0x0 + c:121
    
-# volume unmute | Control + XF86AudioMute | Control + F10
-"sh ~/bin/alsa.sh unmute"
-   m:0x4 + c:121
-
 # volume down | Control + XF86AudioLowerVolume | F11
 "sh ~/bin/alsa.sh -"
    m:0x0 + c:122
@@ -62,6 +58,10 @@
 # NONE | Control + XF86KbdBrightnessUp | Control + F6 
 #""
 #   m:0x4 + c:238
+
+# NONE | Control + XF86AudioMute | Control + F10
+#""
+#   m:0x4 + c:121
 
 # NONE | Control + XF86AudioLowerVolume | Control + F11
 #""

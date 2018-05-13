@@ -11,27 +11,25 @@ Flow:
   3. sh ${0} load
 
 Usage:
-  sh ${0} make : CREATE "~/.xkb/xkbmap"
-  sh ${0} load : LOAD   "~/.xkb/xkbmap"
-  sh ${0} help : this script usage
+  sh ${0} make : CREATE "~/.xkbmap"
+  sh ${0} load : LOAD   "~/.xkbmap"
+  sh ${0} *    : usage
 
 EOF:
   setxkbmap -print -verbose 10
 
 _EOT_
+exit 1
 }
 
-if [ "${1}" = "make" ]; then
-   mkdir -pv ~/.xkb
-   xkbcomp -xkb $DISPLAY ~/.xkb/xkbmap
-   :
-elif [ "${1}" = "load" ]; then
-   xkbcomp -w 0 ~/.xkb/xkbmap $DISPLAY 
-   :
-elif [ "${1}" = "help" ]; then
-   usage
-   :
-else
-   echo -e 'ERROR!!\n'
-   usage
-fi
+case ${1} in
+  make)
+    xkbcomp -xkb $DISPLAY ~/.xkbmap
+    ;;
+  load)
+    xkbcomp -w 0 ~/.xkbmap $DISPLAY 
+    ;;
+  *)
+    usage
+    ;;
+esac

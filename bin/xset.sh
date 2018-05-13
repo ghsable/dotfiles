@@ -9,31 +9,25 @@ Usage:
   sh ${0} on <sec> : ON  screen saver + Set timeout
   sh ${0} off      : OFF screen saver
   sh ${0} suspend  : SUSPEND -> LOCK screen
-  sh ${0} help     : this script usage
+  sh ${0} *        : usage
 
 EOF:
   xset q
 
 _EOT_
+exit 1
 }
 
-if [ "${1}" = "on" ]; then
-   readonly TIMEOUT_SEC=${2}
-   xset s on
-   xset s ${TIMEOUT_SEC} ${TIMEOUT_SEC}
-   :
-elif [ "${1}" = "off" ]; then
-   xset s off
-   :
-elif [ "${1}" = "suspend" ]; then
-   xset dpms force suspend
-   slock
-   :
-elif [ "${1}" = "help" ]; then
-   usage
-   :
-else
-   echo -e 'ERROR!!\n'
-   usage
-   :
-fi
+case ${1} in
+  on | off)
+    xset s ${1}
+    xset s ${2} ${2}
+    ;;
+  suspend)
+    xset dpms force ${1}
+    slock
+    ;;
+  *)
+    usage
+    ;;
+esac
