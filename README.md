@@ -4,13 +4,13 @@
 <table style="table-layout:fixed;" width="100%">
   <tbody align="center">
     <tr>
-      <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/macos/README.gif" alt="macos_README.gif"></td>
+      <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_macos/README.gif" alt="macos_README.gif"></td>
     </tr>
     <tr>
       <td>macOS</td>
     </tr>
     <tr>
-      <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/archlinux/README.png" alt="archlinux_README.png"></td>
+      <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.png" alt="archlinux_README.png"></td>
     </tr>
     <tr>
       <td>Arch Linux</td>
@@ -27,7 +27,7 @@ OS selection :
 `macos`,`archlinux`
 
 this script : 
-[install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/install/install.sh)
+[install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/install.sh)
 
 - - -
 or : 
@@ -35,8 +35,8 @@ or :
     # CLONE DOTFILES
     git clone https://github.com/ghsable/dotfiles.git ~/dotfiles
     # EDIT
-    vi ~/dotfiles/.gitconfig           # GitHub config
-    vi ~/dotfiles/bin/<OS>/list/*.txt  # Namelist(pkg,symbolic link...)
+    vi ~/dotfiles/.gitconfig             # GitHub config
+    vi ~/dotfiles/bin/install_<OS>/*.txt # Namelist(pkg,symbolic link...)
     # INSTALL
     cd ~/dotfiles
     make <OS>_install
@@ -59,8 +59,8 @@ or :
 * [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install_macos/README.md)
 * [ArchLinux](https://github.com/ghsable/dotfiles/blob/master/bin/install_archlinux/README.md)
 * [Windows](https://github.com/ghsable/dotfiles/blob/master/bin/install_windows/README.md)
-* [iOS(iPhone)](https://github.com/ghsable/dotfiles/blob/master/bin/install_ios/iphone/README.md)
-* [iOS(iPad)](https://github.com/ghsable/dotfiles/blob/master/bin/install_ios/ipad/README.md)
+* [iOS(iPhone)](https://github.com/ghsable/dotfiles/blob/master/bin/install_ios/iPhone/README.md)
+* [iOS(iPad)](https://github.com/ghsable/dotfiles/blob/master/bin/install_ios/iPad/README.md)
 
 ## Install Checklist
 * [checklist](https://github.com/ghsable/dotfiles/blob/master/bin/install_all/checklist.md)
