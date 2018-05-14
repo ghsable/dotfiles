@@ -2,5 +2,5 @@
 
 echo "${0} ..."
 
-# [SHELL] Set ZSH
+# [SHELL] Set Default
 chsh -s $(which zsh)

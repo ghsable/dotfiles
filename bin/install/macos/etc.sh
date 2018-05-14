@@ -10,5 +10,4 @@ do
   sh ${shfile}
 done
 
-# End Message
-cat ./complete.txt
+echo '---------------------------------------->>(EOF)'

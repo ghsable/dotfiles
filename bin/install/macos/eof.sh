@@ -16,5 +16,4 @@ brew cask list
 echo "##### installed mas file #####"
 mas list
 
-# End Message
-cat ./complete.txt
+echo '---------------------------------------->>(EOF)'

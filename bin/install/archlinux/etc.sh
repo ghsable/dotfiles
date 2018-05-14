@@ -2,10 +2,8 @@
 
 echo "${0} ..."
 
-cd $(dirname ${0})
-
-# Set /etc/*
-for shfile in ./etc/*.sh
+# Set "/etc/*"
+for shfile in $(dirname ${0})/etc/*.sh
 do
   sh ${shfile}
 done
@@ -13,5 +11,4 @@ done
 # Display systemctl service
 sudo systemctl list-unit-files
 
-# End Message
-cat ./complete.txt
+echo '---------------------------------------->>(EOF)'

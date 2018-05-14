@@ -3,24 +3,21 @@
 echo "${0} ..."
 
 ### FUNCTION ###
-function mkdir_confdir() {
+function mkdir_basedir() {
 # Make Directory
-# general
-mkdir -pvm 700 ~/Downloads ~/Pictures ~/Screenshots
-mkdir -pvm 700 ~/.config ~/.local/share/applications
-# anthy,xmonad,uim
-mkdir -pvm 700 ~/.uim.d ~/.anthy ~/.xmonad 
+mkdir -pv ~/data
+mkdir -pv ~/.config ~/.local/share/applications ~/.uim.d ~/.anthy ~/.xmonad
 }
 
 function ln_dotfiles() {
-# Deploy(symbolic link) - "~/dotfiles/.??*"
+# Deploy(symbolic link) : "~/dotfiles/.??*"
 cd ~/dotfiles
 for dotfile in .??*
 do
   [ "${dotfile}" = ".git"    ] && continue
   [ "${dotfile}" = ".github" ] && continue
   [ "${dotfile}" = ".xmonad" ] && continue
-  [ "${dotfile}" = ".loacal" ] && continue
+  [ "${dotfile}" = ".local"  ] && continue
   [ "${dotfile}" = ".config" ] && continue
   [ "${dotfile}" = ".uim.d"  ] && continue
   [ "${dotfile}" = ".anthy"  ] && continue
@@ -29,19 +26,18 @@ do
 done
 }
 
-function ln_otherfiles() {
-# Deploy(symbolic link) - "Not ~/dotfiles/.??*"
+function ln_notdotfiles() {
+# Deploy(symbolic link) -> "Not ~/dotfiles/.??*"
 cd ~/dotfiles/bin/install/archlinux
-for lnlist in $(grep -v -e '^$' -e '^#' ./list/ln.txt)
+for notdotfile in $(grep -v -e '^$' -e '^#' ./ln.txt)
 do
-  ln -snfv ~/dotfiles/${lnlist} ~/${lnlist}
+  ln -snfv ~/dotfiles/${notdotfile} ~/${notdotfile}
 done
 }
 
 ### RUN ###
-mkdir_confdir 
+mkdir_basedir 
 ln_dotfiles
-ln_otherfiles
+ln_notdotfiles
 
-# End Message
-cat ./complete.txt
+echo '---------------------------------------->>(EOF)'

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function usage() {
-cat <<_EOT_
+cat<< _EOT_
 Description:
   Set Xmodmap
 
@@ -18,7 +18,7 @@ exit 1
 }
 
 function add_config() {
-cat <<_EOT_
+cat<< _EOT_
 !!!!!!!!!!!!!!!!!!!! THIS CONFIG !!!!!!!!!!!!!!!!!!!!
 !clear Shift
 clear Lock

@@ -84,3 +84,5 @@ vi /etc/systemd/journald.conf.d/usbstick.conf
 
 # Install git
 pacman -S git
+
+echo '---------------------------------------->>(EOF)'

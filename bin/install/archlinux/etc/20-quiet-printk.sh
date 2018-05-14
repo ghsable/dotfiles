@@ -2,9 +2,15 @@
 
 echo "${0} ..."
 
-cd $(dirname ${0})
+function add_config() {
+cat<< _EOT_
+kernel.printk = 3 3 3 3
+_EOT_
+return 0
+}
 
 # [Sysctl] kernel dmesg = null
-echo 'Update -> /etc/sysctl.d/20-quiet-printk.conf'
-cat ./delimiter.txt ./20-quiet-printk.conf | sudo tee -a /etc/sysctl.d/20-quiet-printk.conf
-sudo vi /etc/sysctl.d/20-quiet-printk.conf
+readonly ETCCONF_FILE=/etc/sysctl.d/20-quiet-printk.conf
+echo "UPDATE : ${ETCCONF_FILE}"
+add_config | sudo tee ${ETCCONF_FILE}
+sudo vi ${ETCCONF_FILE}

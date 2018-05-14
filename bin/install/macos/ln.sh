@@ -29,5 +29,4 @@ done
 ln_dotfiles
 ln_otherfiles
 
-# End Message
-cat ./complete.txt
+echo '---------------------------------------->>(EOF)'

@@ -1,5 +1,5 @@
 ### SYSTEM ###
-# Arch Linux Auto Setup Tool
+# Arch Linux
 arch-install-scripts
 
 # Partitioning Tool
@@ -13,7 +13,7 @@ exfat-utils
 ntfs-3g
 e2fsprogs
 
-# zip/uzip
+# Data Compression
 zip
 unzip
 
@@ -21,38 +21,45 @@ unzip
 screenfetch
 
 ### DRIVER ###
-# Video(intel OpenGL)-(check ->$ lspci | grep -e VGA -e 3D)
+# Video(OpenGL)
+# $ lspci | grep -e VGA -e 3D
 mesa
 
-# Sound(alsamixer,firmware)
+# Sound
 alsa-utils
 alsa-firmware
 
 ### SHELL ###
-# ZSH(Syntax-hilight)
+# ZSH
 zsh 
 zsh-syntax-highlighting
 
 ### X WINDOW SYSTEM ###
-# X(Groups)
+# X [Group]
 xorg
-# X Server , X Utility(Group)
+# X Server , X Utility [Group]
 xorg-server
 xorg-apps
 # Terminal
 xterm
 # Xresources
 xorg-xrdb
-# KeyMap Utility(xmodmap -pke >~/.Xmodmap)
+# KeyMap Utility
+# $ xmodmap -pke >~/.Xmodmap
 xorg-xmodmap
-# Get window ID(xwininfo ->click)
+
+# Get Window ID
+# $ xwininfo
 xorg-xwininfo
-# Backlight Utility(-> Nousing)
+
+# Backlight Utility
 xorg-xbacklight
+
 # Display Power Management
 xorg-xset
 
-# Xinitrc(startx)
+# Xinitrc
+# $ startx
 xorg-xinit
 
 ### DESKTOP ###
@@ -60,31 +67,31 @@ xorg-xinit
 xcompmgr
 transset-df
 
-# Apps Launcher
+# Launcher
 dmenu
 
 # Window Manager
 xmonad
 xmonad-contrib
 
-# Status bar
+# Statusbar
 xmobar
 
-# Set Wallpaper + img viwer
+# img viwer + Set Wallpaper
 feh
 
 # Screen Lock
 slock
 
 ### KEYBOARD ###
-# Keybind Utility(xbindkeys)
+# Keybind Utility
 xbindkeys
 
-# Input method Framework(Fcitx(Group),Uim(-> Nousing))
+# Input method Framework
 fcitx-im
 #uim
 
-# Input System(Fcitx-mozc,anthy(-> Nousing))
+# Input System
 fcitx-mozc
 #anthy
 
@@ -95,48 +102,48 @@ ttf-dejavu
 # JP moji
 otf-ipafont
 
-# emoji
+# Emoji
 ttf-symbola
 noto-fonts-emoji
 
 ### BROWSER ###
-# file Manager/Display img thumbnail
+# File Manager
 thunar
 tumbler
 
 # Movie Player
 mplayer
 
-# firefox/JPFont(->Nousing)/FlashPlugin(->Nousing)
+# Web Search
 firefox
 #firefox-i18n-ja
 #flashplugin
 
 ### TOOL ###
-# Display AC(battery...)
+# Display AC
 upower
 
-# Memo
+# Screenshot              
+scrot
+
+# Screencast
+simplescreenrecorder
+
+# Edit img
+imagemagick
+graphicsmagick
+
+# Note
 leafpad
 
-# Libreoffice(still)/JPFontUI(still)/Libreoffice(fresh)/JPFontUI(fresh)
+# Office Suite
 libreoffice-still
 #libreoffice-still-ja
 #libreoffice-fresh
 #libreoffice-fresh-ja
 
-# Screen shot              
-scrot
-
-# Screen cast
-simplescreenrecorder
-
-# Edit img(ImageMagic,GraphicsMagick)
-imagemagick
-graphicsmagick
-
 ### PROGRAMMING ###
-# Java OpenJDK8
+# Java
 jdk8-openjdk
 
 # C#

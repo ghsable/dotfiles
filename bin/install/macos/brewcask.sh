@@ -13,5 +13,4 @@ brew cask install $(grep -v -e '^$' -e '^#' ./list/brewcask.txt)
 # Delete Cache(all brew cask file)
 brew cask cleanup
 
-# End Message
-cat ./complete.txt
+echo '---------------------------------------->>(EOF)'

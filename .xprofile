@@ -1,12 +1,19 @@
 # LANG(X11)
 export LANG=ja_JP.UTF-8
 
-# Xset
-sh ~/bin/xset.sh on 60
-
 # XKB(X Keyboard extension)
 sh ~/bin/xkb.sh make
 sh ~/bin/xkb.sh load
+
+# Feh
+feh --randomize --bg-fill ~/wallpaper/*
+
+# Input Method Framework(fcitx)
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export DefaultIMModule=fcitx
+fcitx autostart&
 
 # Xbindkeys
 xbindkeys &
@@ -14,12 +21,19 @@ xbindkeys &
 # Xcompmgr
 xcompmgr -c &
 
-# Feh
-feh --randomize --bg-fill ~/wallpaper/*
+# Xset
+sh ~/bin/xset.sh on 60
 
 # Xmodmap
 sh ~/bin/xmodmap.sh make
 sh ~/bin/xmodmap.sh load
 
-# Xmonad
+# Window Manager(Xmonad)
 exec xmonad
+
+#################### NOT USING #################### 
+# Input Method Framework(Uim)
+#export GTK_IM_MODULE='uim'
+#export QT_IM_MODULE='uim'
+#uim-xim &
+#export XMODIFIERS='@im=uim'
