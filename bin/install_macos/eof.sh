@@ -2,8 +2,6 @@
 
 echo "${0} ..."
 
-cd $(dirname ${0})
-
 # Display installed brew file
 echo "##### installed brew file #####"
 brew list

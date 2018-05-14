@@ -6,27 +6,27 @@ cd $(dirname ${0})
 
 ### FUNCTION ###
 function ln_dotfiles() {
-# Deploy(symbolic link) - "./.??*"
+# Deploy(symbolic link) : "./.??*"
 for dotfile in .??*
 do
   [ "${dotfile}" = ".git"      ] && continue
   [ "${dotfile}" = ".github"   ] && continue
   [ "${dotfile}" = ".DS_Store" ] && continue
 
-  ln -snfv ~/dotfiles/bin/install/macos/${dotfile} ~/
+  ln -snfv ~/dotfiles/bin/install_macos/${dotfile} ~/
 done
 }
 
-function ln_otherfiles() {
-# Deploy(symbolic link) - "Not ./.??*"
-for lnlist in $(grep -v -e '^$' -e '^#' ./list/ln.txt)
+function ln_notdotfiles() {
+# Deploy(symbolic link) : "Not ./.??*"
+for notdotfile in $(grep -v -e '^$' -e '^#' ./ln.txt)
 do
-  ln -snfv ~/dotfiles/${lnlist} ~/${lnlist}
+  ln -snfv ~/dotfiles/${notdotfile} ~/${notdotfile}
 done
 }
 
 ### RUN ###
 ln_dotfiles
-ln_otherfiles
+ln_notdotfiles
 
 echo '---------------------------------------->>(EOF)'

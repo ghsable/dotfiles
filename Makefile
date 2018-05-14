@@ -1,6 +1,6 @@
 $(eval BIN_DIR := ~/dotfiles/bin)
-$(eval MACOS_INSTALL_DIR := $(BIN_DIR)/install/macos)
-$(eval ARCHLINUX_INSTALL_DIR := $(BIN_DIR)/install/archlinux)
+$(eval MACOS_INSTALL_DIR := $(BIN_DIR)/install_macos)
+$(eval ARCHLINUX_INSTALL_DIR := $(BIN_DIR)/install_archlinux)
 
 # test
 all:

@@ -27,8 +27,8 @@ done
 }
 
 function ln_notdotfiles() {
-# Deploy(symbolic link) -> "Not ~/dotfiles/.??*"
-cd ~/dotfiles/bin/install/archlinux
+# Deploy(symbolic link) : "Not ~/dotfiles/.??*"
+cd ~/dotfiles/bin/install_archlinux
 for notdotfile in $(grep -v -e '^$' -e '^#' ./ln.txt)
 do
   ln -snfv ~/dotfiles/${notdotfile} ~/${notdotfile}
