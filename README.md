@@ -45,16 +45,16 @@ or :
 * `dotfiles/`
   * `.??*` : dotfiles(linux)
   * `doc/`
-    * `* ` : documents
+    * `*`    : documents
   * `bin/`
     * `*.sh` : scripts(linux)
       * `install_<OS>/`
-        * `.??* ` : dotfiles(not linux)
-        * `*.sh ` : install scripts
+        * `.??*`  : dotfiles(not linux)
+        * `*.sh`  : install scripts
         * `*.txt` : `*.sh` needs this lists
         * `etc/`
-          * `*.sh` : `etc.sh` needs this scripts
-          * `*   ` : other configfiles
+          * `*.sh`  : `etc.sh` needs this scripts
+          * `*`     : other configfiles
 
 ## Install Manual
 * [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install_macos/README.md)
