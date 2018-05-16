@@ -21,7 +21,7 @@
 ## Installation
 one-liner : 
 
-    bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/install.sh)"
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install.sh)"
 
 OS selection :
 `macos`,`archlinux`
@@ -43,17 +43,18 @@ or :
 
 ## Tree Description
 * `dotfiles/`
-    * `.??*` : dotfiles(Linux)
-    * `doc/` : documents
-    * `bin/`
-      * `*.sh` : scripts(Linux)
-        * `install_<OS>/`
-          * `.??*`  : dotfiles(NOT Linux)
-          * `*.sh`  : install scripts
-          * `*.txt` : `*.sh` needs this lists
-          * `etc/`
-            * `*.sh` : `etc.sh` needs this scripts
-            * `*`    : other configfiles
+  * `.??*` : dotfiles(linux)
+  * `doc/`
+    * `* ` : documents
+  * `bin/`
+    * `*.sh` : scripts(linux)
+      * `install_<OS>/`
+        * `.??* ` : dotfiles(not linux)
+        * `*.sh ` : install scripts
+        * `*.txt` : `*.sh` needs this lists
+        * `etc/`
+          * `*.sh` : `etc.sh` needs this scripts
+          * `*   ` : other configfiles
 
 ## Install Manual
 * [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install_macos/README.md)
