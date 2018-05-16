@@ -36,25 +36,26 @@ or :
     git clone https://github.com/ghsable/dotfiles.git ~/dotfiles
     # EDIT
     vi ~/dotfiles/.gitconfig             # GitHub config
-    vi ~/dotfiles/bin/install_<OS>/*.txt # Namelist(pkg,symbolic link...)
+    vi ~/dotfiles/bin/install_<OS>/*.txt # namelist(pkg,symbolic link...)
     # INSTALL
     cd ~/dotfiles
     make <OS>_install
 
 ## Tree Description
-* `dotfiles/`
-  * `.??*` : dotfiles(linux)
-  * `doc/`
-    * `*`    : documents
-  * `bin/`
-    * `*.sh` : scripts(linux)
-      * `install_<OS>/`
-        * `.??*`  : dotfiles(not linux)
-        * `*.sh`  : install scripts
-        * `*.txt` : `*.sh` needs this lists
-        * `etc/`
-          * `*.sh`  : `etc.sh` needs this scripts
-          * `*`     : other configfiles
+
+    dotfiles
+    ├── .??*` : dotfiles(linux)
+    ├── doc
+    │  └── *.md : documents 
+    └──bin
+       ├── *.sh : scripts(linux)
+       └── install_<OS>
+           ├── .??*  : dotfiles(<OS>)
+           ├── *.sh  : install scripts
+           ├── *.txt : *.sh needs this namelists
+           └── etc
+              ├── *.sh : etc.sh needs this scripts
+              └── *    : other config files
 
 ## Install Manual
 * [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install_macos/README.md)

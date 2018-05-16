@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function usage() {
-cat <<_EOT_
+cat<< _EOT_
 Description:
   ScreenShot
 
