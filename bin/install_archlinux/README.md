@@ -82,7 +82,7 @@ lsblk -f && cat /mnt/etc/fstab
 # インストール先USBに入る
 arch-chroot /mnt
 # 初期設定
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/archlinux/liveusb.sh)"  # GitHubより自動セットアップ
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/liveusb.sh)"  # GitHubより自動セットアップ
 exit            # chrootを抜ける
 umount -R /mnt  # アンマウント
 reboot          # 再起動
@@ -95,6 +95,6 @@ exit
 nmtui
 ping archlinux.jp
 # GitHubより自動セットアップ(install.sh)
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install.sh)"
 reboot
 ```

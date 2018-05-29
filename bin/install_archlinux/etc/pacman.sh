@@ -13,7 +13,7 @@ return 0
 }
 
 # [Pacman] Set options
-readonly ETCCONF_FILE=/etc/pacman.conf
+readonly ETCCONF_FILE="/etc/pacman.conf"
 echo "UPDATE : ${ETCCONF_FILE}"
 add_config | sudo tee -a ${ETCCONF_FILE}
 sudo vi ${ETCCONF_FILE}

@@ -10,7 +10,7 @@ return 0
 }
 
 # [Sysctl] kernel dmesg = null
-readonly ETCCONF_FILE=/etc/sysctl.d/20-quiet-printk.conf
+readonly ETCCONF_FILE="/etc/sysctl.d/20-quiet-printk.conf"
 echo "UPDATE : ${ETCCONF_FILE}"
 add_config | sudo tee ${ETCCONF_FILE}
 sudo vi ${ETCCONF_FILE}

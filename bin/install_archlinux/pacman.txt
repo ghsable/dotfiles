@@ -47,14 +47,13 @@ xorg-xrdb
 # KeyMap Utility
 # $ xmodmap -pke >~/.Xmodmap
 xorg-xmodmap
-
 # Get Window ID
 # $ xwininfo
 xorg-xwininfo
-
+# Display Device ID
+xorg-xinput
 # Backlight Utility
 xorg-xbacklight
-
 # Display Power Management
 xorg-xset
 

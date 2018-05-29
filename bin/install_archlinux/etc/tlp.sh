@@ -37,8 +37,8 @@ _EOT_
 return 0
 }
 
-# [TLP] Tuning
-readonly ETCCONF_FILE=/etc/default/tlp
+# tuning
+readonly ETCCONF_FILE="/etc/default/tlp"
 echo "UPDATE : ${ETCCONF_FILE}"
 add_config | sudo tee -a ${ETCCONF_FILE}
 sudo vi ${ETCCONF_FILE}
