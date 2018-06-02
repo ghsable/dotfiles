@@ -3,13 +3,13 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Set DPMS(Display Power Management Signaling)
+  SET DPMS(Display Power Management Signaling)
 
 Usage:
   sh ${0} on <sec> : ON  screen saver + Set timeout
   sh ${0} off      : OFF screen saver
   sh ${0} suspend  : SUSPEND -> LOCK screen
-  sh ${0} *        : usage
+  sh ${0} *        : USAGE
 
 EOF:
   xset q

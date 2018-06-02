@@ -3,14 +3,14 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Tools Menu
+  MENU(tools)
 
 Usage:
   sh ${0} launch_a : dmenu
   sh ${0} rec      : simplescreenrecorder
   sh ${0} note     : leafpad
   sh ${0} office   : libreoffice
-  sh ${0} *        : usage
+  sh ${0} *        : USAGE
 
 _EOT_
 exit 1

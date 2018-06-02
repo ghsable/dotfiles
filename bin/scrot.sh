@@ -3,13 +3,13 @@
 function usage() {
 cat<< _EOT_
 Description:
-  ScreenShot
+  SCREENSHOT
 
 Usage:
-  sh ${0}    : desktop
-  sh ${0} -u : focus window
-  sh ${0} -s : select size
-  sh ${0} *  : usage
+  sh ${0}    : SCREENSHOT desktop
+  sh ${0} -u : SCREENSHOT focus window
+  sh ${0} -s : SCREENSHOT select size
+  sh ${0} *  : USAGE
 
 _EOT_
 exit 1

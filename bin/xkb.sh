@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Set XKB(X Keyboard extension)
+  SET XKB(X Keyboard extension)
 
 Flow:
   1. startx
@@ -13,7 +13,7 @@ Flow:
 Usage:
   sh ${0} make : CREATE "~/.xkbmap"
   sh ${0} load : LOAD   "~/.xkbmap"
-  sh ${0} *    : usage
+  sh ${0} *    : USAGE
 
 EOF:
   setxkbmap -print -verbose 10

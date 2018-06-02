@@ -3,12 +3,12 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Set Brightness(intel)
+  SET brightness(intel)
 
 Usage:
-  sh ${0} + : increment brightness
-  sh ${0} - : decrement brightness
-  sh ${0} * : usage
+  sh ${0} + : INCREMENT brightness
+  sh ${0} - : DECREMENT brightness
+  sh ${0} * : USAGE
 
 EOF:
   cat /sys/class/backlight/intel_backlight/brightness

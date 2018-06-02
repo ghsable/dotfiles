@@ -3,12 +3,12 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Set Brightness(ACPI)
+  SET brightness(ACPI)
 
 Usage:
-  sh ${0} + : increment brightness(max:15)
-  sh ${0} - : decrement brightness
-  sh ${0} * : usage
+  sh ${0} + : INCREMENT brightness(max:15)
+  sh ${0} - : DECREMENT brightness
+  sh ${0} * : USAGE
 
 EOF:
   cat /sys/class/backlight/acpi_video0/brightness

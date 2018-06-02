@@ -3,13 +3,13 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Set Brightness(xbacklight)
+  SET brightness(xbacklight)
 
 Usage:
-  sh ${0} -set <value> : set       brightness
-  sh ${0} -inc <step>  : increment brightness
-  sh ${0} -dec <step>  : decrement brightness
-  sh ${0} *            : usage
+  sh ${0} -set <value> : SET       brightness
+  sh ${0} -inc <step>  : INCREMENT brightness
+  sh ${0} -dec <step>  : DECREMENT brightness
+  sh ${0} *            : USAGE
 
 _EOT_
 exit 1

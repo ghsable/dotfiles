@@ -3,12 +3,12 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Set Xmodmap
+  SET Xmodmap
 
 Usage:
   sh ${0} make : CREATE "~/.Xmodmap"
   sh ${0} load : LOAD   "~/.Xmodmap"
-  sh ${0} *    : usage
+  sh ${0} *    : USAGE
 
 EOF:
   cat ~/.Xmodmap

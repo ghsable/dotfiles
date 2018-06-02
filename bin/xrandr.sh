@@ -3,10 +3,10 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Set Display(XRandR)
+  SET display(XRandR)
 
-  Display1 = MAIN
-  Display2 = SUB
+  display1 = main
+  display2 = sub
 
 Usage:
   sh ${0} on1        : ON  display1(full size)
@@ -14,18 +14,19 @@ Usage:
   sh ${0} off1       : OFF display1
   sh ${0} off2       : OFF display2
   sh ${0} mirroring  : ADD mirroring display2
-  sh ${0} above      : ADD above display2
-  sh ${0} below      : ADD below display2
-  sh ${0} left       : ADD left display2
-  sh ${0} right      : ADD right display2
-  sh ${0} rotate-n   : ROTATE normal display2
+  sh ${0} above      : ADD above     display2
+  sh ${0} below      : ADD below     display2
+  sh ${0} left       : ADD left      display2
+  sh ${0} right      : ADD right     display2
+  sh ${0} rotate-n   : ROTATE normal   display2
   sh ${0} rotate-i   : ROTATE inverted display2
-  sh ${0} rotate-l   : ROTATE left display2
-  sh ${0} rotate-r   : ROTATE right display2
-  sh ${0} reflect-n  : REFLECT ( , ) display2
-  sh ${0} reflect-x  : REFLECT (x, ) display2
-  sh ${0} reflect-xy : REFLECT (x,y) display2
+  sh ${0} rotate-l   : ROTATE left     display2
+  sh ${0} rotate-r   : ROTATE right    display2
+  sh ${0} reflect-n  : REFLECT ( , )   display2
+  sh ${0} reflect-x  : REFLECT (x, )   display2
+  sh ${0} reflect-xy : REFLECT (x,y)   display2
   sh ${0} 0.[1-9]    : SET brightness display1,2
+  sh ${0} *          : USAGE
 
 _EOT_
 exit 1

@@ -3,15 +3,15 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Set ALSA(Advanced Linux Sound Architecture)
+  SET ALSA(Advanced Linux Sound Architecture)
 
 Usage:
   sh ${0} mute   : OFF       sound
   sh ${0} unmute : ON        sound
   sh ${0} toggle : TOGGLE    sound
-  sh ${0} +      : increment sound
-  sh ${0} -      : decrement sound
-  sh ${0} *      : usage
+  sh ${0} +      : INCREMENT sound
+  sh ${0} -      : DECREMENT sound
+  sh ${0} *      : USAGE
 
 EOF:
   alsamixer
