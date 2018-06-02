@@ -9,22 +9,22 @@ Description:
   Display2 = SUB
 
 Usage:
-  sh ${0} on1        : on Display1(full size)
-  sh ${0} on2        : on Display2(full size)
+  sh ${0} on1        : on  Display1(full size)
+  sh ${0} on2        : on  Display2(full size)
   sh ${0} off1       : off Display1
   sh ${0} off2       : off Display2
   sh ${0} mirror     : add Mirroring Display2
-  sh ${0} above      : add Above Display2
-  sh ${0} below      : add Below Display2
-  sh ${0} left       : add Left Display2
-  sh ${0} right      : add Right Display2
-  sh ${0} rotate-n   : rotate Normal Display2
+  sh ${0} above      : add Above     Display2
+  sh ${0} below      : add Below     Display2
+  sh ${0} left       : add Left      Display2
+  sh ${0} right      : add Right     Display2
+  sh ${0} rotate-n   : rotate Normal   Display2
   sh ${0} rotate-i   : rotate Inverted Display2
-  sh ${0} rotate-l   : rotate Left Display2
-  sh ${0} rotate-r   : rotate Right Display2
-  sh ${0} reflect-n  : reflect ( , ) Display2
-  sh ${0} reflect-x  : reflect (x, ) Display2
-  sh ${0} reflect-xy : reflect (x,y) Display2
+  sh ${0} rotate-l   : rotate Left     Display2
+  sh ${0} rotate-r   : rotate Right    Display2
+  sh ${0} reflect-n  : reflect ( , )   Display2
+  sh ${0} reflect-x  : reflect (x, )   Display2
+  sh ${0} reflect-xy : reflect (x,y)   Display2
   sh ${0} 0.[1-9]    : set brightness Display1,2
 
 _EOT_
