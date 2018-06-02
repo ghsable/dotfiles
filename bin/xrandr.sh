@@ -9,23 +9,23 @@ Description:
   Display2 = SUB
 
 Usage:
-  sh ${0} on1        : on  Display1(full size)
-  sh ${0} on2        : on  Display2(full size)
-  sh ${0} off1       : off Display1
-  sh ${0} off2       : off Display2
-  sh ${0} mirror     : add Mirroring Display2
-  sh ${0} above      : add Above     Display2
-  sh ${0} below      : add Below     Display2
-  sh ${0} left       : add Left      Display2
-  sh ${0} right      : add Right     Display2
-  sh ${0} rotate-n   : rotate Normal   Display2
-  sh ${0} rotate-i   : rotate Inverted Display2
-  sh ${0} rotate-l   : rotate Left     Display2
-  sh ${0} rotate-r   : rotate Right    Display2
-  sh ${0} reflect-n  : reflect ( , )   Display2
-  sh ${0} reflect-x  : reflect (x, )   Display2
-  sh ${0} reflect-xy : reflect (x,y)   Display2
-  sh ${0} 0.[1-9]    : set brightness Display1,2
+  sh ${0} on1        : ON  display1(full size)
+  sh ${0} on2        : ON  display2(full size)
+  sh ${0} off1       : OFF display1
+  sh ${0} off2       : OFF display2
+  sh ${0} mirroring  : ADD mirroring display2
+  sh ${0} above      : ADD above display2
+  sh ${0} below      : ADD below display2
+  sh ${0} left       : ADD left display2
+  sh ${0} right      : ADD right display2
+  sh ${0} rotate-n   : ROTATE normal display2
+  sh ${0} rotate-i   : ROTATE inverted display2
+  sh ${0} rotate-l   : ROTATE left display2
+  sh ${0} rotate-r   : ROTATE right display2
+  sh ${0} reflect-n  : REFLECT ( , ) display2
+  sh ${0} reflect-x  : REFLECT (x, ) display2
+  sh ${0} reflect-xy : REFLECT (x,y) display2
+  sh ${0} 0.[1-9]    : SET brightness display1,2
 
 _EOT_
 exit 1
@@ -35,14 +35,14 @@ readonly DISPLAY1_NAME=`xrandr --query | grep -e " connected" | cut -d " " -f 1-
 readonly DISPLAY2_NAME=`xrandr --query | grep -e " connected" | cut -d " " -f 1-1 | head --lines=2 | tail --lines=1`
 readonly DISPLAY1_SIZE="1440x900"
 readonly DISPLAY2_SIZE="1920x1080"
-readonly DISPLAY2_MIRROR_SIZE="1440x900"
+readonly DISPLAY2_MIRRORING_SIZE="1440x900"
 
 case ${1} in
   on1)
-    xrandr --output ${DISPLAY1_NAME} --mode ${DISPLAY1_SIZE} --rate 70
+    xrandr --output ${DISPLAY1_NAME} --mode ${DISPLAY1_SIZE}
     ;;
   on2)
-    xrandr --output ${DISPLAY2_NAME} --mode ${DISPLAY2_SIZE} --rate 70
+    xrandr --output ${DISPLAY2_NAME} --mode ${DISPLAY2_SIZE}
     ;;
   off1)
     xrandr --output ${DISPLAY1_NAME} --off
@@ -50,8 +50,8 @@ case ${1} in
   off2)
     xrandr --output ${DISPLAY2_NAME} --off
     ;;
-  mirror)
-    xrandr --output ${DISPLAY2_NAME} --mode ${DISPLAY2_MIRROR_SIZE} --same-as ${DISPLAY1_NAME}
+  mirroring)
+    xrandr --output ${DISPLAY2_NAME} --mode ${DISPLAY2_MIRRORING_SIZE} --same-as ${DISPLAY1_NAME}
     ;;
   above)
     xrandr --output ${DISPLAY2_NAME} --above ${DISPLAY1_NAME}
