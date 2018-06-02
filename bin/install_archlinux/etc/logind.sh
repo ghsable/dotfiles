@@ -11,7 +11,7 @@ return 0
 }
 
 # [Systemd] Set Keymap
-readonly ETCCONF_FILE="/etc/systemd/logind.conf"
-echo "UPDATE : ${ETCCONF_FILE}"
-add_config | sudo tee -a ${ETCCONF_FILE}
-sudo vi ${ETCCONF_FILE}
+readonly ETC_FILE="/etc/systemd/logind.conf"
+echo "UPDATE : ${ETC_FILE}"
+add_config | sudo tee -a ${ETC_FILE}
+sudo vi ${ETC_FILE}
