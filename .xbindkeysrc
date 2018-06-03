@@ -14,18 +14,23 @@
 # dmenu | XF86LaunchA | F3
 "sh ~/bin/tools.sh launch_a"
    m:0x0 + c:128
-   
-# Startup_Apps | Control + XF86LaunchA | Control + F3
-"sh ~/bin/startup_apps.sh"
-   m:0x4 + c:128
+# dmenu | F3 | Fn + 3
+"sh ~/bin/tools.sh launch_a"
+   m:0x0 + c:69
 
 # Screen Shot(Desktop) | Control + XF86LaunchB | Control + F4
 "sh ~/bin/scrot.sh"
    m:0x4 + c:212
+# Screen Shot(Desktop) | Control + F4 | Control + Fn + 4
+"sh ~/bin/scrot.sh"
+   m:0x4 + c:70
 
-# ScreenShot(Focus Window) |  Shift + XF86LaunchB | Shift + F4
+# ScreenShot(Focus Window) | Shift + XF86LaunchB | Shift + F4
 "sh ~/bin/scrot.sh -u"
    m:0x1 + c:212
+# ScreenShot(Focus Window) | Shift + F4 | Shift + Fn + 4
+"sh ~/bin/scrot.sh -u"
+   m:0x1 + c:70
 
 # volume toggle | XF86AudioMute | F10
 "sh ~/bin/alsa.sh toggle"
@@ -46,6 +51,10 @@
 # NONE | Control + XF86MonBrightnessUp | Control + F2
 #""
 #   m:0x4 + c:233
+
+# NONE | Control + XF86LaunchA | Control + F3
+#""
+#   m:0x4 + c:128
 
 # NONE | Control+Shift + XF86LaunchB | Control+Shift + F4
 #""

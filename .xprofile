@@ -24,6 +24,10 @@ xcompmgr -c &
 # Xset
 sh ~/bin/xset.sh on 60
 
+# Xinput(usbtouchscreen)
+sh ~/bin/xrandr.sh mirror
+sh ~/bin/xrandr.sh xinput
+
 # Xmodmap
 sh ~/bin/xmodmap.sh make
 sh ~/bin/xmodmap.sh load

@@ -9,23 +9,24 @@ Description:
   display2 = sub
 
 Usage:
-  sh ${0} on1        : ON  display1(full size)
-  sh ${0} on2        : ON  display2(full size)
-  sh ${0} off1       : OFF display1
-  sh ${0} off2       : OFF display2
-  sh ${0} mirroring  : ADD mirroring display2
-  sh ${0} above      : ADD above     display2
-  sh ${0} below      : ADD below     display2
-  sh ${0} left       : ADD left      display2
-  sh ${0} right      : ADD right     display2
-  sh ${0} rotate-n   : ROTATE normal   display2
-  sh ${0} rotate-i   : ROTATE inverted display2
-  sh ${0} rotate-l   : ROTATE left     display2
-  sh ${0} rotate-r   : ROTATE right    display2
-  sh ${0} reflect-n  : REFLECT ( , )   display2
-  sh ${0} reflect-x  : REFLECT (x, )   display2
-  sh ${0} reflect-xy : REFLECT (x,y)   display2
-  sh ${0} 0.[1-9]    : SET brightness display1,2
+  sh ${0} on1        : ON                  display1(full size)
+  sh ${0} on2        : ON                  display2(full size)
+  sh ${0} off1       : OFF                 display1
+  sh ${0} off2       : OFF                 display2
+  sh ${0} mirror     : ADD mirroring       display2
+  sh ${0} above      : ADD above           display2
+  sh ${0} below      : ADD below           display2
+  sh ${0} left       : ADD left            display2
+  sh ${0} right      : ADD right           display2
+  sh ${0} rotate-n   : ROTATE normal       display2
+  sh ${0} rotate-i   : ROTATE inverted     display2
+  sh ${0} rotate-l   : ROTATE left         display2
+  sh ${0} rotate-r   : ROTATE right        display2
+  sh ${0} reflect-n  : REFLECT ( , )       display2
+  sh ${0} reflect-x  : REFLECT (x, )       display2
+  sh ${0} reflect-xy : REFLECT (x,y)       display2
+  sh ${0} 0.[1-9]    : SET brightness      display1,2
+  sh ${0} xinput     : SET usbtouchscreen  display2
   sh ${0} *          : USAGE
 
 _EOT_
@@ -51,7 +52,7 @@ case ${1} in
   off2)
     xrandr --output ${DISPLAY2_NAME} --off
     ;;
-  mirroring)
+  mirror)
     xrandr --output ${DISPLAY2_NAME} --mode ${DISPLAY2_MIRRORING_SIZE} --same-as ${DISPLAY1_NAME}
     ;;
   above)
@@ -90,6 +91,11 @@ case ${1} in
   0\.[1-9])
     xrandr --output ${DISPLAY1_NAME} --brightness ${1}
     xrandr --output ${DISPLAY2_NAME} --brightness ${1}
+    ;;
+  xinput)
+    # xinput list --id-only "DEVICE NEME"
+    readonly INPUTSTYLUS_ID1=`xinput list | grep -e 'Weida Hi-Tech' | cut -f 2-2 | tr -d 'id='`
+    xinput --map-to-output ${INPUTSTYLUS_ID1} ${DISPLAY2_NAME}
     ;;
   *)
     usage
