@@ -7,21 +7,21 @@ cd $(dirname ${0})
 ### FUNCTION ###
 function ln_dotfiles() {
 # Deploy(symbolic link) : "./.??*"
-for dotfile in .??*
+for DOT_FILE in .??*
 do
-  [ "${dotfile}" = ".git"      ] && continue
-  [ "${dotfile}" = ".github"   ] && continue
-  [ "${dotfile}" = ".DS_Store" ] && continue
+  [ "${DOT_FILE}" = ".git"      ] && continue
+  [ "${DOT_FILE}" = ".github"   ] && continue
+  [ "${DOT_FILE}" = ".DS_Store" ] && continue
 
-  ln -snfv ~/dotfiles/bin/install_macos/${dotfile} ~/
+  ln -snfv ~/dotfiles/bin/install_macos/${DOT_FILE} ~/
 done
 }
 
 function ln_notdotfiles() {
 # Deploy(symbolic link) : "Not ./.??*"
-for notdotfile in $(grep -v -e '^$' -e '^#' ./ln.txt)
+for NOTDOT_FILE in $(grep -v -e '^$' -e '^#' ./ln.txt)
 do
-  ln -snfv ~/dotfiles/${notdotfile} ~/${notdotfile}
+  ln -snfv ~/dotfiles/${NOTDOT_FILE} ~/${NOTDOT_FILE}
 done
 }
 

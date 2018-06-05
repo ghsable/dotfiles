@@ -150,3 +150,8 @@ mono
 
 # Python
 python
+
+### JOKE ###
+# SL(https://github.com/mtoyoda/sl)
+# $ sl -alFc
+sl

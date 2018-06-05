@@ -8,6 +8,8 @@ cat<< _EOT_
 [options]
 Color
 VerbosePkgLists
+[multilib]
+Include = /etc/pacman.d/mirrorlist
 _EOT_
 return 0
 }

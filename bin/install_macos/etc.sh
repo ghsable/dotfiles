@@ -3,9 +3,9 @@
 echo "${0} ..."
 
 # Set "/etc/*"
-for shfile in $(dirname ${0})/etc/*.sh
+for ETCSH_FILE in $(dirname ${0})/etc/*.sh
 do
-  sh ${shfile}
+  sh ${ETCSH_FILE}
 done
 
 echo '---------------------------------------->>(EOF)'

@@ -24,10 +24,10 @@ exit 1
 
 case ${1} in
   make)
-    xkbcomp -xkb $DISPLAY ~/.xkbmap
+    xkbcomp -xkb ${DISPLAY} ~/.xkbmap
     ;;
   load)
-    xkbcomp -w 0 ~/.xkbmap $DISPLAY 
+    xkbcomp -w 0 ~/.xkbmap ${DISPLAY}
     ;;
   *)
     usage

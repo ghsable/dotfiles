@@ -1,27 +1,26 @@
 #!/bin/bash
 
-### FUNCTION ###
 function gitclone_cd_dotfiles() {
-  git clone https://github.com/ghsable/dotfiles.git ~/dotfiles
-  cd ~/dotfiles/
+  readonly DOTFILES_URL="https://github.com/ghsable/dotfiles.git"
+  git clone ${DOTFILES_URL} ~/dotfiles
+  cd ~/dotfiles
   return 0
 }
 
 function select_install() {
   {
-  echo "--------------------"
-  echo "# Please type ..."
-  echo "# macos | archlinux"
-  echo "--------------------"
+  echo '--------------------'
+  echo '# Please type ...'
+  echo '# macos | archlinux'
+  echo '--------------------'
   }
-  read -r os_name
+  read -r OS_NAME
   {
-  echo "--------------------"
+  echo '--------------------'
   }
-  make ${os_name}_install
+  make ${OS_NAME}_install
   return 0
 }
 
-### RUN ###
 gitclone_cd_dotfiles
 select_install
