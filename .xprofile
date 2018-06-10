@@ -13,7 +13,7 @@ export DefaultIMModule=fcitx
 fcitx autostart&
 
 # Feh
-feh --randomize --bg-fill ~/.wallpaper/*
+/bin/feh --randomize --bg-fill ~/.wallpaper/*
 
 # Xbindkeys
 xbindkeys &
@@ -42,5 +42,5 @@ exec xmonad
 # Input Method Framework(Uim)
 #export GTK_IM_MODULE='uim'
 #export QT_IM_MODULE='uim'
-#uim-xim &
 #export XMODIFIERS='@im=uim'
+#uim-xim &
