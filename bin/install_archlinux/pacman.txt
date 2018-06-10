@@ -50,7 +50,7 @@ xorg-xmodmap
 # Get Window ID
 # $ xwininfo
 xorg-xwininfo
-# Display Device ID
+# Get Device ID
 xorg-xinput
 # Backlight Utility
 xorg-xbacklight
@@ -73,8 +73,10 @@ dmenu
 xmonad
 xmonad-contrib
 
-# Statusbar
-xmobar
+# Statusbar + Get System Information
+dzen2
+conky
+#xmobar
 
 # img viwer + Set Wallpaper
 feh

@@ -32,6 +32,9 @@ sh ~/bin/xrandr.sh xinput
 sh ~/bin/xmodmap.sh make
 sh ~/bin/xmodmap.sh load
 
+# dzen
+sh ~/bin/dzen/dzconky.sh
+
 # Window Manager(Xmonad)
 exec xmonad
 

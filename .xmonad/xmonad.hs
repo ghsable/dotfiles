@@ -2,8 +2,8 @@
 
 -- Modules
 import XMonad                         -- General
-import XMonad.Hooks.ManageDocks       -- "Xmobar" avoid dock/panel/trayer
-import XMonad.Hooks.DynamicLog        -- "Xmobar" logHook
+import XMonad.Hooks.ManageDocks       -- "Status-bar" avoid dock/panel/trayer
+import XMonad.Hooks.DynamicLog        -- "Status-bar" logHook
 import XMonad.Hooks.EwmhDesktops      -- Blowser Full Screen Mode(F11)
 
 import Control.Monad                  -- ManageHookShift liftM2
@@ -22,7 +22,7 @@ import XMonad.Layout.Simplest         -- Display Through Full
 import XMonad.Layout.Accordion        -- Display Layer
 import XMonad.Layout.Tabbed           -- Display Tab Bar
 
-import XMonad.Util.Run                -- spawnPipe,hPutStrLn "Xmobar" -> myStatusBar
+import XMonad.Util.Run                -- spawnPipe,hPutStrLn "Status-bar" -> myStatusBar
 import XMonad.Util.Themes             -- Tab Bar Theme 
 
 -- Window BorderWidth
@@ -34,7 +34,7 @@ colorRed    = "#9f0000"
 
 -- XMonad.Layout.Gaps
 gapwidth = 1    -- Between Window
-gwU      = 22   -- Up               -- Steed myLayoutHook = avoidStruts $
+gwU      = 15   -- Up               -- Steed myLayoutHook = avoidStruts $
 gwD      = 1    -- Down
 gwL      = 1    -- Left
 gwR      = 1    -- Right
@@ -45,13 +45,13 @@ gwR      = 1    -- Right
 tabbedTheme = kavonChristmasTheme
 
 -- Local Variables
- -- General
+-- General
 myModMask            = mod4Mask     -- Win key or Super_L
 myBorderWidth        = borderwidth
 myNormalBorderColor  = colorGray
 myFocusedBorderColor = colorRed
 
- -- Display
+-- Display
 myWorkSpaces      = ["1","2","3","4"]
 myHandleEventHook = fullscreenEventHook
 myManageHook      = manageDocks <+> manageHook defaultConfig
@@ -60,7 +60,6 @@ myManageHookShift = composeAll
                     , className =? "Thunar"             --> mydoShift "2"
                     ]
                     where mydoShift = doF . liftM2 (.) W.view W.shift
-
 myLayoutHook      = spacing gapwidth
                   $ onWorkspace "1" (gaps [(U, gwU),(D, gwD),(L, gwL),(R, gwR)]
                     (noBorders $ simplestFloat ||| Simplest ) ||| noBorders Simplest)
@@ -69,14 +68,26 @@ myLayoutHook      = spacing gapwidth
                   $ onWorkspace "3" (ThreeColMid 1 (3/100) (1/2) ||| Circle)
                   (Accordion ||| tabbed shrinkText (theme tabbedTheme))
 
- -- "Xmobar" LogHook
-myLogHook h = dynamicLogWithPP xmobarPP {
-                ppOutput = hPutStrLn h
-                }
+-- "Status-bar" LogHook
+myLogHook h = dynamicLogWithPP defaultPP
+              {
+               ppCurrent           =   dzenColor "#ebac54" "#1B1D1E" . pad
+             , ppVisible           =   dzenColor "white" "#1B1D1E" . pad
+             , ppHidden            =   dzenColor "white" "#1B1D1E" . pad
+             , ppHiddenNoWindows   =   dzenColor "#7b7b7b" "#1B1D1E" . pad
+             , ppUrgent            =   dzenColor "#ff0000" "#1B1D1E" . pad
+             , ppWsSep             =   " "
+             , ppSep               =   " : "
+             , ppTitle             =   (" " ++) . dzenColor "green" "#1B1D1E" . dzenEscape
+             , ppOutput = hPutStrLn h
+              }
+myXmonadBar = "dzen2 -x 0 -y 0 -w 400 -ta left -fn xft:TakaoPGothic:size=10:bold:antialias=true -title-name XMONAD_BAR -p"
 
 -- Main
 main = do
-  myStatusBar <- spawnPipe "xmobar"   -- "Xmobar" to myStatusBar
+  -- "Status-bar" LogHook
+  dzenLeftBar <- spawnPipe myXmonadBar
+
   xmonad $ defaultConfig
     { 
     -- General
@@ -91,6 +102,6 @@ main = do
     , manageHook         = myManageHook <+> myManageHookShift
     , layoutHook         = myLayoutHook
 
-    -- "Xmobar" logHook
-    , logHook            = myLogHook myStatusBar
+    -- Status-bar logHook
+    , logHook            = myLogHook dzenLeftBar
     }

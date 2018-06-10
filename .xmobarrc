@@ -11,7 +11,7 @@ Config {
    -- layout
    , sepChar  =  "%"  -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = "%StdinReader% <fc=#696969>●</fc> <fc=#ABABAB>((((((((っ･ω･)っ(((っ･ω･)っ(((っ･ω･)っ</fc> <fc=#E0FFFF>ぶーん</fc> } { <fc=#FF0000>┣o(▼皿 ▼+)</fc>  %memory% <fc=#696969>●</fc> %battery% <fc=#696969>●</fc> %date% (･`ε･´<fc=#696969>●</fc>)<fc=#E0FFFF>むーん</fc>"
+   , template = "%StdinReader% <fc=#696969>●</fc> <fc=#ABABAB>((((((((っ･ω･)っ(((っ･ω･)っ(((っ･ω･)っ</fc> <fc=#E0FFFF>ぶーん</fc> } { %memory% <fc=#696969>●</fc> %battery% <fc=#696969>●</fc> %date% (･`ε･´<fc=#696969>●</fc>)<fc=#E0FFFF>むーん</fc>"
 
    -- general behavior
    , lowerOnStart     = True    -- send to bottom of window stack on start

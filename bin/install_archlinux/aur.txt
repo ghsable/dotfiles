@@ -1,0 +1,4 @@
+# DropBox
+https://aur.archlinux.org/dropbox.git
+# Slack
+https://aur.archlinux.org/slack-desktop.git
