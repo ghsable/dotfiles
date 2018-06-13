@@ -68,4 +68,9 @@ or :
 * [checklist](https://github.com/ghsable/dotfiles/blob/master/bin/install_all/checklist.md)
 
 ## Thanks to ...
+<u>**BOOK**</u>
 * [プリンシプル オブ プログラミング](http://www.shuwasystem.co.jp/products/7980html/4614.html)
+
+<u>**WEB**</u>
+* [ArchWiki](https://www.archlinux.jp/)
+* [Shell Style Guide](https://google.github.io/styleguide/shell.xml)

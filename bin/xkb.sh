@@ -13,6 +13,7 @@ Flow:
 Usage:
   sh ${0} make : CREATE "~/.xkbmap"
   sh ${0} load : LOAD   "~/.xkbmap"
+  sh ${0} map  : MAPPING keyboad Layout
   sh ${0} *    : USAGE
 
 EOF:
@@ -28,6 +29,9 @@ case ${1} in
     ;;
   load)
     xkbcomp -w 0 ~/.xkbmap ${DISPLAY}
+    ;;
+  map)
+    setxkbmap -layout jp
     ;;
   *)
     usage

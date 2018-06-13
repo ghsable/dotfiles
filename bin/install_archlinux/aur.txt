@@ -2,3 +2,7 @@
 https://aur.archlinux.org/dropbox.git
 # Slack
 https://aur.archlinux.org/slack-desktop.git
+# Peek(GIF recorder)
+https://aur.archlinux.org/peek.git
+# Keras
+https://aur.archlinux.org/python-keras.git

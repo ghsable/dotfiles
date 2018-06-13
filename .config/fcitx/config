@@ -84,7 +84,7 @@ IMSwitchHotkey=CTRL_SUPER
 # No
 # All
 # PerProgram
-#ShareStateAmongWindow=No
+ShareStateAmongWindow=All
 # 既定の入力メソッドの状態
 # Available Value:
 # Inactive
