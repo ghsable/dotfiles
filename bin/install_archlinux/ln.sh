@@ -6,7 +6,7 @@ echo "${0} ..."
 function mkdir_basedir() {
 # Make Directory
 mkdir -pv ~/data
-mkdir -pv ~/.config ~/.local/share/applications ~/.uim.d ~/.anthy ~/.xmonad
+mkdir -pv ~/.config/fcitx ~/.local/share/applications ~/.uim.d ~/.anthy ~/.xmonad
 }
 
 function ln_dotfiles() {

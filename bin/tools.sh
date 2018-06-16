@@ -7,6 +7,7 @@ Description:
 
 Usage:
   sh ${0} launch_a : dmenu
+  sh ${0} terminal : urxvt
   sh ${0} rec1     : simplescreenrecorder
   sh ${0} rec2     : peek(AUR)
   sh ${0} note     : leafpad
@@ -20,6 +21,7 @@ exit 1
 
 case ${1} in
   launch_a)  dmenu_run             ;;
+  terminal)  urxvt                 ;;
   rec1    )  simplescreenrecorder  ;;
   rec2    )  peek                  ;;
   note    )  leafpad               ;;

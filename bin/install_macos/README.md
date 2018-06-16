@@ -49,6 +49,7 @@
         * Check ... iTunes Media フォルダにコピーする
     * Dropbox -(drag-and-drop)-> iTunesライブラリ
 * Install by binaryfile
+    * [HHKB Lite2 Driver](https://www.pfu.fujitsu.com/hhkeyboard/macdownload_lite2.html)
     * [Microsoft Office](https://stores.office.com/myaccount/home.aspx?ms.officeurl=myaccount)
         * Account
     * [Adobe Flash Player](https://get.adobe.com/jp/flashplayer/)

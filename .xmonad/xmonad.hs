@@ -34,7 +34,7 @@ colorRed    = "#9f0000"
 
 -- XMonad.Layout.Gaps
 gapwidth = 1    -- Between Window
-gwU      = 15   -- Up               -- Steed myLayoutHook = avoidStruts $
+gwU      = 18   -- Up               -- Steed myLayoutHook = avoidStruts $
 gwD      = 1    -- Down
 gwL      = 1    -- Left
 gwR      = 1    -- Right

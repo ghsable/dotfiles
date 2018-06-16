@@ -12,10 +12,12 @@ alias df='du -h'
 alias zip='zip -e'
 alias vim='vi'
 # other
+alias fc-list='fc-list : family | sort'
 alias sd='dirs -v; echo -n "select number: "; read newdir; cd +"$newdir"'
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -e "time to full:" -e "time to empty:" -e "percentage:"'
 # sh
 alias feh='sh ~/bin/feh_browser.sh'
+alias xterm='sh ~/bin/transset-df_xterm.sh'
 alias suspend='sh ~/bin/xset.sh suspend'
 alias incbrightness='sh ~/bin/brightness_acpi.sh +'
 alias decbrightness='sh ~/bin/brightness_acpi.sh -'

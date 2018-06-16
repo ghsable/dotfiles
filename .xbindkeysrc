@@ -7,8 +7,8 @@
 
 ### Set xbindkeys ###
 
-# Strat XTerm | Control + Return
-"sh ~/bin/transset-df_xterm.sh"
+# Terminal | Control + Return
+"sh ~/bin/tools.sh terminal"
    m:0x4 + c:36
 
 # dmenu | XF86LaunchA | F3

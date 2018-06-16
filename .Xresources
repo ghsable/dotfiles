@@ -20,7 +20,7 @@ xterm*faceName:           xft:DejaVu Sans Mono:bold:antialias=true
 xterm*faceNameDoublesize: WenQuanYi Bitmap Song
 xterm*ximFont:            -misc-fixed-medium-r-normal--14-130-75-75-c-140-jis×0208.1983-0
 xterm*wideBoldFont:       fixed
-xterm*faceSize:           60
+xterm*faceSize:           15
 xterm*scaleHeight:        1.1
 !! Color Scheme - Molokai
 *xterm*background:        #101010
@@ -46,7 +46,7 @@ xterm*scaleHeight:        1.1
 !!
 !! rxvt-unicode (urxvt)
 !!
-!! 
+!! General
 URxvt.geometry:           96x32
 URxvt.scrollBar_right:    true
 URxvt.scrollBar_floating: true
@@ -57,33 +57,46 @@ URxvt.pointerBlank:       true
 URxvt.visualBell:         true
 URxvt.saveLines:          3000
 URxvt.fading:             40
+!! Secondly screen scroll buffer
+URxvt.secondaryScreen:    1
+URxvt.secondaryScroll:    0
+!! Perl
+!! clopboad , clickURL , tab , im inline
+URxvt.perl-ext-common:    selection-to-clipboard,default,matcher,tabbed,xim-onthespot
+URxvt.url-launcher:       /usr/bin/xdg-open
+URxvt.matcher.button:     1
+URxvt.tabbed.tabbar-fg:   2
+URxvt.tabbed.tabbar-bg:   0
+URxvt.tabbed.tab-fg:      3
+URxvt.tabbed.tab-bg:      0
+URxvt.inputMethod:        fcitx
+URxvt.preeditType:        OnTheSpot
 !! Font list and Spacing
-URxvt.font:               xft:Dejavu Sans Mono-9,\
-                          xft:IPAGothic
+URxvt.font:               xft:Fira Code:bold:antialias=true:pixelsize=19
 URxvt.letterSpace:        -1
-!URxvt.lineSpace:         0
+!URxvt.lineSpace:          0
 !! Color Scheme and Opacity - gruvbox-dark https://github.com/morhetz/gruvbox
 URxvt.depth:              32
-URxvt.color0:             [90]#282828
-URxvt.color1:             [90]#cc241d
-URxvt.color2:             [90]#98971a
-URxvt.color3:             [90]#d79921
-URxvt.color4:             [90]#458588
-URxvt.color5:             [90]#b16286
-URxvt.color6:             [90]#689d6a
-URxvt.color7:             [90]#a89984
-URxvt.color8:             [90]#928374
-URxvt.color9:             [90]#fb4934
-URxvt.color10:            [90]#b8bb26
-URxvt.color11:            [90]#fabd2f
-URxvt.color12:            [90]#83a598
-URxvt.color13:            [90]#d3869b
-URxvt.color14:            [90]#8ec07c
-URxvt.color15:            [90]#ebdbb2
-URxvt.foreground:         [90]#ebdbb2
-URxvt.background:         [90]#282828
-URxvt.colorIT:            [90]#8ec07c
-URxvt.colorBD:            [90]#d5c4a1
-URxvt.colorUL:            [90]#83a598
-URxvt.scrollColor:        [90]#504945
-!URxvt.troughColor:       [90]#3C3836
+URxvt.color0:             [70]#282828
+URxvt.color1:             [70]#cc241d
+URxvt.color2:             [70]#98971a
+URxvt.color3:             [70]#d79921
+URxvt.color4:             [70]#458588
+URxvt.color5:             [70]#b16286
+URxvt.color6:             [70]#689d6a
+URxvt.color7:             [70]#a89984
+URxvt.color8:             [70]#928374
+URxvt.color9:             [70]#fb4934
+URxvt.color10:            [70]#b8bb26
+URxvt.color11:            [70]#fabd2f
+URxvt.color12:            [70]#83a598
+URxvt.color13:            [70]#d3869b
+URxvt.color14:            [70]#8ec07c
+URxvt.color15:            [70]#ebdbb2
+URxvt.foreground:         [70]#ebdbb2
+URxvt.background:         [70]#282828
+URxvt.colorIT:            [70]#8ec07c
+URxvt.colorBD:            [70]#d5c4a1
+URxvt.colorUL:            [70]#83a598
+URxvt.scrollColor:        [70]#504945
+URxvt.troughColor:        [70]#3C3836
