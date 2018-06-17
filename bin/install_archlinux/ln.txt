@@ -19,6 +19,6 @@ bin
 
 #################### NOT USING ####################
 # Input Method Framework(Uim)
-.uim.d/customs
+#.uim.d/customs
 # Authy(cannadic)
-.anthy/imported_words_default.d
+#.anthy/imported_words_default.d

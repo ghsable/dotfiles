@@ -1,5 +1,8 @@
 #!/bin/bash
 
+readonly SCREENSHOT_DIR=~/Screenshot
+[ -d ${SCREENSHOT_DIR} ] || mkdir -pv ${SCREENSHOT_DIR}
+
 function usage() {
 cat<< _EOT_
 Description:
@@ -17,10 +20,11 @@ exit 1
 
 case ${1} in
   "" | -u | -s)
+    readonly SCREENSHOT_FILENAME=${SCREENSHOT_DIR}/%m%d_%H%M%S.png
     readonly SLEEP_SEC="0.5"
-    readonly SCREENSHOT_FILENAME=~/Screenshots/%m%d_%H%M%S.png
     sleep ${SLEEP_SEC}
     scrot ${1} ${SCREENSHOT_FILENAME}
+    echo "SCREENSHOT : ${SCREENSHOT_DIR}/*.png"
     ;;
   *)
     usage

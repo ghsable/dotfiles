@@ -18,7 +18,7 @@ xterm*borderWidth:        0
 !! Font
 xterm*faceName:           xft:DejaVu Sans Mono:bold:antialias=true
 xterm*faceNameDoublesize: WenQuanYi Bitmap Song
-xterm*ximFont:            -misc-fixed-medium-r-normal--14-130-75-75-c-140-jis×0208.1983-0
+!xterm*ximFont:            -misc-fixed-medium-r-normal--14-130-75-75-c-140-jis×0208.1983-0
 xterm*wideBoldFont:       fixed
 xterm*faceSize:           15
 xterm*scaleHeight:        1.1
@@ -61,18 +61,13 @@ URxvt.fading:             40
 URxvt.secondaryScreen:    1
 URxvt.secondaryScroll:    0
 !! Perl
-!! clopboad , clickURL , tab , im inline
-URxvt.perl-ext-common:    selection-to-clipboard,default,matcher,tabbed,xim-onthespot
+!! clopboad , clickURL
+URxvt.perl-ext-common:    selection-to-clipboard,default,matcher
 URxvt.url-launcher:       /usr/bin/xdg-open
 URxvt.matcher.button:     1
-URxvt.tabbed.tabbar-fg:   2
-URxvt.tabbed.tabbar-bg:   0
-URxvt.tabbed.tab-fg:      3
-URxvt.tabbed.tab-bg:      0
-URxvt.inputMethod:        fcitx
-URxvt.preeditType:        OnTheSpot
 !! Font list and Spacing
-URxvt.font:               xft:Fira Code:bold:antialias=true:pixelsize=19
+URxvt.font:               xft:Fira Code:bold:antialias=true:pixelsize=19,\
+                          xft:IPAGothic
 URxvt.letterSpace:        -1
 !URxvt.lineSpace:          0
 !! Color Scheme and Opacity - gruvbox-dark https://github.com/morhetz/gruvbox

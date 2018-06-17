@@ -1,6 +1,7 @@
 #!/bin/bash
 
 readonly AUR_DIR=~/aur
+[ -d ${AUR_DIR} ] || mkdir -pv ${AUR_DIR}
 
 function usage() {
 cat<< _EOT_
@@ -21,7 +22,6 @@ exit 1
 
 case ${1} in
   install)
-    [ -d ${AUR_DIR} ] && mkdir -pv ${AUR_DIR}
     for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/aur.txt)
     do
       GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 4-4 | cut -d "." -f 1-1`
@@ -42,8 +42,8 @@ case ${1} in
       GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 4-4 | cut -d "." -f 1-1`
       if [ -d ${AUR_DIR}/${GITCLONEDIR_NAME} ]; then
         cd ${AUR_DIR}/${GITCLONEDIR_NAME}
-        GITPULL_OUTMESSAGE=`git pull`
-        if [ "${GITPULL_OUTMESSAGE}" != "Already up to date." ]; then
+        GITPULL_STDOUT=`git pull`
+        if [ "${GITPULL_STDOUT}" != "Already up to date." ]; then
           git pull
           vi PKGBUILD
           makepkg -si

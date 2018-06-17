@@ -8,7 +8,7 @@
 ### Set xbindkeys ###
 
 # Terminal | Control + Return
-"sh ~/bin/tools.sh terminal"
+"sh ~/bin/tools.sh terminal_b"
    m:0x4 + c:36
 
 # dmenu | XF86LaunchA | F3

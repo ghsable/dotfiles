@@ -2,11 +2,12 @@
 
 echo "${0} ..."
 
-### FUNCTION ###
 function mkdir_basedir() {
 # Make Directory
-mkdir -pv ~/data
-mkdir -pv ~/.config/fcitx ~/.local/share/applications ~/.uim.d ~/.anthy ~/.xmonad
+mkdir -pv ~/.config/fcitx ~/.local/share/applications ~/.xmonad
+
+#################### NOT USING ####################
+#mkdir -pv ~/.uim.d ~/.anthy
 }
 
 function ln_dotfiles() {
@@ -35,7 +36,6 @@ do
 done
 }
 
-### RUN ###
 mkdir_basedir 
 ln_dotfiles
 ln_notdotfiles

@@ -14,7 +14,7 @@ export DefaultIMModule=fcitx
 fcitx autostart&
 
 # Feh
-/bin/feh --randomize --bg-fill ~/.wallpaper/*
+/bin/feh --randomize --bg-fill ~/bin/feh/wallpaper/*
 
 # Xbindkeys
 xbindkeys &
