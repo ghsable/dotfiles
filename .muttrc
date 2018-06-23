@@ -1,0 +1,47 @@
+# SCHEME
+source ~/.mutt/scheme/mutt-colors-solarized-dark-256.muttrc
+
+# GENERAL
+set editor=`echo \${EDITOR}`
+set header_cache=~/.cache/mutt
+set sort=reverse-date-sent
+set pager_stop=yes
+
+# POP3
+set mbox_type=Maildir
+# MACRO
+# TOGGLE PERSONAL/WORK
+macro index,pager '<esc>1' '<enter-command>source ~/.mutt/.muttrc_personal<enter><change-folder>!<enter>'
+macro index,pager '<esc>2' '<enter-command>source ~/.mutt/.muttrc_work<enter><change-folder>!<enter>'
+# Ckey+
+macro index 'c' '<change-folder>?<change-dir><home>^K=<enter>'
+
+# SMTP
+# not localhost_name
+set use_from=yes
+set envelope_from=yes
+# header
+set edit_headers=no
+# folder
+set record=~/.mutt_local/sent
+set postponed=~/.mutt_local/drafts
+# charset
+set send_charset="iso-2022-jp:utf-8"
+
+# KEYBIND
+# vim like
+bind index gg first-entry
+bind index G last-entry
+bind pager gg top
+bind pager G bottom
+bind pager j next-line
+bind pager k previous-line
+bind pager F next-page
+
+# ACCOUNT1 (personal)
+source "~/.mutt/.muttrc_personal"
+folder-hook ${folder} 'source ~/.mutt/.muttrc_personal'
+
+# ACCOUNT2 (work)
+source "~/.mutt/.muttrc_work"
+folder-hook ${folder} 'source ~/.mutt/.muttrc_work'

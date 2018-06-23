@@ -36,6 +36,12 @@ sh ~/bin/xmodmap.sh load
 # dzen
 sh ~/bin/dzen/dzconky.sh
 
+# Dropbox
+/usr/bin/dropbox &
+
+# SpiderOakONE
+#/usr/bin/SpiderOakONE &
+
 # Window Manager(Xmonad)
 exec xmonad
 

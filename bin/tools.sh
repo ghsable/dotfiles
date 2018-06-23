@@ -10,6 +10,7 @@ Usage:
   sh ${0} launch_a   : dmenu
   sh ${0} terminal_a : xterm(transset-df)
   sh ${0} terminal_b : urxvt
+  sh ${0} mail       : mutt
   sh ${0} filer      : thunar
   sh ${0} note       : leafpad
   sh ${0} movie      : mplayer
@@ -37,6 +38,7 @@ case ${1} in
                sort                        | \
                tail -n1) 0.75        ;;
   terminal_b)  urxvt                 ;;
+  mail      )  mutt                  ;;
   filer     )  thunar                ;;
   note      )  leafpad               ;;
   movie     )  gnome-mplayer         ;;

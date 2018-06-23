@@ -2,8 +2,8 @@
 
 echo "${0} ..."
 
-### TLP(battery manager) ###
-# install(tlp,Radio Device Wizard)
+### CRONIE(crontab) ###
+# install(cronie)
 sudo pacman -S cronie
 
 # systemctl enable

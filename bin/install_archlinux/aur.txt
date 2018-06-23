@@ -1,5 +1,9 @@
-# DropBox
+# Dropbox
 https://aur.archlinux.org/dropbox.git
+# Thunar-Dropbox
+https://aur.archlinux.org/thunar-dropbox.git
+# SpiderOakONE
+https://aur.archlinux.org/spideroak-one.git 
 # Slack
 https://aur.archlinux.org/slack-desktop.git
 # Peek(GIF recorder)

@@ -24,7 +24,7 @@ case ${1} in
     xset s ${2} ${2}
     ;;
   suspend)
-    xset dpms force ${1}
+    xset dpms force suspend
     slock
     ;;
   *)
