@@ -1,9 +1,0 @@
-# POP3
-set mbox_type=Maildir
-set folder=~/.getmail/Maildir/personal
-set spoolfile=+/
-
-# SMTP
-set sendmail="/usr/bin/msmtp --account personal"
-set realname=`/usr/bin/cat ~/.mutt_local/my_data/realname_personal`
-set from=`/usr/bin/cat ~/.mutt_local/my_data/from_personal`

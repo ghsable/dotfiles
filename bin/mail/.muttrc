@@ -22,9 +22,6 @@ set use_from=yes
 set envelope_from=yes
 # header
 set edit_headers=no
-# folder
-set record=~/.mutt_local/sent
-set postponed=~/.mutt_local/drafts
 # charset
 set send_charset="iso-2022-jp:utf-8"
 

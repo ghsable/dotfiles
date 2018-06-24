@@ -16,6 +16,7 @@ Flow:
      $ mkdir *
      $ vi    *
      Example:
+     -> $ sh ${0} example_tree
      -> $ sh ${0} example_mra
      -> $ sh ${0} example_mta
      -> $ sh ${0} example_mua
@@ -23,12 +24,13 @@ Flow:
      $ sh ${0} deploy
 
 Usage:
-  sh ${0} install     : INSTALL PKGS
-  sh ${0} deploy      : DEPLOY  CONFIGS
-  sh ${0} example_mra : DISPLAY MRA_EXAMPLE(POP3)
-  sh ${0} example_mta : DISPLAY MTA_EXAMPLE(SMTP)
-  sh ${0} example_mua : DISPLAY MUA_EXAMPLE(MAILER)
-  sh ${0} *           : USAGE
+  sh ${0} install      : INSTALL PKGS
+  sh ${0} deploy       : DEPLOY  CONFIGS
+  sh ${0} example_tree : DISPLAY EXAMPLE_TREE(ALL)
+  sh ${0} example_mra  : DISPLAY EXAMPLE_MRA(POP3)
+  sh ${0} example_mta  : DISPLAY EXAMPLE_MTA(SMTP)
+  sh ${0} example_mua  : DISPLAY EXAMPLE_MUA(MAILER)
+  sh ${0} *            : USAGE
 
 EOF:
   mutt
@@ -37,26 +39,75 @@ _EOT_
 exit 1
 }
  
-function example_mra() {
-readonly CLOUDSTORAGE_DIR="${HOME}/<CLOUDSTORAGE_NAME>/Mail/.getmail"
+function example_tree() {
 cat<< _EOT_
+Tree Description:
+  <HOME>
+  ├── <CLOUDSTORAGE_DIR>  // CLOSED //
+  │   └── Mail
+  │       ├── .getmail    // MRA
+  │       │   ├── getmailrc_personal
+  │       │   ├── getmailrc_work
+  │       │   └── Maildir
+  │       │       ├── personal
+  │       │       │   └── INBOX
+  │       │       │       ├── cur
+  │       │       │       ├── new
+  │       │       │       └── tmp
+  │       │       └── work
+  │       │           └── INBOX
+  │       │               ├── cur
+  │       │               ├── new
+  │       │               └── tmp
+  │       ├── .msmtprc    // MTA
+  │       └── .mutt_local // MUA
+  │           ├── my_data // (cat my_data -> muttrc)
+  │           │   ├── from_personal
+  │           │   ├── from_work
+  │           │   ├── realname_personal
+  │           │   ├── realname_work
+  │           │   └── ...
+  │           └── Maildir
+  │               ├── personal
+  │               │   ├── DRAFTS
+  │               │   │   ├── cur
+  │               │   │   ├── new
+  │               │   │   └── tmp
+  │               │   └── SENT
+  │               │       ├── cur
+  │               │       ├── new
+  │               │       └── tmp
+  │               └── work
+  │                   ├── DRAFTS
+  │                   │   ├── cur
+  │                   │   ├── new
+  │                   │   └── tmp
+  │                   └── SENT
+  │                       ├── cur
+  │                       ├── new
+  │                       └── tmp
+  └── dotfiles // OPENED //
+      └── bin
+          ├── mail
+          │   ├── install.sh // ALL
+          │   ├── getmail.sh // MRA(rcfile) -> CRONTAB
+          │   ├── .muttrc    // MUA
+          │   └── .mutt      // MUA
+          │       ├── .muttrc_personal
+          │       ├── .muttrc_work
+          │       └── scheme
+          │           └── *
+          └── install_archlinux
+              └── etc
+                  └── crontab // MRA(getmail)
+
+_EOT_
+exit 0
+}
+
+function example_mra() {
 ########## MRA(Mail Retrieval Agent) | POP3 ##########
-Description(DIRECTORY):
-  CLOSED:
-  # MAILDIR(personal,work)
-  ${CLOUDSTORAGE_DIR}/Maildir/personal/{cur,new,tmp}
-  ${CLOUDSTORAGE_DIR}/Maildir/work/{cur,new,tmp}
-
-Description(FILE):
-  OPENED:
-  # GETMAIL --RCFILE(personal,work) -> CRONTAB
-  ${HOME}/dotfiles/bin/mail/getmail.sh
-  # CRONTAB
-  ${HOME}/dotfiles/bin/install_archlinux/etc/crontab
-  CLOSED:
-  # GETMAILRC(personal,work)
-  ${CLOUDSTORAGE_DIR}/{getmailrc_personal,getmailrc_work}
-
+cat<< _EOT_
 Example(getmailrc_personal):
   [options]
   verbose = 0
@@ -69,20 +120,15 @@ Example(getmailrc_personal):
   password = xxx
   [destination]
   type = Maildir
-  path = ~/.getmail/Maildir/personal/
+  path = ~/.getmail/Maildir/personal/INBOX/
 
 _EOT_
 exit 0
 }
 
 function example_mta() {
-readonly CLOUDSTORAGE_DIR="${HOME}/<CLOUDSTORAGE_NAME>/Mail"
 cat<< _EOT_
 ########## MTA(Message Transfer Agent) | SMTP ##########
-Description(FILE):
-  CLOSED:
-  ${CLOUDSTORAGE_DIR}/.msmtprc
-
 Example(.msmtprc):
   # ~/.msmtprc
   # echo "<comment>" | msmtp -a <from(account)> <send(address)>
@@ -114,32 +160,13 @@ exit 0
 }
 
 function example_mua() {
-readonly CLOUDSTORAGE_DIR="${HOME}/<CLOUDSTORAGE_NAME>/Mail/.mutt_local"
 cat<< _EOT_
 ########## MUA(Mail User Agent) | MAILER ##########
-Description(DIRECTORY):
-  CLOSED:
-  # MAILDIR(personal,work)
-  ${CLOUDSTORAGE_DIR}/{drafts,sent}
-
-Description(FILE):
-  OPENED:
-  # MUTTRC(personal,work)
-  ${HOME}/dotfiles/.muttrc
-  ${HOME}/dotfiles/.mutt/{.muttrc_personal,.muttrc_work}
-  ${HOME}/dotfiles/.mutt/scheme/mutt-colors-solarized-dark-256.muttrc
-  
-  CLOSED:
-  # GETMAILRC(personal,work)
-  ${CLOUDSTORAGE_DIR}/my_data/{from_personal,from_work}
-  ${CLOUDSTORAGE_DIR}/my_data/{realname_personal,realname_work}
-  ...
-
 Example(from_personal):
   xxx@gmail.com
 
 Example(realname_personal):
-  taro yamada
+  Michael\ Elkins
 
 _EOT_
 exit 0
@@ -162,17 +189,11 @@ case ${1} in
     ln -snfv "${CLOUDSTORAGE_DIR}/.msmtprc" "${HOME}"
     # MUA(Mail User Agent)        | MAILER
     ln -snfv "${CLOUDSTORAGE_DIR}/.mutt_local" "${HOME}"
-    ln -snfv "${HOME}/dotfiles/.muttrc" "${HOME}"
-    ln -snfv "${HOME}/dotfiles/.mutt" "${HOME}"
+    ln -snfv "${HOME}/dotfiles/bin/mail/.muttrc" "${HOME}"
+    ln -snfv "${HOME}/dotfiles/bin/mail/.mutt" "${HOME}"
     ;;
-  example_mra)
-    example_mra
-    ;;
-  example_mta)
-    example_mta
-    ;;
-  example_mua)
-    example_mua
+  example_tree | example_mra | example_mta | example_mua)
+    ${1}
     ;;
   *)
     usage
