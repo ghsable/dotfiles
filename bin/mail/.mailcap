@@ -1,0 +1,5 @@
+# ~/.mailcap
+# http://jasonwryan.com/blog/2012/05/12/mutt/
+
+# HTML -> w3m
+text/html; w3m -I %{charset} -T text/html; copiousoutput;
