@@ -44,9 +44,9 @@ cat<< _EOT_
 ########## ALL | Directory/File ##########
 Tree Description:
   <HOME>
-  ├── <CLOUDSTORAGE_DIR>  // CLOSED //
+  ├── <CLOUDSTORAGE_DIR>      // CLOSED //
   │   └── Mail
-  │       ├── .getmail    // MRA
+  │       ├── .getmail        // MRA
   │       │   ├── getmailrc_personal
   │       │   ├── getmailrc_work
   │       │   └── Maildir
@@ -60,9 +60,9 @@ Tree Description:
   │       │               ├── cur
   │       │               ├── new
   │       │               └── tmp
-  │       ├── .msmtprc    // MTA
-  │       └── .mutt_local // MUA
-  │           ├── my_data // (cat my_data -> muttrc)
+  │       ├── .msmtprc        // MTA
+  │       └── .mutt_local     // MUA
+  │           ├── my_data     // (cat my_data -> muttrc)
   │           │   ├── from_personal
   │           │   ├── from_work
   │           │   ├── realname_personal
@@ -87,16 +87,16 @@ Tree Description:
   │                       ├── cur
   │                       ├── new
   │                       └── tmp
-  └── dotfiles // OPENED //
+  └── dotfiles                // OPENED //
       └── bin
-          ├── mail
-          │   ├── install.sh // ALL
-          │   ├── getmail.sh // MRA(rcfile) -> CRONTAB
-          │   ├── .muttrc    // MUA
-          │   ├── .mailcap   // MUA
-          │   └── .mutt      // MUA
-          │       ├── .muttrc_personal
-          │       ├── .muttrc_work
+          ├── email
+          │   ├── install.sh  // ALL
+          │   ├── getmail.sh  // MRA(rcfile) -> CRONTAB
+          │   ├── .mailcap    // MUA
+          │   └── .mutt       // MUA
+          │       ├── muttrc
+          │       ├── muttrc_personal
+          │       ├── muttrc_work
           │       └── scheme
           │           └── *
           └── install_archlinux
@@ -186,16 +186,16 @@ case ${1} in
     sudo pacman -S mutt
     ;;
   deploy)
-    readonly CLOUDSTORAGE_DIR="${HOME}/SpiderOak Hive/Mail"
+    readonly CLOSED_DIR="${HOME}/SpiderOak Hive/Mail"
+    readonly OPENED_DIR="${HOME}/dotfiles/bin/email"
     # MRA(Mail Retrieval Agent)   | POP3
-    ln -snfv "${CLOUDSTORAGE_DIR}/.getmail" "${HOME}"
+    ln -snfv "${CLOSED_DIR}/.getmail"    "${HOME}"
     # MTA(Message Transfer Agent) | SMTP
-    ln -snfv "${CLOUDSTORAGE_DIR}/.msmtprc" "${HOME}"
+    ln -snfv "${CLOSED_DIR}/.msmtprc"    "${HOME}"
     # MUA(Mail User Agent)        | MAILER
-    ln -snfv "${CLOUDSTORAGE_DIR}/.mutt_local" "${HOME}"
-    ln -snfv "${HOME}/dotfiles/bin/mail/.muttrc" "${HOME}"
-    ln -snfv "${HOME}/dotfiles/bin/mail/.mailcap" "${HOME}"
-    ln -snfv "${HOME}/dotfiles/bin/mail/.mutt" "${HOME}"
+    ln -snfv "${CLOSED_DIR}/.mutt_local" "${HOME}"
+    ln -snfv "${OPENED_DIR}/.mutt"       "${HOME}"
+    ln -snfv "${OPENED_DIR}/.mailcap"    "${HOME}"
     ;;
   example_tree | example_mra | example_mta | example_mua)
     ${1}
