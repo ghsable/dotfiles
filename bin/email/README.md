@@ -2,13 +2,13 @@
 
 ## Installation
 
-1. INSTALL Pkgs
-   sh ${0} install
-2. CREATE Directory/File
-   mkdir *
-   vi    *
-3. DEPLOY Directory/File
-   sh ${0} deploy
+    1. INSTALL Packages
+       sh install.sh install
+    2. CREATE Directory/File
+       mkdir *
+       vi    *
+    3. DEPLOY Directory/File
+       sh install.sh deploy
 
 ## Permission
 
