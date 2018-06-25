@@ -5,8 +5,8 @@
     1. INSTALL Packages
        sh install.sh install
     2. CREATE Directory/File
-       mkdir *
-       vi    *
+       mkdir *  <- # Tree Description
+       vi    *  <- # Example
     3. DEPLOY Directory/File
        sh install.sh deploy
 
