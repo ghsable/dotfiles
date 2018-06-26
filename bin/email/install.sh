@@ -36,7 +36,6 @@ case ${1} in
     # MUA(Mail User Agent)        # MAILER
     ln -snfv "${CLOSED_DIR}/.mutt_local" "${HOME}"
     ln -snfv "${OPENED_DIR}/.mutt"       "${HOME}"
-    ln -snfv "${OPENED_DIR}/.mailcap"    "${HOME}"
     ;;
   *)
     usage

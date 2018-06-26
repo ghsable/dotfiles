@@ -1,29 +1,40 @@
 # --- SCHEME
-source ~/.mutt/scheme/mutt-colors-solarized-dark-256.muttrc
+source "~/.mutt/scheme/mutt-colors-solarized-dark-256.muttrc"
 
 # --- GENERAL
 set editor=`echo \${EDITOR}`
-set header_cache=~/.cache/mutt
-set sort=reverse-date-sent
+set header_cache="~/.cache/mutt"
 set pager_stop=yes
+set pager_index_lines="3"
+set tilde=yes
+set sort="reverse-threads"
+set sort_aux="last-date-received"
+set thorough_search=yes
 
 # --- CHARSET
 set charset="utf-8"
 set send_charset="iso-2022-jp:utf-8"
+set allow_8bit=no
+
+# --- MAILCAP
+set mailcap_path="~/.mutt/mailcap:/etc/mailcap"
+auto_view text/html
+alternative_order text/plain text/enriched text/html
 
 # --- POP3
-set mbox_type=Maildir
+set mbox_type="Maildir"
+set mark_old=no
 
 # --- SMTP
+set abort_nosubject=no
 # not localhost_name
 set use_from=yes
 set envelope_from=yes
 # header
 set edit_headers=no
-
-# --- MAILCAP
-auto_view text/html
-alternative_order text/plain text/enriched text/html
+# forward
+set forward_format="Fwd: %s"
+set mime_forward="ask-yes"
 
 # --- KEYBIND
 # vim like
@@ -46,8 +57,8 @@ macro index 'c' '<change-folder>?<change-dir><home>^K=<enter>'
 
 # --- ACCOUNT1 (personal)
 source "~/.mutt/muttrc_personal"
-folder-hook ${folder} 'source ~/.mutt/muttrc_personal'
+folder-hook "${folder}" 'source ~/.mutt/muttrc_personal'
 
 # --- ACCOUNT2 (work)
 source "~/.mutt/muttrc_work"
-folder-hook ${folder} 'source ~/.mutt/muttrc_work'
+folder-hook "${folder}" 'source ~/.mutt/muttrc_work'

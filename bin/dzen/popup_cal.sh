@@ -3,7 +3,7 @@
 # A simple popup showing system information
 
 # GET DZEN2 OPTION'S PARAMETER
-readonly X_POSITION="1150"
+readonly X_POSITION="1090"
 readonly Y_POSITION="25"
 readonly LINES="8"
 readonly WIDTH="170"

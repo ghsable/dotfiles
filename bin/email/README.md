@@ -5,8 +5,8 @@
     1. INSTALL Packages
        sh install.sh install
     2. CREATE Directory/File
-       mkdir *  <- # Tree Description
-       vi    *  <- # Example
+       mkdir *  <- #Tree Description
+       vi    *  <- #Example
     3. DEPLOY Directory/File
        sh install.sh deploy
 
@@ -41,6 +41,8 @@
     │           │   ├── from_work
     │           │   ├── realname_personal
     │           │   ├── realname_work
+    │           │   ├── signature_personal
+    │           │   ├── signature_work
     │           │   └── ...
     │           └── Maildir
     │               ├── personal
@@ -66,11 +68,11 @@
             ├── email
             │   ├── install.sh  // ALL
             │   ├── getmail.sh  // MRA(rcfile) -> CRONTAB
-            │   ├── .mailcap    // MUA
             │   └── .mutt       // MUA
             │       ├── muttrc
             │       ├── muttrc_personal
             │       ├── muttrc_work
+            │       ├── mailcap
             │       └── scheme
             │           └── *
             └── install_archlinux

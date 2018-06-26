@@ -1,11 +1,12 @@
 # POP3
-set mbox_type=Maildir
-set folder=~/.getmail/Maildir/work/INBOX/
+set mbox_type="Maildir"
+set folder="~/.getmail/Maildir/work/INBOX/"
 set spoolfile=+/
 
 # SMTP
 set sendmail="/usr/bin/msmtp --account=work"
 set realname=`/usr/bin/cat ~/.mutt_local/my_data/realname_work`
 set from=`/usr/bin/cat ~/.mutt_local/my_data/from_work`
-set record=~/.mutt_local/Maildir/work/SENT/
-set postponed=~/.mutt_local/Maildir/work/DRAFTS/
+set record="~/.mutt_local/Maildir/work/SENT/"
+set postponed="~/.mutt_local/Maildir/work/DRAFTS/"
+set signature="~/.mutt_local/my_data/signature_work"
