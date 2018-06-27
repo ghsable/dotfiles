@@ -25,9 +25,11 @@ case ${1} in
     sudo pacman -S msmtp msmtp-mta
     # MUA(Mail User Agent)        # MAILER
     sudo pacman -S mutt
+    # ADDRESS BOOK                # OTHER
+    sudo pacman -S abook
     ;;
   deploy)
-    readonly CLOSED_DIR="${HOME}/SpiderOak Hive/Mail"
+    readonly CLOSED_DIR="${HOME}/SpiderOak Hive/email"
     readonly OPENED_DIR="${HOME}/dotfiles/bin/email"
     # MRA(Mail Retrieval Agent)   # POP3
     ln -snfv "${CLOSED_DIR}/.getmail"    "${HOME}"
@@ -36,6 +38,8 @@ case ${1} in
     # MUA(Mail User Agent)        # MAILER
     ln -snfv "${CLOSED_DIR}/.mutt_local" "${HOME}"
     ln -snfv "${OPENED_DIR}/.mutt"       "${HOME}"
+    # ADDRESS BOOK                # OTHER
+    ln -snfv "${CLOSED_DIR}/.abook"      "${HOME}"
     ;;
   *)
     usage

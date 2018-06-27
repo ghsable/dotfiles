@@ -18,9 +18,10 @@
 ## Tree Description
 
     <HOME>
-    ├── <CLOUDSTORAGE_DIR>      // CLOSED //
-    │   └── Mail
-    │       ├── .getmail        // MRA
+    ├── <CLOUDSTORAGE_DIR>        // CLOSED //
+    │   └── email
+    │       ├── .msmtprc          // MTA
+    │       ├── .getmail          // MRA
     │       │   ├── getmailrc_personal
     │       │   ├── getmailrc_work
     │       │   └── Maildir
@@ -34,9 +35,12 @@
     │       │               ├── cur
     │       │               ├── new
     │       │               └── tmp
-    │       ├── .msmtprc        // MTA
-    │       └── .mutt_local     // MUA
-    │           ├── my_data     // (cat my_data -> muttrc)
+    │       ├── .abook            // ADDRESS BOOK
+    │       │   ├── addressbook
+    │       │   └── addressbook\~
+    │       └── .mutt_local       // MUA
+    │           ├── alias
+    │           ├── my_data       // (cat my_data -> muttrc)
     │           │   ├── from_personal
     │           │   ├── from_work
     │           │   ├── realname_personal
@@ -63,12 +67,12 @@
     │                       ├── cur
     │                       ├── new
     │                       └── tmp
-    └── dotfiles                // OPENED //
+    └── dotfiles                  // OPENED //
         └── bin
             ├── email
-            │   ├── install.sh  // ALL
-            │   ├── getmail.sh  // MRA(rcfile) -> CRONTAB
-            │   └── .mutt       // MUA
+            │   ├── install.sh    // ALL
+            │   ├── getmail.sh    // MRA(rcfile) -> CRONTAB
+            │   └── .mutt         // MUA
             │       ├── muttrc
             │       ├── muttrc_personal
             │       ├── muttrc_work
@@ -77,7 +81,7 @@
             │           └── *
             └── install_archlinux
                 └── etc
-                    └── crontab // MRA(getmail)
+                    └── crontab   // MRA(getmail)
 
 ## Example
 

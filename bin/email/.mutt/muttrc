@@ -4,11 +4,12 @@ source "~/.mutt/scheme/mutt-colors-solarized-dark-256.muttrc"
 # --- GENERAL
 set editor=`echo \${EDITOR}`
 set header_cache="~/.cache/mutt"
+set sort="reverse-threads"
+set sort_aux="last-date-received"
 set pager_stop=yes
 set pager_index_lines="3"
 set tilde=yes
-set sort="reverse-threads"
-set sort_aux="last-date-received"
+set sleep_time = 0
 set thorough_search=yes
 
 # --- CHARSET
@@ -35,6 +36,17 @@ set edit_headers=no
 # forward
 set forward_format="Fwd: %s"
 set mime_forward="ask-yes"
+
+# --- ALIAS
+# mutt
+#set alias_file="~/.mutt_local/alias"
+#set sort_alias=alias
+#set reverse_alias=yes
+#source "${alias_file}"
+# abook
+set query_command= "abook --mutt-query '%s'"
+macro index,pager  a "<pipe-message>abook --add-email-quiet<return>" "Add this sender to Abook"
+bind editor <Tab> complete-query
 
 # --- KEYBIND
 # vim like
