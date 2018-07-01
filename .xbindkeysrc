@@ -7,9 +7,9 @@
 
 ### Set xbindkeys ###
 
-# Terminal | Control + Return
+# Terminal | Mod4 + Return
 "sh ~/bin/tools.sh terminal_b"
-   m:0x4 + c:36
+   m:0x40 + c:36
 
 # dmenu | XF86LaunchA | F3
 "sh ~/bin/tools.sh launch_a"
@@ -43,6 +43,10 @@
 # volume up | Control + XF86AudioRaiseVolume | F12
 "sh ~/bin/alsa.sh +"
    m:0x0 + c:123
+
+# NONE | Control + Return
+#""
+#   m:0x4 + c:36
 
 # NONE | Control + XF86MonBrightnessDown | Control + F1
 #""

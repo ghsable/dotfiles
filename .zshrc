@@ -18,6 +18,7 @@ alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -e 
 # sh
 alias feh='sh ~/bin/feh/feh_browser.sh'
 alias xterm='sh ~/bin/transset-df_xterm.sh'
+alias mutt='sh ~/bin/tools.sh email'
 alias suspend='sh ~/bin/xset.sh suspend'
 alias incbrightness='sh ~/bin/brightness_acpi.sh +'
 alias decbrightness='sh ~/bin/brightness_acpi.sh -'

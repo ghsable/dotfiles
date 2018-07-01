@@ -13,9 +13,13 @@ exfat-utils
 ntfs-3g
 e2fsprogs
 
+# Character Code(filename)
+convmv
+
 # Data Compression
 zip
 unzip
+unarchiver
 
 # Display system Information
 screenfetch

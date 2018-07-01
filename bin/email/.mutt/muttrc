@@ -1,4 +1,6 @@
 # --- SCHEME
+#source "~/.mutt/scheme/colors.default"
+#source "~/.mutt/scheme/colors.linux"
 source "~/.mutt/scheme/mutt-colors-solarized-dark-256.muttrc"
 
 # --- GENERAL
@@ -11,16 +13,19 @@ set pager_index_lines="3"
 set tilde=yes
 set sleep_time = 0
 set thorough_search=yes
+set move=no
 
 # --- CHARSET
 set charset="utf-8"
 set send_charset="iso-2022-jp:utf-8"
 set allow_8bit=no
+# filename
+set rfc2047_parameters=yes
 
 # --- MAILCAP
 set mailcap_path="~/.mutt/mailcap:/etc/mailcap"
-auto_view text/html
-alternative_order text/plain text/enriched text/html
+auto_view text/* application/*
+alternative_order text/* application/*
 
 # --- POP3
 set mbox_type="Maildir"
@@ -28,6 +33,7 @@ set mark_old=no
 
 # --- SMTP
 set abort_nosubject=no
+set write_bcc=no
 # not localhost_name
 set use_from=yes
 set envelope_from=yes

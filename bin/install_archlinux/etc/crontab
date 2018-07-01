@@ -1,1 +1,1 @@
-*/15 * * * * sh ~/bin/email/getmail.sh
+*/30 * * * * /usr/bin/sh ${HOME}/bin/email/getmail.sh

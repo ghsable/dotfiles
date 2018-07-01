@@ -1,5 +1,17 @@
 # ~/.mailcap
 
+### TEXT ###
+
 # HTML -> w3m
 # http://jasonwryan.com/blog/2012/05/12/mutt/
-text/html; w3m -I %{charset} -T text/html; copiousoutput;
+text/html; w3m -I %{charset} -T text/html; copiousoutput
+
+# PLAIN
+text/plain; iconv -f %{charset} %s; copiousoutput
+
+### APPLICATION ###
+# ZIP -> UNAR
+application/zip; unar -o ${HOME}/Downloads %s;
+
+# MS-EXCEL -> LIBREOFFICE
+application/vnd.ms-excel; libreoffice %s;
