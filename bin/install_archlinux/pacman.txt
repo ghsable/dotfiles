@@ -16,7 +16,7 @@ e2fsprogs
 # Character Code(filename)
 convmv
 
-# Data Compression
+# Data Compression(zip,unzip,unar/lsar)
 zip
 unzip
 unarchiver
