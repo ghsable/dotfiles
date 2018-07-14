@@ -11,14 +11,14 @@ Charset:
   Linux   : UTF-8
 
 Usage:
-  sh ${0} display cp932 utf8  <file_path> : DISPLAY CP932 -> UTF-8
-  sh ${0} display utf8  cp932 <file_path> : DISPLAY UTF-8 -> CP932
-  sh ${0} convert cp932 utf8  <file_path> : CONVERT CP932 -> UTF-8(utf8_filename)
-  sh ${0} convert utf8  cp932 <file_path> : CONVERT UTF-8 -> CP932(cp932_filename)
-  sh ${0} *                               : USAGE
+  sh ${0} display cp932 utf8  <inputfile_path> : DISPLAY CP932 -> UTF-8
+  sh ${0} display utf8  cp932 <inputfile_path> : DISPLAY UTF-8 -> CP932
+  sh ${0} convert cp932 utf8  <inputfile_path> : CONVERT CP932 -> UTF-8(utf8_filename)
+  sh ${0} convert utf8  cp932 <inputfile_path> : CONVERT UTF-8 -> CP932(cp932_filename)
+  sh ${0} *                                    : USAGE
 
 EOF:
-  file -i <file_path>
+  file -i <outputfile_path>
 
 _EOT_
 exit 1
@@ -29,9 +29,9 @@ case ${1} in
     iconv -f ${2} -t ${3} ${4}
     ;;
   convert)
-    readonly CONVERTED_DIR=`dirname ${4}`
-    readonly CONVERTEDFILE_NAME=`basename ${4}`
-    iconv -f ${2} -t ${3} <${4}> ${CONVERTED_DIR}/${3}_${CONVERTEDFILE_NAME}
+    readonly OUTPUTFILE_DIR=`dirname ${4}`
+    readonly OUTPUTFILE_NAME=`basename ${4}`
+    iconv -f ${2} -t ${3} <${4}> ${OUTPUTFILE_DIR}/${3}_${OUTPUTFILE_NAME}
     ;;
   *)
     usage

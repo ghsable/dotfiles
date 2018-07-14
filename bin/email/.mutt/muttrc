@@ -3,9 +3,28 @@
 #source "~/.mutt/scheme/colors.linux"
 source "~/.mutt/scheme/mutt-colors-solarized-dark-256.muttrc"
 
+# --- FORMAT
+set date_format="%y-%m-%d %H:%M"
+set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"
+
+# --- HEADER
+set header_cache="~/.cache/mutt"
+set edit_headers=yes
+# my_hdr
+unmy_hdr *
+my_hdr X-Mailer: mutt powered by xmonad,urxvt,vim
+my_hdr X-Info: Keep It Simple, Stupid.
+my_hdr X-Operating-System: `uname -s`, kernel `uname -r`
+my_hdr X-Message-Flag: WARNING!! Outlook sucks
+my_hdr User-Agent: Every email client sucks, this one just sucks less.
+# Sven's draconian header weeding  
+ignore *
+unignore date from to cc subject
+unignore X-Mailer X-Info X-Operating-System User-Agent
+unignore posted-to: 
+
 # --- GENERAL
 set editor=`echo \${EDITOR}`
-set header_cache="~/.cache/mutt"
 set sort="reverse-threads"
 set sort_aux="last-date-received"
 set pager_stop=yes
@@ -37,8 +56,6 @@ set write_bcc=no
 # not localhost_name
 set use_from=yes
 set envelope_from=yes
-# header
-set edit_headers=no
 # forward
 set forward_format="Fwd: %s"
 set mime_forward="ask-yes"
@@ -58,11 +75,15 @@ bind editor <Tab> complete-query
 # vim like
 bind index gg first-entry
 bind index G last-entry
+bind index,pager \Cb half-up
+bind index,pager \Cf half-down
 bind pager gg top
 bind pager G bottom
 bind pager j next-line
 bind pager k previous-line
-bind pager F next-page
+bind pager h next-entry
+bind pager H display-toggle-weed
+bind pager l previous-entry
 # security
 bind generic,alias,attach,browser,editor,index,compose,pager,pgp,postpone ':' noop
 

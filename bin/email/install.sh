@@ -29,7 +29,7 @@ case ${1} in
     sudo pacman -S abook
     ;;
   deploy)
-    readonly CLOSED_DIR="${HOME}/SpiderOak Hive/email"
+    readonly CLOSED_DIR="${HOME}/Dropbox/email"
     readonly OPENED_DIR="${HOME}/dotfiles/bin/email"
     # MRA(Mail Retrieval Agent)   # POP3
     ln -snfv "${CLOSED_DIR}/.getmail"    "${HOME}"

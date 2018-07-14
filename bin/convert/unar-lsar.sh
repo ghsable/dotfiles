@@ -3,12 +3,12 @@
 function usage() {
 cat<< _EOT_
 Description:
-  OPEN any archive(The Unarchiver)
+  UNZIP files(The Unarchiver)
 
 Usage:
-  sh ${0} unar <file_path> : OPEN archive
-  sh ${0} lsar <file_path> : VIEW archive
-  sh ${0} *                : USAGE
+  sh ${0} unar <inputfile_path> : UNZIP   files
+  sh ${0} lsar <inputfile_path> : DISPLAY files
+  sh ${0} *                     : USAGE
 
 _EOT_
 exit 1
@@ -16,11 +16,11 @@ exit 1
 
 case ${1} in
   unar)
-    readonly ARCHIVE_DIR=`dirname ${2}`
-    ${1} -o ${ARCHIVE_DIR} ${2}
+    readonly OUTPUTFILE_DIR=`dirname ${2}`
+    unar -o ${OUTPUTFILE_DIR} ${2}
     ;;
   lsar)
-    ${1} ${2}
+    lsar ${2}
     ;;
   *)
     usage

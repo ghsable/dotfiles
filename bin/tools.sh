@@ -40,6 +40,7 @@ case ${1} in
                tail -n1) 0.75                 ;;
   terminal_b )  urxvt                         ;;
   email      )  sh ~/bin/email/getmail.sh ;
+                cd ~/Downloads
                 mutt                          ;;
   addressbook)  abook                         ;;
   filer      )  thunar                        ;;

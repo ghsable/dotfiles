@@ -16,17 +16,17 @@ e2fsprogs
 # Character Code(filename)
 convmv
 
-# Data Compression(zip,unzip,unar/lsar)
+# Data Compression(zip,unzip,unar/lsar,7z)
 zip
 unzip
 unarchiver
+p7zip
 
 # Display system Information
 screenfetch
 
 ### DRIVER ###
-# Video(OpenGL)
-# $ lspci | grep -e VGA -e 3D
+# Video(lspci | grep -e VGA -e 3D)(OpenGL)
 mesa
 
 # Sound
@@ -48,11 +48,9 @@ xorg-apps
 xterm
 # Xresources
 xorg-xrdb
-# KeyMap Utility
-# $ xmodmap -pke >~/.Xmodmap
+# KeyMap Utility(xmodmap -pke >~/.Xmodmap)
 xorg-xmodmap
-# Get Window ID
-# $ xwininfo
+# Get Window ID(xwininfo)
 xorg-xwininfo
 # Get Device ID
 xorg-xinput
@@ -61,8 +59,7 @@ xorg-xbacklight
 # Display Power Management
 xorg-xset
 
-# Xinitrc
-# $ startx
+# Xinitrc(startx)
 xorg-xinit
 
 # Terminal
@@ -134,6 +131,10 @@ firefox
 #flashplugin
 
 ### TOOL ###
+# Editor
+vim
+leafpad
+
 # Display AC
 upower
 
@@ -147,14 +148,17 @@ simplescreenrecorder
 imagemagick
 graphicsmagick
 
-# Note
-leafpad
+# PDF(pdftotext,mupdf)
+xpdf
+mupdf
 
 # Office Suite
 libreoffice-still
 #libreoffice-still-ja
 #libreoffice-fresh
 #libreoffice-fresh-ja
+#antiword
+unoconv
 
 ### PROGRAMMING ###
 # Java
@@ -167,6 +171,5 @@ mono
 python
 
 ### JOKE ###
-# SL(https://github.com/mtoyoda/sl)
-# $ sl -alFc
+# SL(sl -alFc)(https://github.com/mtoyoda/sl)
 sl
