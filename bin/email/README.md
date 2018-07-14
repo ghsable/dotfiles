@@ -69,6 +69,7 @@
     │                       └── tmp
     └── dotfiles                  // OPENED //
         └── bin
+            ├── open_afile.sh     // MUA(mailcap -> fileopen)
             ├── email
             │   ├── install.sh    // ALL
             │   ├── getmail.sh    // MRA(rcfile) -> CRONTAB
