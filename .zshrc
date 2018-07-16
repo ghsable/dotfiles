@@ -9,7 +9,6 @@ alias ln='ln -snfv'
 alias grep='grep --color=auto'
 alias df='df -h'
 alias df='du -h'
-alias vim='vi'
 # other
 alias fc-list='fc-list : family | sort'
 alias sd='dirs -v; echo -n "select number: "; read newdir; cd +"$newdir"'

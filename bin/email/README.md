@@ -18,10 +18,10 @@
 ## Tree Description
 
     <HOME>
-    ├── <CLOUDSTORAGE_DIR>        // CLOSED //
+    ├── <CLOUDSTORAGE_DIR>             // CLOSED //
     │   └── email
-    │       ├── .msmtprc          // MTA
-    │       ├── .getmail          // MRA
+    │       ├── .msmtprc               // MTA
+    │       ├── .getmail               // MRA
     │       │   ├── getmailrc_personal
     │       │   ├── getmailrc_work
     │       │   └── Maildir
@@ -35,12 +35,12 @@
     │       │               ├── cur
     │       │               ├── new
     │       │               └── tmp
-    │       ├── .abook            // ADDRESS BOOK
+    │       ├── .abook                 // ADDRESS BOOK
     │       │   ├── addressbook
     │       │   └── addressbook\~
-    │       └── .mutt_local       // MUA
+    │       └── .mutt_local            // MUA
     │           ├── alias
-    │           ├── my_data       // (cat my_data -> muttrc)
+    │           ├── my_data            // (cat my_data -> muttrc)
     │           │   ├── from_personal
     │           │   ├── from_work
     │           │   ├── realname_personal
@@ -67,13 +67,16 @@
     │                       ├── cur
     │                       ├── new
     │                       └── tmp
-    └── dotfiles                  // OPENED //
+    └── dotfiles                       // OPENED //
+        └── Downloads
+            └── *                      // MUA(unar -o)
         └── bin
-            ├── open_afile.sh     // MUA(mailcap -> fileopen)
+            ├── openfile_console.sh    // MUA(mailcap -> fileopen)
+            ├── openfile_graphical.sh  // MUA(mailcap -> fileopen)
             ├── email
-            │   ├── install.sh    // ALL
-            │   ├── getmail.sh    // MRA(rcfile) -> CRONTAB
-            │   └── .mutt         // MUA
+            │   ├── install.sh         // ALL
+            │   ├── getmail.sh         // MRA(rcfile) -> CRONTAB
+            │   └── .mutt              // MUA
             │       ├── muttrc
             │       ├── muttrc_personal
             │       ├── muttrc_work
@@ -82,7 +85,7 @@
             │           └── *
             └── install_archlinux
                 └── etc
-                    └── crontab   // MRA(getmail)
+                    └── crontab        // MRA(getmail)
 
 ## Example
 

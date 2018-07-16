@@ -1,7 +1,7 @@
 # LANG(Console)
 export LANG=en_US.UTF-8
 # EDITOR
-export EDITOR=vi
+export EDITOR=vim
 
 # CRONTAB
 crontab ~/bin/install_archlinux/etc/crontab

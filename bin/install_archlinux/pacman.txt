@@ -148,9 +148,9 @@ simplescreenrecorder
 imagemagick
 graphicsmagick
 
-# PDF(pdftotext,mupdf)
+# PDF(pdftotext,evince)
 xpdf
-mupdf
+evince
 
 # Office Suite
 libreoffice-still

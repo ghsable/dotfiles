@@ -3,10 +3,10 @@
 function usage() {
 cat<< _EOT_
 Description:
-  OPEN any files
+  OPEN any files(graphical)
 
 Usage:
-  sh ${0} <inputfile_path> : OPEN  any files
+  sh ${0} <inputfile_path> : OPEN  any files(graphical)
   sh ${0} *                : USAGE
 
 _EOT_
@@ -18,19 +18,13 @@ case ${1##*.} in
     leafpad ${1}
     ;;
   html)
-    w3m -dump ${1}
+    firefox ${1}
     ;;
-  doc | docx | xls | xlsm)
-    unoconv -f html ${1} &&
-    w3m -dump ${1%.*}.html
-    ;;
-  potx)
+  doc | docx | xls | xlsm | potx)
     libreoffice ${1}
     ;;
   pdf)
-    pdftotext ${1} -
-    #mupdf ${1}
-    #firefox ${1}
+    evince ${1}
     ;;
   *)
     echo 'not supported...'

@@ -10,18 +10,18 @@ text/plain; iconv -f %{charset} '%s'; copiousoutput
 
 ### APPLICATION ###
 # ZIP -> Unar
-application/zip; unar -o ${HOME}/Downloads '%s';
-application/x-zip-compressed; unar -o ${HOME}/Downloads '%s';
+application/zip; sh ${HOME}/bin/openfile_console.sh '%s';
+application/x-zip-compressed; sh ${HOME}/bin/openfile_console.sh '%s';
 
 # PDF -> XpdfReader
-application/pdf; sh ${HOME}/bin/open_afile.sh '%s'; copiousoutput;
+application/pdf; sh ${HOME}/bin/openfile_console.sh '%s'; copiousoutput;
 
 # MS-WORD -> w3m
-application/msword; sh ${HOME}/bin/open_afile.sh '%s'; copiousoutput;
-application/vnd.openxmlformats-officedocument.wordprocessingml.document; sh ${HOME}/bin/open_afile.sh '%s'; copiousoutput;
+application/msword; sh ${HOME}/bin/openfile_console.sh '%s'; copiousoutput;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document; sh ${HOME}/bin/openfile_console.sh '%s'; copiousoutput;
 
 # MS-EXCEL -> w3m
-application/vnd.ms-excel; sh ${HOME}/bin/open_afile.sh '%s'; copiousoutput;
+application/vnd.ms-excel; sh ${HOME}/bin/openfile_console.sh '%s'; copiousoutput;
 
 # MS-POWERPOINT -> LibreOffice
-application/vnd.openxmlformats-officedocument.presentationml.template; sh ${HOME}/bin/open_afile.sh '%s';
+application/vnd.openxmlformats-officedocument.presentationml.template; sh ${HOME}/bin/openfile_graphical.sh '%s';

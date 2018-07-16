@@ -81,9 +81,9 @@ bind pager gg top
 bind pager G bottom
 bind pager j next-line
 bind pager k previous-line
-bind pager h next-entry
+bind pager l next-entry
 bind pager H display-toggle-weed
-bind pager l previous-entry
+bind pager h previous-entry
 # security
 bind generic,alias,attach,browser,editor,index,compose,pager,pgp,postpone ':' noop
 
