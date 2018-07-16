@@ -101,8 +101,9 @@
 **🎲ゲーム**
 - - -
 * [ ] [将棋ウォーズ](https://itunes.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA/id496801169?mt=8)
-* [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1067790324?mt=8)
+* [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
 * [ ] [FINAL FANTASY Record Keeper](https://itunes.apple.com/jp/app/final-fantasy-record-keeper/id866037912?mt=8)
+* [ ] [Pokémon GO](https://itunes.apple.com/jp/app/pok%C3%A9mon-go/id1094591345?mt=8)
 
 **🎨製作編集**
 - - -
@@ -118,5 +119,7 @@
 * [ ] [Voice Recorder HD](https://itunes.apple.com/jp/app/voice-recorder-hd/id373045717?mt=8)
 * [ ] [SySight](https://itunes.apple.com/jp/app/sysight/id568731681?mt=8)
 * [ ] [Workflow](https://itunes.apple.com/jp/app/workflow/id915249334?mt=8)
+* [ ] [HUAWEI HiLink](https://itunes.apple.com/jp/app/huawei-hilink-mobile-wifi/id546979875?mt=8)
 * [ ] [mineoスイッチ](https://itunes.apple.com/jp/app/mineo%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81/id994047612?mt=8)
+* [ ] [Amazon Alexa](https://itunes.apple.com/jp/app/amazon-alexa/id944011620?mt=8)
 * [ ] [hibiku](https://itunes.apple.com/jp/app/hibiku/id673366738?mt=8)
