@@ -116,7 +116,8 @@ ttf-symbola
 noto-fonts-emoji
 
 ### BROWSER ###
-# File Manager
+# File Manager(ranger,thunar)
+ranger
 thunar
 tumbler
 
