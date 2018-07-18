@@ -1,6 +1,19 @@
-
+" ------ サード製 ------
+" --- Taglist
+" ソースコードファイルの構造の概観を提供(<C-l>で表示/非表示)
+let Tlist_Compact_Format = 1
+let Tlist_GainFocus_On_ToggleOpen = 1
+let Tlist_Close_On_Select = 1
+nnoremap <C-l> :TlistToggle<CR>
 
 " ------ 全体 ------
+" --- スペルチェックを有効にする(ただし日本語は除外する)
+"set spelllang+=cjk
+"set spell
+" --- 行頭で'←'、行末で'→'を押した時に次行へカーソルを遷移
+set whichwrap=b,s,<,>,[,]
+" --- マウスサポート有効
+set mouse=a
 " --- 入力コマンドの履歴数を50件に設定
 set history=50
 " --- バッファを切替えてもundoの効力を失わない
@@ -25,6 +38,8 @@ set listchars=tab:>-,extends:<,trail:-,eol:<
 set timeout timeoutlen=0
 " --- ビープ音オフ
 set vb t_vb=
+" --- ウィンドウ下部のgVimが確保するスペースを調整
+set guiheadroom=0
 
 
 " ------ システム管理 ------
@@ -37,7 +52,7 @@ set viminfo=
 
 
 " ------ システム表示 ------
-" --- 行番号を表示
+" --- 行番号を表示(number:絶対番号/relativenumber:相対番号)
 set number
 " --- カーソルが何行目の何列目に置かれているかを表示(有効:ruler/無効:noruler)
 set ruler
@@ -60,7 +75,7 @@ set statusline+=%m
 set statusline+=%r
 " ヘルプページなら[HELP]と表示
 set statusline+=%h
-" プレビューウインドウなら[Prevew]と表示
+" プレビューウインドウなら[Preview]と表示
 set statusline+=%w
 " ---
 " これ以降は右寄せ表示
@@ -76,7 +91,14 @@ set title
 
 " ------ 文字入力 ------
 " --- オートインデント
+" autoindent:一つ前の行に基づくインデント
+" smartindent:autoindentと同様だが幾つかのC構文を認識し適切な箇所のインデントを増減
+" cindent:他の2つの方法よりも賢く動作し異なるインデントスタイルにも対応
+" indentexpr:この中で一番融通が利く:ある行のインデントを計算するのにVimスクリプトを実行
+"            この方法が有効である(空でない)時にはその他のインデントは抑制される
 set autoindent
+set smartindent
+
 " --- <Tab>を半角空白2文字に置き換える
 set expandtab
 set tabstop=2
@@ -92,7 +114,8 @@ set so=5
 
 " ------ 補完/強調 ------
 " --- シンタックス有効
-syntax enable
+filetype plugin on
+syntax on
 " --- 補完メニューの高さを設定
 set pumheight=10
 " --- 対応した括弧を強調非表示
@@ -123,10 +146,10 @@ set completeopt=menuone,preview
 " --- ポップアップメニューの色を変更
 " Pmenu:ノーマルアイテム , PmenuSel:選択しているアイテム
 " PmenuSbar:スクロールバー , PmenuThumb:スクロールバーのレバー
-highlight Pmenu ctermbg=6
-highlight PmenuSel ctermbg=11
-highlight PmenuSbar ctermbg=6
-highlight PmenuThumb ctermfg=13
+hi Pmenu ctermbg=6
+hi PmenuSel ctermbg=11
+hi PmenuSbar ctermbg=6
+hi PmenuThumb ctermfg=13
 
 
 " ------ 検索 ------
@@ -140,6 +163,13 @@ set ignorecase
 set smartcase
 " --- 検索がファイル末尾まで進んだらファイル先頭から再び検索(有効:wrapscan/無効:nowrapscan)
 set wrapscan
+
+
+" ------ スキーム ------
+" --- カラースキーマの指定
+" blue , darkblue , default , delek , desert , elford ,
+" evening , koehler , morning , murphy , pablo , peachpuff
+"colorscheme desert
 
 
 " ------ キーバインド ------

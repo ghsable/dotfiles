@@ -20,11 +20,14 @@ case ${1##*.} in
   html)
     firefox ${1}
     ;;
-  doc | docx | xls | xlsm | potx)
+  doc | docx | xls | xlsm | potx | pptx)
     libreoffice ${1}
     ;;
   pdf)
     evince ${1}
+    ;;
+  jpg | jpeg | png | gif)
+    sh ${HOME}/bin/feh/feh_browser.sh ${1}
     ;;
   *)
     echo 'not supported...'

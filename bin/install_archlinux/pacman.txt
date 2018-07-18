@@ -133,8 +133,11 @@ firefox
 
 ### TOOL ###
 # Editor
-vim
 leafpad
+
+# Editor(Vim)
+vim
+vim-taglist
 
 # Display AC
 upower

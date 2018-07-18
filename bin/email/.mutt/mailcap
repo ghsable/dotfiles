@@ -8,6 +8,10 @@ text/html; w3m -I %{charset} -T text/html; copiousoutput
 # PLAIN
 text/plain; iconv -f %{charset} '%s'; copiousoutput
 
+### IMAGE ###
+# * -> Feh
+image/*; sh ${HOME}/bin/openfile_graphical.sh '%s';
+
 ### APPLICATION ###
 # ZIP -> Unar
 application/zip; sh ${HOME}/bin/openfile_console.sh '%s';

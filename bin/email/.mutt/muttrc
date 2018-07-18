@@ -43,8 +43,8 @@ set rfc2047_parameters=yes
 
 # --- MAILCAP
 set mailcap_path="~/.mutt/mailcap:/etc/mailcap"
-auto_view text/* application/*
-alternative_order text/* application/*
+auto_view text/* image/* application/*
+alternative_order text/* image/* application/*
 
 # --- POP3
 set mbox_type="Maildir"
