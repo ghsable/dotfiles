@@ -1,4 +1,18 @@
 " ------ ** 行頭記載 ** ------
+" ------ <Leader> ------
+" --- <Leader>の割当て(以降の設定を有効にするため最上行に定義)
+let mapleader = "\<Space>"
+" --- キーバインド
+" 保存/終了
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
+" 行頭/行末に移動
+noremap <Leader>h ^
+noremap <Leader>l $
+" 他は各プラグインに記載
+" ---
+
+
 " ------ カラースキーム ------
 " --- 背景色を設定
 set background=dark
@@ -38,6 +52,8 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=gray ctermbg=gray
 "     Markdownのプレビュー(mermaid記法対応)
 " *   デフォルトブラウザを設定
 let g:previm_open_cmd='firefox'
+" *   HTMLをブラウザで開くコマンドをキーバインド
+nnoremap <Leader>m :PrevimOpen<CR>
 " --- }}} ---
 " --- 遅延ロード(opt)
 " --- {{{ ---
@@ -73,19 +89,6 @@ let Tlist_Compact_Format = 1
 let Tlist_GainFocus_On_ToggleOpen = 1
 let Tlist_Close_On_Select = 1
 nnoremap <C-l> :TlistToggle<CR>
-" ---
-
-
-" ------ <Leader> ------
-" --- <Leader>の割当て
-let mapleader = "\<Space>"
-" --- キーバインド
-" 保存/終了
-nnoremap <Leader>w :w<CR>
-nnoremap <Leader>q :q<CR>
-" 行頭/行末に移動
-noremap <Leader>h ^
-noremap <Leader>l $
 " ---
 
 
