@@ -16,6 +16,8 @@ bin
 .config/fcitx/conf
 .config/fcitx/data
 .config/fcitx/skin
+# Filer
+.config/ranger
 
 #################### NOT USING ####################
 # Input Method Framework(Uim)
