@@ -116,10 +116,14 @@ ttf-symbola
 noto-fonts-emoji
 
 ### BROWSER ###
-# File Manager(ranger,thunar)
-ranger
+# File Manager(GUI)
 thunar
 tumbler
+
+# File Manager(ranger)
+ranger
+# PDF(pdftoppm)
+poppler
 
 # Movie Player
 mplayer
@@ -142,7 +146,7 @@ vim-taglist
 # Display AC
 upower
 
-# Screenshot              
+# Screenshot
 scrot
 
 # Screencast
@@ -173,6 +177,9 @@ mono
 
 # Python
 python
+
+# Rust
+rust
 
 ### JOKE ###
 # SL(sl -alFc)(https://github.com/mtoyoda/sl)

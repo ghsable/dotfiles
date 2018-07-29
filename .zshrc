@@ -20,6 +20,9 @@ alias mutt='sh ~/bin/tools.sh email'
 alias suspend='sh ~/bin/xset.sh suspend'
 alias incbrightness='sh ~/bin/brightness_acpi.sh +'
 alias decbrightness='sh ~/bin/brightness_acpi.sh -'
+# ranger
+ranger() { [ -n "$RANGER_LEVEL" ] && exit || LESS="$LESS -+F -+X" command ranger "$@"; }
+[ -n "$RANGER_LEVEL" ] && PS1="(RANGER) $PS1"
 
 ### PROMPT ###
 PROMPT="%B%F{cyan}☠%f %F{cyan}[ %m@%U%n%u ] [ %~ ]%f

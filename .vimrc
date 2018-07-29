@@ -1,7 +1,7 @@
 " ------ ** 行頭記載 ** ------
 " ------ <Leader> ------
 " --- <Leader>の割当て(以降の設定を有効にするため最上行に定義)
-let mapleader = "\<Space>"
+let mapleader="\<Space>"
 " --- キーバインド
 " 保存/終了
 nnoremap <Leader>w :w<CR>
@@ -27,7 +27,7 @@ autocmd VimEnter * match FullWidthSpace /　/
 " *2 : highlightより上に記載しないと設定が上書きされる
 colorscheme default
 " --- }}} ---
-" --- HTMLを簡易整形
+" --- HTMLを簡易強調表示
 highlight link htmlItalic LineNr
 highlight link htmlBold WarningMsg
 highlight link htmlBoldItalic ErrorMsg
@@ -45,39 +45,54 @@ highlight link htmlBoldItalic ErrorMsg
 " *   インデントの可視化を有効
 let g:indent_guides_enable_on_vim_startup=1
 " *   インデントの色を設定
-let g:indent_guides_auto_colors= 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=darkgray ctermbg=darkgray
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=gray ctermbg=gray
+let g:indent_guides_auto_colors=0
+autocmd VimEnter,Colorscheme * :highlight IndentGuidesOdd  guibg=darkgray ctermbg=darkgray
+autocmd VimEnter,Colorscheme * :highlight IndentGuidesEven guibg=gray ctermbg=gray
 " --- previm(https://github.com/previm/previm)
 "     Markdownのプレビュー(mermaid記法対応)
 " *   デフォルトブラウザを設定
 let g:previm_open_cmd='firefox'
 " *   HTMLをブラウザで開くコマンドをキーバインド
 nnoremap <Leader>m :PrevimOpen<CR>
+" *   :PrevimOpenによるCSSスタイルをGitHubライクに設定(外部ファイル参照)
+"     PrevimのデフォルトCSSスタイルを無効 -> 外部CSSファイルを設定
+"     https://blog.wadackel.me/2017/previmg-github-style/
+let g:previm_disable_default_css=1
+let g:previm_custom_css_path='~/.vim/myconfig/previm/markdown.css'
+" --- jedi-vim(https://github.com/davidhalter/jedi-vim)
+"     Pythonの入力補完<Ctrl-c>
+" *   自動補完機能を有効(有効:1,無効:0)
+let g:jedi#completions_enabled=1
+let g:jedi#auto_vim_configuration=1
+" *   "."を入力すると補完が自動表示される設定を解除
+let g:jedi#popup_on_dot=0
+" *   docstring(補足説明)を非表示
+autocmd FileType python setlocal completeopt-=preview
 " --- }}} ---
+
+
 " --- 遅延ロード(opt)
 " --- {{{ ---
 " --- Filetypeを有効にする(Filetypeによる条件分岐に依存)
 filetype on
 " --- 各プラグインの関数定義
-" --- jedi-vim(https://github.com/davidhalter/jedi-vim)
-" *   Pythonの入力補完
-function! s:config_jedivim()
+" --- xxx(https://github.com/xxx/xxx)
+" *   xxx
+"function! s:config_xxx()
   " プラグインの設定
-  
   " プラグインのロード
-  packadd jedi-vim
-endfunction
+"  packadd xxx
+"endfunction
 " --- }}} ---
 " --- {{{ ---
-if has("autocmd")
+"if has("autocmd")
   " FileTypeによって各プラグインを遅延ロード
-  augroup lazy-load
-    autocmd!
-   " python -> jedi-vim(https://github.com/davidhalter/jedi-vim)
-    autocmd FileType python call s:config_jedivim()
-  augroup END
-endif
+"  augroup lazy-load
+"    autocmd!
+   " xxx -> xxx(https://github.com/xxx/xxx)
+"    autocmd FileType python call s:config_xxx()
+"  augroup END
+"endif
 " --- }}} ---
 " ---
 
@@ -85,9 +100,9 @@ endif
 " ------ 外部ソフトウェア ------
 " --- Taglist
 " ソースコードファイルの構造の概観を提供(<C-l>で表示/非表示)
-let Tlist_Compact_Format = 1
-let Tlist_GainFocus_On_ToggleOpen = 1
-let Tlist_Close_On_Select = 1
+let Tlist_Compact_Format=1
+let Tlist_GainFocus_On_ToggleOpen=1
+let Tlist_Close_On_Select=1
 nnoremap <C-l> :TlistToggle<CR>
 " ---
 
@@ -103,6 +118,8 @@ set nowritebackup
 set nobackup
 " swapファイルを作成しない
 set noswapfile
+" viminfoファイルを作成しない
+"set viminfo=
 " --- Windowsでパスの区切り文字をスラッシュで扱う
 set shellslash
 " --- スクロール時に5行空ける
@@ -114,6 +131,8 @@ set vb t_vb=
 set noerrorbells
 " ビープ音を可視化
 set visualbell
+" --- backspace無反応時の処置
+set backspace=indent,eol,start
 " ---
 
 
@@ -185,10 +204,6 @@ set whichwrap=b,s,<,>,[,]
 " --- スペルチェックを有効にする(ただし日本語は除外)
 "set spelllang+=cjk
 "set spell
-" --- IMをデフォルトOFFにして挿入モード開始時に全角入力状態を防止
-set iminsert=0 imsearch=0
-" --- backspace無反応時の処置
-set backspace=indent,eol,start
 " ---
 
 
@@ -281,6 +296,8 @@ set nopaste
 " インサートモードから抜ける
 inoremap jj <ESC>
 inoremap っｊ <ESC>
+" --- IMをデフォルトOFFにして挿入モード開始時に全角入力状態を防止
+set iminsert=0 imsearch=0
 " ---
 
 
@@ -338,8 +355,6 @@ set statusline+=[LOW=%l/%L]
 
 " ------ 疑似プラグイン ------
 " --- {{{ ---
-" viminfoファイルを作成しない
-"set viminfo=
 " --- カーソル位置を記憶(~/.viminfo依存)
 if has("autocmd")
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif

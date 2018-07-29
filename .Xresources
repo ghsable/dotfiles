@@ -48,9 +48,9 @@ xterm*scaleHeight:        1.1
 !!
 !! General
 URxvt.geometry:           96x32
-URxvt.scrollBar_right:    true
-URxvt.scrollBar_floating: true
-URxvt.scrollstyle:        plain
+!URxvt.scrollBar_right:    true
+!URxvt.scrollBar_floating: true
+!URxvt.scrollstyle:        plain
 URxvt.cursorBlink:        true
 URxvt.cursorUnderline:    true
 URxvt.pointerBlank:       true

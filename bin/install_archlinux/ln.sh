@@ -4,7 +4,7 @@ echo "${0} ..."
 
 function mkdir_basedir() {
 # Make Directory
-mkdir -pv ~/.config/fcitx ~/.local/share/applications ~/.xmonad
+mkdir -pv ~/.Trash ~/.config/fcitx ~/.local/share/applications ~/.xmonad
 
 #################### NOT USING ####################
 #mkdir -pv ~/.uim.d ~/.anthy
