@@ -141,7 +141,8 @@ leafpad
 
 # Editor(Vim)
 vim
-vim-taglist
+# tagjump(ctags -R -f .tags),(<C-]>,<C-t>,<C-x><C-]>)
+ctags
 
 # Display AC
 upower
@@ -177,9 +178,16 @@ mono
 
 # Python
 python
+# lint(http://flake8.pycqa.org/en/latest/)
+flake8
 
 # Rust
 rust
+# Rust code completion and navigation
+rust-racer
+
+# Ruby
+ruby
 
 ### JOKE ###
 # SL(sl -alFc)(https://github.com/mtoyoda/sl)

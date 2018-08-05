@@ -15,7 +15,7 @@ alias sd='dirs -v; echo -n "select number: "; read newdir; cd +"$newdir"'
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -e "time to full:" -e "time to empty:" -e "percentage:"'
 # sh
 alias feh='sh ~/bin/feh/feh_browser.sh'
-alias xterm='sh ~/bin/transset-df_xterm.sh'
+alias xterm='sh ~/bin/tools.sh terminal_a'
 alias mutt='sh ~/bin/tools.sh email'
 alias suspend='sh ~/bin/xset.sh suspend'
 alias incbrightness='sh ~/bin/brightness_acpi.sh +'

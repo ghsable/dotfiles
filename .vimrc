@@ -1,4 +1,24 @@
-" ------ ** 行頭記載 ** ------
+" --- ~/.vimrc
+
+
+" ------ 文字コード ------
+" --- ファイル読込み時の文字コードを設定
+set encoding=utf-8
+" --- 使用するファイル形式を設定
+set fileformats=unix,dos,mac
+" --- ファイル保存時の文字コードを設定
+set fileencoding=utf-8
+" --- ファイル閲覧時の文字コードを設定(文字化け防止)
+set fileencodings=utf-8,iso-2022-jp,euc-jp,sjis
+" --- 文字入力時の文字コードを設定
+set fenc=utf-8
+" --- Vim script内でマルチバイト文字を使う場合の設定
+scriptencoding utf-8
+" --- 全角特殊文字の表示を調整(プラグインと競合する可能性有り)
+set ambiwidth=double
+" ---
+
+
 " ------ <Leader> ------
 " --- <Leader>の割当て(以降の設定を有効にするため最上行に定義)
 let mapleader="\<Space>"
@@ -37,19 +57,50 @@ highlight link htmlBoldItalic ErrorMsg
 " ------ 外部プラグイン ------
 " --- 常にロード(start)
 " --- {{{ ---
-" --- vim-fugitive(https://github.com/tpope/vim-fugitive)
-"     ステータスバーにGitのブランチ名を表示、その他Git操作
-" *   'statusline+=%{fugitive#statusline()}'を定義済み
-" --- vim-indent-guides(https://github.com/nathanaelkane/vim-indent-guides)
-"     インデントを可視化
+" --- tpope/vim-fugitive(https://github.com/tpope/vim-fugitive)
+"     --- Gitの機能提供
+" *   ステータスバーにGitのブランチ名を表示、その他Git操作
+"statusline+=%{fugitive#statusline()} -> 定義済み
+" --- Yggdroot/indentLine(https://github.com/Yggdroot/indentLine)
+"     --- インデントを可視化(関数の終了位置を認識できるように縦線を入れる)
+"         nathanaelkane/vim-indent-guidesと競合するため、いずれかを無効にする必要がある
+" *   indentLineを設定(0:無効,1:有効)
+"     ":IndentLinesToggle"で表示切替を行う
+let g:indentLine_enabled=1
+" *   インデントの色を設定(1:グレー色,2:グレー色強調)
+"let g:indentLine_setColors=1
+" *   インデントの色を数値で設定(239:グレー色が基準)
+let g:indentLine_color_term=243
+" *   インデント表示を定義
+"     例) c,¦,┆,│,▏
+"     * 全角文字を利用するとカーソル位置が半角1文字ズレるため注意
+let g:indentLine_char='¦'
+" *   ファイルタイプでインデント表示を除外
+let g:indentLine_fileTypeExclude=['help', 'nerdtree', 'calendar', 'thumbnail', 'tweetvim']
+" *   Conceal(構文隠蔽)を設定
+"     例) jsonのダブルクォーテーションのような、構文としては必要だが視認性を妨げるものを非表示にする
+"     concealcursor:カーソル行のテキストをどのモード時にConceal表示するかを設定
+"                   n:ノーマルモード,v:ビジュアルモード,i:挿入モード,c:コマンドライン編集
+"     conceallevel:Conceal対象のテキストの状態を設定
+"                   0:通常通り表示(デフォルト),1:代理文字(初期設定はスペース)に置換,2:非表示,3:完全に非表示
+"     -> Concealを有効 -> 全モードでindentが表示されるように設定
+"     -> indentLine_charの扱いを半角スペースに設定(半角1文字ズレ対策)
+"     -> Global変数に同じ内容を再定義(他プラグインで上書きされた際の対策)
+let g:indentLine_setConceal=1
+let g:indentLine_concealcursor='nvic'
+let g:indentLine_conceallevel=1
+set concealcursor=nvic conceallevel=1
+" --- nathanaelkane/vim-indent-guides(https://github.com/nathanaelkane/vim-indent-guides)
+"     --- インデントを可視化(半角空白2文字のインデントに色を付ける)
+"         Yggdroot/indentLineと競合するため、いずれかを無効にする必要がある
 " *   インデントの可視化を有効
-let g:indent_guides_enable_on_vim_startup=1
+"let g:indent_guides_enable_on_vim_startup=1
 " *   インデントの色を設定
-let g:indent_guides_auto_colors=0
-autocmd VimEnter,Colorscheme * :highlight IndentGuidesOdd  guibg=darkgray ctermbg=darkgray
-autocmd VimEnter,Colorscheme * :highlight IndentGuidesEven guibg=gray ctermbg=gray
-" --- previm(https://github.com/previm/previm)
-"     Markdownのプレビュー(mermaid記法対応)
+"let g:indent_guides_auto_colors=0
+"autocmd VimEnter,Colorscheme * :highlight IndentGuidesOdd  guibg=darkgray ctermbg=darkgray
+"autocmd VimEnter,Colorscheme * :highlight IndentGuidesEven guibg=gray ctermbg=gray
+" --- previm/previm(https://github.com/previm/previm)
+"     --- Markdownのプレビュー(mermaid記法対応)
 " *   デフォルトブラウザを設定
 let g:previm_open_cmd='firefox'
 " *   HTMLをブラウザで開くコマンドをキーバインド
@@ -59,8 +110,8 @@ nnoremap <Leader>m :PrevimOpen<CR>
 "     https://blog.wadackel.me/2017/previmg-github-style/
 let g:previm_disable_default_css=1
 let g:previm_custom_css_path='~/.vim/myconfig/previm/markdown.css'
-" --- jedi-vim(https://github.com/davidhalter/jedi-vim)
-"     Pythonの入力補完<Ctrl-c>
+" --- davidhalter/jedi-vim(https://github.com/davidhalter/jedi-vim)
+"     --- Pythonの入力補完<Ctrl-c>
 " *   自動補完機能を有効(有効:1,無効:0)
 let g:jedi#completions_enabled=1
 let g:jedi#auto_vim_configuration=1
@@ -68,6 +119,53 @@ let g:jedi#auto_vim_configuration=1
 let g:jedi#popup_on_dot=0
 " *   docstring(補足説明)を非表示
 autocmd FileType python setlocal completeopt-=preview
+" --- rust-lang/rust.vim(https://github.com/rust-lang/rust.vim)
+"     --- Rustのハイライト表示・インデント等
+" *   オートインデントを設定(1:有効/2:無効)
+let g:rust_recommended_style=0
+" --- racer-rust/vim-racer(https://github.com/racer-rust/vim-racer)
+"     --- Rustの入力補完<Ctrl-x><Ctrl-o>
+" *   racerバイナリを指定(pacman依存,cargo未使用)
+let g:racer_cmd=expand('/usr/bin/racer')
+" *   補完時の関数定義(例:引数と戻り値の型)の表示設定(1:表示/2:非表示)
+let g:racer_experimental_completer=0
+" --- vim-syntastic/syntastic(https://github.com/vim-syntastic/syntastic)
+"     --- 構文エラーチェック
+" *   構文エラー行に「>>」を表示
+let g:syntastic_enable_signs=1
+" *   各言語のチェッカーを設定
+"     * 言語によって、左サイドのエラー表示(>>)領域が常に表示している/していないがある
+"     例) g:syntastic_<言語名>_checkers=['<Linter名>']
+let g:syntastic_rust_checkers=['rustc']
+let g:syntastic_python_checkers=['flake8']
+" *   ロードするチェッカーを設定(機能を限定する事でロード時間を短縮)
+"     'active':バッファを保存するたびにsyntasticが機能 ,
+"     'passive':":SyntasticCheck"実行時にsyntasticが機能
+"     -> 'active_filetypes'に指定した言語はバッファ保存時に機能、それ以外は":SyntasticCheck"実行時に機能
+let g:syntastic_mode_map={ 'mode': 'passive',
+                         \ 'active_filetypes': ['rust','python'],
+                         \ 'passive_filetypes': []
+                         \ }
+" *   他のVimプラグインと競合するのを防ぐ
+let g:syntastic_always_populate_loc_list=1
+" *   構文エラーリスト(":Errors")の表示設定(0:非表示,1:表示)
+let g:syntastic_auto_loc_list=0
+" *   ファイルを開いた時に構文エラーチェックを実行
+let g:syntastic_check_on_open=1
+" *   ":wq"で終了する時に構文エラーチェックを実行しない(":w"でエラーチェックを行う設定にしているため)
+let g:syntastic_check_on_wq=0
+" *   シンボルの定義(デフォルト:'>>')
+let g:syntastic_error_symbol='✗'
+let g:syntastic_style_error_symbol='✗'
+let g:syntastic_warning_symbol='⚠'
+let g:syntastic_style_warning_symbol='⚠'
+" --- vim-scripts/taglist.vim(https://github.com/vim-scripts/taglist.vim)
+"     --- ソースコードファイルの構造をリスト表示/タグジャンプ
+" ArchWiki推奨設定(<C-l>で表示/非表示)
+let Tlist_Compact_Format=1
+let Tlist_GainFocus_On_ToggleOpen=1
+let Tlist_Close_On_Select=1
+nnoremap <C-l> :TlistToggle<CR>
 " --- }}} ---
 
 
@@ -90,20 +188,91 @@ filetype on
 "  augroup lazy-load
 "    autocmd!
    " xxx -> xxx(https://github.com/xxx/xxx)
-"    autocmd FileType python call s:config_xxx()
+"    autocmd FileType xxx call s:config_xxx()
 "  augroup END
 "endif
 " --- }}} ---
 " ---
 
 
-" ------ 外部ソフトウェア ------
-" --- Taglist
-" ソースコードファイルの構造の概観を提供(<C-l>で表示/非表示)
-let Tlist_Compact_Format=1
-let Tlist_GainFocus_On_ToggleOpen=1
-let Tlist_Close_On_Select=1
-nnoremap <C-l> :TlistToggle<CR>
+" ------ 外部コマンド ------
+" --- Ctags(https://ja.wikipedia.org/wiki/Ctags)
+"     --- タグジャンプ機能を提供(ctags -R -f ~/.tags)
+" タグファイルのロード先を定義(カレントディレクトリから${HOME}へ遡って検索)
+set tags=.tags;${HOME}
+" タグファイルを自動生成(トリガ:現在のファイルの上書き時)
+function! s:execute_ctags() abort
+  " タグファイル名を定義
+  let tag_name='.tags'
+  " ディレクトリを遡りタグファイルを探しパスを取得
+  let tags_path=findfile(tag_name, '.;')
+  " タグファイルパスが見つからなかった場合の処理
+  " -> ${HOME}にインデックスファイルを生成
+  if tags_path==#''
+    execute 'silent !cd ${HOME} && ctags -R -f' tag_name '2> /dev/null &'
+    return
+  endif
+  " タグファイルのディレクトリパスを取得(`:p:h`の部分は、:h filename-modifiersで確認)
+  let tags_dirpath=fnamemodify(tags_path, ':p:h')
+  " 見つかったタグファイルのディレクトリに移動し'ctags'をバックグラウンド実行(エラー出力破棄)
+  execute 'silent !cd' tags_dirpath '&& ctags -R -f' tag_name '2> /dev/null &'
+endfunction
+augroup ctags
+  autocmd!
+  autocmd BufWritePost * call s:execute_ctags()
+augroup END
+" キーバインド(タグジャンプ時に複数ある場合は一覧表示)
+nnoremap <C-]> g<C-]>
+" ---
+
+
+" --- Omni補完専用キーバインド
+"  https://daisuzu.hatenablog.com/entry/2015/12/05/002129
+inoremap <expr><Tab> pumvisible() ? "\<C-n>" : MyInsCompl()
+function! MyInsCompl()
+  let c = nr2char(getchar())
+  " 現在のファイルを行単位で検索
+  if c == "l"
+    return "\<C-x>\<C-l>"
+  " 現在のファイルの単語単位で検索(上から)
+  elseif c == "n"
+    return "\<C-x>\<C-n>"
+  " 現在のファイルの単語単位で検索(下から)
+  elseif c == "p"
+    return "\<C-x>\<C-p>"
+  " 'dictionary'オプションから検索
+  elseif c == "k"
+    return "\<C-x>\<C-k>"
+  " 'thesaurus'オプションから検索
+  elseif c == "t"
+    return "\<C-x>\<C-t>"
+  " 現在のファイル/インクルードされているファイルから単語単位で検索
+  elseif c == "i"
+    return "\<C-x>\<C-i>"
+  " 'tags'オプションから検索(外部プログラムCtags依存)
+  elseif c == "]"
+    return "\<C-x>\<C-]>"
+  " ディレクトリー/ファイルネームを検索
+  elseif c == "f"
+    return "\<C-x>\<C-f>"
+  " 'define'オプション/'include'オプション/'path'オプションから検索
+  elseif c == "d"
+    return "\<C-x>\<C-d>"
+  " Vimコマンドを検索
+  elseif c == "v"
+    return "\<C-x>\<C-v>"
+  " 'completefunc'オプションから検索
+  elseif c == "u"
+    return "\<C-x>\<C-u>"
+  " 'omnifunc'オプションから検索(プラグイン拡張補完機能を割当)
+  elseif c == "o"
+    return "\<C-x>\<C-o>"
+  " スペル提案('spell'オプションに依存)
+  elseif c == "s"
+    return "\<C-x>s"
+  endif
+  return "\<Tab>"
+endfunction
 " ---
 
 
@@ -155,11 +324,6 @@ set title
 " ------ 全体(モード不問) ------
 " --- シンタックス有効
 syntax on
-" --- 文字コード
-" 文字入力時の文字コードを設定
-set fenc=utf-8
-" ファイル閲覧時の文字コードを設定(文字化け防止)
-set fileencodings=utf-8,iso-2022-jp,euc-jp,sjis
 " --- カーソル位置強調(行列)
 " 行番号を表示(number:絶対番号/relativenumber:相対番号)
 set number
@@ -175,8 +339,6 @@ highlight  clear CursorLine
 set linespace=1
 " --- カーソル行の上下へのオフセットを設定
 set scrolloff=5
-" --- 全角特殊文字の表示を調整(プラグインと競合する可能性有り)
-set ambiwidth=double
 " --- listモード
 " タブ文字をCTRL-Iで表示、行末に$で表示(有効:list/無効:nolist)
 set list
@@ -339,7 +501,12 @@ set statusline+=%w
 " --- 画面表示(RIGHT)
 " これ以降は右寄せ表示
 set statusline+=%=
-" [plugin]Gitのブランチ名を表示
+" [plugin][syntastic]構文エラーの最終行を表示
+" .vim/pack/mypackage/start/syntastic
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%#warningmsg#
+set statusline+=%*
+" [plugin][vim-fugitive]Gitのブランチ名を表示
 " .vim/pack/mypackage/start/vim-fugitive
 set statusline+=%{fugitive#statusline()}
 " FileType(現在編集中ファイルのタイプ、filetypeに依存)
