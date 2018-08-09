@@ -1,56 +1,59 @@
-### SYSTEM ###
-# Arch Linux
+#------ SYSTEM ------
+# --- Arch Linux
 arch-install-scripts
-
-# Partitioning Tool
+# --- Partitioning Tool
 util-linux
 gptfdisk
 parted
-
-# Filesystem Support(VFAT,exFAT,NTFS,ext234)
+# --- Filesystem Support
+# VFAT,exFAT,NTFS,ext234
 dosfstools
 exfat-utils
 ntfs-3g
 e2fsprogs
-
-# Character Code(filename)
+# --- Character Code
+# filename
 convmv
-
-# Data Compression(zip,unzip,unar/lsar,7z)
+# --- Data Compression
+# zip,unzip,unar/lsar,7z
 zip
 unzip
 unarchiver
 p7zip
-
-# Display system Information
+# --- Display system Information
 screenfetch
 
-### DRIVER ###
-# Video(lspci | grep -e VGA -e 3D)(OpenGL)
+#------ DRIVER ------
+# --- Video
+# $ lspci | grep -e VGA -e 3D(OpenGL)
 mesa
-
-# Sound
+# --- Sound
 alsa-utils
 alsa-firmware
 
-### SHELL ###
-# ZSH
-zsh 
-zsh-syntax-highlighting
+#------ SHELL ------
+# --- shell
+zsh
+# --- command
+# Magnificent app which corrects your previous console command.
+# https://github.com/nvbn/thefuck
+thefuck
 
-### X WINDOW SYSTEM ###
-# X [Group]
+#------ X WINDOW SYSTEM ------
+# --- Xorg Group
+# Group
 xorg
-# X Server , X Utility [Group]
 xorg-server
 xorg-apps
 # Terminal
 xterm
 # Xresources
 xorg-xrdb
-# KeyMap Utility(xmodmap -pke >~/.Xmodmap)
+# KeyMap Utility
+# $ xmodmap -pke >~/.Xmodmap
 xorg-xmodmap
-# Get Window ID(xwininfo)
+# Get Window ID
+# $ xwininfo
 xorg-xwininfo
 # Get Device ID
 xorg-xinput
@@ -58,110 +61,124 @@ xorg-xinput
 xorg-xbacklight
 # Display Power Management
 xorg-xset
-
-# Xinitrc(startx)
+# --- X standalone
+# Xinitrc
+# $ startx
 xorg-xinit
-
 # Terminal
 rxvt-unicode
 
-### DESKTOP ###
-# Composit Manager/Transset Utility
+#------ DESKTOP ------
+# --- Composit Manager
+# Transset Utility
 xcompmgr
 transset-df
-
-# Launcher
+# --- Launcher
 dmenu
-
-# Window Manager
+# --- Window Manager
 xmonad
 xmonad-contrib
-
-# Statusbar + Get System Information
+# --- Statusbar
+# Get/Show System Information
 dzen2
 conky
 #xmobar
-
+# --- img
 # img viwer + Set Wallpaper
 feh
-
-# Screen Lock
+# --- Screen Lock
 slock
 
-### KEYBOARD ###
-# Keybind Utility
+#------ KEYBOARD ------
+# --- Keybind Utility
 xbindkeys
-
-# Input method Framework
+# --- Input method Framework
 fcitx-im
 #uim
-
-# Input System
+# --- Input System
 fcitx-mozc
 #anthy
 
-### Font ###
-# Fira Code
+#------ FONT ------
+# --- Fira Code
 otf-fira-code
 ttf-fira-code
-
-# EN moji
+# --- EN moji
 ttf-dejavu
-
-# JP moji
+# --- JP moji
 otf-ipafont
-
-# Emoji
+# --- Emoji
 ttf-symbola
 noto-fonts-emoji
 
-### BROWSER ###
-# File Manager(GUI)
-thunar
-tumbler
-
-# File Manager(ranger)
+#------ BROWSER  ------
+# --- File Manager(GUI)
+#thunar
+#tumbler
+# --- File Manager(ranger)
 ranger
-# PDF(pdftoppm)
+# source highlight
+highlight
+# html preview
+lynx
+elinks
+# image preview
+w3m
+# movie preview(ranger/scope.sh)
+ffmpegthumbnailer
+# movie,audio's info preview
+mediainfo
+# pdf preview(ranger/scope.sh)
+# $ pdftoppm
 poppler
-
-# Movie Player
+# compression
+atool
+bzip2
+cpio
+gzip
+lhasa
+xz
+lzop
+p7zip
+tar
+unace
+unrar
+zip
+unzip
+# --- Movie Player
 mplayer
 gnome-mplayer
-
-# Web Search(GUI)
+# --- Web Search(GUI)
 w3m
 firefox
 #firefox-i18n-ja
 #flashplugin
+chromium
 
-### TOOL ###
-# Editor
+#------ OTHER TOOL ------
+# --- Editor
 leafpad
-
-# Editor(Vim)
+# --- Editor(Vim)
 vim
-# tagjump(ctags -R -f .tags),(<C-]>,<C-t>,<C-x><C-]>)
+# tagjump
+# (<C-]>,<C-t>,<C-x><C-]>)
+# $ ctags -R -f .tags
 ctags
-
-# Display AC
+# --- Display AC
 upower
-
-# Screenshot
+# --- Screenshot
 scrot
-
-# Screencast
+# --- Screencast
 simplescreenrecorder
-
-# Edit img
+# --- Edit
+# img
 imagemagick
 graphicsmagick
-
-# PDF(pdftotext,evince)
+# --- pdf
+# $ pdftotext , evince
 xpdf
 evince
-
-# Office Suite
+# --- Office Suite
 libreoffice-still
 #libreoffice-still-ja
 #libreoffice-fresh
@@ -169,26 +186,25 @@ libreoffice-still
 #antiword
 unoconv
 
-### PROGRAMMING ###
-# Java
+#------ PROGRAMMING ------
+# --- Java
 jdk8-openjdk
-
-# C#
+# --- C#
 mono
-
-# Python
+# --- Python
 python
-# lint(http://flake8.pycqa.org/en/latest/)
+# lint
+# flake8(http://flake8.pycqa.org/en/latest/)
 flake8
-
-# Rust
+# --- Rust
 rust
 # Rust code completion and navigation
 rust-racer
-
-# Ruby
+# --- Ruby
 ruby
 
-### JOKE ###
-# SL(sl -alFc)(https://github.com/mtoyoda/sl)
+#------ JOKE ------
+# --- SL
+# $ sl -alFc
+# https://github.com/mtoyoda/sl
 sl

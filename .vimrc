@@ -3,6 +3,7 @@
 
 " ------ 文字コード ------
 " --- ファイル読込み時の文字コードを設定
+let &termencoding=&encoding
 set encoding=utf-8
 " --- 使用するファイル形式を設定
 set fileformats=unix,dos,mac
@@ -57,6 +58,12 @@ highlight link htmlBoldItalic ErrorMsg
 " ------ 外部プラグイン ------
 " --- 常にロード(start)
 " --- {{{ ---
+" --- vim-jp/vimdoc-ja(https://github.com/vim-jp/vimdoc-ja)
+"     --- ':help'を日本語化
+" *   表示言語の優先度を設定(:help @enで英語表示)
+set helplang=ja,en
+" *   ヘルプを画面全体で開く
+set helpheight=999
 " --- tpope/vim-fugitive(https://github.com/tpope/vim-fugitive)
 "     --- Gitの機能提供
 " *   ステータスバーにGitのブランチ名を表示、その他Git操作
@@ -226,8 +233,8 @@ nnoremap <C-]> g<C-]>
 " ---
 
 
-" --- Omni補完専用キーバインド
-"  https://daisuzu.hatenablog.com/entry/2015/12/05/002129
+" ------ Omni補完専用キーバインド ------
+" --- <Tab><?>にキーバインド(https://daisuzu.hatenablog.com/entry/2015/12/05/002129)
 inoremap <expr><Tab> pumvisible() ? "\<C-n>" : MyInsCompl()
 function! MyInsCompl()
   let c = nr2char(getchar())
@@ -279,6 +286,8 @@ endfunction
 " ------ システム(管理) ------
 " --- 編集中のファイルが変更されたら自動で読み直す
 set autoread
+" --- 未保存ファイルがある時は終了前に保存確認
+set confirm
 " --- 生成ファイル
 " ~/.vim/.netrwhistを作成しない
 let g:netrw_dirhistmax=0
@@ -337,15 +346,21 @@ highlight  clear CursorLine
 "set cursorcolumn
 " --- 行間を設定
 set linespace=1
-" --- カーソル行の上下へのオフセットを設定
+" --- スクロール
+" カーソル行の上下へのオフセットを設定
 set scrolloff=5
+" カーソル行の左右へのオフセットを設定
+set sidescrolloff=16
+" 左右スクロールは一文字づつ行う
+set sidescroll=1
 " --- listモード
 " タブ文字をCTRL-Iで表示、行末に$で表示(有効:list/無効:nolist)
 set list
 " Listモード(訳注:オプション'list'がONの時)に使われる文字を設定
-" tab:タブ , extends:折り返した行の行末 , trail:行末のスペース , eol:行末の改行文字 , 
+" tab:タブ , extends:折り返した行の行末 , trail:行末のスペース , eol:行末の改行文字 ,
 " precedes:折り返してきた行の行頭 , nbsp:ノンブレーカブル・スペース
-set listchars=tab:>-,extends:<,trail:-,eol:<
+"set listchars=tab:>-,extends:<,trail:-,eol:<
+set listchars=tab:▸\ ,extends:❯,trail:«,precedes:❮,eol:↲
 " --- 文字入力/表示の折り返し
 " 一行の文字数が多すぎても正常に表示
 set display=lastline
@@ -373,7 +388,7 @@ set whichwrap=b,s,<,>,[,]
 " --- バッファを切替えてもundoの効力を失わない
 set hidden
 " --- XのCLIPBOARDバッファと共有
-"set clipboard=unnamedplus
+"set clipboard=unnamed,unnamedplus
 " --- 検索
 " 検索した文字をハイライト表示
 set hlsearch
@@ -385,6 +400,9 @@ set ignorecase
 set smartcase
 " 検索がファイル末尾まで進んだらファイル先頭から再び検索(有効:wrapscan/無効:nowrapscan)
 set wrapscan
+" --- 置換
+" 置換の時、'g'オプションをデフォルトで有効
+set gdefault
 " {{{ ---
 " 検索時のハイライト解除
 " Esc押した時の切替時間短縮(Escキーバインド依存、設定するとEscキーバインドが無効化される)
@@ -467,8 +485,12 @@ set iminsert=0 imsearch=0
 " --- 入力コマンドの履歴数を設定
 set history=1000
 " --- オプション入力時にTAB補完を有効、補完表示をbashライクに設定
-set wildmenu
-set wildmode=longest,list
+" '""':最初のマッチのみ補完 , 'full':Tabを押すごとに次のマッチを補完、wildmenuが有効ならwildmenuを開始 ,
+" 'longest':共通する最長の部分まで補完 , 'list':マッチするものをリスト表示 ,
+" 'longest:full':longestと同じだがwildmenuが有効ならwildmenuを開始
+" 'list:full':マッチするものをリスト表示しつつTABを押すごとに次のマッチを補完
+" 'list:longest':マッチするものをリスト表示しつつ共通する最長の部分まで補完
+set wildmenu wildmode=list:longest,full
 " ---
 
 
@@ -502,12 +524,10 @@ set statusline+=%w
 " これ以降は右寄せ表示
 set statusline+=%=
 " [plugin][syntastic]構文エラーの最終行を表示
-" .vim/pack/mypackage/start/syntastic
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%#warningmsg#
 set statusline+=%*
 " [plugin][vim-fugitive]Gitのブランチ名を表示
-" .vim/pack/mypackage/start/vim-fugitive
 set statusline+=%{fugitive#statusline()}
 " FileType(現在編集中ファイルのタイプ、filetypeに依存)
 set statusline+=%y

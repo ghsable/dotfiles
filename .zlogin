@@ -2,6 +2,8 @@
 export LANG='en_US.UTF-8'
 # EDITOR
 export EDITOR='vim'
+# BROWSER
+export BROWSER='firefox'
 # LESS
 export LESS='-M -W -R -XXX -N -J -Q -F -X -K -I -a'
 # rust-src(https://aur.archlinux.org/rust-src.git)
