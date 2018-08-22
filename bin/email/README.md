@@ -10,6 +10,8 @@
     3. DEPLOY Directory/File
        sh install.sh deploy
 
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/email/install.sh)
+
 ## Permission
 
     Directory : 0700
