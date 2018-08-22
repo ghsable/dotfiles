@@ -1,10 +1,11 @@
-# Installation
+# ArchLinux
+
 ## Sources
 - [インストールガイド](https://wiki.archlinux.jp/index.php/インストールガイド)
 - [USBキーにArch Linuxをインストール](https://wiki.archlinux.jp/index.php/USB_キーに_Arch_Linux_をインストール)
 - [パーティショニング](https://wiki.archlinux.jp/index.php/パーティショニング)
 
-## SETUP(CLI)
+## Installation
 example :
 <table style="table-layout: auto;" width="100%">
   <tbody align="left">

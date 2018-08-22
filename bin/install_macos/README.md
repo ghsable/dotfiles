@@ -1,4 +1,5 @@
-# Installation
+# macOS
+
 ## INSTALL(HOMEBREW + DOTFILES)
 * [Xcode](https://itunes.apple.com/jp/app/xcode/id497799835?mt=12)
 * [Homebrew](https://brew.sh/index_ja.html)

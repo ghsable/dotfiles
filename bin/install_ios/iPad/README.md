@@ -1,4 +1,6 @@
-# Installation
+# iPad
+
+## Installation
 **⚙管理**
 - - -
 * [x] App Store

@@ -1,4 +1,6 @@
-# Installation
+# iPhone
+
+## Installation
 **⚙管理**
 - - -
 * [x] App Store

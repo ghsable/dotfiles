@@ -1,4 +1,6 @@
-# Bookmark
+# Checklist
+
+## Bookmark
 **all**
 - - -
 * [ ] [booky.io](https://booky.io)
@@ -9,7 +11,7 @@
 - - -
 * [ ] メモリ解放(sysight://allkill)
 
-# Installed
+## Installed
 * [ ] Application
 * [ ] Addon
 * [ ] Account
