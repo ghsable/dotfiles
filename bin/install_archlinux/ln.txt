@@ -1,22 +1,22 @@
-# dotfiles/<FILE PATH> or <DIRECTORY PATH>
+# --- dotfiles/<FILE PATH> or <DIRECTORY PATH>
 
-### FILE PATH ###
+# ------ FILE PATH ------
 Makefile
-# Xmonad
+# --- Xmonad
 .xmonad/xmonad.hs
-# Thunar(DefaultOpen+)
+# --- Thunar(DefaultOpen+)
 .local/share/applications/userapp-feh-CJADVY.desktop
-# Input Method Framework(fcitx)
+# --- Input Method Framework(fcitx)
 .config/fcitx/config
 
-### DIRECTORY PATH ###
+# ------ DIRECTORY PATH ------
 doc
 bin
-# Input Method Framework(fcitx)
+# --- Input Method Framework(fcitx)
 .config/fcitx/conf
 .config/fcitx/data
 .config/fcitx/skin
-# Filer
+# --- Filer
 .config/ranger
 
 #################### NOT USING ####################

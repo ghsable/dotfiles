@@ -32,8 +32,6 @@ alsa-utils
 alsa-firmware
 
 #------ SHELL ------
-# --- shell
-zsh
 # --- command
 # Magnificent app which corrects your previous console command.
 # https://github.com/nvbn/thefuck

@@ -2,18 +2,19 @@
 
 echo "${0} ..."
 
-### TLP(battery manager) ###
-# install(tlp,Radio Device Wizard)
+# ------ TLP(battery manager) ------
+# --- install(tlp,Radio Device Wizard)
 sudo pacman -S tlp tlp-rdw
 
-# systemctl enable
+# --- systemctl enable
 sudo systemctl enable tlp.service
 sudo systemctl enable tlp-sleep.service
 
-# systemctl mask
+# --- systemctl mask
 sudo systemctl mask systemd-rfkill.service
 sudo systemctl mask systemd-rfkill.socket
 
+# --- setting
 function add_config() {
 cat<< _EOT_
 #################### PLEASE REPLACE THIS LINE ####################
@@ -37,8 +38,6 @@ DEVICES_TO_ENABLE_ON_STARTUP=""
 _EOT_
 return 0
 }
-
-# tuning
 readonly ETC_FILE="/etc/default/tlp"
 echo "UPDATE : ${ETC_FILE}"
 add_config | sudo tee -a ${ETC_FILE}

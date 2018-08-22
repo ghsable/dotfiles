@@ -33,7 +33,7 @@ this script :
 or : 
 
     # CLONE DOTFILES
-    git clone https://github.com/ghsable/dotfiles.git ~/dotfiles
+    git clone --depth=1 https://github.com/ghsable/dotfiles.git ~/dotfiles
     # EDIT
     vi ~/dotfiles/.gitconfig             # GitHub config
     vi ~/dotfiles/bin/install_<OS>/*.txt # namelist(pkg,symbolic link...)

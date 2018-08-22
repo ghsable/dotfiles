@@ -2,7 +2,7 @@
   
 echo "${0} ..."
 
-# Set "/etc/*"
+# --- Set "/etc/*"
 for ETCSH_FILE in $(dirname ${0})/etc/*.sh
 do
   sh ${ETCSH_FILE}

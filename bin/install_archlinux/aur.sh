@@ -2,6 +2,7 @@
 
 echo "${0} ..."
 
+# --- mkdir AUR-Directory
 readonly AUR_DIR=~/aur
 [ -d ${AUR_DIR} ] || mkdir -pv ${AUR_DIR}
 

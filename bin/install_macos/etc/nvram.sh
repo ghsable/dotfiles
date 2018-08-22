@@ -2,5 +2,5 @@
 
 echo "${0} ..."
 
-# Delete Start-up sound
+# --- Delete Start-up sound
 sudo nvram SystemAudioVolume=%00

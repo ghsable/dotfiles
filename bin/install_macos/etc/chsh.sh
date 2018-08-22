@@ -2,5 +2,5 @@
   
 echo "${0} ..."
 
-# [SHELL] Set ZSH
+# --- Set ZSH
 chsh -s /bin/zsh

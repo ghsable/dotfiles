@@ -2,7 +2,7 @@
 
 function gitclone_cd_dotfiles() {
   readonly DOTFILES_URL="https://github.com/ghsable/dotfiles.git"
-  git clone ${DOTFILES_URL} ~/dotfiles
+  git clone --depth=1 ${DOTFILES_URL} ~/dotfiles
   cd ~/dotfiles
   return 0
 }

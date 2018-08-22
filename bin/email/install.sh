@@ -34,7 +34,7 @@ case ${1} in
     sudo pacman -Sc
     ;;
   deploy)
-    # --- MAKE Save-File-To-Directory
+    # --- mkdir Save-File-To-Directory
     readonly SAVEFILETO_DIR=~/Downloads
     [ -d ${SAVEFILETO_DIR} ] || mkdir -pv ${SAVEFILETO_DIR}
     # --- DEPLOY Config-Files

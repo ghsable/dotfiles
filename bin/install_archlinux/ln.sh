@@ -3,7 +3,7 @@
 echo "${0} ..."
 
 function mkdir_basedir() {
-# Make Directory
+# --- Make Directory
 mkdir -pv ~/.Trash ~/.config/fcitx ~/.local/share/applications ~/.xmonad
 
 #################### NOT USING ####################
@@ -11,7 +11,7 @@ mkdir -pv ~/.Trash ~/.config/fcitx ~/.local/share/applications ~/.xmonad
 }
 
 function ln_dotfiles() {
-# Deploy(symbolic link) : "~/dotfiles/.??*"
+# --- Deploy(symbolic link) : "~/dotfiles/.??*"
 cd ~/dotfiles
 for DOT_FILE in .??*
 do
@@ -28,7 +28,7 @@ done
 }
 
 function ln_notdotfiles() {
-# Deploy(symbolic link) : "Not ~/dotfiles/.??*"
+# --- Deploy(symbolic link) : "Not ~/dotfiles/.??*"
 cd ~/dotfiles/bin/install_archlinux
 for NOTDOT_FILE in $(grep -v -e '^$' -e '^#' ./ln.txt)
 do
