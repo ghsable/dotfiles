@@ -75,6 +75,7 @@ xcompmgr
 transset-df
 # --- Launcher
 dmenu
+rofi
 # --- Window Manager
 xmonad
 xmonad-contrib
@@ -108,7 +109,6 @@ ttf-dejavu
 # --- JP moji
 otf-ipafont
 # --- Emoji
-ttf-symbola
 noto-fonts-emoji
 
 #------ BROWSER  ------

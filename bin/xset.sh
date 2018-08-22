@@ -19,12 +19,17 @@ exit 1
 }
 
 case ${1} in
-  on | off)
-    xset s ${1}
-    xset s ${2} ${2}
+  on)
+    readonly STANDBY_SEC="${2}"
+    readonly SUSPEND_SEC=`expr ${2} "*" 2`
+    readonly POWEROFF_SEC=`expr ${2} "*" 3`
+    xset dpms ${STANDBY_SEC} ${SUSPEND_SEC} ${POWEROFF_SEC}
+    ;;
+  off)
+    xset dpms 0 0 0
     ;;
   suspend)
-    xset dpms force suspend
+    sleep 1 && xset dpms force suspend
     slock
     ;;
   *)

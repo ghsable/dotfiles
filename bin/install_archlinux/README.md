@@ -4,7 +4,7 @@
 - [USBキーにArch Linuxをインストール](https://wiki.archlinux.jp/index.php/USB_キーに_Arch_Linux_をインストール)
 - [パーティショニング](https://wiki.archlinux.jp/index.php/パーティショニング)
 
-## Installation
+## SETUP(CLI)
 example :
 <table style="table-layout: auto;" width="100%">
   <tbody align="left">
@@ -67,7 +67,8 @@ mount /dev/sdX3 /mnt
 mkdir /mnt/boot
 mount /dev/sdX2 /mnt/boot
 lsblk
-# インターネット接続確認
+# インターネット接続/確認
+wifi-menu
 ping archlinux.jp
 # システムクロックを更新/確認
 timedatectl set-ntp true
@@ -98,3 +99,6 @@ ping archlinux.jp
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install.sh)"
 reboot
 ```
+
+## WFM
+* [E-MAIL](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)

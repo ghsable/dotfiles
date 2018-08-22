@@ -28,7 +28,7 @@ xbindkeys &
 xcompmgr -c &
 
 # Xset
-sh ~/bin/xset.sh on 60
+sh ~/bin/xset.sh on 120
 
 # Xinput(usbtouchscreen)
 sh ~/bin/xrandr.sh mirror

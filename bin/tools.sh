@@ -8,6 +8,7 @@ Description:
 Usage:
   sh ${0} startup     : start fav apps
   sh ${0} launch_a    : dmenu
+  sh ${0} launch_b    : rofi
   sh ${0} terminal_a  : xterm(transset-df)
   sh ${0} terminal_b  : urxvt
   sh ${0} email       : mutt
@@ -31,6 +32,7 @@ case ${1} in
                thunar  &
                firefox &                      ;;
   launch_a  )  dmenu_run                      ;;
+  launch_b  )  rofi -show run                 ;;
   terminal_a)  # start Xterm -> transset-df
                xterm &
                sleep 0.6 && transset-df -i \

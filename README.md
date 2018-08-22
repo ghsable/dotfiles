@@ -44,7 +44,7 @@ or :
 ## Tree Description
 
     dotfiles
-    ├── .??*` : dotfiles(linux)
+    ├── .??* : dotfiles(linux)
     ├── doc
     │  └── *.md : documents 
     └──bin

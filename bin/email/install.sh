@@ -19,6 +19,9 @@ exit 1
  
 case ${1} in
   install)
+    # --- UPGRADE(repository + packages)
+    sudo pacman -Syu
+    # --- INSTALL pkgs
     # MRA(Mail Retrieval Agent)   # POP3
     sudo pacman -S getmail
     # MTA(Message Transfer Agent) # SMTP
@@ -27,8 +30,14 @@ case ${1} in
     sudo pacman -S mutt
     # ADDRESS BOOK                # OTHER
     sudo pacman -S abook
+    # --- DELETE Cache(all packages)
+    sudo pacman -Sc
     ;;
   deploy)
+    # --- MAKE Save-File-To-Directory
+    readonly SAVEFILETO_DIR=~/Downloads
+    [ -d ${SAVEFILETO_DIR} ] || mkdir -pv ${SAVEFILETO_DIR}
+    # --- DEPLOY Config-Files
     readonly CLOSED_DIR="${HOME}/Dropbox/email"
     readonly OPENED_DIR="${HOME}/dotfiles/bin/email"
     # MRA(Mail Retrieval Agent)   # POP3

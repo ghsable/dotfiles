@@ -11,11 +11,11 @@
 "sh ~/bin/tools.sh terminal_b"
    m:0x40 + c:36
 
-# dmenu | XF86LaunchA | F3
-"sh ~/bin/tools.sh launch_a"
+# rofi | XF86LaunchA | F3
+"sh ~/bin/tools.sh launch_b"
    m:0x0 + c:128
-# dmenu | F3 | Fn + 3
-"sh ~/bin/tools.sh launch_a"
+# rofi | F3 | Fn + 3
+"sh ~/bin/tools.sh launch_b"
    m:0x0 + c:69
 
 # Screen Shot(Desktop) | Control + XF86LaunchB | Control + F4
