@@ -3,10 +3,10 @@
 echo "${0} ..."
 
 function mkdir_basedir() {
-# --- Make Directory
+# --- mkdir Directory
 mkdir -pv ~/.Trash ~/.config/fcitx ~/.local/share/applications ~/.xmonad
 
-#################### NOT USING ####################
+# ------ NOT USING ------
 #mkdir -pv ~/.uim.d ~/.anthy
 }
 

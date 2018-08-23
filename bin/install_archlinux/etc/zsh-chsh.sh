@@ -15,6 +15,9 @@ cd ${ZSHPLUGINS_DIR}
 # --- git clone -> ${ZSHPLUGINS_DIR}
 # zsh-users/zsh-syntax-highlighting(https://github.com/zsh-users/zsh-syntax-highlighting)
 git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git
+cd zsh-syntax-highlighting
+git pull
+cd ${ZSHPLUGINS_DIR}
 
 # --- Change Shell
 chsh -s $(which zsh)

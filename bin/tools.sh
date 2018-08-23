@@ -41,18 +41,18 @@ case ${1} in
                cut -f 6 -d " "             | \
                sort                        | \
                tail -n1) 0.75                 ;;
-  terminal_b )  urxvt                         ;;
-  email      )  sh ~/bin/email/getmail.sh ;
-                cd ~/Downloads
-                mutt                          ;;
-  addressbook)  abook                         ;;
-  filer_a    )  ranger                        ;;
-  filer_b    )  thunar                        ;;
-  note       )  leafpad                       ;;
-  movie      )  gnome-mplayer                 ;;
-  rec_a      )  simplescreenrecorder          ;;
-  rec_b      )  peek                          ;;
-  web        )  firefox                       ;;
-  office     )  libreoffice                   ;;
-  *          )  usage                         ;;
+  terminal_b ) urxvt                         ;;
+  email      ) sh ~/bin/email/getmail.sh ;
+               cd ~/Downloads
+               mutt                          ;;
+  addressbook) abook                         ;;
+  filer_a    ) ranger                        ;;
+  filer_b    ) thunar                        ;;
+  note       ) leafpad                       ;;
+  movie      ) gnome-mplayer                 ;;
+  rec_a      ) simplescreenrecorder          ;;
+  rec_b      ) peek                          ;;
+  web        ) firefox                       ;;
+  office     ) libreoffice                   ;;
+  *          ) usage                         ;;
 esac

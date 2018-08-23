@@ -1,4 +1,4 @@
-#------ SYSTEM ------
+# ------ SYSTEM ------
 # --- Arch Linux
 arch-install-scripts
 # --- Partitioning Tool
@@ -23,7 +23,7 @@ p7zip
 # --- Display system Information
 screenfetch
 
-#------ DRIVER ------
+# ------ DRIVER ------
 # --- Video
 # $ lspci | grep -e VGA -e 3D(OpenGL)
 mesa
@@ -31,13 +31,13 @@ mesa
 alsa-utils
 alsa-firmware
 
-#------ SHELL ------
+# ------ SHELL ------
 # --- command
 # Magnificent app which corrects your previous console command.
 # https://github.com/nvbn/thefuck
 thefuck
 
-#------ X WINDOW SYSTEM ------
+# ------ X WINDOW SYSTEM ------
 # --- Xorg Group
 # Group
 xorg
@@ -66,7 +66,7 @@ xorg-xinit
 # Terminal
 rxvt-unicode
 
-#------ DESKTOP ------
+# ------ DESKTOP ------
 # --- Composit Manager
 # Transset Utility
 xcompmgr
@@ -88,7 +88,7 @@ feh
 # --- Screen Lock
 slock
 
-#------ KEYBOARD ------
+# ------ KEYBOARD ------
 # --- Keybind Utility
 xbindkeys
 # --- Input method Framework
@@ -98,7 +98,7 @@ fcitx-im
 fcitx-mozc
 #anthy
 
-#------ FONT ------
+# ------ FONT ------
 # --- Fira Code
 otf-fira-code
 ttf-fira-code
@@ -109,10 +109,10 @@ otf-ipafont
 # --- Emoji
 noto-fonts-emoji
 
-#------ BROWSER  ------
+# ------ BROWSER  ------
 # --- File Manager(GUI)
-#thunar
-#tumbler
+thunar
+tumbler
 # --- File Manager(ranger)
 ranger
 # source highlight
@@ -153,7 +153,7 @@ firefox
 #flashplugin
 chromium
 
-#------ OTHER TOOL ------
+# ------ OTHER TOOL ------
 # --- Editor
 leafpad
 # --- Editor(Vim)
@@ -184,7 +184,7 @@ libreoffice-still
 #antiword
 unoconv
 
-#------ PROGRAMMING ------
+# ------ PROGRAMMING ------
 # --- Java
 jdk8-openjdk
 # --- C#
@@ -201,7 +201,7 @@ rust-racer
 # --- Ruby
 ruby
 
-#------ JOKE ------
+# ------ JOKE ------
 # --- SL
 # $ sl -alFc
 # https://github.com/mtoyoda/sl

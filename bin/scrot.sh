@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# --- mkdir ScreenShot-Directory
 readonly SCREENSHOT_DIR=~/Screenshot
 [ -d ${SCREENSHOT_DIR} ] || mkdir -pv ${SCREENSHOT_DIR}
 

@@ -19,7 +19,7 @@ bin
 # --- Filer
 .config/ranger
 
-#################### NOT USING ####################
+# ------ NOT USING ------
 # Input Method Framework(Uim)
 #.uim.d/customs
 # Authy(cannadic)

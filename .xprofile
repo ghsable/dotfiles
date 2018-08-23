@@ -1,50 +1,50 @@
 # ------ EXPORT ------
-# LANG(X11)
+# --- LANG(X11)
 export LANG='ja_JP.UTF-8'
-# Input Method Framework
+# --- Input Method Framework
 export GTK_IM_MODULE='fcitx'
 export QT_IM_MODULE='fcitx'
 export XMODIFIERS='@im=fcitx'
 export DefaultIMModule='fcitx'
-# DESKTOP
+# --- DESKTOP
 #export DE='xmonad'
 
 # ------ START ------
-# Input Method Framework(fcitx)
+# --- Input Method Framework(fcitx)
 fcitx autostart&
 
-# XKB(X Keyboard extension)
+# --- XKB(X Keyboard extension)
 sh ~/bin/xkb.sh make
 sh ~/bin/xkb.sh load
 sh ~/bin/xkb.sh map
 
-# Feh
+# --- Feh
 /bin/feh --randomize --bg-fill ~/bin/feh/wallpaper/*
 
-# Xbindkeys
+# --- Xbindkeys
 xbindkeys &
 
-# Xcompmgr
+# --- Xcompmgr
 xcompmgr -c &
 
-# Xset
+# --- Xset
 sh ~/bin/xset.sh on 120
 
-# Xinput(usbtouchscreen)
+# --- Xinput(usbtouchscreen)
 sh ~/bin/xrandr.sh mirror
 sh ~/bin/xrandr.sh xinput
 
-# Xmodmap
+# --- Xmodmap
 sh ~/bin/xmodmap.sh make
 sh ~/bin/xmodmap.sh load
 
-# dzen
+# --- dzen
 sh ~/bin/dzen/dzconky.sh
 
-# Dropbox
+# --- Dropbox
 /usr/bin/dropbox &
 
-# Window Manager(Xmonad)
+# --- Window Manager(Xmonad)
 exec xmonad
 
 # ------ NOT USING ------
