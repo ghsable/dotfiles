@@ -1,10 +1,11 @@
-# --- dropbox
+# --- dropbox(https://aur.archlinux.org/packages/dropbox/)
 https://aur.archlinux.org/dropbox.git
-# --- slack-desktop
+# --- slack-desktop(https://aur.archlinux.org/packages/slack-desktop/)
 https://aur.archlinux.org/slack-desktop.git
-# --- peek(GIF recorder)
+# --- peek(GIF recorder)(https://aur.archlinux.org/packages/peek/)
 https://aur.archlinux.org/peek.git
 # --- rust-src(racer),(${RUST_SRC_PATH}='/usr/lib/rustlib/src/rust/src')
+#     (https://aur.archlinux.org/packages/rust-src/)
 https://aur.archlinux.org/rust-src.git
-# --- python-keras
+# --- python-keras(https://aur.archlinux.org/packages/python-keras/)
 #https://aur.archlinux.org/python-keras.git

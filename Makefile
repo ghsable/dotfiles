@@ -51,7 +51,15 @@ archlinux_list:
 archlinux_update_aur:
 	@sh $(ARCHLINUX_INSTALL_DIR)/aur.sh update
 
+archlinux_update_zsh:
+	@sh $(BIN_DIR)/zsh/install.sh update
+
+archlinux_update_vim:
+	@sh $(BIN_DIR)/vim/install.sh update
+
 archlinux_upgrade:
 	@sh $(BIN_DIR)/pacman.sh update
 	@make archlinux_update_aur
+	@make archlinux_update_zsh
+	@make archlinux_update_vim
 #################### END ####################
