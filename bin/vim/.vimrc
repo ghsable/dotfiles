@@ -143,7 +143,7 @@ let g:syntastic_enable_signs=1
 " *   各言語のチェッカーを設定
 "     * 言語によって、左サイドのエラー表示(>>)領域が常に表示している/していないがある
 "     例) g:syntastic_<言語名>_checkers=['<Linter名>']
-let g:syntastic_rust_checkers=['rustc']
+let g:syntastic_rust_checkers=['cargo']
 let g:syntastic_python_checkers=['flake8']
 " *   ロードするチェッカーを設定(機能を限定する事でロード時間を短縮)
 "     'active':バッファを保存するたびにsyntasticが機能 ,
@@ -359,8 +359,8 @@ set list
 " Listモード(訳注:オプション'list'がONの時)に使われる文字を設定
 " tab:タブ , extends:折り返した行の行末 , trail:行末のスペース , eol:行末の改行文字 ,
 " precedes:折り返してきた行の行頭 , nbsp:ノンブレーカブル・スペース
-"set listchars=tab:>-,extends:<,trail:-,eol:<
-set listchars=tab:▸\ ,extends:❯,trail:«,precedes:❮,eol:↲
+set listchars=tab:>-,extends:<,trail:-,eol:<
+"set listchars=tab:▸\ ,extends:❯,trail:«,precedes:❮,eol:↲
 " --- 文字入力/表示の折り返し
 " 一行の文字数が多すぎても正常に表示
 set display=lastline
