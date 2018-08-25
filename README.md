@@ -44,11 +44,11 @@ or :
 ## Tree Description
 
     dotfiles
-    ├── .??* : dotfiles(linux)
+    ├── .??*   : dotfiles(linux)
     ├── doc
-    │  └── *.md : documents 
+    │  └── *.md   : documents 
     └──bin
-       ├── *.sh : scripts(linux)
+       ├── *.sh   : scripts(linux)
        ├── *
        │   └── *     : projects sources(linux)
        └── install_<OS>
@@ -56,8 +56,8 @@ or :
            ├── *.sh  : install scripts
            ├── *.txt : *.sh needs this namelists
            └── etc
-              ├── *.sh : etc.sh needs this scripts
-              └── *    : other config files
+              ├── *.sh  : etc.sh needs this scripts
+              └── *     : other config files
 
 ## Install Manual
 * [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install_macos/README.md)

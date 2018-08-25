@@ -17,10 +17,10 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/v
     │  └─ pack
     │     └─ mypackage
     │        ├─ start
-    │        │  └─ *             : plugins(autoload)
+    │        │  └─ *              : plugins(autoload)
     │        │     └─ *
     │        └─ opt
-    │           └─ *             : plugins(:packadd)
+    │           └─ *              : plugins(:packadd)
     │              └─ *
     └─ dotfiles
        └── bin
@@ -31,7 +31,7 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/v
                ├── .vimrc      : config-file
                └── myconfig
                    └── *
-                       └── *       : plugin-config-files
+                       └── *         : plugin-config-files
 
 ## UPDATE(Plugins)
 

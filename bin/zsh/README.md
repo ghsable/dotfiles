@@ -17,7 +17,7 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/z
     <HOME>
     ├─ .zsh
     │  └─ plugins
-    │     └─ *               : plugins(source)
+    │     └─ *              : plugins(source)
     │        └─ *
     └─ dotfiles
        └── bin
