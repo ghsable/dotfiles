@@ -33,6 +33,7 @@ case ${1} in
         cd ${AUR_DIR}/${GITCLONEDIR_NAME}
         vi PKGBUILD
         makepkg -si
+        echo "-> (1/1) ${GITCLONEDIR_NAME}"
         cd ${AUR_DIR}
       else
         echo "INSTALLED : ${GITCLONEDIR_NAME}"
@@ -50,6 +51,7 @@ case ${1} in
           git pull
           vi PKGBUILD
           makepkg -si
+          echo "-> (1/1) ${GITCLONEDIR_NAME}"
           cd ${AUR_DIR}
         else
           echo "UPDATED : ${GITCLONEDIR_NAME}"

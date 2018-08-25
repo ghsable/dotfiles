@@ -4,7 +4,9 @@ echo "${0} ..."
 
 # ------ TLP(battery manager) ------
 # --- install(tlp,Radio Device Wizard)
+sudo pacman -Syu
 sudo pacman -S tlp tlp-rdw
+sudo pacman -Sc
 
 # --- systemctl enable
 sudo systemctl enable tlp.service

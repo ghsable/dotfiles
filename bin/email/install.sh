@@ -6,9 +6,9 @@ Description:
   SET E-MAIL CLIENT
 
 Usage:
-  sh ${0} install      : INSTALL Packages
-  sh ${0} deploy       : DEPLOY  Configs
-  sh ${0} *            : USAGE
+  sh ${0} install : INSTALL Packages
+  sh ${0} deploy  : DEPLOY  Configs
+  sh ${0} *       : USAGE
 
 EOF:
   mutt

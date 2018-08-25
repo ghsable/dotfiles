@@ -1,6 +1,8 @@
 # ------ SYSTEM ------
 # --- Arch Linux
 arch-install-scripts
+# --- Process Management
+lsof
 # --- Partitioning Tool
 util-linux
 gptfdisk

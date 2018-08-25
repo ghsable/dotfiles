@@ -4,7 +4,9 @@ echo "${0} ..."
 
 # ------ CRONIE(crontab) ------
 # --- install(cronie)
+sudo pacman -Syu
 sudo pacman -S cronie
+sudo pacman -Sc
 
 # --- systemctl enable
 sudo systemctl enable cronie
