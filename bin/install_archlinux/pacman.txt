@@ -24,6 +24,8 @@ unarchiver
 p7zip
 # --- Display system Information
 screenfetch
+# --- Virtualization
+docker
 
 # ------ DRIVER ------
 # --- Video
