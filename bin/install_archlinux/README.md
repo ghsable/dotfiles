@@ -103,3 +103,5 @@ reboot
 
 ## WFM
 * [E-MAIL](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
+* [ZSH](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/README.md)
+* [VIM](https://github.com/ghsable/dotfiles/blob/master/bin/vim/README.md)

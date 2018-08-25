@@ -1,0 +1,29 @@
+# --- vim-jp/vimdoc-ja(https://github.com/vim-jp/vimdoc-ja)
+https://github.com/vim-jp/vimdoc-ja.git
+
+# --- tpope/vim-fugitive(https://github.com/tpope/vim-fugitive)
+https://github.com/tpope/vim-fugitive.git
+
+# --- Yggdroot/indentLine(https://github.com/Yggdroot/indentLine)
+https://github.com/Yggdroot/indentLine.git
+
+# --- nathanaelkane/vim-indent-guides(https://github.com/nathanaelkane/vim-indent-guides)
+https://github.com/nathanaelkane/vim-indent-guides.git
+
+# --- previm/previm(https://github.com/previm/previm)
+https://github.com/previm/previm.git
+
+# --- davidhalter/jedi-vim(https://github.com/davidhalter/jedi-vim)
+https://github.com/davidhalter/jedi-vim.git
+
+# --- rust-lang/rust.vim(https://github.com/rust-lang/rust.vim)
+https://github.com/rust-lang/rust.vim.git
+
+# --- racer-rust/vim-racer(https://github.com/racer-rust/vim-racer)
+https://github.com/racer-rust/vim-racer.git
+
+# --- vim-syntastic/syntastic(https://github.com/vim-syntastic/syntastic)
+https://github.com/vim-syntastic/syntastic.git
+
+# --- vim-scripts/taglist.vim(https://github.com/vim-scripts/taglist.vim)
+https://github.com/vim-scripts/taglist.vim.git

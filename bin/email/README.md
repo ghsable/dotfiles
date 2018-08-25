@@ -22,6 +22,7 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/e
     <HOME>
     ├── <CLOUDSTORAGE_DIR>             // CLOSED //
     │   └── email
+    │       ├── README.md
     │       ├── .msmtprc               // MTA
     │       ├── .getmail               // MRA
     │       │   ├── getmailrc_personal

@@ -15,9 +15,14 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/z
 ## Tree Description
 
     <HOME>
+    ├─ .zsh
+    │  └─ plugins
+    │     └─ *               : plugins(source)
+    │        └─ *
     └─ dotfiles
        └── bin
            └── zsh
+               ├── README.md   : this-file
                ├── install.sh  : install script
                ├── install.txt : install plugins-list
                ├── .zlogin     : config-file

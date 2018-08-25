@@ -12,8 +12,8 @@ Description:
   SETUP AUR(Arch User Repository)
 
 Usage:
-  sh ${0} install : INSTALL AUR_PKGS
-  sh ${0} update  : UPDATE  AUR_PKGS 
+  sh ${0} install : INSTALL AUR_Packages
+  sh ${0} update  : UPDATE  AUR_Packages
   sh ${0} *       : USAGE
 
 EOF:
@@ -27,8 +27,8 @@ case ${1} in
   install)
     for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/aur.txt)
     do
-      GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 4-4 | cut -d "." -f 1-1`
-      git clone ${GITREPOSITORY_URL} ${AUR_DIR}/${GITCLONEDIR_NAME} 2>/dev/null
+      GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 4-4 | rev | cut -c 5- | rev`
+      git clone --depth=1 ${GITREPOSITORY_URL} ${AUR_DIR}/${GITCLONEDIR_NAME} 2>/dev/null
       if [ "${?}" = "0" ]; then
         cd ${AUR_DIR}/${GITCLONEDIR_NAME}
         vi PKGBUILD
@@ -43,7 +43,7 @@ case ${1} in
   update)
     for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/aur.txt)
     do
-      GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 4-4 | cut -d "." -f 1-1`
+      GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 4-4 | rev | cut -c 5- | rev`
       if [ -d ${AUR_DIR}/${GITCLONEDIR_NAME} ]; then
         cd ${AUR_DIR}/${GITCLONEDIR_NAME}
         GITPULL_STDOUT=`git pull`

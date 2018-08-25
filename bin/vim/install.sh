@@ -2,9 +2,11 @@
 
 echo "${0} ..."
 
-# --- mkdir ZSH-Plugins-Directory
-readonly ZSHPLUGINS_DIR=~/.zsh/plugins
-[ -d ${ZSHPLUGINS_DIR} ] || mkdir -pv ${ZSHPLUGINS_DIR}
+# --- mkdir VIM-Plugins-Directory
+readonly VIM_START_DIR=~/.vim/pack/mypackage/start
+readonly VIM_OPT_DIR=~/.vim/pack/mypackage/opt
+[ -d ${VIM_START_DIR} ] || mkdir -pv ${VIM_START_DIR}
+[ -d ${VIM_OPT_DIR}   ] || mkdir -pv ${VIM_OPT_DIR}
 
 function usage() {
 cat<< _EOT_
@@ -12,15 +14,15 @@ Description:
   SETUP ZSH
 
 Usage:
-  sh ${0} install-packages : INSTALL ZSH_Packages
-  sh ${0} install-plugins  : INSTALL ZSH_Plugins
-  sh ${0} update           : UPDATE  ZSH_Plugins
-  sh ${0} deploy           : DEPLOY  ZSH_Configs
-  sh ${0} chsh             : CHANGE  Shell
+  sh ${0} install-packages : INSTALL Vim_Packages
+  sh ${0} install-plugins  : INSTALL Vim_Plugins
+  sh ${0} update           : UPDATE  Vim_Plugins
+  sh ${0} deploy           : DEPLOY  Vim_Configs
   sh ${0} *                : USAGE
 
 EOF:
-  ls -l ${ZSHPLUGINS_DIR}
+  ls -l ${VIM_START_DIR}
+  ls -l ${VIM_OPT_DIR}
 
 _EOT_
 exit 1
@@ -28,15 +30,16 @@ exit 1
 
 case ${1} in
   install-packages)
+    # ctags : tagjump(<C-]>,<C-t>,<C-x><C-]>)($ ctags -R -f .tags)
     sudo pacman -Syu
-    sudo pacman -S zsh
+    sudo pacman -S vim ctags
     sudo pacman -Sc
     ;;
   install-plugins)
     for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/install.txt)
     do
       GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 5-5 | rev | cut -c 5- | rev`
-      git clone --depth=1 ${GITREPOSITORY_URL} ${ZSHPLUGINS_DIR}/${GITCLONEDIR_NAME} 2>/dev/null
+      git clone --depth=1 ${GITREPOSITORY_URL} ${VIM_START_DIR}/${GITCLONEDIR_NAME} 2>/dev/null
       if [ "${?}" = "0" ]; then
         echo "-> (1/1) ${GITCLONEDIR_NAME}"
       else
@@ -48,16 +51,16 @@ case ${1} in
     for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/install.txt)
     do
       GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 5-5 | rev | cut -c 5- | rev`
-      if [ -d ${ZSHPLUGINS_DIR}/${GITCLONEDIR_NAME} ]; then
-        cd ${ZSHPLUGINS_DIR}/${GITCLONEDIR_NAME}
+      if [ -d ${VIM_START_DIR}/${GITCLONEDIR_NAME} ]; then
+        cd ${VIM_START_DIR}/${GITCLONEDIR_NAME}
         GITPULL_STDOUT=`git pull`
         if [ "${GITPULL_STDOUT}" != "Already up to date." ]; then
           git pull
           echo "-> (1/1) ${GITCLONEDIR_NAME}"
-          cd ${ZSHPLUGINS_DIR}
+          cd ${VIM_START_DIR}
         else
           echo "UPDATED : ${GITCLONEDIR_NAME}"
-          cd ${ZSHPLUGINS_DIR}
+          cd ${VIM_START_DIR}
         fi 
       else
         echo "PLEASE INSTALL : ${GITCLONEDIR_NAME}"
@@ -65,12 +68,9 @@ case ${1} in
     done
     ;;
   deploy)
-    readonly THIS_DIR="${HOME}/bin/zsh"
-    ln -snfv "${THIS_DIR}/.zlogin" "${HOME}"
-    ln -snfv "${THIS_DIR}/.zshrc"  "${HOME}"
-    ;;
-  chsh)
-    chsh -s $(which zsh)
+    readonly THIS_DIR="${HOME}/bin/vim"
+    ln -snfv "${THIS_DIR}/.vimrc"   "${HOME}"
+    ln -snfv "${THIS_DIR}/myconfig" "${HOME}/.vim/myconfig"
     ;;
   *)
     usage

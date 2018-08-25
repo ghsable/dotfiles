@@ -158,12 +158,6 @@ chromium
 # ------ OTHER TOOL ------
 # --- Editor
 leafpad
-# --- Editor(Vim)
-vim
-# tagjump
-# (<C-]>,<C-t>,<C-x><C-]>)
-# $ ctags -R -f .tags
-ctags
 # --- Display AC
 upower
 # --- Screenshot
