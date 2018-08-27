@@ -35,3 +35,8 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/p
     Print Quality    : High
     Print Scaling    : Auto Fit
 
+## EOF
+
+    http://localhost:631/
+    Printers/Queue Name/Maintenance/Print Test Page
+

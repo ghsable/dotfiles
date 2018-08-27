@@ -3,7 +3,7 @@
 echo "${0} ..."
 
 # ------ Print System ------
-# --- install(CUPS,Avahi)
+# --- install
 # CUPS        : Print System
 # rpmextract  : Open *.rpm ($ rpmextract.sh *.rpm)
 # a2ps        : Convert Text to PostScript
@@ -23,7 +23,7 @@ sudo pacman -S rpmextract \
                ghostscript gsfonts
 sudo pacman -Sc
 
-# --- systemctl enable(CUPS,Avahi)
+# --- systemctl enable
 # Avahi : $ avahi-browse -alr
 sudo systemctl enable org.cups.cupsd.service
 sudo systemctl enable cups-browsed.service
