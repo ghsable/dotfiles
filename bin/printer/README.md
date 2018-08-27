@@ -35,6 +35,16 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/p
     Print Quality    : High
     Print Scaling    : Auto Fit
 
+## Setup lpr
+
+    # GET queue_name
+    lpstat -s
+    -> EPSON_XX-XXX : xxx://XXXXXXXX000.xxxxx:000/xxx/xxxxx
+    # SET default_printer
+    lpoptions -d EPSON_XX-XXX
+    # PRINT TEST
+    lpr /path/to/file
+
 ## EOF
 
     http://localhost:631/
