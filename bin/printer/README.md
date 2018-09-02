@@ -50,7 +50,6 @@ this script : [printer.sh](https://github.com/ghsable/dotfiles/blob/master/bin/p
     # GUI
     http://localhost:631/
     Printers/Queue Name/Maintenance/Print Test Page
-    
     # CLI
     lpr /path/to/file
 
