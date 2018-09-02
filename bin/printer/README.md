@@ -42,13 +42,15 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/p
     -> EPSON_XX-XXX : xxx://XXXXXXXX000.xxxxx:000/xxx/xxxxx
     # SET default_printer
     lpoptions -d EPSON_XX-XXX
-    # PRINT TEST
-    lpr /path/to/file
 
 this script : [printer.sh](https://github.com/ghsable/dotfiles/blob/master/bin/printer/printer.sh)
 
 ## EOF
 
+    # GUI
     http://localhost:631/
     Printers/Queue Name/Maintenance/Print Test Page
+    
+    # CLI
+    lpr /path/to/file
 

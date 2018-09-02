@@ -37,9 +37,9 @@ hosts: files mymachines myhostname mdns_minimal [NOTFOUND=return] resolve [!UNAV
 _EOT_
 return 0
 }
-readonly ETC_FILE="/etc/nsswitch.conf"
-echo "UPDATE : ${ETC_FILE}"
-add_config_nssmdns | sudo tee -a ${ETC_FILE}
-sudo vi ${ETC_FILE}
+readonly NSSWITCH_FILE="/etc/nsswitch.conf"
+echo "UPDATE : ${NSSWITCH_FILE}"
+add_config_nssmdns | sudo tee -a ${NSSWITCH_FILE}
+sudo vi ${NSSWITCH_FILE}
 
 echo '---------------------------------------->>(EOF)'

@@ -6,15 +6,15 @@ Description:
   Printer Command
 
 Usage:
-  sh ${0} lpstat                   : DISPLAY Printers
-  sh ${0} lpoptions   <queue_name> : SET     Default_Printer
-  sh ${0} cupsenable  <queue_name> : ENABLE  Printer(*Error)
-  sh ${0} cupsdisable <queue_name> : DISABLE Printer(*Error)
-  sh ${0} cupsreject  <queue_name> : DELETE  Printer(*Error)
-  sh ${0} lpr         <file_path>  : PRINT   File
-  sh ${0} lpq                      : DISPLAY Print_Queue
-  sh ${0} lprm                     : DELETE  Print-Queue
-  sh ${0} *                        : USAGE
+  sh ${0} lpstat                       : DISPLAY Printers
+  sh ${0} lpoptions   <queue_name>     : SET     Default_Printer
+  sh ${0} cupsenable  <queue_name>     : ENABLE  Printer(*Error)
+  sh ${0} cupsdisable <queue_name>     : DISABLE Printer(*Error)
+  sh ${0} cupsreject  <queue_name>     : DELETE  Printer(*Error)
+  sh ${0} lpr         <inputfile_path> : PRINT   File(Not EUC-JP)
+  sh ${0} lpq                          : DISPLAY Print_Queue
+  sh ${0} lprm                         : DELETE  Print_Queue
+  sh ${0} *                            : USAGE
 
 EOF:
   http://localhost:631/

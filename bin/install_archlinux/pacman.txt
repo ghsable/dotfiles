@@ -35,6 +35,10 @@ mesa
 alsa-utils
 alsa-firmware
 
+# ------ DEVICE ------
+# Keyboard
+teensy-loader-cli
+
 # ------ SHELL ------
 # --- command
 # Magnificent app which corrects your previous console command.
