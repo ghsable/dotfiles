@@ -45,6 +45,8 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/p
     # PRINT TEST
     lpr /path/to/file
 
+this script : [printer.sh](https://github.com/ghsable/dotfiles/blob/master/bin/printer/printer.sh)
+
 ## EOF
 
     http://localhost:631/
