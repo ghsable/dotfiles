@@ -151,9 +151,6 @@ unace
 unrar
 zip
 unzip
-# --- Movie Player
-mplayer
-gnome-mplayer
 # --- Web Search(GUI)
 w3m
 firefox
