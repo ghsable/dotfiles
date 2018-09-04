@@ -107,3 +107,4 @@ reboot
 * [Vim](https://github.com/ghsable/dotfiles/blob/master/bin/vim/README.md)
 * [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
 * [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
+* [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)

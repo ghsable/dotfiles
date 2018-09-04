@@ -1,7 +1,7 @@
 #!/bin/bash
 
-readonly BLOCKDEVICE_PATH=/dev/sr0
-readonly MOUNTPOINT_PATH=/mnt
+readonly BLOCKDEVICE_PATH="/dev/sr0"
+readonly MOUNTPOINT_PATH="/mnt"
 readonly DATE_YYMMDD=`date "+%Y%m%d"`
 
 function usage() {
@@ -10,7 +10,6 @@ Description:
   Disk Command
 
 Usage:
-  sh ${0} install                    : INSTALL packages
   sh ${0} mount-disk                 : MOUNT   block_device(disk)
   sh ${0} mount-iso <*.iso_path>     : MOUNT   block_device(*.iso)
   sh ${0} umount                     : UMOUNT  block_device
@@ -30,20 +29,6 @@ exit 1
 }
 
 case ${1} in
-  install)
-    sudo pacman -Syu
-    # mplayer      : movie/music player
-    # libdvd*      : play play
-    # cdrtools     : create *.iso
-    # ccd2iso      : convert *.img/ccd -> *.iso
-    # dvd+rw-tools : format dvd-rw , growisofs
-    sudo pacman -S mplayer gnome-mplayer \
-                   libdvdread libdvdcss libdvdnav \
-                   cdrtools \
-                   ccd2iso \
-                   dvd+rw-tools
-    sudo pacman -Sc
-    ;;
   mount-disk)
     # sr0
     sudo mount ${BLOCKDEVICE_PATH} ${MOUNTPOINT_PATH}
@@ -66,7 +51,7 @@ case ${1} in
     ccd2iso ${2} isoimage_${DATE_YYMMDD}.iso
     ;;
   dd-disktoiso)
-    readonly BLOCKS=$(isosize -d 2048 ${BLOCKDEVICE_PATH})
+    readonly BLOCKS="$(isosize -d 2048 ${BLOCKDEVICE_PATH})"
     dd if=${BLOCKDEVICE_PATH} of=isoimage_${DATE_YYMMDD}.iso bs=2048 count=${BLOCKS} status=progress
     ;;
   format-cd)

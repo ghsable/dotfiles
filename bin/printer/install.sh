@@ -2,7 +2,7 @@
 
 echo "${0} ..."
 
-# ------ Print System ------
+# ------ Printer ------
 # --- install
 # CUPS        : Print System
 # rpmextract  : Open *.rpm ($ rpmextract.sh *.rpm)
