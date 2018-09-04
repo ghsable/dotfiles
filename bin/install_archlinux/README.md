@@ -106,3 +106,4 @@ reboot
 * [ZSH](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/README.md)
 * [Vim](https://github.com/ghsable/dotfiles/blob/master/bin/vim/README.md)
 * [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
+* [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
