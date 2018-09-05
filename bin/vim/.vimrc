@@ -93,10 +93,10 @@ let g:indentLine_fileTypeExclude=['help', 'nerdtree', 'calendar', 'thumbnail', '
 "     -> Concealを有効 -> 全モードでindentが表示されるように設定
 "     -> indentLine_charの扱いを半角スペースに設定(半角1文字ズレ対策)
 "     -> Global変数に同じ内容を再定義(他プラグインで上書きされた際の対策)
-let g:indentLine_setConceal=1
+let g:indentLine_setConceal=0
 let g:indentLine_concealcursor='nvic'
-let g:indentLine_conceallevel=1
-set concealcursor=nvic conceallevel=1
+let g:indentLine_conceallevel=0
+set concealcursor=nvic conceallevel=0
 " --- nathanaelkane/vim-indent-guides(https://github.com/nathanaelkane/vim-indent-guides)
 "     --- インデントを可視化(半角空白2文字のインデントに色を付ける)
 "         Yggdroot/indentLineと競合するため、いずれかを無効にする必要がある
@@ -453,9 +453,17 @@ set showmatch matchtime=1
 "set noshowmatch
 "let loaded_matchparen=1
 " 自動で括弧を閉じる
-imap { {}<LEFT>
-imap [ []<LEFT>
-imap ( ()<LEFT>
+inoremap { {}<LEFT>
+inoremap ( ()<LEFT>
+inoremap [ []<LEFT>
+"inoremap < <><LEFT>
+"inoremap " ""<LEFT>
+"inoremap ' ''<LEFT>
+" 改行した時に自動で括弧を閉じる
+inoremap {<CR> {<CR>}<ESC><S-o>
+inoremap (<CR> (<CR>)<ESC><S-o><TAB>
+inoremap [<CR> [<CR>]<ESC><S-o><TAB>
+"inoremap <<CR> <<CR>><ESC><S-o><TAB>
 " --- ポップアップ
 " Insert mode補完の設定
 " menu:ポップアップメニューを使った補完を有効 , menuone:補完候補が一つしかなくてもポップアップメニューを表示

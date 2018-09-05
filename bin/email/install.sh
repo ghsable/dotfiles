@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  SET E-MAIL CLIENT
+  SET E-mail CLIENT
 
 Usage:
   sh ${0} install : INSTALL Packages

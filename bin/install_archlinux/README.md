@@ -111,4 +111,4 @@ reboot
 **/home**
 * [ZSH](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/README.md)
 * [Vim](https://github.com/ghsable/dotfiles/blob/master/bin/vim/README.md)
-* [E-MAIL](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
+* [E-mail](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
