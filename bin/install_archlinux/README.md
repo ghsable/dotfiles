@@ -102,9 +102,13 @@ reboot
 ```
 
 ## WFM
-* [E-MAIL](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
+**/dev**
+* [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
+* [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
+* [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)
+* [Bluetooth](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/README.md)
+
+**/home**
 * [ZSH](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/README.md)
 * [Vim](https://github.com/ghsable/dotfiles/blob/master/bin/vim/README.md)
-* [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
-* [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
-* [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)
+* [E-MAIL](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
