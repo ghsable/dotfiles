@@ -34,3 +34,6 @@ this script : [ergodox-ez.sh](https://github.com/ghsable/dotfiles/blob/master/bi
 
     # Good Job! :D
 
+## Example(My-Keymap)
+
+[my-keymap](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/my-keymap/README.md)
