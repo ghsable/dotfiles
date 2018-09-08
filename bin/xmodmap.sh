@@ -22,8 +22,8 @@ cat<< _EOT_
 !!!!!!!!!!!!!!!!!!!! THIS CONFIG !!!!!!!!!!!!!!!!!!!!
 keysym Zenkaku_Hankaku = Super_L
 keysym Hiragana_Katakana = Super_R
-keysym Muhenkan = Hangul_Hanja 
-keysym Henkan_Mode = Hangul 
+keysym Muhenkan = Hangul_Hanja
+keysym Henkan_Mode = Hangul
 
 !clear Shift
 clear Lock
