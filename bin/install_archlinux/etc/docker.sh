@@ -12,13 +12,17 @@ sudo pacman -Sc
 # $ docker info
 sudo systemctl enable docker.service
 
-# --- setting
-function add_config() {
-cat<< _EOT_
+# --- add docker group
+sudo gpasswd -a $(whoami) docker
+groups
 
-_EOT_
-return 0
-}
+# --- setting
+#function add_config() {
+#cat<< _EOT_
+#
+#_EOT_
+#return 0
+#}
 #readonly ETC_FILE="/etc/"
 #echo "UPDATE : ${ETC_FILE}"
 #add_config | sudo tee -a ${ETC_FILE}
