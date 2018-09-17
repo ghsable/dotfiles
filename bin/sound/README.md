@@ -2,11 +2,13 @@
 
 ## Installation
 
+install:
+
     sh install.sh
 
 this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/sound/install.sh)
 
-## Usage
+usage:
 
     sh sound.sh usage
 
