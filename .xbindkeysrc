@@ -13,35 +13,44 @@
 # --- rofi | XF86LaunchA | F3
 "sh ~/bin/tools.sh launch_b"
    m:0x0 + c:128
-# --- rofi | F3 | Fn + 3
+# --- rofi | F3 | F3
 "sh ~/bin/tools.sh launch_b"
    m:0x0 + c:69
 
 # --- Screen Shot(Desktop) | Control + XF86LaunchB | Control + F4
 "sh ~/bin/scrot.sh"
    m:0x4 + c:212
-# --- Screen Shot(Desktop) | Control + F4 | Control + Fn + 4
+# --- Screen Shot(Desktop) | Control + F4 | Control + F4
 "sh ~/bin/scrot.sh"
    m:0x4 + c:70
 
 # --- ScreenShot(Focus Window) | Shift + XF86LaunchB | Shift + F4
 "sh ~/bin/scrot.sh -u"
    m:0x1 + c:212
-# --- ScreenShot(Focus Window) | Shift + F4 | Shift + Fn + 4
+# --- ScreenShot(Focus Window) | Shift + F4 | Shift + F4
 "sh ~/bin/scrot.sh -u"
    m:0x1 + c:70
 
 # --- volume toggle | XF86AudioMute | F10
-"sh ~/bin/alsa.sh toggle"
+"sh ~/bin/sound/alsa.sh toggle"
    m:0x0 + c:121
-   
+# --- volume toggle | F10 | F10
+"sh ~/bin/sound/alsa.sh toggle"
+   m:0x0 + c:76
+
 # --- volume down | Control + XF86AudioLowerVolume | F11
-"sh ~/bin/alsa.sh -"
+"sh ~/bin/sound/alsa.sh -"
    m:0x0 + c:122
+# --- volume down | Control + XF86AudioLowerVolume | F11
+"sh ~/bin/sound/alsa.sh -"
+   m:0x0 + c:95
 
 # --- volume up | Control + XF86AudioRaiseVolume | F12
-"sh ~/bin/alsa.sh +"
+"sh ~/bin/sound/alsa.sh +"
    m:0x0 + c:123
+# --- volume up | Control + XF86AudioRaiseVolume | F12
+"sh ~/bin/sound/alsa.sh +"
+   m:0x0 + c:96
 
 # --- NONE | Control + Return
 #""
