@@ -25,6 +25,6 @@ pulseaudio:
     sh pulseaudio_in.sh usage
     sh pulseaudio_out.sh usage
 
-this script : [pulseaudio_in.sh](https://github.com/ghsable/dotfiles/blob/master/bin/sound/pulseaudio_in.sh)
-this script : [pulseaudio_out.sh](https://github.com/ghsable/dotfiles/blob/master/bin/sound/pulsehaudio_out.sh)
+this script : [pulseaudio_in.sh](https://github.com/ghsable/dotfiles/blob/master/bin/sound/pulseaudio_in.sh)  
+this script : [pulseaudio_out.sh](https://github.com/ghsable/dotfiles/blob/master/bin/sound/pulseaudio_out.sh)
 
