@@ -11,7 +11,17 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/w
 
 ## Usage
 
-    sh wine.sh usage
+set config:
+
+    sh wine.sh winecfg
+
+start wine(wineuser):
+
+    sh wine.sh wine
+
+start wine(firejail):
+
+    sh wine.sh winejail
 
 this script : [wine.sh](https://github.com/ghsable/dotfiles/blob/master/bin/wine/wine.sh)
 
