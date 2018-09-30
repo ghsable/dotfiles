@@ -10,9 +10,6 @@ Usage:
   sh ${0} useradd   : ADD     users
   sh ${0} *         : USAGE
 
-EOF:
-  virtualbox
-
 _EOT_
 exit 1
 }

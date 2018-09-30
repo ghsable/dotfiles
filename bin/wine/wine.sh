@@ -8,6 +8,7 @@ Description:
 Usage:
   sh ${0} wine     <exefile_path> : START *.exe (change user)
   sh ${0} winejail <exefile_path> : START *.exe (firejail)
+  sh ${0} winecfg                 : SET   wine_config
   sh ${0} *                       : USAGE
 
 _EOT_
@@ -21,6 +22,9 @@ case ${1} in
     ;;
   winejail)
     firejail wine ${2}
+    ;;
+  winecfg)
+    ${1}
     ;;
   *)
     usage
