@@ -27,3 +27,6 @@ https://github.com/vim-syntastic/syntastic.git
 
 # --- vim-scripts/taglist.vim(https://github.com/vim-scripts/taglist.vim)
 https://github.com/vim-scripts/taglist.vim.git
+
+# --- lervag/vimtex(https://github.com/lervag/vimtex)
+https://github.com/lervag/vimtex.git

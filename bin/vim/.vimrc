@@ -20,9 +20,11 @@ set ambiwidth=double
 " ---
 
 
-" ------ <Leader> ------
-" --- <Leader>の割当て(以降の設定を有効にするため最上行に定義)
+" ------ <Leader>,<LocalLeader> ------
+" --- <Leader>,<LocalLeader>の割当て
+"     (以降の設定を有効にするため最上行に定義)
 let mapleader="\<Space>"
+let maplocalleader="\\"
 " --- キーバインド
 " 保存/終了
 nnoremap <Leader>w :w<CR>
@@ -173,6 +175,18 @@ let Tlist_Compact_Format=1
 let Tlist_GainFocus_On_ToggleOpen=1
 let Tlist_Close_On_Select=1
 nnoremap <C-l> :TlistToggle<CR>
+" --- lervag/vimtex(https://github.com/lervag/vimtex)
+"     --- latexmk(~/.latexmkrc)と連携、LaTeXのオムニ補完(<C-x><C-o>)
+"         <LocalLeader>ll : タイプセット&プレビュー
+"         <LocalLeader>lv : PDFファイルをビューワで開く , forward search
+"         <LocalLeader>lL : 選択した範囲をタイプセット&プレビュー
+"         <LocalLeader>lt : 目次を開く
+"         <LocalLeader>le : エラー一覧(QuickFixリスト)を開く
+"         K               : 解説ドキュメントをブラウザで開く
+" --- Callbackエラーメッセージを表示しない
+let g:vimtex_compiler_latexmk={'callback' : 0}
+" --- インサートモードで利用可能なLaTeXコマンド短縮形の機能有無設定
+let g:vimtex_imaps_enabled=0
 " --- }}} ---
 
 

@@ -182,6 +182,12 @@ libreoffice-still
 #libreoffice-fresh-ja
 #antiword
 unoconv
+# --- TeX Live
+texlive-most
+texlive-lang
+texlive-core
+texlive-bin
+#texlive-langextra
 
 # ------ PROGRAMMING ------
 # --- Java
