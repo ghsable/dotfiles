@@ -13,6 +13,7 @@ Usage:
   sh ${0} ptemplate        : [pLaTeX]       OPEN    pLaTeX  template
   sh ${0} utemplate        : [upLaTeX]      OPEN    upLaTeX template
   sh ${0} cloudlatex       :                OPEN    Cloud_LaTeX
+  sh ${0} overleaf         :                OPEN    Overleaf
   sh ${0} *                :                USAGE
 
 _EOT_
@@ -48,6 +49,9 @@ case ${1} in
     ;;
   cloudlatex)
     firefox "https://cloudlatex.io/ja"
+    ;;
+  overleaf)
+    firefox "https://ja.overleaf.com/"
     ;;
   *)
     usage
