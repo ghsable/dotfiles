@@ -106,7 +106,7 @@
 - - -
 * [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
 * [ ] [Pokémon GO](https://itunes.apple.com/jp/app/pok%C3%A9mon-go/id1094591345?mt=8)
-* [ ] [groove coaster2](https://itunes.apple.com/jp/app/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%82%B3%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-2-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/id549050409?mt=8)
+* [ ] [GROOVE COASTER2](https://itunes.apple.com/jp/app/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%82%B3%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-2-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/id549050409?mt=8)
 
 **🎨製作編集**
 - - -
