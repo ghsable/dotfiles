@@ -122,7 +122,7 @@
 * [x] [計測](https://itunes.apple.com/jp/app/%E8%A8%88%E6%B8%AC/id1383426740?mt=8)
 * [ ] [Voice Recorder HD](https://itunes.apple.com/jp/app/voice-recorder-hd/id373045717?mt=8)
 * [ ] [SySight](https://itunes.apple.com/jp/app/sysight/id568731681?mt=8)
-* [ ] [Workflow](https://itunes.apple.com/jp/app/workflow/id915249334?mt=8)
+* [ ] [ショートカット](https://itunes.apple.com/jp/app/workflow/id915249334?mt=8)
 * [ ] [HUAWEI HiLink](https://itunes.apple.com/jp/app/huawei-hilink-mobile-wifi/id546979875?mt=8)
 * [ ] [mineoスイッチ](https://itunes.apple.com/jp/app/mineo%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81/id994047612?mt=8)
 * [ ] [Amazon Alexa](https://itunes.apple.com/jp/app/amazon-alexa/id944011620?mt=8)
