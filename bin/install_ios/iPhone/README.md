@@ -89,6 +89,7 @@
 * [ ] [カラオケBanBan公式アプリ](https://itunes.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1banban%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id667211494?mt=8)
 * [ ] [丸亀製麺](https://itunes.apple.com/jp/app/%E4%B8%B8%E4%BA%80%E8%A3%BD%E9%BA%BA/id587248280?mt=8)
 * [ ] [スシロー](https://itunes.apple.com/jp/app/%E3%82%B9%E3%82%B7%E3%83%AD%E3%83%BC/id551682016?mt=8)
+* [ ] [Coke ON](https://itunes.apple.com/jp/app/coke-on-%E3%82%B3%E3%82%AB-%E3%82%B3%E3%83%BC%E3%83%A9%E8%87%AA%E8%B2%A9%E6%A9%9F%E3%81%8C%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AB%E6%A5%BD%E3%81%97%E3%81%8F%E3%81%AA%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA/id1088184021?mt=8)
 
 **📵SNS**
 - - -
@@ -99,13 +100,13 @@
 * [ ] [Filmarks](https://itunes.apple.com/jp/app/filmarks-%E3%83%95%E3%82%A3%E3%83%AB%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%B9/id549126249?mt=8)
 * [ ] [Goodreads](https://itunes.apple.com/jp/app/goodreads-book-reviews/id355833469?mt=8)
 * [ ] [Pawoo for Mastodon](https://itunes.apple.com/jp/app/pawoo-for-mastodon/id1229070679?mt=8)
+* [ ] [TikTok](https://itunes.apple.com/jp/app/tiktok-%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%88%E3%83%83%E3%82%AF/id1235601864?mt=8)
 
 **🎲ゲーム**
 - - -
-* [ ] [将棋ウォーズ](https://itunes.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA/id496801169?mt=8)
 * [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
-* [ ] [FINAL FANTASY Record Keeper](https://itunes.apple.com/jp/app/final-fantasy-record-keeper/id866037912?mt=8)
 * [ ] [Pokémon GO](https://itunes.apple.com/jp/app/pok%C3%A9mon-go/id1094591345?mt=8)
+* [ ] [groove coaster2](https://itunes.apple.com/jp/app/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%82%B3%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-2-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/id549050409?mt=8)
 
 **🎨製作編集**
 - - -
@@ -118,6 +119,7 @@
 - - -
 * [x] カメラ
 * [x] [計算機](https://itunes.apple.com/jp/app/%E8%A8%88%E7%AE%97%E6%A9%9F/id1069511488?mt=8)
+* [x] [計測](https://itunes.apple.com/jp/app/%E8%A8%88%E6%B8%AC/id1383426740?mt=8)
 * [ ] [Voice Recorder HD](https://itunes.apple.com/jp/app/voice-recorder-hd/id373045717?mt=8)
 * [ ] [SySight](https://itunes.apple.com/jp/app/sysight/id568731681?mt=8)
 * [ ] [Workflow](https://itunes.apple.com/jp/app/workflow/id915249334?mt=8)
