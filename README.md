@@ -10,7 +10,7 @@
       <td>macOS</td>
     </tr>
     <tr>
-      <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.png" alt="archlinux_README.png"></td>
+      <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.gif" alt="archlinux_README.png"></td>
     </tr>
     <tr>
       <td>Arch Linux</td>

@@ -17,8 +17,8 @@ Usage:
   sh ${0} filer_b     : thunar
   sh ${0} note        : leafpad
   sh ${0} movie       : mplayer
-  sh ${0} rec1        : simplescreenrecorder
-  sh ${0} rec2        : peek(AUR)
+  sh ${0} rec_a       : simplescreenrecorder
+  sh ${0} rec_b       : peek(AUR)
   sh ${0} web         : firefox
   sh ${0} office      : libreoffice
   sh ${0} *           : USAGE

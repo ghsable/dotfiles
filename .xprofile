@@ -31,9 +31,13 @@ xcompmgr -c &
 # --- Xset
 sh ~/bin/xset.sh on 120
 
+# --- XRandR
 # --- Xinput(usbtouchscreen)
 sh ~/bin/xrandr.sh mirror
 sh ~/bin/xrandr.sh xinput
+
+# --- Xinput(input-devices)
+sh ~/bin/xinput.sh mouse-button
 
 # --- Xmodmap
 sh ~/bin/xmodmap.sh make
