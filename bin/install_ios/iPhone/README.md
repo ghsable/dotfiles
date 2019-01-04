@@ -21,6 +21,7 @@
 * [ ] [Suica](https://itunes.apple.com/jp/app/suica/id1156875272?mt=8)
 * [ ] [家計簿マネーフォワード](https://itunes.apple.com/jp/app/%E5%AE%B6%E8%A8%88%E7%B0%BF%E3%83%9E%E3%83%8D%E3%83%BC%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89-%E8%87%AA%E5%8B%95%E9%80%A3%E6%90%BA%E3%81%A7%E7%B0%A1%E5%8D%98-%E4%BA%BA%E6%B0%97%E3%81%AE%E5%AE%B6%E8%A8%88%E7%B0%BF/id594145971?mt=8) 
 * [ ] [住信SBIネット銀行](https://itunes.apple.com/jp/app/%E4%BD%8F%E4%BF%A1sbi%E3%83%8D%E3%83%83%E3%83%88%E9%8A%80%E8%A1%8C/id436755036?mt=8)
+* [ ] [PayPay](https://itunes.apple.com/jp/app/paypay-qr%E3%82%B3%E3%83%BC%E3%83%89-%E3%83%90%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A7%E6%94%AF%E6%89%95%E3%81%86%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%A2%E3%83%97%E3%83%AA/id1435783608?mt=8)
 
 **💸FX**
 - - -
@@ -72,6 +73,7 @@
 - - -
 * [ ] [Amazon プライム・ビデオ](https://itunes.apple.com/jp/app/amazon-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0-%E3%83%93%E3%83%87%E3%82%AA/id545519333?mt=8)
 * [ ] [DMM 動画プレイヤー](https://itunes.apple.com/jp/app/dmm-%E5%8B%95%E7%94%BB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC/id663294738?mt=8)
+* [ ] [REC-ON](https://itunes.apple.com/jp/app/rec-on-app/id980192505?mt=8)
 
 **🎷音楽**
 - - -
@@ -89,7 +91,13 @@
 * [ ] [カラオケBanBan公式アプリ](https://itunes.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1banban%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id667211494?mt=8)
 * [ ] [丸亀製麺](https://itunes.apple.com/jp/app/%E4%B8%B8%E4%BA%80%E8%A3%BD%E9%BA%BA/id587248280?mt=8)
 * [ ] [スシロー](https://itunes.apple.com/jp/app/%E3%82%B9%E3%82%B7%E3%83%AD%E3%83%BC/id551682016?mt=8)
+* [ ] [いきなりステーキ](https://itunes.apple.com/jp/app/%E3%81%84%E3%81%8D%E3%81%AA%E3%82%8A%E3%82%B9%E3%83%86%E3%83%BC%E3%82%AD%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id1016803197?mt=8)
 * [ ] [Coke ON](https://itunes.apple.com/jp/app/coke-on-%E3%82%B3%E3%82%AB-%E3%82%B3%E3%83%BC%E3%83%A9%E8%87%AA%E8%B2%A9%E6%A9%9F%E3%81%8C%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AB%E6%A5%BD%E3%81%97%E3%81%8F%E3%81%AA%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA/id1088184021?mt=8)
+* [ ] [Amazon](https://itunes.apple.com/jp/app/amazon-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA/id374254473?mt=8)
+* [ ] [ビックカメラ](https://itunes.apple.com/jp/app/%E3%83%93%E3%83%83%E3%82%AF%E3%82%AB%E3%83%A1%E3%83%A9/id518593576?mt=8)
+* [ ] [ヤフオク!](https://itunes.apple.com/jp/app/%E3%83%A4%E3%83%95%E3%82%AA%E3%82%AF/id356968629?mt=8)
+* [ ] [ラクマ](https://itunes.apple.com/jp/app/%E3%83%A9%E3%82%AF%E3%83%9E-%E6%97%A7%E3%83%95%E3%83%AA%E3%83%AB-%E6%A5%BD%E5%A4%A9%E3%81%AE%E3%83%95%E3%83%AA%E3%83%9E%E3%82%A2%E3%83%97%E3%83%AA/id523497998?mt=8)
+* [ ] [メルカリ](https://itunes.apple.com/jp/app/%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA-%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E8%B3%BC%E5%85%A5-%E5%87%BA%E5%93%81-%E3%83%95%E3%83%AA%E3%83%9E%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id667861049?mt=8)
 
 **📵SNS**
 - - -
@@ -106,7 +114,6 @@
 - - -
 * [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
 * [ ] [Pokémon GO](https://itunes.apple.com/jp/app/pok%C3%A9mon-go/id1094591345?mt=8)
-* [ ] [GROOVE COASTER2](https://itunes.apple.com/jp/app/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%82%B3%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-2-%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB/id549050409?mt=8)
 
 **🎨製作編集**
 - - -
@@ -123,7 +130,6 @@
 * [ ] [Voice Recorder HD](https://itunes.apple.com/jp/app/voice-recorder-hd/id373045717?mt=8)
 * [ ] [SySight](https://itunes.apple.com/jp/app/sysight/id568731681?mt=8)
 * [ ] [ショートカット](https://itunes.apple.com/jp/app/workflow/id915249334?mt=8)
-* [ ] [HUAWEI HiLink](https://itunes.apple.com/jp/app/huawei-hilink-mobile-wifi/id546979875?mt=8)
 * [ ] [mineoスイッチ](https://itunes.apple.com/jp/app/mineo%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81/id994047612?mt=8)
 * [ ] [Amazon Alexa](https://itunes.apple.com/jp/app/amazon-alexa/id944011620?mt=8)
 * [ ] [hibiku](https://itunes.apple.com/jp/app/hibiku/id673366738?mt=8)
