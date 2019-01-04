@@ -65,4 +65,4 @@
 * [x] 時計
 * [ ] [VNC Viewer](https://itunes.apple.com/jp/app/vnc-viewer-remote-desktop/id352019548?mt=8)
 * [ ] [SySight](https://itunes.apple.com/jp/app/sysight/id568731681?mt=8)
-* [ ] [Workflow](https://itunes.apple.com/jp/app/workflow/id915249334?mt=8)
+* [ ] [ショートカット](https://itunes.apple.com/jp/app/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88/id915249334?mt=8)
