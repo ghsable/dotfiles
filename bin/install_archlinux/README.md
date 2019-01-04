@@ -108,6 +108,7 @@ reboot
 * [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)
 * [Bluetooth](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/README.md)
 * [ErgoDox-EZ](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/README.md)
+* [Television](https://github.com/ghsable/dotfiles/blob/master/bin/television/README.md)
 
 **/home**
 * [ZSH](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/README.md)
