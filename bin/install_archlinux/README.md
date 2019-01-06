@@ -88,6 +88,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/
 # BootLoaderの設定(BootableUSB,MacBookの場合)
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/liveusb/grub-install.sh)"
 # BootLoaderの設定(WindowsPCの場合)
+# 次回起動までにWindows環境上で、高速スタートアップ:無効、セキュアブート:無効 に設定しておく事を推奨
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/liveusb/refind-install.sh)"
 # 終了処理
 exit            # chrootを抜ける

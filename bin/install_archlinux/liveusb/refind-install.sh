@@ -16,8 +16,22 @@ pacman -Sc
 refind-install
 
 # --- Edit UEFI-boot-menu-entries
-readonly REFINDCONF_FILE=/boot/refind-linux.conf
-tac ${REFINDCONF_FILE} | tee ${REFINDCONF_FILE}
-vi ${REFINDCONF_FILE}
+tac /boot/refind-linux.conf | tee /boot/refind-linux.conf
+vi /boot/refind-linux.conf
+
+# --- update automation
+mkdir -pv /etc/pacman.d/hooks
+{
+echo '[Trigger]'
+echo 'Operation=Upgrade'
+echo 'Type=Package'
+echo 'Target=refind-efi'
+echo ''
+echo '[Action]'
+echo 'Description = Updating rEFInd on ESP'
+echo 'When=PostTransaction'
+echo 'Exec=/usr/bin/refind-install'
+} >/etc/pacman.d/hooks/refind.hook
+vi /etc/pacman.d/hooks/refind.hook
 
 echo '---------------------------------------->>(EOF)'
