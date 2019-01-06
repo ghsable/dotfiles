@@ -16,8 +16,8 @@ pacman -Sc
 refind-install
 
 # --- Edit UEFI-boot-menu-entries
-tac /boot/refind-linux.conf | tee /boot/refind-linux.conf
-vi /boot/refind-linux.conf
+tac /boot/refind_linux.conf | tee /boot/refind_linux.conf
+vi /boot/refind_linux.conf
 
 # --- update automation
 mkdir -pv /etc/pacman.d/hooks
