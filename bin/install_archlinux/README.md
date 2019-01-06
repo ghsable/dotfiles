@@ -83,8 +83,13 @@ genfstab -U /mnt >>/mnt/etc/fstab
 lsblk -f && cat /mnt/etc/fstab
 # インストール先USBに入る
 arch-chroot /mnt
-# 初期設定
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/liveusb.sh)"  # GitHubより自動セットアップ
+# 初期設定(GitHubより自動セットアップ)
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/liveusb/install.sh)"
+# BootLoaderの設定(BootableUSB,MacBookの場合)
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/liveusb/grub-install.sh)"
+# BootLoaderの設定(WindowsPCの場合)
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/liveusb/refind-install.sh)"
+# 終了処理
 exit            # chrootを抜ける
 umount -R /mnt  # アンマウント
 reboot          # 再起動
