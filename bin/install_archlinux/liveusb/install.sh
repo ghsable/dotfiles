@@ -45,21 +45,6 @@ passwd
 # --- System Update
 pacman -Syu
 
-# --- grub-Install
-pacman -S efibootmgr intel-ucode grub
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub --removable --recheck
-
-# --- Add /boot/grub/grub.cfg
-grub-mkconfig -o /boot/grub/grub.cfg
-vi /boot/grub/grub.cfg
-
-# --- OFF Kernel Mode Setting(KMS)
-{
-echo '#################### PLEASE REPLACE THIS LINE ####################'
-echo 'GRUB_CMDLINE_LINUX_DEFAULT="nomodeset"'
-} >>/etc/default/grub
-vi /etc/default/grub
-
 # --- Set Network(Install NetworkManager + systemctl enable)
 pacman -S networkmanager
 systemctl enable NetworkManager.service
@@ -84,5 +69,8 @@ vi /etc/systemd/journald.conf.d/usbstick.conf
 
 # --- Install git
 pacman -S git
+
+# --- Delete Cache
+pacman -Sc
 
 echo '---------------------------------------->>(EOF)'
