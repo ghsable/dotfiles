@@ -9,7 +9,7 @@
     3. INSTALL Components
        sh install.sh install-components
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/apl/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/install.sh)
 
 ## Update(Components)
 

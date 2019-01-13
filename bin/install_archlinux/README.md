@@ -108,7 +108,7 @@ reboot
 ```
 
 ## Module
-**Divice**
+**Device**
 * [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
 * [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
 * [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)
@@ -124,5 +124,5 @@ reboot
 * [Wine](https://github.com/ghsable/dotfiles/blob/master/bin/wine/README.md)
 
 **Programming Language**
-* [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/README.md)
+* [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/README.md)
 
