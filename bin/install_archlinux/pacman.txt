@@ -31,9 +31,8 @@ docker
 # --- Video
 # $ lspci | grep -e VGA -e 3D(OpenGL)
 mesa
-# --- Sound
-alsa-utils
-alsa-firmware
+# --- Touch
+xf86-input-libinput
 
 # ------ DEVICE ------
 # Keyboard
@@ -199,10 +198,6 @@ python
 # lint
 # flake8(http://flake8.pycqa.org/en/latest/)
 flake8
-# --- Rust
-rust
-# Rust code completion and navigation
-rust-racer
 # --- Ruby
 ruby
 

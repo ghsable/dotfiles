@@ -1,6 +1,20 @@
 " --- ~/.vimrc
 
 
+" ------ 説明 ------
+" --- キー割当て変更コマンド(:h key-mapping)
+" ---------------------------------------------------------------------
+" | モード                                 | *再割当無し | 再割当有り |
+" ---------------------------------------------------------------------
+" | ノーマルモード＋ビジュアルモード       | noremap     | map        |
+" | コマンドラインモード＋インサートモード | noremap!    | map!       |
+" | ノーマルモード                         | nnoremap    | nmap       |
+" | ビジュアル(選択)モード                 | vnoremap    | vmap       |
+" | コマンドラインモード                   | cnoremap    | cmap       |
+" | インサート(挿入)モード                 | inoremap    | imap       |
+" ---------------------------------------------------------------------
+
+
 " ------ 文字コード ------
 " --- ファイル読込み時の文字コードを設定
 let &termencoding=&encoding
@@ -60,6 +74,16 @@ highlight link htmlBoldItalic ErrorMsg
 " ------ 外部プラグイン ------
 " --- 常にロード(start)
 " --- {{{ ---
+" --- fuenor/im_control.vim(https://github.com/fuenor/im_control.vim)
+"     --- Vim/GVimで「日本語入力固定モード」を使用(https://sites.google.com/site/fudist/Home/vim-nihongo-ban/vim-japanese/ime-control)
+"     --- 挿入モード -> ノーマルモード でIMをOFFにする事が狙い
+"     --- fcitx
+" *   「日本語入力固定モード」の動作設定
+let IM_CtrlMode = 6
+"     「日本語入力固定モード」切替キー
+inoremap <silent> <C-j> <C-r>=IMState('FixMode')<CR>
+"     <ESC>押下後のIM切替開始までの反応が遅い場合はttimeoutlenを短く設定してみてください(ミリ秒)
+set timeout timeoutlen=3000 ttimeoutlen=100
 " --- vim-jp/vimdoc-ja(https://github.com/vim-jp/vimdoc-ja)
 "     --- ':help'を日本語化
 " *   表示言語の優先度を設定(:help @enで英語表示)
@@ -362,7 +386,8 @@ highlight  clear CursorLine
 set linespace=1
 " --- スクロール
 " カーソル行の上下へのオフセットを設定
-set scrolloff=5
+"set scrolloff=5
+set scrolloff=9999
 " カーソル行の左右へのオフセットを設定
 set sidescrolloff=16
 " 左右スクロールは一文字づつ行う
@@ -381,6 +406,9 @@ set display=lastline
 " 画面端まで文字入力されても折り返さない
 set nowrap
 " 文字入力中において右端まで入力された時の自動改行を防止
+set formatoptions=q
+set textwidth=0
+setlocal formatoptions=q
 setlocal textwidth=0
 " 折り返し時に表示行単位での移動できるようにする
 nnoremap j gj
@@ -474,7 +502,7 @@ inoremap [ []<LEFT>
 "inoremap " ""<LEFT>
 "inoremap ' ''<LEFT>
 " 改行した時に自動で括弧を閉じる
-inoremap {<CR> {<CR>}<ESC><S-o>
+inoremap {<CR> {<CR>}<ESC><S-o><TAB>
 inoremap (<CR> (<CR>)<ESC><S-o><TAB>
 inoremap [<CR> [<CR>]<ESC><S-o><TAB>
 "inoremap <<CR> <<CR>><ESC><S-o><TAB>
@@ -492,16 +520,30 @@ highlight  Pmenu ctermbg=6
 highlight  PmenuSel ctermbg=11
 highlight  PmenuSbar ctermbg=6
 highlight  PmenuThumb ctermfg=13
-" --- ペーストモード(有効:paste , 無効:nopaste)
+" --- ペースト
+" ペーストモード(有効:paste , 無効:nopaste)
 set nopaste
+" INSERTキーを全てのモードで無効にし、誤操作(ペースト)を防止
+noremap <silent><Insert> <Nop>
+inoremap <silent><Insert> <Nop>
+" --- クリップボード
+" --- (`$ vim --version | grep clipboard`で`+clipboard`の出力である場合)クリップボードを共有
+" unnamed:中クリックでペーストされるテキストをコピー
+" autoselect:vim上でハイライトして選択したテキストをクリップボードにコピー,
+" unnamedplus:<C-v>などでペーストされるテキストをコピー("+レジスタ(XのCLIPBOARDバッファ)と共有)
+" (https://pocke.hatenablog.com/entry/2014/10/26/145646)
+set clipboard&
+set clipboard^=unnamed,autoselect,unnamedplus
+" --- IMをデフォルトOFFにして挿入モード開始時に全角入力状態を防止
+"     0:オフ , 1:オン , -1:iminsertの設定値を参照
+set iminsert=0 imsearch=-1
+" --- (MacVim,GVimの場合)挿入モードから抜ける/入る際にIMをOFF
+set imdisable
 " --- キーバインド(未分類)
 " インサートモードから抜ける
 inoremap jj <ESC>
 inoremap っｊ <ESC>
-" --- IMをデフォルトOFFにして挿入モード開始時に全角入力状態を防止
-set iminsert=0 imsearch=0
 " ---
-
 
 " ------ コマンドモード ------
 " --- 入力コマンドの履歴数を設定

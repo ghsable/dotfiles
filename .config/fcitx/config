@@ -33,7 +33,8 @@ SwitchKey=ALT_R_SHIFT
 # 入力メソッドをオンに
 #ActivateKey=
 # 入力メソッドをオフに
-#InactivateKey=
+InactivateKey=CTRL_[
+#InactivateKey=CTRL_[ ESCAPE
 # 入力メソッドの切換をホットキーで
 # Available Value:
 # True False

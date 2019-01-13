@@ -9,13 +9,6 @@ conky.text = [[
 ^fg(\#444444)| \
 \
 \
-^fg(\#87afd7)^i(${exec echo "${HOME}"}/bin/dzen/xbm/net_up_01.xbm) \
-^fg(\#ffaf5f)${upspeedf wlp2s0b1}kb/s \
-^fg(\#87afd7)^i(${exec echo "${HOME}"}/bin/dzen/xbm/net_down_01.xbm) \
-^fg(\#ffaf5f)${downspeedf wlp2s0b1}kb/s \
-^fg(\#444444)| \
-\
-\
 ^fg(\#87afd7)^i(${exec echo "${HOME}"}/bin/dzen/xbm/cpu.xbm) \
 ^fg(\#ffaf5f)${cpu}% \
 ^fg(\#444444)| \
@@ -53,4 +46,15 @@ conky.text = [[
 ^fg(\#87afd7)^i(${exec echo "${HOME}"}/bin/dzen/xbm/arch.xbm) \
 ^ca() \
 ^fg(\#444444)|
+]]
+
+--[[
+-- Network upspeed/downspeed
+\
+\
+^fg(\#87afd7)^i(${exec echo "${HOME}"}/bin/dzen/xbm/net_up_01.xbm) \
+^fg(\#ffaf5f)${upspeedf wlp2s0b1}kb/s \
+^fg(\#87afd7)^i(${exec echo "${HOME}"}/bin/dzen/xbm/net_down_01.xbm) \
+^fg(\#ffaf5f)${downspeedf wlp2s0b1}kb/s \
+^fg(\#444444)| \
 ]]

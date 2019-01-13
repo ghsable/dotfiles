@@ -1,3 +1,6 @@
+# --- fuenor/im_control.vim(https://github.com/fuenor/im_control.vim)
+https://github.com/fuenor/im_control.vim.git
+
 # --- vim-jp/vimdoc-ja(https://github.com/vim-jp/vimdoc-ja)
 https://github.com/vim-jp/vimdoc-ja.git
 

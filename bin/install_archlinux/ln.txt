@@ -8,6 +8,7 @@ Makefile
 .local/share/applications/userapp-feh-CJADVY.desktop
 # --- Input Method Framework(fcitx)
 .config/fcitx/config
+.config/fcitx/profile
 
 # ------ DIRECTORY PATH ------
 doc

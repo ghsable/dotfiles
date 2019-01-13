@@ -47,7 +47,8 @@ xterm*scaleHeight:        1.1
 !! rxvt-unicode (urxvt)
 !!
 !! General
-URxvt.geometry:           96x32
+!URxvt.geometry:           96x32
+URxvt.geometry:           86x27
 URxvt.scrollBar:          false
 URxvt.scrollBar_right:    true
 URxvt.scrollBar_floating: true

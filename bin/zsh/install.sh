@@ -14,7 +14,7 @@ Description:
 Usage:
   sh ${0} install-packages : INSTALL ZSH_Packages
   sh ${0} install-plugins  : INSTALL ZSH_Plugins
-  sh ${0} update           : UPDATE  ZSH_Plugins
+  sh ${0} update-plugins   : UPDATE  ZSH_Plugins
   sh ${0} deploy           : DEPLOY  ZSH_Configs
   sh ${0} chsh             : CHANGE  Shell
   sh ${0} *                : USAGE
@@ -44,7 +44,7 @@ case ${1} in
       fi
     done
     ;;
-  update)
+  update-plugins)
     for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/install.txt)
     do
       GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 5-5 | rev | cut -c 5- | rev`

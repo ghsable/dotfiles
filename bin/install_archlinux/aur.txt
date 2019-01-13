@@ -1,7 +1,4 @@
-# --- geteltorito(https://aur.archlinux.org/packages/geteltorito/)
+# geteltorito(https://aur.archlinux.org/packages/geteltorito/)
 https://aur.archlinux.org/geteltorito.git
-# --- dropbox(https://aur.archlinux.org/packages/dropbox/)
+# dropbox(https://aur.archlinux.org/packages/dropbox/)
 https://aur.archlinux.org/dropbox.git
-# --- rust-src(racer),(${RUST_SRC_PATH}='/usr/lib/rustlib/src/rust/src')
-#     (https://aur.archlinux.org/packages/rust-src/)
-#https://aur.archlinux.org/rust-src.git

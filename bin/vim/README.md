@@ -33,7 +33,7 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/v
                    └── *
                        └── *         : plugin-config-files
 
-## UPDATE(Plugins)
+## Update(Plugins)
 
-    sh install.sh update
+    sh install.sh update-plugins
 

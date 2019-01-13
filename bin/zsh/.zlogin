@@ -6,9 +6,8 @@ export EDITOR='vim'
 export BROWSER='firefox'
 # LESS
 export LESS='-M -W -R -XXX -N -J -Q -F -X -K -I -a'
-# rust-src(https://aur.archlinux.org/rust-src.git)
-# $(rustc --print sysroot) -> /usr
-export RUST_SRC_PATH='/usr/lib/rustlib/src/rust/src'
+# a programming language env
+source ~/bin/apl/env.sh
 
 # CRONTAB
 crontab ~/bin/install_archlinux/etc/crontab

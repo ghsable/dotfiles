@@ -16,7 +16,7 @@ Description:
 Usage:
   sh ${0} install-packages : INSTALL Vim_Packages
   sh ${0} install-plugins  : INSTALL Vim_Plugins
-  sh ${0} update           : UPDATE  Vim_Plugins
+  sh ${0} update-plugins   : UPDATE  Vim_Plugins
   sh ${0} deploy           : DEPLOY  Vim_Configs
   sh ${0} *                : USAGE
 
@@ -30,9 +30,13 @@ exit 1
 
 case ${1} in
   install-packages)
-    # ctags : tagjump(<C-]>,<C-t>,<C-x><C-]>)($ ctags -R -f .tags)
+    {
+    echo '# vim   : text editor'
+    echo '# ctags : tagjump(<C-]>,<C-t>,<C-x><C-]>)($ ctags -R -f .tags)'
+    }
     sudo pacman -Syu
-    sudo pacman -S vim ctags
+    sudo pacman -S vim \
+                   ctags
     sudo pacman -Sc
     ;;
   install-plugins)
@@ -47,7 +51,7 @@ case ${1} in
       fi
     done
     ;;
-  update)
+  update-plugins)
     for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/install.txt)
     do
       GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 5-5 | rev | cut -c 5- | rev`

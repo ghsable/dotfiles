@@ -107,8 +107,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/
 reboot
 ```
 
-## WFM
-**/dev**
+## Module
+**Divice**
 * [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
 * [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
 * [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)
@@ -116,9 +116,13 @@ reboot
 * [ErgoDox-EZ](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/README.md)
 * [Television](https://github.com/ghsable/dotfiles/blob/master/bin/television/README.md)
 
-**/home**
+**General**
 * [ZSH](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/README.md)
 * [Vim](https://github.com/ghsable/dotfiles/blob/master/bin/vim/README.md)
 * [E-mail](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
 * [VirtualBox](https://github.com/ghsable/dotfiles/blob/master/bin/virtualbox/README.md)
 * [Wine](https://github.com/ghsable/dotfiles/blob/master/bin/wine/README.md)
+
+**Programming Language**
+* [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/README.md)
+
