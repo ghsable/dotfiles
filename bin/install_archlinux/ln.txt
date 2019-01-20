@@ -6,22 +6,9 @@ Makefile
 .xmonad/xmonad.hs
 # --- Thunar(DefaultOpen+)
 .local/share/applications/userapp-feh-CJADVY.desktop
-# --- Input Method Framework(fcitx)
-.config/fcitx/config
-.config/fcitx/profile
 
 # ------ DIRECTORY PATH ------
 doc
 bin
-# --- Input Method Framework(fcitx)
-.config/fcitx/conf
-.config/fcitx/data
-.config/fcitx/skin
-# --- Filer
+# --- Ranger
 .config/ranger
-
-# ------ NOT USING ------
-# Input Method Framework(Uim)
-#.uim.d/customs
-# Authy(cannadic)
-#.anthy/imported_words_default.d

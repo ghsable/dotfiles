@@ -4,10 +4,7 @@ echo "${0} ..."
 
 function mkdir_basedir() {
 # --- mkdir Directory
-mkdir -pv ~/tmp ~/.Trash ~/.config/fcitx ~/.local/share/applications ~/.xmonad
-
-# ------ NOT USING ------
-#mkdir -pv ~/.uim.d ~/.anthy
+mkdir -pv ~/tmp ~/.Trash ~/.config ~/.local/share/applications ~/.xmonad
 }
 
 function ln_dotfiles() {
@@ -20,8 +17,6 @@ do
   [ "${DOT_FILE}" = ".xmonad" ] && continue
   [ "${DOT_FILE}" = ".local"  ] && continue
   [ "${DOT_FILE}" = ".config" ] && continue
-  [ "${DOT_FILE}" = ".uim.d"  ] && continue
-  [ "${DOT_FILE}" = ".anthy"  ] && continue
 
   ln -snfv ~/dotfiles/${DOT_FILE} ~/
 done

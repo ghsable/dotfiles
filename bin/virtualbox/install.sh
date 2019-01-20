@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  SET VirtualBox
+  INSTALL VirtualBox
 
 Usage:
   sh ${0} pacman    : INSTALL packages

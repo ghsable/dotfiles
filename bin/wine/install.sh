@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  SET Wine
+  INSTALL Wine
 
 Usage:
   sh ${0} pacman    : INSTALL packages

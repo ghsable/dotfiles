@@ -9,7 +9,7 @@ readonly ZSHPLUGINS_DIR=~/.zsh/plugins
 function usage() {
 cat<< _EOT_
 Description:
-  SETUP ZSH
+  INSTALL ZSH
 
 Usage:
   sh ${0} install-packages : INSTALL ZSH_Packages

@@ -98,13 +98,6 @@ slock
 # ------ KEYBOARD ------
 # --- Keybind Utility
 xbindkeys
-# --- Input method Framework
-fcitx-im
-fcitx-configtool
-#uim
-# --- Input System
-fcitx-mozc
-#anthy
 
 # ------ FONT ------
 # --- Fira Code

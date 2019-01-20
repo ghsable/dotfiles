@@ -11,7 +11,7 @@ readonly VIM_OPT_DIR=~/.vim/pack/mypackage/opt
 function usage() {
 cat<< _EOT_
 Description:
-  SETUP ZSH
+  INSTALL Vim
 
 Usage:
   sh ${0} install-packages : INSTALL Vim_Packages
