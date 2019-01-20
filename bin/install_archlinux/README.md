@@ -122,6 +122,7 @@ reboot
 * [E-mail](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
 * [VirtualBox](https://github.com/ghsable/dotfiles/blob/master/bin/virtualbox/README.md)
 * [Wine](https://github.com/ghsable/dotfiles/blob/master/bin/wine/README.md)
+* [Fcitx+Mozc](https://github.com/ghsable/dotfiles/blob/master/bin/fcitx_mozc/README.md)
 
 **Programming Language**
 * [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/README.md)

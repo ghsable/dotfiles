@@ -21,30 +21,28 @@ function add_config() {
 cat<< _EOT_
 !!!!!!!!!!!!!!!!!!!! THIS CONFIG !!!!!!!!!!!!!!!!!!!!
 !!! HHKB PRO-JP
-keysym Zenkaku_Hankaku = Super_L
-keysym Hiragana_Katakana = Super_R
 keysym Muhenkan = Hangul_Hanja
 keysym Henkan_Mode = Hangul
-!!! ThinkPad
+keysym Zenkaku_Hankaku = Control_L
+keysym Hiragana_Katakana = Super_R
 keysym Eisu_toggle = Control_L
-keysym Control_L = Super_L
 
 !!! Xmonad
 !clear Shift
 clear Lock
 clear Control
-!clear Mod1
-!clear Mod2
-!clear Mod3
+clear Mod1
+clear Mod2
+clear Mod3
 clear Mod4
-!clear Mod5
+clear Mod5
 !add Shift = Shift_L Shift_R
 !add Lock = Caps_Lock
 add Control = Super_L Super_R
 !add Mod1 = Alt_L Alt_R
 !add Mod2 = Mode_switch
 !add Mod3 =
-add Mod4 = Control_L Control_R
+add Mod4 = Control_L
 !add Mod5 =
 _EOT_
 return 0
