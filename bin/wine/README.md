@@ -3,7 +3,7 @@
 ## Installation
 
     # INSTALL Packages
-    sh install.sh pacman
+    sh install.sh install
     # ADD Users(wineuser)
     sh install.sh useradd
 

@@ -28,6 +28,11 @@ exit 1
 
 case ${1} in
   install-packages)
+    {
+    echo '--------------------------------------------------'
+    echo '# zsh : shell'
+    echo '--------------------------------------------------'
+    }
     sudo pacman -Syu
     sudo pacman -S zsh
     sudo pacman -Sc

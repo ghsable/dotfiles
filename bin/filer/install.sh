@@ -23,6 +23,7 @@ exit 1
 case ${1} in
   install)
     {
+    echo '--------------------------------------------------'
     echo '# -------------------- ranger --------------------'
     echo '# ranger                               : File Manager(CLI)'
     echo '# highlight                            : source highlight'
@@ -30,12 +31,13 @@ case ${1} in
     echo '# w3m                                  : image preview'
     echo '# ffmpegthumbnailer                    : movie preview(ranger/scope.sh)'
     echo '# mediainfo                            : movie,audios info preview'
-    echo '# poppler                              : pdf preview(ranger/scope.sh)($pdftoppm)'
+    echo '# poppler                              : pdf preview(ranger/scope.sh)($ pdftoppm)'
     echo '# atool,bzip2,cpio,gzip,lhasa,xz,'
     echo '# lzop,p7zip,tar,unace,unrar,zip,unzip : compression'
     echo '# -------------------- thunar --------------------'
     echo '# thunar                               : File Manager(GUI)'
     echo '# tumbler                              : Thunar-thumbnail'
+    echo '--------------------------------------------------'
     }
     sudo pacman -Syu
     sudo pacman -S ranger \

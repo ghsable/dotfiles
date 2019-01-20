@@ -128,4 +128,5 @@ reboot
 **Programming Language**
 * [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/README.md)
 * [Java](https://github.com/ghsable/dotfiles/blob/master/bin/apl/java/README.md)
+* [Mono](https://github.com/ghsable/dotfiles/blob/master/bin/apl/mono/README.md)
 

@@ -26,6 +26,7 @@ exit 1
 case ${1} in
   install-packages)
     {
+    echo '--------------------------------------------------'
     echo '# --- official'
     echo '# rustup     : Rust ecosystem(https://rustup.rs/)'
     echo '#curl https://sh.rustup.rs -sSf | sh'
@@ -33,6 +34,7 @@ case ${1} in
     echo '# --- distribution'
     echo '# rustup     : Rust ecosystem'
     echo '# rust-racer : Rust code completion and navigation'
+    echo '--------------------------------------------------'
     }
     sudo pacman -Syu
     sudo pacman -S rustup \

@@ -3,7 +3,7 @@
 ## Installation
 
     # install Packages
-    sh install.sh pacman
+    sh install.sh install
     # add Group(vboxusers)
     sh install.sh gpasswd
     # enable Services

@@ -25,9 +25,11 @@ exit 1
 case ${1} in
   install)
     {
+    echo '--------------------------------------------------'
     echo '# fcitx-im         : Input method Framework(Group)'
     echo '# fcitx-configtool : fcitx-config-gtk3'
     echo '# fcitx-mozc       : Input System'
+    echo '--------------------------------------------------'
     }
     sudo pacman -Syu
     sudo pacman -S fcitx-im fcitx-configtool \

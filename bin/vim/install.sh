@@ -31,8 +31,10 @@ exit 1
 case ${1} in
   install-packages)
     {
+    echo '--------------------------------------------------'
     echo '# vim   : text editor'
     echo '# ctags : tagjump(<C-]>,<C-t>,<C-x><C-]>)($ ctags -R -f .tags)'
+    echo '--------------------------------------------------'
     }
     sudo pacman -Syu
     sudo pacman -S vim \

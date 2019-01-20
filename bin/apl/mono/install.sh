@@ -5,14 +5,14 @@ echo "${0} ..."
 function usage() {
 cat<< _EOT_
 Description:
-  INSTALL Java
+  INSTALL Mono
 
 Usage:
   sh ${0} install-packages : INSTALL Packages
   sh ${0} *                : USAGE
 
 EOF:
-  java -version
+  mono -V
 
 _EOT_
 exit 1
@@ -22,12 +22,13 @@ case ${1} in
   install-packages)
     {
     echo '--------------------------------------------------'
-    echo '# jre10-openjdk-headless,jre10-openjdk,'
-    echo '# jdk10-openjdk,openjdk10-doc,openjdk10-src : Java SE 10'
+    echo '# mono  : cross-platform(C#/CLR)'
+    echo '# xterm : terminal emulator'
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu
-    sudo pacman -S jre10-openjdk-headless jre10-openjdk jdk10-openjdk openjdk10-doc openjdk10-src
+    sudo pacman -S mono \
+                   xterm
     sudo pacman -Sc
     ;;
   *)

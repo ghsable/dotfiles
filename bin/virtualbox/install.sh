@@ -6,7 +6,7 @@ Description:
   INSTALL VirtualBox
 
 Usage:
-  sh ${0} pacman    : INSTALL Packages
+  sh ${0} install   : INSTALL Packages
   sh ${0} gpasswd   : ADD     Group
   sh ${0} systemctl : ENABLE  System_services
   sh ${0} modprobe  : LOAD    Modules
@@ -20,11 +20,18 @@ exit 1
 }
 
 case ${1} in
-  pacman)
+  install)
+    {
+    echo '--------------------------------------------------'
+    echo '# virtualbox,virtualbox-host-modules-arc : Virtual PC emulator(linux kernel)'
+    echo '# net-tools                              : host-only network'
+    echo '# virtualbox-guest-*                     : Guest Additions(linux kernel)'
+    echo '--------------------------------------------------'
+    }
     sudo pacman -Syu
-    sudo pacman -S virtualbox \
-                   virtualbox-host-modules-arch net-tools \
-                   virtualbox-guest-iso virtualbox-guest-utils
+    sudo pacman -S virtualbox virtualbox-host-modules-arch \
+                   net-tools \
+                   virtualbox-guest-iso virtualbox-guest-utils virtualbox-guest-modules-arch
     sudo pacman -Sc
     ;;
   gpasswd)

@@ -19,22 +19,23 @@ exit 1
  
 case ${1} in
   install)
-    # --- UPGRADE(repository + packages)
+    {
+    echo '--------------------------------------------------'
+    echo '# getmail         : MRA(Mail Retrieval Agent)   # POP3'
+    echo '# msmtp,msmtp-mta : MTA(Message Transfer Agent) # SMTP'
+    echo '# mutt            : MUA(Mail User Agent)        # MAILER'
+    echo '# abook           : ADDRESS BOOK                # OTHER'
+    echo '--------------------------------------------------'
+    }
     sudo pacman -Syu
-    # --- INSTALL pkgs
-    # MRA(Mail Retrieval Agent)   # POP3
-    sudo pacman -S getmail
-    # MTA(Message Transfer Agent) # SMTP
-    sudo pacman -S msmtp msmtp-mta
-    # MUA(Mail User Agent)        # MAILER
-    sudo pacman -S mutt
-    # ADDRESS BOOK                # OTHER
-    sudo pacman -S abook
-    # --- DELETE Cache(all packages)
+    sudo pacman -S getmail \
+                   msmtp msmtp-mta \
+                   mutt \
+                   abook
     sudo pacman -Sc
     ;;
   deploy)
-    # --- mkdir Save-File-To-Directory
+    # --- mkdir(Save-File-To-Directory)
     readonly SAVEFILETO_DIR=~/Downloads
     [ -d ${SAVEFILETO_DIR} ] || mkdir -pv ${SAVEFILETO_DIR}
     # --- DEPLOY Config-Files
