@@ -117,9 +117,10 @@ reboot
 * [Television](https://github.com/ghsable/dotfiles/blob/master/bin/television/README.md)
 
 **General**
-* [IME](https://github.com/ghsable/dotfiles/blob/master/bin/ime/README.md)
 * [ZSH](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/README.md)
 * [Vim](https://github.com/ghsable/dotfiles/blob/master/bin/vim/README.md)
+* [IME](https://github.com/ghsable/dotfiles/blob/master/bin/ime/README.md)
+* [Filer](https://github.com/ghsable/dotfiles/blob/master/bin/filer/README.md)
 * [E-mail](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
 * [VirtualBox](https://github.com/ghsable/dotfiles/blob/master/bin/virtualbox/README.md)
 * [Wine](https://github.com/ghsable/dotfiles/blob/master/bin/wine/README.md)
