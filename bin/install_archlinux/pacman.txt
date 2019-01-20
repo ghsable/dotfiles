@@ -150,8 +150,6 @@ texlive-bin
 #texlive-langextra
 
 # ------ PROGRAMMING LANGUAGE ------
-# --- Java
-jdk8-openjdk
 # --- C#
 mono
 # --- Python

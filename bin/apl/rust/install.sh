@@ -8,10 +8,10 @@ Description:
   INSTALL Rust
 
 Usage:
-  sh ${0} install-packages   : INSTALL packages
+  sh ${0} install-packages   : INSTALL Packages
   sh ${0} set-stable         : SET     stable channnel(rustup)
-  sh ${0} install-components : INSTALL components(rustup)
-  sh ${0} update-components  : UPDATE  components(rustup)
+  sh ${0} install-components : INSTALL Components(rustup)
+  sh ${0} update-components  : UPDATE  Components(rustup)
   sh ${0} *                  : USAGE
 
 EOF:

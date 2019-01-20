@@ -2,13 +2,13 @@
 
 ## Installation
 
-    # install packages
+    # install Packages
     sh install.sh pacman
-    # add group(vboxusers)
+    # add Group(vboxusers)
     sh install.sh gpasswd
-    # enable services
+    # enable Services
     sh install.sh systemctl
-    # load modules
+    # load Modules
     sh install.sh modprobe
 
 this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/virtualbox/install.sh)

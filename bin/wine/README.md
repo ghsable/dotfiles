@@ -2,9 +2,9 @@
 
 ## Installation
 
-    # install packages
+    # INSTALL Packages
     sh install.sh pacman
-    # add user(wineuser)
+    # ADD Users(wineuser)
     sh install.sh useradd
 
 this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/wine/install.sh)

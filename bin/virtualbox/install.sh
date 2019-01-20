@@ -6,10 +6,10 @@ Description:
   INSTALL VirtualBox
 
 Usage:
-  sh ${0} pacman    : INSTALL packages
-  sh ${0} gpasswd   : ADD     group
-  sh ${0} systemctl : ENABLE  system_services
-  sh ${0} modprobe  : LOAD    modules
+  sh ${0} pacman    : INSTALL Packages
+  sh ${0} gpasswd   : ADD     Group
+  sh ${0} systemctl : ENABLE  System_services
+  sh ${0} modprobe  : LOAD    Modules
   sh ${0} *         : USAGE
 
 EOF:

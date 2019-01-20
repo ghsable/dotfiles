@@ -14,10 +14,10 @@ Description:
   INSTALL Vim
 
 Usage:
-  sh ${0} install-packages : INSTALL Vim_Packages
-  sh ${0} install-plugins  : INSTALL Vim_Plugins
-  sh ${0} update-plugins   : UPDATE  Vim_Plugins
-  sh ${0} deploy           : DEPLOY  Vim_Configs
+  sh ${0} install-packages : INSTALL Packages
+  sh ${0} install-plugins  : INSTALL Plugins
+  sh ${0} update-plugins   : UPDATE  Plugins
+  sh ${0} deploy           : DEPLOY  Configs
   sh ${0} *                : USAGE
 
 EOF:

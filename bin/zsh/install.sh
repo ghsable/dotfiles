@@ -12,10 +12,10 @@ Description:
   INSTALL ZSH
 
 Usage:
-  sh ${0} install-packages : INSTALL ZSH_Packages
-  sh ${0} install-plugins  : INSTALL ZSH_Plugins
-  sh ${0} update-plugins   : UPDATE  ZSH_Plugins
-  sh ${0} deploy           : DEPLOY  ZSH_Configs
+  sh ${0} install-packages : INSTALL Packages
+  sh ${0} install-plugins  : INSTALL Plugins
+  sh ${0} update-plugins   : UPDATE  Plugins
+  sh ${0} deploy           : DEPLOY  Configs
   sh ${0} chsh             : CHANGE  Shell
   sh ${0} *                : USAGE
 
