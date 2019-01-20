@@ -111,39 +111,6 @@ otf-ipafont
 noto-fonts-emoji
 
 # ------ BROWSER  ------
-# --- File Manager(GUI)
-thunar
-tumbler
-# --- File Manager(ranger)
-ranger
-# source highlight
-highlight
-# html preview
-lynx
-elinks
-# image preview
-w3m
-# movie preview(ranger/scope.sh)
-ffmpegthumbnailer
-# movie,audio's info preview
-mediainfo
-# pdf preview(ranger/scope.sh)
-# $ pdftoppm
-poppler
-# compression
-atool
-bzip2
-cpio
-gzip
-lhasa
-xz
-lzop
-p7zip
-tar
-unace
-unrar
-zip
-unzip
 # --- Web Search(GUI)
 w3m
 firefox

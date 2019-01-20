@@ -4,11 +4,7 @@
 Makefile
 # --- Xmonad
 .xmonad/xmonad.hs
-# --- Thunar(DefaultOpen+)
-.local/share/applications/userapp-feh-CJADVY.desktop
 
 # ------ DIRECTORY PATH ------
 doc
 bin
-# --- Ranger
-.config/ranger

@@ -3,8 +3,8 @@
 echo "${0} ..."
 
 function mkdir_basedir() {
-# --- mkdir Directory
-mkdir -pv ~/tmp ~/.Trash ~/.config ~/.local/share/applications ~/.xmonad
+# --- mkdir
+mkdir -pv ~/tmp ~/.xmonad
 }
 
 function ln_dotfiles() {
@@ -15,8 +15,6 @@ do
   [ "${DOT_FILE}" = ".git"    ] && continue
   [ "${DOT_FILE}" = ".github" ] && continue
   [ "${DOT_FILE}" = ".xmonad" ] && continue
-  [ "${DOT_FILE}" = ".local"  ] && continue
-  [ "${DOT_FILE}" = ".config" ] && continue
 
   ln -snfv ~/dotfiles/${DOT_FILE} ~/
 done

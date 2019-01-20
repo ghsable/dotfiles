@@ -13,8 +13,6 @@ Usage:
   sh ${0} terminal_b  : urxvt
   sh ${0} email       : mutt
   sh ${0} addressbook : abook
-  sh ${0} filer_a     : ranger
-  sh ${0} filer_b     : thunar
   sh ${0} note        : leafpad
   sh ${0} movie       : mplayer
   sh ${0} rec_a       : simplescreenrecorder
@@ -46,8 +44,6 @@ case ${1} in
                cd ~/Downloads
                mutt                          ;;
   addressbook) abook                         ;;
-  filer_a    ) ranger                        ;;
-  filer_b    ) thunar                        ;;
   note       ) leafpad                       ;;
   movie      ) gnome-mplayer                 ;;
   rec_a      ) simplescreenrecorder          ;;
