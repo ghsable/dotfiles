@@ -6,8 +6,8 @@
 * [Fcitx](https://fcitx-im.org/wiki/Special:MyLanguage/Fcitx)
 * [Mozc](https://github.com/google/mozc)
 * [AZIK](http://hp.vector.co.jp/authors/VA002116/azik/azikinfo.htm)
-    * [romantable.txt](https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/fcitx_mozc/romantables/romantable.txt)
-    * [aziktable.txt](https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/fcitx_mozc/romantables/aziktable.txt)
+    * [romantable.txt](https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/ime/romantables/romantable.txt)
+    * [aziktable.txt](https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/ime/romantables/aziktable.txt)
 
 ## Installation
 
@@ -30,5 +30,5 @@ other:
 
     sh fcitx_mozc.sh usage
 
-this script : [fcitx_mozc.sh](https://github.com/ghsable/dotfiles/blob/master/bin/fcitx_mozc/fcitx_mozc.sh)
+this script : [fcitx_mozc.sh](https://github.com/ghsable/dotfiles/blob/master/bin/ime/fcitx_mozc.sh)
 
