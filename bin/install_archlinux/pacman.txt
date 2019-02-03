@@ -31,8 +31,6 @@ docker
 # --- Video
 # $(lspci | grep -e VGA -e 3D)(OpenGL)
 mesa
-# --- Touch
-xf86-input-libinput
 
 # ------ DEVICE ------
 # Keyboard
