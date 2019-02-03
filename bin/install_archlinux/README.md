@@ -128,6 +128,7 @@ reboot
 * [Wine](https://github.com/ghsable/dotfiles/blob/master/bin/wine/README.md)
 
 **Programming Language**
+* [Tex](https://github.com/ghsable/dotfiles/blob/master/bin/apl/tex/README.md)
 * [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/README.md)
 * [Python](https://github.com/ghsable/dotfiles/blob/master/bin/apl/python/README.md)
 * [Java](https://github.com/ghsable/dotfiles/blob/master/bin/apl/java/README.md)

@@ -29,7 +29,7 @@ docker
 
 # ------ DRIVER ------
 # --- Video
-# $ lspci | grep -e VGA -e 3D(OpenGL)
+# $(lspci | grep -e VGA -e 3D)(OpenGL)
 mesa
 # --- Touch
 xf86-input-libinput
@@ -55,10 +55,10 @@ xterm
 # Xresources
 xorg-xrdb
 # KeyMap Utility
-# $ xmodmap -pke >~/.Xmodmap
+# $(xmodmap -pke >~/.Xmodmap)
 xorg-xmodmap
 # Get Window ID
-# $ xwininfo
+# $(xwininfo)
 xorg-xwininfo
 # Get Device ID
 xorg-xinput
@@ -68,7 +68,7 @@ xorg-xbacklight
 xorg-xset
 # --- X standalone
 # Xinitrc
-# $ startx
+# $(startx)
 xorg-xinit
 # Terminal
 rxvt-unicode
@@ -132,7 +132,7 @@ simplescreenrecorder
 imagemagick
 graphicsmagick
 # --- pdf
-# $ pdftotext , evince
+# $(pdftotext,evince)
 xpdf
 evince
 # --- Office Suite
@@ -142,15 +142,9 @@ libreoffice-still
 #libreoffice-fresh-ja
 #antiword
 unoconv
-# --- TeX Live
-texlive-most
-texlive-lang
-texlive-core
-texlive-bin
-#texlive-langextra
 
 # ------ JOKE ------
 # --- SL
-# $ sl -alFc
+# $(sl -alFc)
 # https://github.com/mtoyoda/sl
 sl
