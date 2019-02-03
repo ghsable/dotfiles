@@ -1,14 +1,17 @@
-# Finger print
+# Finger print(fprintd)
+
+## Requirement
+* [Supported Devices](https://fprint.freedesktop.org/supported-devices.html)
 
 ## Installation
 
-    sh install.sh
+    sh install_fprintd.sh
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/fingerprint/install.sh)
+this script : [install_fprintd.sh](https://github.com/ghsable/dotfiles/blob/master/bin/fingerprint/install_fprintd.sh)
 
 ## Usage
 
-    sh fingerprint.sh usage
+    sh fingerprint_fprintd.sh usage
 
-this script : [fingerprint.sh](https://github.com/ghsable/dotfiles/blob/master/bin/fingerprint/fingerprint.sh)
+this script : [fingerprint_fprintd.sh](https://github.com/ghsable/dotfiles/blob/master/bin/fingerprint/fingerprint_fprintd.sh)
 
