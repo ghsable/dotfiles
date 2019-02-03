@@ -114,6 +114,7 @@ reboot
 * [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)
 * [Bluetooth](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/README.md)
 * [ErgoDox-EZ](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/README.md)
+* [Smart Card](https://github.com/ghsable/dotfiles/blob/master/bin/smartcard/README.md)
 * [Television](https://github.com/ghsable/dotfiles/blob/master/bin/television/README.md)
 
 **General**
@@ -127,6 +128,8 @@ reboot
 
 **Programming Language**
 * [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/README.md)
+* [Python](https://github.com/ghsable/dotfiles/blob/master/bin/apl/python/README.md)
 * [Java](https://github.com/ghsable/dotfiles/blob/master/bin/apl/java/README.md)
 * [Mono](https://github.com/ghsable/dotfiles/blob/master/bin/apl/mono/README.md)
+* [Ruby](https://github.com/ghsable/dotfiles/blob/master/bin/apl/ruby/README.md)
 

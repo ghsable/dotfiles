@@ -28,7 +28,7 @@ case ${1} in
     for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/aur.txt)
     do
       GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 4-4 | rev | cut -c 5- | rev`
-      git clone --depth=1 ${GITREPOSITORY_URL} ${AUR_DIR}/${GITCLONEDIR_NAME} 2>/dev/null
+      git clone --depth=1 --recursive ${GITREPOSITORY_URL} ${AUR_DIR}/${GITCLONEDIR_NAME} 2>/dev/null
       if [ "${?}" = "0" ]; then
         cd ${AUR_DIR}/${GITCLONEDIR_NAME}
         vi PKGBUILD
@@ -48,7 +48,7 @@ case ${1} in
         cd ${AUR_DIR}/${GITCLONEDIR_NAME}
         GITPULL_STDOUT=`git pull`
         if [ "${GITPULL_STDOUT}" != "Already up to date." ]; then
-          git pull
+          git submodule foreach git pull
           vi PKGBUILD
           makepkg -si
           echo "-> (1/1) ${GITCLONEDIR_NAME}"

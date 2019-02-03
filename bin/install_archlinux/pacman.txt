@@ -149,17 +149,6 @@ texlive-core
 texlive-bin
 #texlive-langextra
 
-# ------ PROGRAMMING LANGUAGE ------
-# --- C#
-mono
-# --- Python
-python
-# lint
-# flake8(http://flake8.pycqa.org/en/latest/)
-flake8
-# --- Ruby
-ruby
-
 # ------ JOKE ------
 # --- SL
 # $ sl -alFc

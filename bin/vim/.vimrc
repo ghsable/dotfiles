@@ -158,8 +158,8 @@ autocmd FileType python setlocal completeopt-=preview
 let g:rust_recommended_style=0
 " --- racer-rust/vim-racer(https://github.com/racer-rust/vim-racer)
 "     --- Rustの入力補完<Ctrl-x><Ctrl-o>
-" *   racerバイナリを指定(pacman依存,cargo未使用)
-let g:racer_cmd=expand('/usr/bin/racer')
+" *   racerバイナリを指定
+let g:racer_cmd=expand('~/.cargo/bin/racer')
 " *   補完時の関数定義(例:引数と戻り値の型)の表示設定(1:表示/2:非表示)
 let g:racer_experimental_completer=0
 " --- vim-syntastic/syntastic(https://github.com/vim-syntastic/syntastic)
@@ -543,6 +543,10 @@ set imdisable
 " インサートモードから抜ける
 inoremap jj <ESC>
 inoremap っｊ <ESC>
+inoremap じゅん <ESC>
+inoremap ff <ESC>
+inoremap っｆ <ESC>
+inoremap ｆｆ <ESC>
 " ---
 
 " ------ コマンドモード ------

@@ -25,7 +25,7 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/v
 
 this script : [virtualbox.sh](https://github.com/ghsable/dotfiles/blob/master/bin/virtualbox/virtualbox.sh)
 
-## Download
+## Downloads
 
 * [Windows](https://www.microsoft.com/ja-jp/software-download)
 * [ArchLinux](https://www.archlinux.jp/download/)

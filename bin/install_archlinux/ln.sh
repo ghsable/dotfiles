@@ -29,7 +29,7 @@ do
 done
 }
 
-mkdir_basedir 
+mkdir_basedir
 ln_dotfiles
 ln_notdotfiles
 

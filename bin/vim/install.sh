@@ -45,7 +45,7 @@ case ${1} in
     for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/install.txt)
     do
       GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 5-5 | rev | cut -c 5- | rev`
-      git clone --depth=1 ${GITREPOSITORY_URL} ${VIM_START_DIR}/${GITCLONEDIR_NAME} 2>/dev/null
+      git clone --depth=1 --recursive ${GITREPOSITORY_URL} ${VIM_START_DIR}/${GITCLONEDIR_NAME} 2>/dev/null
       if [ "${?}" = "0" ]; then
         echo "-> (1/1) ${GITCLONEDIR_NAME}"
       else
@@ -61,7 +61,7 @@ case ${1} in
         cd ${VIM_START_DIR}/${GITCLONEDIR_NAME}
         GITPULL_STDOUT=`git pull`
         if [ "${GITPULL_STDOUT}" != "Already up to date." ]; then
-          git pull
+          git submodule foreach git pull
           echo "-> (1/1) ${GITCLONEDIR_NAME}"
           cd ${VIM_START_DIR}
         else

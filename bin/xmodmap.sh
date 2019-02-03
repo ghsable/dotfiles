@@ -25,19 +25,22 @@ keysym Muhenkan = Hangul_Hanja
 keysym Henkan_Mode = Hangul
 keysym Zenkaku_Hankaku = Control_L
 keysym Hiragana_Katakana = Super_R
+
+!!! ThinkPad
+remove Lock = Eisu_toggle
 keysym Eisu_toggle = Control_L
 
 !!! Xmonad
 !clear Shift
-clear Lock
+!clear Lock
 clear Control
-clear Mod1
-clear Mod2
-clear Mod3
+!clear Mod1
+!clear Mod2
+!clear Mod3
 clear Mod4
-clear Mod5
+!clear Mod5
 !add Shift = Shift_L Shift_R
-!add Lock = Caps_Lock
+!add Lock = Num_Lock
 add Control = Super_L Super_R
 !add Mod1 = Alt_L Alt_R
 !add Mod2 = Mode_switch
