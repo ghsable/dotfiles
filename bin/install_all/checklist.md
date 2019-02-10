@@ -4,8 +4,6 @@
 **all**
 - - -
 * [ ] [booky.io](https://booky.io)
-* [ ] [Amazon](https://www.amazon.co.jp)
-* [ ] [YouTube](https://m.youtube.com)
 
 **iOS**
 - - -

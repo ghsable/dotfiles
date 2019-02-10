@@ -1,12 +1,7 @@
 appcleaner
+maczip4win
 dropbox
 virtualbox
-maczip4win
 licecap
 real-vnc
 5kplayer
-steam
-google-chrome
-firefox
-atom
-arduino
