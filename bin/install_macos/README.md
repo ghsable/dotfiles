@@ -11,15 +11,15 @@
 * `open -a /Applications/System\ Preferences.app`
     * Firewall
     * Display
-    * Keyboard ... `~/etc/ユーザ辞書.plist`
+    * Keyboard ... `~/path/to/ユーザ辞書.plist`
     * iCloud ... `sign out`
 * `open -a /Applications/Mail.app`
     * Account
     * Signature
 * terminal.app
-    * Theme ... `~/etc/Solarized_Dark_ansi.terminal`
+    * Theme ... `~/path/to/Solarized_Dark_ansi.terminal`
 * `open -a /Applications/Safari.app`
-    * Bookmark ... `~/etc/Bookmark/*`
+    * Bookmark ... `~/path/to/Bookmark/*`
     * Addon
         * [Safari 1Password extension](https://safari-extensions.apple.com/details/?id=com.agilebits.onepassword4-safari-2BUA8C4S2C)
         * [Safari Buffer](https://safari-extensions.apple.com/details/?id=com.bufferapp.buffer-UYDA63C4EC)
