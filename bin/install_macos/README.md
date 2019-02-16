@@ -3,7 +3,7 @@
 ## INSTALL(HOMEBREW + DOTFILES)
 * [Xcode](https://itunes.apple.com/jp/app/xcode/id497799835?mt=12)
 * [Homebrew](https://brew.sh/index_ja.html)
-* `bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install.sh`
+* `bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install.sh)"`
 
 ## SETUP(GUI)
 * `open -a /Applications/1Password.app`

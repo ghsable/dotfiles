@@ -1,7 +1,6 @@
 appcleaner
-maczip4win
 dropbox
 virtualbox
 licecap
-real-vnc
+vnc-viewer
 5kplayer

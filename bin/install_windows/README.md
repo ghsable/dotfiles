@@ -6,6 +6,8 @@
 * [ ] [7-Zip](https://sevenzip.osdn.jp/)
 * [ ] [Visual Studio](https://www.visualstudio.com/ja/downloads/)
 * [ ] [Steam](http://store.steampowered.com/about/)
+* [ ] [Google Chrome](https://www.google.com/intl/ja_ALL/chrome/)
+* [ ] [サクラエディタ](https://sakura-editor.github.io)
 
 **B**
 * [ ] [マイナポータル](https://myna.go.jp/SCK0101_03_001/SCK0101_03_001_Reload.form)
