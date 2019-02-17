@@ -29,19 +29,15 @@
     * Update(Off)
 * `open -a /Applications/iTunes.app`
     * 環境設定
-        * iTunes Media ... Dropbox
+        * iTunes Media ... /Dropbox/Home/Music
         * Check ... iTunes Media フォルダを整理
         * Check ... iTunes Media フォルダにコピーする
-    * Dropbox -(drag-and-drop)-> iTunesライブラリ
+    * /Dropbox/Home/Music -(drag-and-drop)-> iTunesライブラリ
 * Install by binaryfile
     * [HHKB Driver](https://www.pfu.fujitsu.com/hhkeyboard/download.html)
-    * [Adobe Flash Player](https://get.adobe.com/jp/flashplayer/)
-        * Safari
     * [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)
         * USBポート共有 ... `sudo dscl . -append /Groups/vboxusers GroupMembership <USER NAME> ; id -p`
         * USBポート共有 ... [VirtualBoxでのUSBデバイス認識](https://qiita.com/civic/items/684c4b82428feb0c4ae1)
-    * [Microsoft Office](https://stores.office.com/myaccount/home.aspx?ms.officeurl=myaccount)
-        * Account
 - - -
 * `open -a /Applications/Firefox.app`
     * Account
@@ -51,3 +47,8 @@
     * Addon
 * `open -a /Applications/MacZip4Win.app`
     * Check ... `Zip Each`,`No Compress`,`Encypt` -> `Make default`
+* Install by binaryfile
+    * [Adobe Flash Player](https://get.adobe.com/jp/flashplayer/)
+        * Safari
+    * [Microsoft Office](https://stores.office.com/myaccount/home.aspx?ms.officeurl=myaccount)
+        * Account
