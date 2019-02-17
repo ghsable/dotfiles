@@ -7,4 +7,3 @@ Makefile
 # ------ DIRECTORY PATH ------
 doc
 bin
-bin/install_macos/etc
