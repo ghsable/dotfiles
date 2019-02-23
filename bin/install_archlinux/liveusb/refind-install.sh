@@ -13,7 +13,7 @@ pacman -S intel-ucode \
 pacman -Sc
 
 # --- refind-install
-refind-install
+refind-install --alldrivers
 
 # --- Edit UEFI-boot-menu-entries
 tac /boot/refind_linux.conf | tee /boot/refind_linux.conf
