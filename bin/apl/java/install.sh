@@ -22,7 +22,7 @@ case ${1} in
   install-packages)
     {
     echo '--------------------------------------------------'
-    echo '# jre-*,jdk-*,openjdk-* : Java SE 11'
+    echo '# jre-*,jdk-*,openjdk-* : OpenJDK'
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu
