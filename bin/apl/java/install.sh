@@ -22,13 +22,12 @@ case ${1} in
   install-packages)
     {
     echo '--------------------------------------------------'
-    echo '# jre10-openjdk-headless,jre10-openjdk,'
-    echo '# jdk10-openjdk,openjdk10-doc,openjdk10-src : Java SE 10'
+    echo '# jre-*,jdk-*,openjdk-* : Java SE 11'
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu
-    sudo pacman -S jre10-openjdk-headless jre10-openjdk jdk10-openjdk openjdk10-doc openjdk10-src
-    sudo pacman -Sc
+    sudo pacman -S jre-openjdk-headless jre-openjdk jdk-openjdk openjdk-doc openjdk-src
+    sudo pacman -Se
     ;;
   *)
     usage
