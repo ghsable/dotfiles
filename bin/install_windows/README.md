@@ -5,6 +5,7 @@
 * [ ] [Sylpheed](https://sylpheed.sraoss.jp/ja/download.html)
 * [ ] [7-Zip](https://sevenzip.osdn.jp/)
 * [ ] [Visual Studio](https://www.visualstudio.com/ja/downloads/)
+* [ ] [Eclipse](http://mergedoc.osdn.jp)
 * [ ] [Steam](http://store.steampowered.com/about/)
 * [ ] [Google Chrome](https://www.google.com/intl/ja_ALL/chrome/)
 * [ ] [サクラエディタ](https://sakura-editor.github.io)
