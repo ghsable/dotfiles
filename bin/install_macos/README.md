@@ -34,6 +34,7 @@
         * Check ... iTunes Media フォルダにコピーする
     * /Dropbox/Home/Music -(drag-and-drop)-> iTunesライブラリ
 * Install by binaryfile
+    * [moraダウンローダー](https://mora.jp/help/hajimete?fmid=leftbannerA)
     * [HHKB Driver](https://www.pfu.fujitsu.com/hhkeyboard/download.html)
     * [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)
         * USBポート共有 ... `sudo dscl . -append /Groups/vboxusers GroupMembership <USER NAME> ; id -p`
