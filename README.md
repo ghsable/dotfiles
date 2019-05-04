@@ -21,6 +21,32 @@
   </tbody>
 </table>
 
+## Requirement
+MacBook Air(13-inch, Mid 2012) : 
+
+    Processor     : Intel Core i7-3667U 
+    Memory        : 4GB*2(1600MHz DDR3L)
+    Graphics      : Intel HD Graphics 4000
+    Storage(SATA) : APPLE SSD SM256E
+
+ThinkPad X220 Tablet : 
+
+    Processor           : -
+    processor Griss     : -
+    Processor Fan       : -
+    Processor Fan Griss : -
+    Memory              : -
+    Graphics            : -
+    Storage(SATA)       : -
+    Storage(mSATA)      : -
+    Wireless            : -
+    Battery             : -
+    Keyboard            : -
+    Track Point         : -
+    Digitizer Pen       : -
+    Express Card        : -
+    Sticker             : -
+
 ## Installation
 one-liner : 
 
