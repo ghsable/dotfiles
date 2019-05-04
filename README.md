@@ -1,6 +1,6 @@
 # Dotfiles
 
-## URL
+## GitHub Pages
 * [Dotfiles](https://ghsable.github.io/dotfiles/)
 
 ## DEMO
