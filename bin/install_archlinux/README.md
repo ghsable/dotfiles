@@ -128,8 +128,10 @@ reboot
 * [Wine](https://github.com/ghsable/dotfiles/blob/master/bin/wine/README.md)
 
 **Programming Language**
+* [LLVM](https://github.com/ghsable/dotfiles/blob/master/bin/apl/llvm/README.md)
 * [Tex](https://github.com/ghsable/dotfiles/blob/master/bin/apl/tex/README.md)
 * [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/README.md)
+* [Go](https://github.com/ghsable/dotfiles/blob/master/bin/apl/go/README.md)
 * [Python](https://github.com/ghsable/dotfiles/blob/master/bin/apl/python/README.md)
 * [Java](https://github.com/ghsable/dotfiles/blob/master/bin/apl/java/README.md)
 * [Mono](https://github.com/ghsable/dotfiles/blob/master/bin/apl/mono/README.md)

@@ -5,14 +5,14 @@ echo "${0} ..."
 function usage() {
 cat<< _EOT_
 Description:
-  INSTALL Java
+  INSTALL Go
 
 Usage:
   sh ${0} install-packages : INSTALL Packages
   sh ${0} *                : USAGE
 
 EOF:
-  java -version
+  go -version
 
 _EOT_
 exit 1
@@ -22,13 +22,15 @@ case ${1} in
   install-packages)
     {
     echo '--------------------------------------------------'
-    echo '# jre-*,jdk-*,openjdk-* : OpenJDK'
-    echo '# eclipse-java          : IDE'
+    echo '# go     : Compilation tool interface'
+    echo '# gcc-go : gcc front end'
+    echo '# hugo   : a static HTML and CSS website generator'
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu
-    sudo pacman -S jre-openjdk-headless jre-openjdk jdk-openjdk openjdk-doc openjdk-src \
-                   eclipse-java
+    sudo pacman -S go \
+                   gcc-go \
+                   hugo
     sudo pacman -Sc
     ;;
   *)

@@ -31,21 +31,22 @@ MacBook Air(13-inch, Mid 2012) :
 
 ThinkPad X220 Tablet : 
 
-    Processor           : -
-    processor Griss     : -
-    Processor Fan       : -
-    Processor Fan Griss : -
-    Memory              : -
-    Graphics            : -
-    Storage(SATA)       : -
+    Processor           : Intel Core i7-2640M
+    processor Griss     : Thermal Grizzly Kryonaut
+    Processor Fan       : 04W0435
+    Processor Fan Griss : Tamiya Molybdenum Grease
+    Memory              : CT2KIT102464BF160B
+    Graphics            : Intel HD Graphics 3000
+    Storage(SATA)       : SDSSDH3-1T00-J25
     Storage(mSATA)      : -
-    Wireless            : -
-    Battery             : -
-    Keyboard            : -
-    Track Point         : -
-    Digitizer Pen       : -
-    Express Card        : -
-    Sticker             : -
+    Wireless            : 04W3814/04X6010
+    Bluetooth           : 60Y3303/60Y3305
+    Battery             : 0A36286
+    Keyboard            : 45N2242
+    Track Point         : 73P2698
+    Digitizer Pen       : 04W1477
+    Express Card        : AYWS USB3.0 ExpressCard 54mm
+    Sticker             : IBM ThinkPad
 
 ## Installation
 one-liner : 

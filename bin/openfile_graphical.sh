@@ -29,6 +29,9 @@ case ${1##*.} in
   jpg | jpeg | png | gif)
     sh ${HOME}/bin/feh/feh_browser.sh ${1}
     ;;
+  mp4)
+    firefox ${1}
+    ;;
   *)
     echo 'not supported...'
     usage
