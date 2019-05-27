@@ -7,6 +7,7 @@
 
 ## Installation
 example : 
+
 | Device | Size | Partition Type(MBR) | Partition Type(GPT) | Partition Name | Filesystem | Mount |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | /dev/sdX1 | *GB | HPFS/NTFS/exFAT | [0700]Windows basic data | windows | exFat | - |
