@@ -6,47 +6,12 @@
 - [パーティショニング](https://wiki.archlinux.jp/index.php/パーティショニング)
 
 ## Installation
-example :
-<table style="table-layout: auto;" width="100%">
-  <tbody align="left">
-    <tr>
-      <td>Device</td>
-      <td>Size</td>
-      <td>Partition Type(MBR)</td>
-      <td>Partition Type(GPT)</td>
-      <td>Partition Name</td>
-      <td>Filesystem</td>
-      <td>Mount</td>
-    </tr>
-    <tr>
-      <td>/dev/sdX1</td>
-      <td>*GB</td>
-      <td>HPFS/NTFS/exFAT</td>
-      <td>[0700]Windows basic data</td>
-      <td>windows</td>
-      <td>exFat</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>/dev/sdX2</td>
-      <td>512MB</td>
-      <td>W95 FAT32(LBA)</td>
-      <td>[ef00]EFI System</td>
-      <td>boot</td>
-      <td>fat32</td>
-      <td>/boot *Bootable</td>
-    </tr>
-    <tr>
-      <td>/dev/sdX3</td>
-      <td>*GB</td>
-      <td>Linux</td>
-      <td>[8300]Linux filesystem</td>
-      <td>*linux</td>
-      <td>ext4(ext2)</td>
-      <td>/</td>
-    </tr>
-  </tbody>
-</table>
+example : 
+| Device    | Size  | Partition Type(MBR) | Partition Type(GPT)      | Partition Name | Filesystem | Mount           |
+| :---      | :---  | :---                | :---                     | :---           | :---       | :---            |
+| /dev/sdX1 | *GB   | HPFS/NTFS/exFAT     | [0700]Windows basic data | windows        | exFat      | -               |
+| /dev/sdX2 | 512MB | W95 FAT32(LBA)      | [ef00]EFI System         | boot           | fat32      | /boot *Bootable |
+| /dev/sdX3 | *GB   | Linux               | [8300]Linux filesystem   | *linux         | ext4(ext2) | /               |
 
 ```
 loadkeys jp106                         # 日本語キーボード読み込み

@@ -12,7 +12,7 @@ Usage:
   sh ${0} *                : USAGE
 
 EOF:
-  go -version
+  go version
 
 _EOT_
 exit 1
