@@ -7,11 +7,11 @@
 
 ## Installation
 example : 
-| Device    | Size  | Partition Type(MBR) | Partition Type(GPT)      | Partition Name | Filesystem | Mount           |
-| :---      | :---  | :---                | :---                     | :---           | :---       | :---            |
-| /dev/sdX1 | *GB   | HPFS/NTFS/exFAT     | [0700]Windows basic data | windows        | exFat      | -               |
-| /dev/sdX2 | 512MB | W95 FAT32(LBA)      | [ef00]EFI System         | boot           | fat32      | /boot *Bootable |
-| /dev/sdX3 | *GB   | Linux               | [8300]Linux filesystem   | *linux         | ext4(ext2) | /               |
+| Device | Size | Partition Type(MBR) | Partition Type(GPT) | Partition Name | Filesystem | Mount |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| /dev/sdX1 | *GB | HPFS/NTFS/exFAT | [0700]Windows basic data | windows | exFat | - |
+| /dev/sdX2 | 512MB | W95 FAT32(LBA) | [ef00]EFI System | boot | fat32 | /boot *Bootable |
+| /dev/sdX3 | *GB | Linux | [8300]Linux filesystem | *linux | ext4(ext2) | / |
 
 ```
 loadkeys jp106                         # 日本語キーボード読み込み
