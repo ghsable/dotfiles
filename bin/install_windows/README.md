@@ -1,6 +1,49 @@
 # Windows
 
 ## Installation
+partition: 
+
+| Device    | Partition   | Size  | Type       | Partition Name      |
+| :---      | :---        | :---  | :---       | :---                |
+| /dev/sdX1 | Partition 1 | 5GB   | 回復       | Recovery,Windows RE |
+| /dev/sdX2 | Partition 2 | 1GB   | システム   | System,ESP          |
+| /dev/sdX3 | Partition 3 | 10GB  | 予約       | Reserved,MSR        |
+| /dev/sdX4 | Partition 4 | 500GB | プライマリ | -                   |
+
+```
+# diskpart起動/ディスク番号確認
+## コンピューターを修復する > トラブルシューティング > 詳細オプション > コマンドプロント
+diskpart
+list disk
+# HDDを選択
+select disk 0
+# 既存のパーティションを削除(パーティション分繰り返す)
+list partition
+select partition 0
+delete partition override
+# MBR->GPT形式へ変換
+clean
+convert gpt
+# パーティションを順番に作成
+## Partition 1
+create partition primary size=5000
+format quick fs=ntfs label="Windows RE tools"
+set id="de94bba4-06d1-4d40-a16a-bfd50179d6ac"
+gpt attributes=0x8000000000000001
+## Partition 2
+create partition efi size=1000
+format quick fs=fat32 label="System"
+## Partition 3
+create partition msr size=10000
+## Partition 4
+create partition primary size=500000
+format quick fs=ntfs label="Windows"
+# 最終確認
+list partition
+```
+
+application: 
+
 **Hardware**
 * [ ] [Lenovo Vantage](https://www.microsoft.com/ja-jp/p/lenovo-vantage/9wzdncrfj4mv?activetab=pivot:overviewtab)
 
@@ -8,6 +51,8 @@
 * [ ] [7-Zip](https://sevenzip.osdn.jp/)
 * [ ] [サクラエディタ](https://sakura-editor.github.io)
 * [ ] [Sylpheed](https://sylpheed.sraoss.jp/ja/download.html)
+* [ ] [CubePDF](https://www.cube-soft.jp/cubepdf/)
+* [ ] [PDF-XChange Editor](https://forest.watch.impress.co.jp/library/software/pdfxchedit/)
 
 **Office**
 * [ ] [Office](https://products.office.com/ja-JP/compare-all-microsoft-office-products?tab=1)
