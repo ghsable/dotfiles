@@ -4,7 +4,7 @@
 * [Dotfiles](https://ghsable.github.io/dotfiles/)
 
 ## DEMO
-<table style="table-layout:fixed;" width="100%">
+<table  width="100%" style="table-layout:auto;">
   <tbody align="center">
     <tr>
       <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_macos/README.gif" alt="macos_README.gif"></td>
