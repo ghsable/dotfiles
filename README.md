@@ -4,11 +4,22 @@
 * [Dotfiles](https://ghsable.github.io/dotfiles/)
 
 ## DEMO
-|<img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_macos/README.gif" alt="macos_README.gif">|
-|:---:|
-|macOS|
-|<img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.gif" alt="archlinux_README.png">|
-|Arch Linux|
+<table style="table-layout:fixed;" width="100%">
+  <tbody align="center">
+    <tr>
+      <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_macos/README.gif" alt="macos_README.gif"></td>
+    </tr>
+    <tr>
+      <td>macOS</td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.gif" alt="archlinux_README.png"></td>
+    </tr>
+    <tr>
+      <td>Arch Linux</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Requirement
 MacBook Air(13-inch, Mid 2012) : 
