@@ -101,7 +101,7 @@ or :
 
 ## Thanks to ...
 **BOOK**
-* [プリンシプル オブ プログラミング](http://www.shuwasystem.co.jp/products/7980html/4614.html)
+* [The Principles of Programming](http://www.shuwasystem.co.jp/products/7980html/4614.html)
 
 **WEB**
 * [ArchWiki](https://www.archlinux.jp/)
