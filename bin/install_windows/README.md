@@ -53,6 +53,7 @@ application:
 * [ ] [Sylpheed](https://sylpheed.sraoss.jp/ja/download.html)
 * [ ] [CubePDF](https://www.cube-soft.jp/cubepdf/)
 * [ ] [PDF-XChange Editor](https://forest.watch.impress.co.jp/library/software/pdfxchedit/)
+* [ ] [WinMarge](http://winmerge.org/downloads/?lang=ja)
 
 **Office**
 * [ ] [Office](https://products.office.com/ja-JP/compare-all-microsoft-office-products?tab=1)
@@ -64,6 +65,7 @@ application:
     * e(fx)clipse
     * [ ] [Scene Builder](https://www.oracle.com/technetwork/java/javafxscenebuilder-1x-archive-2199384.html)
 * [ ] [Arduino](https://www.arduino.cc/en/Main/Software#)
+* [ ] [Scratch](https://scratch.mit.edu/download)
 
 **Web**
 * [ ] [マイナポータル](https://myna.go.jp/SCK0101_03_001/SCK0101_03_001_Reload.form)
