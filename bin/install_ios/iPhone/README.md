@@ -14,6 +14,7 @@
 **🚨セキュリティ**
 - - -
 * [ ] [1Password](https://itunes.apple.com/jp/app/1password/id568903335?mt=8)
+* [ ] [Bitwarden](https://apps.apple.com/jp/app/bitwarden-%E3%83%91%E3%82%B9%E3%83%AF%E3%83%BC%E3%83%89%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC/id1137397744)
 * [ ] [Authy](https://itunes.apple.com/jp/app/authy/id494168017?mt=8)
 
 **🐚法定通貨**
@@ -41,11 +42,13 @@
 - - -
 * [ ] [TradingView](https://itunes.apple.com/jp/app/tradingview/id1205990992?mt=8)
 * [ ] [IndieSquare Wallet](https://itunes.apple.com/jp/app/indiesquare-wallet/id977972108?mt=8)
+* [ ] [Casa Tookan](https://apps.apple.com/jp/app/casa-tookan/id1435616326)
 
 **🌋地理**
 - - -
 * [ ] [Google マップ](https://itunes.apple.com/jp/app/google-%E3%83%9E%E3%83%83%E3%83%97/id585027354?mt=8)
 * [ ] [Yahoo!天気](https://itunes.apple.com/jp/app/yahoo-%E5%A4%A9%E6%B0%97/id521974902?mt=8)
+* [ ] [Yahoo!乗換案内](https://apps.apple.com/jp/app/yahoo-%E4%B9%97%E6%8F%9B%E6%A1%88%E5%86%85/id291676451)
 * [ ] [Foursquare](https://itunes.apple.com/jp/app/foursquare-city-guide/id306934924?mt=8)
 
 **✉️連絡**
@@ -54,12 +57,17 @@
 * [x] メッセージ
 * [x] [メール](https://itunes.apple.com/jp/app/%E3%83%A1%E3%83%BC%E3%83%AB/id1108187098?mt=8)
 * [ ] [LINE](https://itunes.apple.com/jp/app/line/id443904275?mt=8)
+* [ ] [Telegram](https://apps.apple.com/jp/app/telegram-messenger/id686449807)
 * [ ] [Slack](https://itunes.apple.com/jp/app/slack/id618783545?mt=8)
 * [ ] [Discord](https://itunes.apple.com/jp/app/discord/id985746746?mt=8)
+* [ ] [Siskin IM](https://apps.apple.com/jp/app/siskin-im/id1153516838)
+* [ ] [Tinder](https://apps.apple.com/jp/app/tinder/id547702041)
+* [ ] [MEEFF](https://apps.apple.com/jp/app/meeff-%E3%83%9F%E3%83%BC%E3%83%95/id1064381508)
 
 **✒️勉強**
 - - -
 * [ ] [Kindle](https://itunes.apple.com/jp/app/kindle/id302584613?mt=8)
+* [ ] [Amazon Audible](https://apps.apple.com/jp/app/amazon%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%83%96%E3%83%AB/id379693831)
 * [ ] [究極英単語](https://itunes.apple.com/jp/app/%E7%A9%B6%E6%A5%B5%E8%8B%B1%E5%8D%98%E8%AA%9E/id556736118?mt=8)
 * [ ] [Schoo](https://itunes.apple.com/jp/app/schoo-%E5%8B%95%E7%94%BB%E5%AD%A6%E7%BF%92%E3%82%A2%E3%83%97%E3%83%AA/id903311774?mt=8)
 * [ ] [ひゃくもん＋－](https://itunes.apple.com/jp/app/%E3%81%B2%E3%82%83%E3%81%8F%E3%82%82%E3%82%93-%E5%9F%BA%E7%A4%8E%E8%A8%88%E7%AE%97%E5%8A%9B%E3%81%AE%E5%AE%9A%E7%9D%80-%E5%90%91%E4%B8%8A%E3%82%92%E5%9B%B3%E3%82%8B%E7%99%BE%E3%83%9E%E3%82%B9%E8%A8%88%E7%AE%97%E3%82%A2%E3%83%97%E3%83%AA/id1093683479?mt=8)
@@ -79,6 +87,7 @@
 * [ ] [Twitch](https://itunes.apple.com/jp/app/twitch/id460177396?mt=8)
 * [ ] [Amazon プライム・ビデオ](https://itunes.apple.com/jp/app/amazon-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0-%E3%83%93%E3%83%87%E3%82%AA/id545519333?mt=8)
 * [ ] [DMM 動画プレイヤー](https://itunes.apple.com/jp/app/dmm-%E5%8B%95%E7%94%BB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC/id663294738?mt=8)
+* [ ] [AbemaTV](https://apps.apple.com/jp/app/abematv-%E3%82%A2%E3%83%99%E3%83%9E%E3%83%86%E3%82%A3%E3%83%BC%E3%83%B4%E3%82%A3%E3%83%BC/id1074866833)
 * [ ] [REC-ON](https://itunes.apple.com/jp/app/rec-on-app/id980192505?mt=8)
 
 **🎷音楽**
@@ -92,8 +101,10 @@
 **🏃Web**
 - - -
 * [x] Safari
+* [ ] [Ecosia](https://apps.apple.com/jp/app/ecosia/id670881887)
 * [ ] [Reeder3](https://itunes.apple.com/jp/app/reeder-3/id697846300?mt=8)
 * [ ] [twinkle](https://itunes.apple.com/jp/app/twinkle/id463142843?mt=8)
+* [ ] [SmartNews](https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/id579581125)
 * [ ] [快活CLUB公式アプリ](https://itunes.apple.com/jp/app/%E5%BF%AB%E6%B4%BBclub%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id958083643?mt=8)
 * [ ] [カラオケBanBan公式アプリ](https://itunes.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1banban%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id667211494?mt=8)
 * [ ] [丸亀製麺](https://itunes.apple.com/jp/app/%E4%B8%B8%E4%BA%80%E8%A3%BD%E9%BA%BA/id587248280?mt=8)
@@ -107,6 +118,7 @@
 * [ ] [ラクマ](https://itunes.apple.com/jp/app/%E3%83%A9%E3%82%AF%E3%83%9E-%E6%97%A7%E3%83%95%E3%83%AA%E3%83%AB-%E6%A5%BD%E5%A4%A9%E3%81%AE%E3%83%95%E3%83%AA%E3%83%9E%E3%82%A2%E3%83%97%E3%83%AA/id523497998?mt=8)
 * [ ] [メルカリ](https://itunes.apple.com/jp/app/%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA-%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E8%B3%BC%E5%85%A5-%E5%87%BA%E5%93%81-%E3%83%95%E3%83%AA%E3%83%9E%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id667861049?mt=8)
 * [ ] [Tokyo Disney Resort](https://itunes.apple.com/jp/app/tokyo-disney-resort-app/id1313147771?mt=8)
+* [ ] [RedminePM](https://apps.apple.com/jp/app/redminepm/id631915897)
 
 **📵SNS**
 - - -
@@ -116,8 +128,11 @@
 * [ ] [Tumbletail](https://itunes.apple.com/jp/app/tumbletail/id399603784?mt=8)
 * [ ] [Filmarks](https://itunes.apple.com/jp/app/filmarks-%E3%83%95%E3%82%A3%E3%83%AB%E3%83%9E%E3%83%BC%E3%82%AF%E3%82%B9/id549126249?mt=8)
 * [ ] [Goodreads](https://itunes.apple.com/jp/app/goodreads-book-reviews/id355833469?mt=8)
+* [ ] [SlideShare](https://apps.apple.com/jp/app/linkedin-slideshare/id917418728)
 * [ ] [Pawoo for Mastodon](https://itunes.apple.com/jp/app/pawoo-for-mastodon/id1229070679?mt=8)
+* [ ] [WEAR](https://apps.apple.com/jp/app/wear-%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%8D%E3%83%BC%E3%83%88/id725208930)
 * [ ] [TikTok](https://itunes.apple.com/jp/app/tiktok-%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%88%E3%83%83%E3%82%AF/id1235601864?mt=8)
+* [ ] [Snapchat](https://apps.apple.com/jp/app/snapchat/id447188370)
 
 **🎲ゲーム**
 - - -
@@ -142,4 +157,5 @@
 * [ ] [ショートカット](https://itunes.apple.com/jp/app/workflow/id915249334?mt=8)
 * [ ] [mineoスイッチ](https://itunes.apple.com/jp/app/mineo%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81/id994047612?mt=8)
 * [ ] [Amazon Alexa](https://itunes.apple.com/jp/app/amazon-alexa/id944011620?mt=8)
+* [ ] [RZハイブリッドリモ](https://apps.apple.com/jp/app/rz%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89%E3%83%AA%E3%83%A2/id799183241)
 * [ ] [hibiku](https://itunes.apple.com/jp/app/hibiku/id673366738?mt=8)
