@@ -60,6 +60,9 @@
 * [ ] [Telegram](https://apps.apple.com/jp/app/telegram-messenger/id686449807)
 * [ ] [Slack](https://itunes.apple.com/jp/app/slack/id618783545?mt=8)
 * [ ] [Discord](https://itunes.apple.com/jp/app/discord/id985746746?mt=8)
+* [ ] [Signal](https://apps.apple.com/jp/app/signal-private-messenger/id874139669)
+* [ ] [Wickr Me](https://apps.apple.com/jp/app/wickr-me-private-messenger/id528962154)
+* [ ] [Wickr Pro](https://apps.apple.com/jp/app/wickr-pro/id1200926568)
 * [ ] [Siskin IM](https://apps.apple.com/jp/app/siskin-im/id1153516838)
 * [ ] [Tinder](https://apps.apple.com/jp/app/tinder/id547702041)
 * [ ] [MEEFF](https://apps.apple.com/jp/app/meeff-%E3%83%9F%E3%83%BC%E3%83%95/id1064381508)
@@ -114,6 +117,7 @@
 * [ ] [Amazon](https://itunes.apple.com/jp/app/amazon-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA/id374254473?mt=8)
 * [ ] [Yahoo!ショッピング](https://itunes.apple.com/jp/app/yahoo-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/id446016180?mt=8)
 * [ ] [ビックカメラ](https://itunes.apple.com/jp/app/%E3%83%93%E3%83%83%E3%82%AF%E3%82%AB%E3%83%A1%E3%83%A9/id518593576?mt=8)
+* [ ] [MUJI passport](https://apps.apple.com/jp/app/muji-passport/id631993791)
 * [ ] [ヤフオク!](https://itunes.apple.com/jp/app/%E3%83%A4%E3%83%95%E3%82%AA%E3%82%AF/id356968629?mt=8)
 * [ ] [ラクマ](https://itunes.apple.com/jp/app/%E3%83%A9%E3%82%AF%E3%83%9E-%E6%97%A7%E3%83%95%E3%83%AA%E3%83%AB-%E6%A5%BD%E5%A4%A9%E3%81%AE%E3%83%95%E3%83%AA%E3%83%9E%E3%82%A2%E3%83%97%E3%83%AA/id523497998?mt=8)
 * [ ] [メルカリ](https://itunes.apple.com/jp/app/%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA-%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E8%B3%BC%E5%85%A5-%E5%87%BA%E5%93%81-%E3%83%95%E3%83%AA%E3%83%9E%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id667861049?mt=8)
@@ -133,12 +137,14 @@
 * [ ] [WEAR](https://apps.apple.com/jp/app/wear-%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%8D%E3%83%BC%E3%83%88/id725208930)
 * [ ] [TikTok](https://itunes.apple.com/jp/app/tiktok-%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%88%E3%83%83%E3%82%AF/id1235601864?mt=8)
 * [ ] [Snapchat](https://apps.apple.com/jp/app/snapchat/id447188370)
+* [ ] [Pococha](https://apps.apple.com/jp/app/pococha-%E3%83%9D%E3%82%B3%E3%83%81%E3%83%A3-%E3%83%A9%E3%82%A4%E3%83%96%E9%85%8D%E4%BF%A1%E3%82%A2%E3%83%97%E3%83%AA/id1175969205)
 
 **🎲ゲーム**
 - - -
 * [ ] [Nintendo Switch Online](https://itunes.apple.com/jp/app/nintendo-switch-online/id1234806557?mt=8)
 * [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
 * [ ] [Pokémon GO](https://itunes.apple.com/jp/app/pok%C3%A9mon-go/id1094591345?mt=8)
+* [ ] [将棋ウォーズ](https://apps.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA/id496801169)
 
 **🎨製作編集**
 - - -
