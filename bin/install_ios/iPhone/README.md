@@ -90,6 +90,7 @@
 * [ ] [Twitch](https://itunes.apple.com/jp/app/twitch/id460177396?mt=8)
 * [ ] [Amazon プライム・ビデオ](https://itunes.apple.com/jp/app/amazon-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0-%E3%83%93%E3%83%87%E3%82%AA/id545519333?mt=8)
 * [ ] [DMM 動画プレイヤー](https://itunes.apple.com/jp/app/dmm-%E5%8B%95%E7%94%BB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC/id663294738?mt=8)
+* [ ] [DMM VR動画プレイヤー](https://apps.apple.com/jp/app/dmm-vr%E5%8B%95%E7%94%BB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC/id1134925341]
 * [ ] [AbemaTV](https://apps.apple.com/jp/app/abematv-%E3%82%A2%E3%83%99%E3%83%9E%E3%83%86%E3%82%A3%E3%83%BC%E3%83%B4%E3%82%A3%E3%83%BC/id1074866833)
 * [ ] [REC-ON](https://itunes.apple.com/jp/app/rec-on-app/id980192505?mt=8)
 
