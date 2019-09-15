@@ -66,6 +66,8 @@ application:
     * [ ] [Scene Builder](https://www.oracle.com/technetwork/java/javafxscenebuilder-1x-archive-2199384.html)
 * [ ] [Arduino](https://www.arduino.cc/en/Main/Software#)
 * [ ] [Scratch](https://scratch.mit.edu/download)
+* [ ] [HSP](http://hsp.tv/index2.html)
+* [ ] [UWSC](https://www.vector.co.jp/soft/winnt/util/se115105.html)
 
 **Web**
 * [ ] [マイナポータル](https://myna.go.jp/SCK0101_03_001/SCK0101_03_001_Reload.form)
