@@ -100,6 +100,7 @@
 * [ ] [Amazon Music](https://itunes.apple.com/jp/app/amazon-music/id510855668?mt=8)
 * [ ] [SoundCloud](https://itunes.apple.com/jp/app/soundcloud-%E9%9F%B3%E6%A5%BD-%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA/id336353151?mt=8)
 * [ ] [Sleep Orbit](https://itunes.apple.com/jp/app/sleep-orbit-%E3%83%AA%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9%E3%81%97%E3%81%9F3d%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89/id1215043393?mt=8)
+* [ ] [SoundHound](https://apps.apple.com/jp/app/soundhound-%E9%9F%B3%E6%A5%BD%E6%A4%9C%E7%B4%A2%E8%AA%8D%E8%AD%98-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC/id284972998)
 
 **🏃Web**
 - - -
