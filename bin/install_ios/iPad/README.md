@@ -9,6 +9,7 @@
 
 **🚨セキュリティ**
 - - -
+* [ ] [Bitwarden](https://apps.apple.com/jp/app/bitwarden-%E3%83%91%E3%82%B9%E3%83%AF%E3%83%BC%E3%83%89%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC/id1137397744)
 * [ ] [1Password](https://itunes.apple.com/jp/app/1password/id568903335?mt=8)
 
 **🐚法定通貨**
