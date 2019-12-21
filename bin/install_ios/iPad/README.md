@@ -44,9 +44,8 @@
 
 **📺動画**
 - - -
-* [ ] [Amazonプライム・ビデオ](https://itunes.apple.com/jp/app/amazon%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0-%E3%83%93%E3%83%87%E3%82%AA/id777564327?mt=8)
+* [ ] [Amazonプライム・ビデオ](https://apps.apple.com/jp/app/amazon-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0-%E3%83%93%E3%83%87%E3%82%AA/id545519333)
 * [ ] [YouTube](https://itunes.apple.com/jp/app/youtube-%E8%A6%8B%E3%81%A6%E8%81%B4%E3%81%8F/id544007664?mt=8)
-* [ ] [REC-ON](https://itunes.apple.com/jp/app/rec-on-app/id980192505?mt=8)
 
 **🎷音楽**
 - - -
@@ -57,6 +56,8 @@
 **📵SNS**
 - - -
 **🎲ゲーム**
+* [ ] [PS4 Remote Play](https://apps.apple.com/jp/app/ps4-remote-play/id1436192460)
+
 - - -
 **🎨製作編集**
 - - -
