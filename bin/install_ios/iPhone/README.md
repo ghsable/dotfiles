@@ -58,6 +58,7 @@
 * [x] メッセージ
 * [x] [メール](https://itunes.apple.com/jp/app/%E3%83%A1%E3%83%BC%E3%83%AB/id1108187098?mt=8)
 * [ ] [LINE](https://itunes.apple.com/jp/app/line/id443904275?mt=8)
+* [ ] [LINE WORKS](https://apps.apple.com/jp/app/line-works/id1012129122)
 * [ ] [Telegram](https://apps.apple.com/jp/app/telegram-messenger/id686449807)
 * [ ] [Slack](https://itunes.apple.com/jp/app/slack/id618783545?mt=8)
 * [ ] [Discord](https://itunes.apple.com/jp/app/discord/id985746746?mt=8)
@@ -89,11 +90,10 @@
 - - -
 * [ ] [YouTube](https://itunes.apple.com/jp/app/youtube/id544007664?mt=8)
 * [ ] [Twitch](https://itunes.apple.com/jp/app/twitch/id460177396?mt=8)
-* [ ] [Amazon プライム・ビデオ](https://itunes.apple.com/jp/app/amazon-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0-%E3%83%93%E3%83%87%E3%82%AA/id545519333?mt=8)
+* [ ] [Amazon プライム・ビデオ](https://apps.apple.com/jp/app/amazon-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0-%E3%83%93%E3%83%87%E3%82%AA/id545519333)
 * [ ] [DMM 動画プレイヤー](https://itunes.apple.com/jp/app/dmm-%E5%8B%95%E7%94%BB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC/id663294738?mt=8)
 * [ ] [DMM VR動画プレイヤー](https://apps.apple.com/jp/app/dmm-vr%E5%8B%95%E7%94%BB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC/id1134925341)
 * [ ] [AbemaTV](https://apps.apple.com/jp/app/abematv-%E3%82%A2%E3%83%99%E3%83%9E%E3%83%86%E3%82%A3%E3%83%BC%E3%83%B4%E3%82%A3%E3%83%BC/id1074866833)
-* [ ] [REC-ON](https://itunes.apple.com/jp/app/rec-on-app/id980192505?mt=8)
 
 **🎷音楽**
 - - -
@@ -101,6 +101,7 @@
 * [ ] [KaiserTone](https://itunes.apple.com/jp/app/kaisertone-%E9%9F%B3%E6%A5%BD%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC-%E3%83%8F%E3%82%A4%E3%83%AC%E3%82%BE/id725299207?mt=8)
 * [ ] [Amazon Music](https://itunes.apple.com/jp/app/amazon-music/id510855668?mt=8)
 * [ ] [SoundCloud](https://itunes.apple.com/jp/app/soundcloud-%E9%9F%B3%E6%A5%BD-%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA/id336353151?mt=8)
+* [ ] [Spotify](https://apps.apple.com/jp/app/spotify-%E3%81%8A%E6%B0%97%E3%81%AB%E5%85%A5%E3%82%8A%E3%81%AE%E9%9F%B3%E6%A5%BD%E3%82%84%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E3%82%92%E7%99%BA%E8%A6%8B%E3%81%97%E3%82%88%E3%81%86/id324684580)
 * [ ] [Sleep Orbit](https://itunes.apple.com/jp/app/sleep-orbit-%E3%83%AA%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9%E3%81%97%E3%81%9F3d%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89/id1215043393?mt=8)
 * [ ] [SoundHound](https://apps.apple.com/jp/app/soundhound-%E9%9F%B3%E6%A5%BD%E6%A4%9C%E7%B4%A2%E8%AA%8D%E8%AD%98-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC/id284972998)
 
@@ -144,6 +145,8 @@
 
 **🎲ゲーム**
 - - -
+* [ ] [PlayStation App](https://apps.apple.com/jp/app/playstation-app/id410896080)
+* [ ] [PS4 Remote Play](https://apps.apple.com/jp/app/ps4-remote-play/id1436192460)
 * [ ] [Nintendo Switch Online](https://itunes.apple.com/jp/app/nintendo-switch-online/id1234806557?mt=8)
 * [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
 * [ ] [Pokémon GO](https://itunes.apple.com/jp/app/pok%C3%A9mon-go/id1094591345?mt=8)
@@ -161,10 +164,10 @@
 * [x] カメラ
 * [x] [計算機](https://itunes.apple.com/jp/app/%E8%A8%88%E7%AE%97%E6%A9%9F/id1069511488?mt=8)
 * [x] [計測](https://itunes.apple.com/jp/app/%E8%A8%88%E6%B8%AC/id1383426740?mt=8)
+* [ ] [GoPro](https://apps.apple.com/jp/app/gopro/id561350520)
+* [ ] [Amazon Alexa](https://itunes.apple.com/jp/app/amazon-alexa/id944011620?mt=8)
 * [ ] [Voice Recorder HD](https://itunes.apple.com/jp/app/voice-recorder-hd/id373045717?mt=8)
 * [ ] [SySight](https://itunes.apple.com/jp/app/sysight/id568731681?mt=8)
 * [ ] [ショートカット](https://itunes.apple.com/jp/app/workflow/id915249334?mt=8)
 * [ ] [mineoスイッチ](https://itunes.apple.com/jp/app/mineo%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81/id994047612?mt=8)
-* [ ] [Amazon Alexa](https://itunes.apple.com/jp/app/amazon-alexa/id944011620?mt=8)
-* [ ] [RZハイブリッドリモ](https://apps.apple.com/jp/app/rz%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89%E3%83%AA%E3%83%A2/id799183241)
 * [ ] [hibiku](https://itunes.apple.com/jp/app/hibiku/id673366738?mt=8)
