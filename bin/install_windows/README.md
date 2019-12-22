@@ -46,6 +46,14 @@ application:
 
 **Hardware**
 * [ ] [Lenovo Vantage](https://www.microsoft.com/ja-jp/p/lenovo-vantage/9wzdncrfj4mv?activetab=pivot:overviewtab)
+* [ ] [YAMAHA AG03](https://jp.yamaha.com/products/music_production/webcasting_mixer/ag03/downloads.html)
+* [ ] [IODATA GV-USB3/HD](https://www.iodata.jp/lib/product/g/5754.htm)
+
+**Benchmark**
+* [ ] [Cinebench](https://forest.watch.impress.co.jp/library/software/cinbenc/)
+* [ ] [CPU-Z](https://forest.watch.impress.co.jp/library/software/cpuz/)
+* [ ] [CrystalDiskMark](https://forest.watch.impress.co.jp/library/software/crystaldisk/)
+* [ ] [H2testw](https://www.heise.de/download/product/h2testw-50539)
 
 **Documents**
 * [ ] [7-Zip](https://sevenzip.osdn.jp/)
@@ -78,6 +86,8 @@ application:
 * [ ] [Steam](http://store.steampowered.com/about/)
 
 **Movie**
+* [ ] [DaVinci Resolve](https://www.blackmagicdesign.com/jp/products/davinciresolve/)
+* [ ] [HandBrake](https://www.blackmagicdesign.com/jp/products/davinciresolve/)
 * [ ] [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)
 * [ ] [棒読みちゃん](https://chi.usamimi.info/Program/Application/BouyomiChan/)
 * [ ] [Tubeyomi](https://sites.google.com/site/suzuniwa/tools/tubeyomi)
