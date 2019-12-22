@@ -78,12 +78,12 @@ application:
 * [ ] [UWSC](https://www.vector.co.jp/soft/winnt/util/se115105.html)
 
 **Web**
+* [ ] [Google Chrome](https://www.google.com/intl/ja_ALL/chrome/)
+* [ ] [Steam](http://store.steampowered.com/about/)
 * [ ] [マイナポータル](https://myna.go.jp/SCK0101_03_001/SCK0101_03_001_Reload.form)
 * [ ] [e-Tax](http://www.e-tax.nta.go.jp/index.html)
 * [ ] [eLTAX](http://www.eltax.jp/www/contents/1397034807379/index.html)
 * [ ] [e-Gov](http://www.e-gov.go.jp/help/shinsei/flow/setup/index.html)
-* [ ] [Google Chrome](https://www.google.com/intl/ja_ALL/chrome/)
-* [ ] [Steam](http://store.steampowered.com/about/)
 
 **Movie**
 * [ ] [DaVinci Resolve](https://www.blackmagicdesign.com/jp/products/davinciresolve/)
