@@ -12,7 +12,7 @@ partition:
 
 ```
 # diskpart起動/ディスク番号確認
-## コンピューターを修復する > トラブルシューティング > 詳細オプション > コマンドプロント
+## Windowsセットアップより「Shift + F10」
 diskpart
 list disk
 # HDDを選択
@@ -39,7 +39,11 @@ create partition msr size=10000
 create partition primary size=500000
 format quick fs=ntfs label="Windows"
 # 最終確認
+list volume
 list partition
+# 完了
+exit
+exit
 ```
 
 application: 
