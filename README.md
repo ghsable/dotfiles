@@ -48,6 +48,20 @@ ThinkPad X220 Tablet :
     Express Card        : AYWS USB3.0 ExpressCard 54mm
     Sticker             : IBM ThinkPad
 
+Homebuilt Computer : 
+
+    Motherboard                 : X570 Creator
+    Processor                   : AMD Ryzen 9 3950X 16-Core Processor(Matisse)
+    processor Griss             : Thermal Grizzly Kryonaut
+    Processor Fan               : Noctua NH-D15
+    Memory                      : W4U3200CM-16G
+    Memory Heatsink             : JP-DDR-12V-B-2P-1
+    Graphics                    : NVIDIA GeForce RTX 2080 Ti
+    Video Capture Board         : 10GAS9901
+    Storage(M.2_SSD Type 2280)  : SSDPEKKW512G8XT
+    Storage(M.2_SSD Type 22110) : -
+    Power Supply                : HCG1000 EXTREME
+
 ## Installation
 one-liner : 
 
