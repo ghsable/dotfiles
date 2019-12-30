@@ -91,8 +91,7 @@ application:
 * [ ] [e-Gov](http://www.e-gov.go.jp/help/shinsei/flow/setup/index.html)
 
 **Movie**
-* [ ] [DaVinci Resolve](https://www.blackmagicdesign.com/jp/products/davinciresolve/)
-* [ ] [HandBrake](https://www.blackmagicdesign.com/jp/products/davinciresolve/)
+* [ ] [HandBrake](https://handbrake.fr/)
 * [ ] [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)
 * [ ] [棒読みちゃん](https://chi.usamimi.info/Program/Application/BouyomiChan/)
 * [ ] [Tubeyomi](https://sites.google.com/site/suzuniwa/tools/tubeyomi)
