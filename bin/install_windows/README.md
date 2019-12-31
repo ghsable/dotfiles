@@ -52,7 +52,7 @@ application:
 * [ ] [Lenovo Vantage](https://www.microsoft.com/ja-jp/p/lenovo-vantage/9wzdncrfj4mv?activetab=pivot:overviewtab)
 * [ ] [X570 Creator](https://www.asrock.com/MB/AMD/X570%20Creator/index.jp.asp#Download)
 * [ ] [Kensington SlimBlade Trackball](https://www.kensington.com/p/slimblade-trackball/)
-* [ ] [ELECOM M-DPT1MRBK](https://www.elecom.co.jp/support/download/peripheral/mouse/assistant/)
+* [ ] [ELECOM M-DPT1MRBK,M-DWL01DBBK](https://www.elecom.co.jp/support/download/peripheral/mouse/assistant/)
 * [ ] [ELECOM M-DUX50BK](https://www.elecom.co.jp/support/download/peripheral/mouse/m-dux_30_50/)
 * [ ] [YAMAHA AG03](https://jp.yamaha.com/products/music_production/webcasting_mixer/ag03/downloads.html)
 * [ ] [Elgato](https://www.elgato.com/ja/gaming/downloads)
@@ -94,11 +94,14 @@ application:
 * [ ] [eLTAX](http://www.eltax.jp/www/contents/1397034807379/index.html)
 * [ ] [e-Gov](http://www.e-gov.go.jp/help/shinsei/flow/setup/index.html)
 
+**Image**
+* [ ] [GIMP](https://forest.watch.impress.co.jp/library/software/gimp/)
+
 **Movie**
-* [ ] [HandBrake](https://handbrake.fr/)
-* [ ] [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)
-* [ ] [棒読みちゃん](https://chi.usamimi.info/Program/Application/BouyomiChan/)
-* [ ] [Tubeyomi](https://sites.google.com/site/suzuniwa/tools/tubeyomi)
-* [ ] [SofTalk](https://www.vector.co.jp/soft/winnt/art/se412443.html)
+* [ ] [EDIUS Pro 9](https://www.grassvalley.jp/pdt-item/edius-pro-9/)
+* [ ] [AITalk3](https://www.ai-j.jp/consumer/kantan3)
+* [ ] [初音ミク V4X](https://ec.crypton.co.jp/pages/prod/vocaloid/mikuv4x)
 * [ ] [VLC media player](https://www.videolan.org/vlc/index.ja.html)
 * [ ] [OBS Studio](https://obsproject.com/ja/download)
+* [ ] [HandBrake](https://handbrake.fr/)
+* [ ] [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)
