@@ -51,6 +51,9 @@ application:
 **Hardware**
 * [ ] [Lenovo Vantage](https://www.microsoft.com/ja-jp/p/lenovo-vantage/9wzdncrfj4mv?activetab=pivot:overviewtab)
 * [ ] [X570 Creator](https://www.asrock.com/MB/AMD/X570%20Creator/index.jp.asp#Download)
+* [ ] [Kensington SlimBlade Trackball](https://www.kensington.com/p/slimblade-trackball/)
+* [ ] [ELECOM M-DPT1MRBK](https://www.elecom.co.jp/support/download/peripheral/mouse/assistant/)
+* [ ] [ELECOM M-DUX50BK](https://www.elecom.co.jp/support/download/peripheral/mouse/m-dux_30_50/)
 * [ ] [YAMAHA AG03](https://jp.yamaha.com/products/music_production/webcasting_mixer/ag03/downloads.html)
 * [ ] [Elgato](https://www.elgato.com/ja/gaming/downloads)
 * [ ] [IODATA GV-USB3/HD](https://www.iodata.jp/lib/product/g/5754.htm)
