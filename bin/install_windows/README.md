@@ -95,7 +95,7 @@ application:
 * [ ] [e-Gov](http://www.e-gov.go.jp/help/shinsei/flow/setup/index.html)
 
 **Image**
-* [ ] [GIMP](https://forest.watch.impress.co.jp/library/software/gimp/)
+* [ ] [GIMP](https://www.gimp.org/downloads/)
 
 **Movie**
 * [ ] [EDIUS Pro 9](https://www.grassvalley.jp/pdt-item/edius-pro-9/)
