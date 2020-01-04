@@ -98,7 +98,7 @@ application:
 * [ ] [GIMP](https://www.gimp.org/downloads/)
 
 **Movie**
-* [ ] [EDIUS Pro 9](https://www.grassvalley.jp/pdt-item/edius-pro-9/)
+* [ ] [EDIUS Pro 9](https://pro.grassvalley.jp/download/edius9.htm)
 * [ ] [AITalk3](https://www.ai-j.jp/consumer/kantan3)
 * [ ] [初音ミク V4X](https://ec.crypton.co.jp/pages/prod/vocaloid/mikuv4x)
 * [ ] [VLC media player](https://www.videolan.org/vlc/index.ja.html)
