@@ -66,7 +66,7 @@ application:
 
 **Documents**
 * [ ] [7-Zip](https://sevenzip.osdn.jp/)
-* [ ] [サクラエディタ](https://sakura-editor.github.io)
+* [ ] [サクラエディタ](https://sakura-editor.github.io/download.html)
 * [ ] [Sylpheed](https://sylpheed.sraoss.jp/ja/download.html)
 * [ ] [CubePDF](https://www.cube-soft.jp/cubepdf/)
 * [ ] [PDF-XChange Editor](https://forest.watch.impress.co.jp/library/software/pdfxchedit/)
