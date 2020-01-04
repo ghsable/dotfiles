@@ -58,8 +58,8 @@ Windows(Homebuilt Computer) :
     Memory Heatsink             : JP-DDR-12V-B-2P-1
     Graphics                    : NVIDIA GeForce RTX 2080 Ti
     Video Capture Board         : 10GAS9901
-    Storage1(M.2_SSD Type 2280) : SSDPEKKW512G8XT
-    Storage2(M.2_SSD Type 2280) : GP-ASM2NE6100TTTD
+    Storage1(M.2_SSD Type 2280) : GP-ASM2NE6100TTTD
+    Storage2(M.2_SSD Type 2280) : SSDPEKKW512G8XT
     Power Supply                : HCG1000 EXTREME
 
 ## Installation
