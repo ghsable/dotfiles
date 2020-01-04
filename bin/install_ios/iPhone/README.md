@@ -126,6 +126,7 @@
 * [ ] [ヤフオク!](https://itunes.apple.com/jp/app/%E3%83%A4%E3%83%95%E3%82%AA%E3%82%AF/id356968629?mt=8)
 * [ ] [ラクマ](https://itunes.apple.com/jp/app/%E3%83%A9%E3%82%AF%E3%83%9E-%E6%97%A7%E3%83%95%E3%83%AA%E3%83%AB-%E6%A5%BD%E5%A4%A9%E3%81%AE%E3%83%95%E3%83%AA%E3%83%9E%E3%82%A2%E3%83%97%E3%83%AA/id523497998?mt=8)
 * [ ] [メルカリ](https://itunes.apple.com/jp/app/%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%AA-%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E8%B3%BC%E5%85%A5-%E5%87%BA%E5%93%81-%E3%83%95%E3%83%AA%E3%83%9E%E9%80%9A%E8%B2%A9%E3%82%A2%E3%83%97%E3%83%AA/id667861049?mt=8)
+* [ ] [So-net会員アプリ](https://apps.apple.com/jp/app/so-net-%E4%BC%9A%E5%93%A1%E3%82%A2%E3%83%97%E3%83%AA/id1055953844)
 * [ ] [Tokyo Disney Resort](https://itunes.apple.com/jp/app/tokyo-disney-resort-app/id1313147771?mt=8)
 * [ ] [RedminePM](https://apps.apple.com/jp/app/redminepm/id631915897)
 
