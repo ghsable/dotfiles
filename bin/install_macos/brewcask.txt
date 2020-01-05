@@ -1,7 +1,6 @@
 appcleaner
 dropbox
 virtualbox
-licecap
 vnc-viewer
 5kplayer
 firefox
