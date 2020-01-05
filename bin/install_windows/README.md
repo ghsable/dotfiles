@@ -100,7 +100,7 @@ application:
 **Movie**
 * [ ] [EDIUS Pro 9](https://pro.grassvalley.jp/download/edius9.htm)
 * [ ] [AITalk3](https://www.ai-j.jp/consumer/kantan3)
-* [ ] [初音ミク V4X](https://ec.crypton.co.jp/pages/prod/vocaloid/mikuv4x)
+* [ ] [初音ミク V4X](https://ec.crypton.co.jp/mypage/license)
 * [ ] [VLC media player](https://www.videolan.org/vlc/index.ja.html)
 * [ ] [OBS Studio](https://obsproject.com/ja/download)
 * [ ] [HandBrake](https://handbrake.fr/)
