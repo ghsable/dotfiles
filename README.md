@@ -60,7 +60,7 @@ Windows(Homebuilt Computer) :
     Video Capture Board         : 10GAS9901
     Storage1(M.2_SSD Type 2280) : GP-ASM2NE6100TTTD
     Storage2(M.2_SSD Type 2280) : SSDPEKKW512G8XT
-    Power Supply                : HCG1000 EXTREME
+    Power Supply                : Antec HCG1000 EXTREME
 
 ## Installation
 one-liner : 
