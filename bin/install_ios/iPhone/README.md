@@ -61,6 +61,7 @@
 * [x] [メール](https://itunes.apple.com/jp/app/%E3%83%A1%E3%83%BC%E3%83%AB/id1108187098?mt=8)
 * [ ] [LINE](https://itunes.apple.com/jp/app/line/id443904275?mt=8)
 * [ ] [LINE WORKS](https://apps.apple.com/jp/app/line-works/id1012129122)
+* [ ] [LINE Creators Studio](https://apps.apple.com/jp/app/line-creators-studio/id1239684967)
 * [ ] [Telegram](https://apps.apple.com/jp/app/telegram-messenger/id686449807)
 * [ ] [Slack](https://itunes.apple.com/jp/app/slack/id618783545?mt=8)
 * [ ] [Discord](https://itunes.apple.com/jp/app/discord/id985746746?mt=8)
