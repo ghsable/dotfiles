@@ -75,13 +75,14 @@ reboot
 
 ## Module
 **Device**
-* [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
-* [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
 * [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)
 * [Bluetooth](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/README.md)
+* [Pentablet](https://github.com/ghsable/dotfiles/blob/master/bin/pentablet/README.md)
+* [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
+* [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
 * [ErgoDox-EZ](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/README.md)
-* [Finger print](https://github.com/ghsable/dotfiles/blob/master/bin/fingerprint/README.md)
 * [Smart Card](https://github.com/ghsable/dotfiles/blob/master/bin/smartcard/README.md)
+* [Finger print](https://github.com/ghsable/dotfiles/blob/master/bin/fingerprint/README.md)
 * [Television](https://github.com/ghsable/dotfiles/blob/master/bin/television/README.md)
 
 **General**
