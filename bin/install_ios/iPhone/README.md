@@ -175,5 +175,5 @@
 * [ ] [Voice Recorder HD](https://itunes.apple.com/jp/app/voice-recorder-hd/id373045717?mt=8)
 * [ ] [SySight](https://itunes.apple.com/jp/app/sysight/id568731681?mt=8)
 * [ ] [ショートカット](https://itunes.apple.com/jp/app/workflow/id915249334?mt=8)
-* [ ] [mineoスイッチ](https://itunes.apple.com/jp/app/mineo%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81/id994047612?mt=8)
+* [ ] [mineoアプリ](https://apps.apple.com/jp/app/mineo%E3%82%A2%E3%83%97%E3%83%AA/id1333502085)
 * [ ] [hibiku](https://itunes.apple.com/jp/app/hibiku/id673366738?mt=8)
