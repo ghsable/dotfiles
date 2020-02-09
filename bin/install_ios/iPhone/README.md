@@ -117,6 +117,7 @@
 * [ ] [Reeder3](https://itunes.apple.com/jp/app/reeder-3/id697846300?mt=8)
 * [ ] [twinkle](https://itunes.apple.com/jp/app/twinkle/id463142843?mt=8)
 * [ ] [SmartNews](https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/id579581125)
+* [ ] [Google Analytics](https://apps.apple.com/jp/app/google-analytics/id881599038)
 * [ ] [快活CLUB公式アプリ](https://itunes.apple.com/jp/app/%E5%BF%AB%E6%B4%BBclub%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id958083643?mt=8)
 * [ ] [カラオケBanBan公式アプリ](https://itunes.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1banban%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id667211494?mt=8)
 * [ ] [丸亀製麺](https://itunes.apple.com/jp/app/%E4%B8%B8%E4%BA%80%E8%A3%BD%E9%BA%BA/id587248280?mt=8)
