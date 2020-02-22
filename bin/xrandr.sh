@@ -35,11 +35,12 @@ exit 1
 
 readonly DISPLAY1_NAME=`xrandr --query | grep -e " connected" | cut -d " " -f 1-1 | head --lines=1`
 readonly DISPLAY2_NAME=`xrandr --query | grep -e " connected" | cut -d " " -f 1-1 | head --lines=2 | tail --lines=1`
-#readonly DISPLAY1_SIZE="1440x900"
 readonly DISPLAY1_SIZE="1366x768"
+#readonly DISPLAY1_SIZE="1440x900"
 readonly DISPLAY2_SIZE="1920x1080"
-#readonly DISPLAY2_MIRRORING_SIZE="1680x1050"
-readonly DISPLAY2_MIRRORING_SIZE="1920x1080"
+readonly DISPLAY2_MIRRORING_SIZE=""
+#readonly DISPLAY2_MIRRORING_SIZE="1920x1080"
+#readonly DISPLAY2_MIRRORING_SIZE="2560x1440"
 
 case ${1} in
   on1)

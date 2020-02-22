@@ -19,9 +19,6 @@ sh ~/bin/xkb.sh make
 sh ~/bin/xkb.sh load
 sh ~/bin/xkb.sh map
 
-# --- Feh
-/bin/feh --randomize --bg-fill ~/bin/feh/wallpaper/*
-
 # --- Xbindkeys
 xbindkeys &
 
@@ -52,8 +49,12 @@ sh ~/bin/dzen/dzconky.sh
 # --- VirtualBox
 sh ~/bin/virtualbox/install.sh modprobe
 
+# --- Feh
+/bin/feh --randomize --bg-fill ~/bin/feh/wallpaper/*
+
 # --- Window Manager(Xmonad)
 exec xmonad
+#exec ~/wtftw/target/release/wtftw
 
 # ------ NOT USING ------
 # Input Method Framework(Uim)

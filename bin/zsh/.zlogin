@@ -1,5 +1,7 @@
 # LANG(Console)
 export LANG='en_US.UTF-8'
+# FONT(Console)
+setfont latarcyrheb-sun32
 # EDITOR
 export EDITOR='vim'
 # BROWSER
