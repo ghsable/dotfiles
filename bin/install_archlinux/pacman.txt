@@ -22,7 +22,8 @@ zip
 unzip
 unarchiver
 p7zip
-# --- Display system Information
+# --- Display H/S Information
+lshw
 screenfetch
 # --- Virtualization(Docker)
 docker
@@ -70,12 +71,16 @@ xorg-xset
 xorg-xinit
 # Terminal
 rxvt-unicode
+# simulate keyboard input and mouse activity
+xdotool
 
 # ------ DESKTOP ------
 # --- Composit Manager
 # Transset Utility
 xcompmgr
 transset-df
+# cut blue light
+redshift
 # --- Launcher
 dmenu
 rofi

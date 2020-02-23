@@ -54,7 +54,6 @@ sh ~/bin/virtualbox/install.sh modprobe
 
 # --- Window Manager(Xmonad)
 exec xmonad
-#exec ~/wtftw/target/release/wtftw
 
 # ------ NOT USING ------
 # Input Method Framework(Uim)

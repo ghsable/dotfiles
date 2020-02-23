@@ -38,7 +38,7 @@ case ${1} in
                grep -e 'xterm' -e 'XTerm'  | \
                cut -f 6 -d " "             | \
                sort                        | \
-               tail -n1) 0.75                 ;;
+               tail -n1) 0.75                ;;
   terminal_b ) urxvt                         ;;
   email      ) sh ~/bin/email/getmail.sh ;
                cd ~/Downloads
