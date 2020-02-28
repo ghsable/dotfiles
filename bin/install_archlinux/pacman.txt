@@ -79,6 +79,7 @@ xdotool
 # Transset Utility
 xcompmgr
 transset-df
+picom
 # cut blue light
 redshift
 # --- Launcher

@@ -53,7 +53,7 @@ myFocusedBorderColor = colorRed
 
 -- Display
 myWorkSpaces      = ["1","2","3","4"]
-myHandleEventHook = fullscreenEventHook
+myHandleEventHook = ewmhDesktopsEventHook <+> fullscreenEventHook
 myManageHook      = manageDocks <+> manageHook defaultConfig
 myManageHookShift = composeAll
                     [ className =? "Firefox"            --> mydoShift "1"
@@ -88,7 +88,7 @@ main = do
   -- "Status-bar" LogHook
   dzenLeftBar <- spawnPipe myXmonadBar
 
-  xmonad $ defaultConfig
+  xmonad $ ewmh defaultConfig
     { 
     -- General
       modMask            = myModMask
