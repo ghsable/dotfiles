@@ -21,14 +21,19 @@ import XMonad.Layout.Accordion        -- Display Layer
 import XMonad.Layout.Tabbed           -- Display Tab Bar
 
 import XMonad.Util.Run                -- spawnPipe,hPutStrLn "Status-bar" -> myStatusBar
-import XMonad.Util.Themes             -- Tab Bar Theme 
+import XMonad.Util.Themes             -- Tab Bar Theme
 
 -- Window BorderWidth
 borderwidth = 3
 
 -- Colors
-colorGray   = "#676767"
-colorRed    = "#9f0000"
+colorDarkGray = "#676767"
+colorGray     = "#7b7b7b"
+colorOrange   = "#ebac54"
+colorBlack    = "#000000"
+colorWhite    = "#ffffff"
+colorRed      = "#9f0000"
+colorGreen    = "#7e9476"
 
 -- XMonad.Layout.Gaps
 gwU      = 16   -- Up               -- Steed myLayoutHook = avoidStruts $
@@ -44,13 +49,13 @@ tabbedTheme = kavonChristmasTheme
 
 -- Local Variables
 -- General
-myModMask            = mod4Mask     -- Win key or Super_L
+myModMask            = mod4Mask      -- Win key or Super_L
 myBorderWidth        = borderwidth
-myNormalBorderColor  = colorGray
-myFocusedBorderColor = colorRed
+myNormalBorderColor  = colorDarkGray
+myFocusedBorderColor = colorGreen
 -- Display
 myWorkSpaces      = ["1","2","3","4"]
-myHandleEventHook = ewmhDesktopsEventHook <+> fullscreenEventHook
+myHandleEventHook = ewmhDesktopsEventHook
 myManageHook      = manageDocks
 myLayoutHook      = onWorkspace "1" (gaps [(U, gwU),(D, gwD),(R, gwR),(L, gwL)]
                     (noBorders $ simplestFloat ||| Simplest ) ||| noBorders Simplest)
@@ -60,17 +65,17 @@ myLayoutHook      = onWorkspace "1" (gaps [(U, gwU),(D, gwD),(R, gwR),(L, gwL)]
                   $ onWorkspace "3" (ThreeColMid 1 (3/100) (1/2) ||| Circle)
                   (Accordion ||| tabbed shrinkText (theme tabbedTheme))
 -- "Status-bar" LogHook
-myLogHook h = dynamicLogWithPP sjanssenPP
+myLogHook h = dynamicLogWithPP $ def
               {
-               ppCurrent           =   dzenColor "#ebac54" "#1B1D1E" . pad
-             , ppVisible           =   dzenColor "white"   "#1B1D1E" . pad
-             , ppHidden            =   dzenColor "white"   "#1B1D1E" . pad
-             , ppHiddenNoWindows   =   dzenColor "#7b7b7b" "#1B1D1E" . pad
-             , ppUrgent            =   dzenColor "#ff0000" "#1B1D1E" . pad
-             , ppWsSep             =   " "
-             , ppSep               =   " : "
-             , ppTitle             =   (" " ++) . dzenColor "green" "#1B1D1E" . dzenEscape
-             , ppOutput = hPutStrLn h
+               ppCurrent           = dzenColor colorOrange colorBlack . pad
+             , ppVisible           = dzenColor colorWhite  colorBlack . pad
+             , ppHidden            = dzenColor colorWhite  colorBlack . pad
+             , ppHiddenNoWindows   = dzenColor colorGray   colorBlack . pad
+             , ppUrgent            = dzenColor colorRed    colorBlack . pad
+             , ppWsSep             = " "
+             , ppSep               = " * "
+             , ppTitle             = (" " ++) . dzenColor colorGreen colorBlack . dzenEscape
+             , ppOutput            = hPutStrLn h
               }
 myXmonadBar = "dzen2 -x 0 -y 0 -w 400 -ta left -fn xft:TakaoPGothic:size=10:bold:antialias=true -title-name XMONAD_BAR -p"
 
@@ -94,5 +99,5 @@ main = do
     , layoutHook         = myLayoutHook
 
     -- Status-bar logHook
-    , logHook            = myLogHook dzenLeftBar
+    , logHook            = myLogHook $ dzenLeftBar
     }
