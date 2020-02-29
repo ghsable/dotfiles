@@ -17,8 +17,6 @@ xterm*selectToClipboard:  true
 xterm*borderWidth:        0
 !! Font
 xterm*faceName:           xft:DejaVu Sans Mono:bold:antialias=true
-xterm*faceNameDoublesize: WenQuanYi Bitmap Song
-!xterm*ximFont:            -misc-fixed-medium-r-normal--14-130-75-75-c-140-jis×0208.1983-0
 xterm*wideBoldFont:       fixed
 xterm*faceSize:           15
 xterm*scaleHeight:        1.1

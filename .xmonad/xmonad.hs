@@ -2,16 +2,14 @@
 
 -- Modules
 import XMonad                         -- General
+import XMonad.Config.Desktop          -- defaultConfig(xmonad-contrib.Desktop)
 import XMonad.Hooks.ManageDocks       -- "Status-bar" avoid dock/panel/trayer
 import XMonad.Hooks.DynamicLog        -- "Status-bar" logHook
 import XMonad.Hooks.EwmhDesktops      -- Blowser Full Screen Mode(F11)
 
-import Control.Monad                  -- ManageHookShift liftM2
-import qualified XMonad.StackSet as W -- ManageHookShift W.
-
 import XMonad.Layout.PerWorkspace     -- Select WorkSpace
-import XMonad.Layout.Spacing          -- Window Spacing [gapwidth]
-import XMonad.Layout.Gaps             -- Window Spacing [gwU gwD gwL gwR]
+import XMonad.Layout.Spacing          -- Window Spacing [spacingRaw:gapwidth]
+import XMonad.Layout.Gaps             -- Window Spacing [gaps:gwU,gwD,gwL,gwR]
 import XMonad.Layout.SimplestFloat    -- Display "1" Through Stack
 import XMonad.Layout.NoBorders        -- Display "1" NoBorders
 import XMonad.Layout.ResizableTile    -- Display "2" Tile
@@ -33,11 +31,11 @@ colorGray   = "#676767"
 colorRed    = "#9f0000"
 
 -- XMonad.Layout.Gaps
-gapwidth = 1    -- Between Window
-gwU      = 18   -- Up               -- Steed myLayoutHook = avoidStruts $
-gwD      = 1    -- Down
-gwL      = 1    -- Left
-gwR      = 1    -- Right
+gwU      = 16   -- Up               -- Steed myLayoutHook = avoidStruts $
+gwD      = 0    -- Down
+gwR      = 0    -- Right
+gwL      = 0    -- Left
+gapwidth = 2    -- spacingRaw
 
 -- XMonad.Util.Themes >> http://xmonad.org/xmonad-docs/xmonad-contrib/XMonad-Util-Themes.html#t:ThemeInfo
 -- listOfThemes|ppThemeInfo|xmonadTheme|smallClean|robertTheme|deiflTheme|oxymor00nTheme|donaldTheme|wfarrTheme|kavonForestTheme|
@@ -50,30 +48,23 @@ myModMask            = mod4Mask     -- Win key or Super_L
 myBorderWidth        = borderwidth
 myNormalBorderColor  = colorGray
 myFocusedBorderColor = colorRed
-
 -- Display
 myWorkSpaces      = ["1","2","3","4"]
 myHandleEventHook = ewmhDesktopsEventHook <+> fullscreenEventHook
-myManageHook      = manageDocks <+> manageHook defaultConfig
-myManageHookShift = composeAll
-                    [ className =? "Firefox"            --> mydoShift "1"
-                    , className =? "Thunar"             --> mydoShift "2"
-                    ]
-                    where mydoShift = doF . liftM2 (.) W.view W.shift
-myLayoutHook      = spacing gapwidth
-                  $ onWorkspace "1" (gaps [(U, gwU),(D, gwD),(L, gwL),(R, gwR)]
+myManageHook      = manageDocks
+myLayoutHook      = onWorkspace "1" (gaps [(U, gwU),(D, gwD),(R, gwR),(L, gwL)]
                     (noBorders $ simplestFloat ||| Simplest ) ||| noBorders Simplest)
-                  $ gaps [(U, gwU),(D, gwD),(L, gwL),(R, gwR)]
+                  $ gaps [(U, gwU),(D, gwD),(R, gwR),(L, gwL)]
+                  $ spacingRaw True (Border 0 0 0 0) True (Border gapwidth gapwidth gapwidth gapwidth) True
                   $ onWorkspace "2" (ResizableTall 1 (3/100) (1/2) [] ||| TwoPane (3/100) (1/2) ||| Simplest)
                   $ onWorkspace "3" (ThreeColMid 1 (3/100) (1/2) ||| Circle)
                   (Accordion ||| tabbed shrinkText (theme tabbedTheme))
-
 -- "Status-bar" LogHook
-myLogHook h = dynamicLogWithPP defaultPP
+myLogHook h = dynamicLogWithPP sjanssenPP
               {
                ppCurrent           =   dzenColor "#ebac54" "#1B1D1E" . pad
-             , ppVisible           =   dzenColor "white" "#1B1D1E" . pad
-             , ppHidden            =   dzenColor "white" "#1B1D1E" . pad
+             , ppVisible           =   dzenColor "white"   "#1B1D1E" . pad
+             , ppHidden            =   dzenColor "white"   "#1B1D1E" . pad
              , ppHiddenNoWindows   =   dzenColor "#7b7b7b" "#1B1D1E" . pad
              , ppUrgent            =   dzenColor "#ff0000" "#1B1D1E" . pad
              , ppWsSep             =   " "
@@ -88,7 +79,7 @@ main = do
   -- "Status-bar" LogHook
   dzenLeftBar <- spawnPipe myXmonadBar
 
-  xmonad $ ewmh defaultConfig
+  xmonad $ ewmh desktopConfig
     { 
     -- General
       modMask            = myModMask
@@ -99,7 +90,7 @@ main = do
     -- Display
     , workspaces         = myWorkSpaces
     , handleEventHook    = myHandleEventHook
-    , manageHook         = myManageHook <+> myManageHookShift
+    , manageHook         = myManageHook
     , layoutHook         = myLayoutHook
 
     -- Status-bar logHook

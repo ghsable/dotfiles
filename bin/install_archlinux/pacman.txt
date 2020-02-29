@@ -76,10 +76,8 @@ xdotool
 
 # ------ DESKTOP ------
 # --- Composit Manager
-# Transset Utility
-xcompmgr
-transset-df
 picom
+transset-df
 # cut blue light
 redshift
 # --- Launcher

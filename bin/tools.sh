@@ -28,17 +28,14 @@ exit 1
 case ${1} in
   startup   )  urxvt   &
                thunar  &
-               firefox &                      ;;
-  launch_a  )  dmenu_run                      ;;
-  launch_b  )  rofi -show run                 ;;
+               firefox &                     ;;
+  launch_a  )  dmenu_run                     ;;
+  launch_b  )  rofi -show run                ;;
   terminal_a)  # start Xterm -> transset-df
                xterm &
                sleep 0.6 && transset-df -i \
-               $(xwininfo -root -tree -int | \
-               grep -e 'xterm' -e 'XTerm'  | \
-               cut -f 6 -d " "             | \
-               sort                        | \
-               tail -n1) 0.75                ;;
+               $(xwininfo -root -tree -int | grep -e 'xterm' -e 'XTerm' | cut -f 6 -d " " | sort | tail -n1) \
+               0.75                          ;;
   terminal_b ) urxvt                         ;;
   email      ) sh ~/bin/email/getmail.sh ;
                cd ~/Downloads

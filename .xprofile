@@ -22,8 +22,8 @@ sh ~/bin/xkb.sh map
 # --- Xbindkeys
 xbindkeys &
 
-# --- Xcompmgr
-xcompmgr -c &
+# --- Composite manageri
+picom -CGb -D 0
 
 # --- Xset
 sh ~/bin/xset.sh on 120

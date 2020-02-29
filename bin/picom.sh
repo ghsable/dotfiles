@@ -17,14 +17,14 @@ exit 1
 case ${1} in
   on)
     {
-    killall xcompmgr
-    picom -b --invert-color-include '!class_g="URxvt" && !class_g="XTerm"'
+    killall picom
+    picom -CGb -D 0 --invert-color-include '!class_g="URxvt" && !class_g="XTerm"'
     } >/dev/null 2>&1
     ;;
   off)
     {
-    killall xcompmgr picom
-    xcompmgr -c &
+    killall picom
+    picom -CGb -D 0
     } >/dev/null 2>&1
     ;;
   *)
