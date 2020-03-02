@@ -11,14 +11,14 @@ import XMonad.Layout.PerWorkspace     -- Select WorkSpace
 import XMonad.Layout.Spacing          -- Window Spacing [spacingRaw:gapwidth]
 import XMonad.Layout.Gaps             -- Window Spacing [gaps:gwU,gwD,gwL,gwR]
 import XMonad.Layout.SimplestFloat    -- Display "1" Through Stack
+import XMonad.Layout.Simplest         -- Display "1" Through Full
 import XMonad.Layout.NoBorders        -- Display "1" NoBorders
 import XMonad.Layout.ResizableTile    -- Display "2" Tile
 import XMonad.Layout.TwoPane          -- Display "2" TwoPane
 import XMonad.Layout.ThreeColumns     -- Display "3" MainWindow TreeColumns
 import XMonad.Layout.Circle           -- Display "3" MainWindow Circle
-import XMonad.Layout.Simplest         -- Display Through Full
-import XMonad.Layout.Accordion        -- Display Layer
-import XMonad.Layout.Tabbed           -- Display Tab Bar
+import XMonad.Layout.Accordion        -- Display "4" Layer
+import XMonad.Layout.Tabbed           -- Display "4" Tab Bar
 
 import XMonad.Util.Run                -- spawnPipe,hPutStrLn "Status-bar" -> myStatusBar
 import XMonad.Util.Themes             -- Tab Bar Theme
@@ -54,7 +54,7 @@ myBorderWidth        = borderwidth
 myNormalBorderColor  = colorDarkGray
 myFocusedBorderColor = colorGreen
 -- Display
-myWorkSpaces      = ["1","2","3","4"]
+myWorkSpaces      = ["1","2","3","4","5"]
 myHandleEventHook = ewmhDesktopsEventHook
 myManageHook      = manageDocks
 myLayoutHook      = onWorkspace "1" (gaps [(U, gwU),(D, gwD),(R, gwR),(L, gwL)]
@@ -63,7 +63,8 @@ myLayoutHook      = onWorkspace "1" (gaps [(U, gwU),(D, gwD),(R, gwR),(L, gwL)]
                   $ spacingRaw True (Border 0 0 0 0) True (Border gapwidth gapwidth gapwidth gapwidth) True
                   $ onWorkspace "2" (ResizableTall 1 (3/100) (1/2) [] ||| TwoPane (3/100) (1/2) ||| Simplest)
                   $ onWorkspace "3" (ThreeColMid 1 (3/100) (1/2) ||| Circle)
-                  (Accordion ||| tabbed shrinkText (theme tabbedTheme))
+                  $ onWorkspace "4" (Accordion ||| tabbed shrinkText (theme tabbedTheme))
+                  (simpleFloat ||| Full)
 -- "Status-bar" LogHook
 myLogHook h = dynamicLogWithPP $ def
               {
