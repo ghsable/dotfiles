@@ -11,6 +11,7 @@
 * [x] [ファイル](https://itunes.apple.com/jp/app/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/id1232058109?mt=8)
 * [ ] [GoodReader](https://apps.apple.com/jp/app/goodreader-pro-pdf-editor/id1451012117)
 * [ ] [Refills](https://itunes.apple.com/jp/app/refills-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%B8%B3-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%89%8B%E5%B8%B3/id341691394?mt=8)
+* [ ] [TimeTree](https://apps.apple.com/jp/app/timetree-%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%84%E3%83%AA%E3%83%BC/id952578473)
 
 **🚨セキュリティ**
 - - -
@@ -26,7 +27,6 @@
 * [ ] [Suica](https://itunes.apple.com/jp/app/suica/id1156875272?mt=8)
 * [ ] [家計簿マネーフォワード](https://itunes.apple.com/jp/app/%E5%AE%B6%E8%A8%88%E7%B0%BF%E3%83%9E%E3%83%8D%E3%83%BC%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89-%E8%87%AA%E5%8B%95%E9%80%A3%E6%90%BA%E3%81%A7%E7%B0%A1%E5%8D%98-%E4%BA%BA%E6%B0%97%E3%81%AE%E5%AE%B6%E8%A8%88%E7%B0%BF/id594145971?mt=8) 
 * [ ] [住信SBIネット銀行](https://itunes.apple.com/jp/app/%E4%BD%8F%E4%BF%A1sbi%E3%83%8D%E3%83%83%E3%83%88%E9%8A%80%E8%A1%8C/id436755036?mt=8)
-* [ ] [Origami](https://itunes.apple.com/jp/app/origami-%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id622474053?mt=8)
 * [ ] [PayPay](https://itunes.apple.com/jp/app/paypay-qr%E3%82%B3%E3%83%BC%E3%83%89-%E3%83%90%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A7%E6%94%AF%E6%89%95%E3%81%86%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%A2%E3%83%97%E3%83%AA/id1435783608?mt=8)
 * [ ] [LINE Pay](https://apps.apple.com/jp/app/line-pay-%E5%89%B2%E5%BC%95%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E3%81%8C%E3%81%8A%E5%BE%97%E3%81%AA%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id1449817412)
 * [ ] [楽天ペイ](https://itunes.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4-%E3%82%AB%E3%83%BC%E3%83%89%E6%89%95%E3%81%84%E3%82%92%E3%82%A2%E3%83%97%E3%83%AA%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7-%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%82%E4%BD%BF%E3%81%88%E3%82%8B/id1139755229?mt=8)
@@ -35,7 +35,7 @@
 **💸FX**
 - - -
 * [ ] [MetaTrader 5](https://itunes.apple.com/jp/app/metatrader-5-%E5%A4%96%E5%9B%BD%E7%82%BA%E6%9B%BF-%E6%A0%AA%E5%BC%8F/id413251709?mt=8)
-* [ ] [SBI FXトレード](https://itunes.apple.com/jp/app/sbi-fx%E3%83%88%E3%83%AC%E3%83%BC%E3%83%89-%E6%96%B0%E3%82%A2%E3%83%97%E3%83%AA%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9/id1038696508?mt=8)
+* [ ] [SBI FXトレード](https://apps.apple.com/jp/app/sbi-fxtrade-%EF%BD%B0-2020/id1477436236)
 
 **💹株**
 - - -
