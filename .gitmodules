@@ -1,0 +1,3 @@
+[submodule "bin/vim/vimpacks"]
+	path = bin/vim/vimpacks
+	url = git@github.com:ghsable/vimpacks.git
