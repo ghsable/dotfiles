@@ -53,6 +53,7 @@ sh ~/bin/virtualbox/install.sh modprobe
 /bin/feh --randomize --bg-fill ~/bin/feh/wallpaper/*
 
 # --- Window Manager(Xmonad)
+xmonad --recompile
 exec xmonad
 
 # ------ NOT USING ------
