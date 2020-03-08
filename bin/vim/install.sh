@@ -2,34 +2,25 @@
 
 echo "${0} ..."
 
-# --- mkdir VIM-Plugins-Directory
-readonly VIM_START_DIR=~/.vim/pack/mypackage/start
-readonly VIM_OPT_DIR=~/.vim/pack/mypackage/opt
-[ -d ${VIM_START_DIR} ] || mkdir -pv ${VIM_START_DIR}
-[ -d ${VIM_OPT_DIR}   ] || mkdir -pv ${VIM_OPT_DIR}
-
 function usage() {
 cat<< _EOT_
 Description:
   INSTALL Vim
 
 Usage:
-  sh ${0} install-packages : INSTALL Packages
-  sh ${0} install-plugins  : INSTALL Plugins
-  sh ${0} update-plugins   : UPDATE  Plugins
-  sh ${0} deploy           : DEPLOY  Configs
-  sh ${0} *                : USAGE
+  sh ${0} install : INSTALL Packages
+  sh ${0} deploy  : DEPLOY  Configs
+  sh ${0} *       : USAGE
 
 EOF:
-  ls -l ${VIM_START_DIR}
-  ls -l ${VIM_OPT_DIR}
+  vim ~/.vimrc
 
 _EOT_
 exit 1
 }
 
 case ${1} in
-  install-packages)
+  install)
     {
     echo '--------------------------------------------------'
     echo '# vim   : text editor'
@@ -41,42 +32,12 @@ case ${1} in
                    ctags
     sudo pacman -Sc
     ;;
-  install-plugins)
-    for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/install.txt)
-    do
-      GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 5-5 | rev | cut -c 5- | rev`
-      git clone --depth=1 --recursive ${GITREPOSITORY_URL} ${VIM_START_DIR}/${GITCLONEDIR_NAME} 2>/dev/null
-      if [ "${?}" = "0" ]; then
-        echo "-> (1/1) ${GITCLONEDIR_NAME}"
-      else
-        echo "INSTALLED : ${GITCLONEDIR_NAME}"
-      fi
-    done
-    ;;
-  update-plugins)
-    for GITREPOSITORY_URL in $(grep -v -e '^$' -e '^#' $(dirname ${0})/install.txt)
-    do
-      GITCLONEDIR_NAME=`echo ${GITREPOSITORY_URL} | cut -d "/" -f 5-5 | rev | cut -c 5- | rev`
-      if [ -d ${VIM_START_DIR}/${GITCLONEDIR_NAME} ]; then
-        cd ${VIM_START_DIR}/${GITCLONEDIR_NAME}
-        GITPULL_STDOUT=`git pull`
-        if [ "${GITPULL_STDOUT}" != "Already up to date." ]; then
-          git submodule foreach git pull
-          echo "-> (1/1) ${GITCLONEDIR_NAME}"
-          cd ${VIM_START_DIR}
-        else
-          echo "UPDATED : ${GITCLONEDIR_NAME}"
-          cd ${VIM_START_DIR}
-        fi
-      else
-        echo "PLEASE INSTALL : ${GITCLONEDIR_NAME}"
-      fi
-    done
-    ;;
   deploy)
     readonly THIS_DIR="${HOME}/bin/vim"
-    ln -snfv "${THIS_DIR}/.vimrc"   "${HOME}"
-    ln -snfv "${THIS_DIR}/myconfig" "${HOME}/.vim/myconfig"
+    ln -snfv "${THIS_DIR}/.vimrc"       "${HOME}"
+    ln -snfv "${THIS_DIR}/myconfig"     "${HOME}/.vim/myconfig"
+    # my plugins list
+    ln -snfv "${THIS_DIR}/vimpacks.txt" "${THIS_DIR}/vimpacks/vimpacks.txt"
     ;;
   *)
     usage
