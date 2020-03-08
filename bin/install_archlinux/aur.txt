@@ -1,4 +1,2 @@
 # geteltorito(https://aur.archlinux.org/packages/geteltorito/)
 https://aur.archlinux.org/geteltorito.git
-# dropbox(https://aur.archlinux.org/packages/dropbox/)
-https://aur.archlinux.org/dropbox.git

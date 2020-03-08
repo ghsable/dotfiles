@@ -64,7 +64,7 @@ myLayoutHook      = onWorkspace "1" (gaps [(U, gwU),(D, gwD),(R, gwR),(L, gwL)]
                   $ onWorkspace "2" (ResizableTall 1 (3/100) (1/2) [] ||| TwoPane (3/100) (1/2) ||| Simplest)
                   $ onWorkspace "3" (ThreeColMid 1 (3/100) (1/2) ||| Circle)
                   $ onWorkspace "4" (Accordion ||| tabbed shrinkText (theme tabbedTheme))
-                  (simpleFloat ||| Full)
+                  (simplestFloat ||| Full)
 -- "Status-bar" LogHook
 myLogHook h = dynamicLogWithPP $ def
               {

@@ -67,7 +67,7 @@ case ${1} in
         else
           echo "UPDATED : ${GITCLONEDIR_NAME}"
           cd ${VIM_START_DIR}
-        fi 
+        fi
       else
         echo "PLEASE INSTALL : ${GITCLONEDIR_NAME}"
       fi
