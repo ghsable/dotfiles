@@ -31,6 +31,7 @@
 * [ ] [LINE Pay](https://apps.apple.com/jp/app/line-pay-%E5%89%B2%E5%BC%95%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E3%81%8C%E3%81%8A%E5%BE%97%E3%81%AA%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id1449817412)
 * [ ] [楽天ペイ](https://itunes.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4-%E3%82%AB%E3%83%BC%E3%83%89%E6%89%95%E3%81%84%E3%82%92%E3%82%A2%E3%83%97%E3%83%AA%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7-%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%82%E4%BD%BF%E3%81%88%E3%82%8B/id1139755229?mt=8)
 * [ ] [スターバックス](https://itunes.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275?mt=8)
+* [ ] [マイナポイント](https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/id1487419316)
 
 **💸FX**
 - - -
@@ -75,6 +76,7 @@
 
 **✒️勉強**
 - - -
+* [ ] [Apple Books](https://apps.apple.com/jp/app/apple-books/id364709193)
 * [ ] [Kindle](https://itunes.apple.com/jp/app/kindle/id302584613?mt=8)
 * [ ] [Amazon Audible](https://apps.apple.com/jp/app/amazon%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%83%96%E3%83%AB/id379693831)
 * [ ] [究極英単語](https://itunes.apple.com/jp/app/%E7%A9%B6%E6%A5%B5%E8%8B%B1%E5%8D%98%E8%AA%9E/id556736118?mt=8)
@@ -159,6 +161,7 @@
 * [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
 * [ ] [Pokémon GO](https://itunes.apple.com/jp/app/pok%C3%A9mon-go/id1094591345?mt=8)
 * [ ] [将棋ウォーズ](https://apps.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA/id496801169)
+* [ ] [トゥーンブラスト](https://apps.apple.com/jp/app/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id1176027022)
 
 **🎨製作編集**
 - - -
