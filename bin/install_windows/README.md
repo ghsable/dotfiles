@@ -108,3 +108,4 @@ application:
 * [ ] [OBS Studio](https://obsproject.com/ja/download)
 * [ ] [HandBrake](https://handbrake.fr/)
 * [ ] [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)
+* [ ] [ゆっくりMovieMaker3](https://manjubox.net/ymm3/)
