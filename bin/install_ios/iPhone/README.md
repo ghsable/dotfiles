@@ -31,6 +31,7 @@
 * [ ] [LINE Pay](https://apps.apple.com/jp/app/line-pay-%E5%89%B2%E5%BC%95%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E3%81%8C%E3%81%8A%E5%BE%97%E3%81%AA%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id1449817412)
 * [ ] [楽天ペイ](https://itunes.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4-%E3%82%AB%E3%83%BC%E3%83%89%E6%89%95%E3%81%84%E3%82%92%E3%82%A2%E3%83%97%E3%83%AA%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7-%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%82%E4%BD%BF%E3%81%88%E3%82%8B/id1139755229?mt=8)
 * [ ] [スターバックス](https://itunes.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275?mt=8)
+* [ ] [マイナポータル](https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%ABap/id1476359069)
 * [ ] [マイナポイント](https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88/id1487419316)
 
 **💸FX**
@@ -116,6 +117,7 @@
 - - -
 * [x] Safari
 * [ ] [Ecosia](https://apps.apple.com/jp/app/ecosia/id670881887)
+* [ ] [Sleipnir](https://apps.apple.com/jp/app/sleipnir-mobile-black-edition/id461181338)
 * [ ] [Reeder3](https://itunes.apple.com/jp/app/reeder-3/id697846300?mt=8)
 * [ ] [twinkle](https://itunes.apple.com/jp/app/twinkle/id463142843?mt=8)
 * [ ] [SmartNews](https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/id579581125)
@@ -158,8 +160,9 @@
 * [ ] [PlayStation App](https://apps.apple.com/jp/app/playstation-app/id410896080)
 * [ ] [PS4 Remote Play](https://apps.apple.com/jp/app/ps4-remote-play/id1436192460)
 * [ ] [Nintendo Switch Online](https://itunes.apple.com/jp/app/nintendo-switch-online/id1234806557?mt=8)
-* [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
+* [ ] [Pokémon HOME](https://apps.apple.com/jp/app/pok%C3%A9mon-home/id1485352913)
 * [ ] [Pokémon GO](https://itunes.apple.com/jp/app/pok%C3%A9mon-go/id1094591345?mt=8)
+* [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
 * [ ] [将棋ウォーズ](https://apps.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA/id496801169)
 * [ ] [トゥーンブラスト](https://apps.apple.com/jp/app/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id1176027022)
 
@@ -175,6 +178,7 @@
 * [x] カメラ
 * [x] [計算機](https://itunes.apple.com/jp/app/%E8%A8%88%E7%AE%97%E6%A9%9F/id1069511488?mt=8)
 * [x] [計測](https://itunes.apple.com/jp/app/%E8%A8%88%E6%B8%AC/id1383426740?mt=8)
+* [ ] [Foodie](https://apps.apple.com/jp/app/foodie-%E7%94%9F%E6%B4%BB%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9/id1076859004)
 * [ ] [GoPro](https://apps.apple.com/jp/app/gopro/id561350520)
 * [ ] [Amazon Alexa](https://itunes.apple.com/jp/app/amazon-alexa/id944011620?mt=8)
 * [ ] [Voice Recorder HD](https://itunes.apple.com/jp/app/voice-recorder-hd/id373045717?mt=8)
