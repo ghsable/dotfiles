@@ -27,6 +27,8 @@
 * [ ] [Suica](https://itunes.apple.com/jp/app/suica/id1156875272?mt=8)
 * [ ] [家計簿マネーフォワード](https://itunes.apple.com/jp/app/%E5%AE%B6%E8%A8%88%E7%B0%BF%E3%83%9E%E3%83%8D%E3%83%BC%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89-%E8%87%AA%E5%8B%95%E9%80%A3%E6%90%BA%E3%81%A7%E7%B0%A1%E5%8D%98-%E4%BA%BA%E6%B0%97%E3%81%AE%E5%AE%B6%E8%A8%88%E7%B0%BF/id594145971?mt=8) 
 * [ ] [住信SBIネット銀行](https://itunes.apple.com/jp/app/%E4%BD%8F%E4%BF%A1sbi%E3%83%8D%E3%83%83%E3%83%88%E9%8A%80%E8%A1%8C/id436755036?mt=8)
+* [ ] [ゆうちょ通帳アプリ](https://apps.apple.com/jp/app/%E3%82%86%E3%81%86%E3%81%A1%E3%82%87%E9%80%9A%E5%B8%B3%E3%82%A2%E3%83%97%E3%83%AA/id1496925861)
+* [ ] [スルガ銀行](https://apps.apple.com/jp/app/%E3%82%B9%E3%83%AB%E3%82%AC%E9%8A%80%E8%A1%8Cconnect/id862906762)
 * [ ] [PayPay](https://itunes.apple.com/jp/app/paypay-qr%E3%82%B3%E3%83%BC%E3%83%89-%E3%83%90%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A7%E6%94%AF%E6%89%95%E3%81%86%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%A2%E3%83%97%E3%83%AA/id1435783608?mt=8)
 * [ ] [LINE Pay](https://apps.apple.com/jp/app/line-pay-%E5%89%B2%E5%BC%95%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3%E3%81%8C%E3%81%8A%E5%BE%97%E3%81%AA%E3%82%B9%E3%83%9E%E3%83%9B%E6%B1%BA%E6%B8%88%E3%82%A2%E3%83%97%E3%83%AA/id1449817412)
 * [ ] [楽天ペイ](https://itunes.apple.com/jp/app/%E6%A5%BD%E5%A4%A9%E3%83%9A%E3%82%A4-%E3%82%AB%E3%83%BC%E3%83%89%E6%89%95%E3%81%84%E3%82%92%E3%82%A2%E3%83%97%E3%83%AA%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%A7-%E6%A5%BD%E5%A4%A9%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%82%E4%BD%BF%E3%81%88%E3%82%8B/id1139755229?mt=8)
