@@ -161,12 +161,16 @@
 - - -
 * [ ] [PlayStation App](https://apps.apple.com/jp/app/playstation-app/id410896080)
 * [ ] [PS4 Remote Play](https://apps.apple.com/jp/app/ps4-remote-play/id1436192460)
+* [ ] [My Nintendo](https://apps.apple.com/jp/app/my-nintendo-%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC/id1495746988)
 * [ ] [Nintendo Switch Online](https://itunes.apple.com/jp/app/nintendo-switch-online/id1234806557?mt=8)
 * [ ] [Pokémon HOME](https://apps.apple.com/jp/app/pok%C3%A9mon-home/id1485352913)
 * [ ] [Pokémon GO](https://itunes.apple.com/jp/app/pok%C3%A9mon-go/id1094591345?mt=8)
 * [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
 * [ ] [将棋ウォーズ](https://apps.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA/id496801169)
 * [ ] [トゥーンブラスト](https://apps.apple.com/jp/app/%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%82%B9%E3%83%88/id1176027022)
+* [ ] [パズル&ドラゴンズ](https://apps.apple.com/jp/app/%E3%83%91%E3%82%BA%E3%83%AB-%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%BA/id493470467)
+* [ ] [モンスターストライク](https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id658511662)
+* [ ] [FINAL FANTASY Record Keeper](https://apps.apple.com/jp/app/final-fantasy-record-keeper/id866037912)
 
 **🎨製作編集**
 - - -
