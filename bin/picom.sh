@@ -18,12 +18,14 @@ case ${1} in
   on)
     {
     killall picom
+    sleep 0.1s
     picom -CGb -D 0 --invert-color-include '!class_g="URxvt" && !class_g="XTerm"'
     } >/dev/null 2>&1
     ;;
   off)
     {
     killall picom
+    sleep 0.1s
     picom -CGb -D 0
     } >/dev/null 2>&1
     ;;
