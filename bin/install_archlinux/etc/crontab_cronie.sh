@@ -8,7 +8,7 @@ sudo pacman -Syu
 sudo pacman -S cronie
 sudo pacman -Sc
 
-# --- systemctl enable
+# --- auto-load
 sudo systemctl enable cronie
 
 # --- crontab

@@ -8,18 +8,10 @@ sudo pacman -Syu
 sudo pacman -S tlp tlp-rdw
 sudo pacman -Sc
 
-# --- systemctl enable
-sudo systemctl enable tlp.service
-sudo systemctl enable tlp-sleep.service
-
-# --- systemctl mask
-sudo systemctl mask systemd-rfkill.service
-sudo systemctl mask systemd-rfkill.socket
-
-# --- setting
+# --- [tlp-rdw] setting
 function add_config() {
 cat<< _EOT_
-#################### PLEASE REPLACE THIS LINE ####################
+#################### PLEASE ADD THIS LINE ####################
 SATA_LINKPWR_ON_BAT=max_performance
 
 CPU_SCALING_GOVERNOR_ON_AC=perfomance
@@ -40,7 +32,16 @@ DEVICES_TO_ENABLE_ON_STARTUP=""
 _EOT_
 return 0
 }
-readonly ETC_FILE="/etc/default/tlp"
+readonly ETC_FILE="/etc/tlp.d/00-template.conf"
 echo "UPDATE : ${ETC_FILE}"
-add_config | sudo tee -a ${ETC_FILE}
+add_config | sudo tee -a ${ETC_FILE} >/dev/null
 sudo vi ${ETC_FILE}
+
+# --- tlp-rdw
+sudo systemctl enable NetworkManager-dispatcher
+sudo systemctl mask systemd-rfkill.service
+sudo systemctl mask systemd-rfkill.socket
+
+# --- tlp
+sudo systemctl enable tlp.service
+#sudo tlp start
