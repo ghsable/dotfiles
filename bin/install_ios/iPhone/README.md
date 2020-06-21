@@ -93,7 +93,7 @@
 * [x] 写真
 * [x] [メモ](https://itunes.apple.com/jp/app/%E3%83%A1%E3%83%A2/id1110145109?mt=8)
 * [ ] [Evernote](https://itunes.apple.com/jp/app/evernote/id281796108?mt=8)
-* [ ] [CodeHub](https://itunes.apple.com/jp/app/codehub-a-client-for-github/id707173885?mt=8)
+* [ ] [GitHub](https://apps.apple.com/jp/app/github/id1477376905)
 
 **📺動画**
 - - -
