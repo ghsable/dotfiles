@@ -1,5 +1,22 @@
 # dotfiles
-[dotfiles](https://ghsable.github.io/dotfiles/) is my Dotfiles.
+[dotfiles](https://ghsable.github.io/dotfiles/) is my Dotfiles + Scripts.
+
+    dotfiles
+    ├── .??*   : dotfiles(linux)
+    ├── doc
+    │  └── *.md   : documents
+    └──bin
+        ├── *.sh   : scripts(linux)
+        ├── *
+        │  ├── *.sh  : scripts(linux)
+        │  └── *     : config files
+        └── install_<OS NAME>
+            ├── .??*  : dotfiles
+            ├── *.sh  : scripts
+            ├── *.txt : data
+            └── *
+                ├── *.sh : scripts
+                └── *    : config files
 
 ## Requirement
 macOS :
@@ -47,64 +64,23 @@ Windows :
     PC Case                     : Projet-M PM-TESTBOARD
 
 ## Installation
-Install :
+1. Follow the steps below.
 > * [macOS](https://github.com/ghsable/dotfiles/blob/master/bin/install_macos/README.md)
 > * [ArchLinux](https://github.com/ghsable/dotfiles/blob/master/bin/install_archlinux/README.md)
 > * [Windows](https://github.com/ghsable/dotfiles/blob/master/bin/install_windows/README.md)
 > * [iOS(iPhone)](https://github.com/ghsable/dotfiles/blob/master/bin/install_ios/iPhone/README.md)
 > * [iOS(iPad)](https://github.com/ghsable/dotfiles/blob/master/bin/install_ios/iPad/README.md)
 
-Check :
-> * [checklist](https://github.com/ghsable/dotfiles/blob/master/bin/install_all/checklist.md)
+2. Check the settings you need from the [word](https://github.com/ghsable/dotfiles/blob/master/bin/install_all/checklist.md).
 
-one-liner :
 
-    bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install.sh)"
-
-OS selection :
-`macos`,`archlinux`
-
-this script :
-[install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/install.sh)
-
-- - -
-or :
-
-    # CLONE DOTFILES
-    git clone --depth=1 https://github.com/ghsable/dotfiles.git ~/dotfiles
-    # EDIT
-    vi ~/dotfiles/.gitconfig             # GitHub config
-    vi ~/dotfiles/bin/install_<OS>/*.txt # namelist(pkg,symbolic link...)
-    # INSTALL
-    cd ~/dotfiles
-    make <OS>_install
-
-demo :
-| ![Setup process on macOS][setup macos] | ![Setup process on ArchLinux][setup archlinux] |
+| ![install macOS][install macos]        | ![install ArchLinux][install archlinux]        |
 |:--------------------------------------:|:----------------------------------------------:|
-| `macOS`                                | `Ubuntu`                                       |
+| `macOS`                                | `Arch Linux`                                   |
 
 <!-- Link labels: -->
-[setup macos]: https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_macos/README.gif
-[setup archlinux]: https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.gif
-
-## Tree Description
-
-    dotfiles
-    ├── .??*   : dotfiles(linux)
-    ├── doc
-    │  └── *.md   : documents 
-    └──bin
-       ├── *.sh   : scripts(linux)
-       ├── *
-       │   └── *     : projects sources(linux)
-       └── install_<OS>
-           ├── .??*  : dotfiles
-           ├── *.sh  : install scripts
-           ├── *.txt : *.sh needs this namelists
-           └── etc
-              ├── *.sh  : etc.sh needs this scripts
-              └── *     : other config files
+[install macos]: https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_macos/README.gif
+[install archlinux]: https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.gif
 
 ## Thanks
 > Book
@@ -113,6 +89,3 @@ demo :
 > Web
 >> * [ArchWiki](https://www.archlinux.jp/)
 >> * [Shell Style Guide](https://google.github.io/styleguide/shell.xml)
-
-## TODO
-* README.md
