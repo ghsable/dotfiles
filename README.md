@@ -74,13 +74,9 @@ Windows :
 2. Check the settings you need from the [word](https://github.com/ghsable/dotfiles/blob/master/bin/install_all/checklist.md).
 
 
-| ![install macOS][install macos]        | ![install ArchLinux][install archlinux]        |
-|:--------------------------------------:|:----------------------------------------------:|
-| `macOS`                                | `Arch Linux`                                   |
-
-<!-- Link labels: -->
-[install macos]: https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_macos/README.gif
-[install archlinux]: https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.gif
+| <img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_macos/README.gif" height="250" width="800"> | <img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.gif" height="250" width="800"> |
+|:---:|:---:|
+| `macOS` | `Arch Linux` |
 
 ## Thanks
 > Book
