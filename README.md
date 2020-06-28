@@ -9,8 +9,8 @@
         ├── *.sh   : scripts(linux)
         ├── *
         │  ├── *.sh  : scripts(linux)
-        │  └── *     : config files
-        └── install_<OS NAME>
+        │  └── *     : config files(linux)
+        └── install_<OS_NAME>
             ├── .??*  : dotfiles
             ├── *.sh  : scripts
             ├── *.txt : data
