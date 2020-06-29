@@ -6,7 +6,7 @@
 - [パーティショニング](https://wiki.archlinux.jp/index.php/パーティショニング)
 
 ## Installation
-example : 
+Example :
 
 | Device    | Size  | Partition Type(MBR) | Partition Type(GPT)      | Partition Name | Filesystem      | Mount           |
 | :---      | :---  | :---                | :---                     | :---           | :---            | :---            |
@@ -73,34 +73,34 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/
 reboot
 ```
 
-## Module
-**Device**
-* [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)
-* [Bluetooth](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/README.md)
-* [Pentablet](https://github.com/ghsable/dotfiles/blob/master/bin/pentablet/README.md)
-* [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
-* [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
-* [ErgoDox-EZ](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/README.md)
-* [Smart Card](https://github.com/ghsable/dotfiles/blob/master/bin/smartcard/README.md)
-* [Finger print](https://github.com/ghsable/dotfiles/blob/master/bin/fingerprint/README.md)
-* [Television](https://github.com/ghsable/dotfiles/blob/master/bin/television/README.md)
-
-**General**
-* [ZSH](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/README.md)
-* [Vim](https://github.com/ghsable/dotfiles/blob/master/bin/vim/README.md)
-* [IME](https://github.com/ghsable/dotfiles/blob/master/bin/ime/README.md)
-* [Filer](https://github.com/ghsable/dotfiles/blob/master/bin/filer/README.md)
-* [E-mail](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
-* [VirtualBox](https://github.com/ghsable/dotfiles/blob/master/bin/virtualbox/README.md)
-* [Wine](https://github.com/ghsable/dotfiles/blob/master/bin/wine/README.md)
-
-**Programming Language**
-* [LLVM](https://github.com/ghsable/dotfiles/blob/master/bin/apl/llvm/README.md)
-* [Tex](https://github.com/ghsable/dotfiles/blob/master/bin/apl/tex/README.md)
-* [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/README.md)
-* [Go](https://github.com/ghsable/dotfiles/blob/master/bin/apl/go/README.md)
-* [Python](https://github.com/ghsable/dotfiles/blob/master/bin/apl/python/README.md)
-* [Java](https://github.com/ghsable/dotfiles/blob/master/bin/apl/java/README.md)
-* [Mono](https://github.com/ghsable/dotfiles/blob/master/bin/apl/mono/README.md)
-* [Ruby](https://github.com/ghsable/dotfiles/blob/master/bin/apl/ruby/README.md)
-
+## Modules
+> **Hardware**
+>> * [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)
+>> * [Bluetooth](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/README.md)
+>> * [Pentablet](https://github.com/ghsable/dotfiles/blob/master/bin/pentablet/README.md)
+>> * [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
+>> * [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
+>> * [ErgoDox-EZ](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/README.md)
+>> * [Smart Card](https://github.com/ghsable/dotfiles/blob/master/bin/smartcard/README.md)
+>> * [Finger print](https://github.com/ghsable/dotfiles/blob/master/bin/fingerprint/README.md)
+>> * [Television](https://github.com/ghsable/dotfiles/blob/master/bin/television/README.md)
+>> 
+> **General**
+>> * [ZSH](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/README.md)
+>> * [Vim](https://github.com/ghsable/dotfiles/blob/master/bin/vim/README.md)
+>> * [IME](https://github.com/ghsable/dotfiles/blob/master/bin/ime/README.md)
+>> * [Filer](https://github.com/ghsable/dotfiles/blob/master/bin/filer/README.md)
+>> * [E-mail](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
+>> * [VirtualBox](https://github.com/ghsable/dotfiles/blob/master/bin/virtualbox/README.md)
+>> * [Wine](https://github.com/ghsable/dotfiles/blob/master/bin/wine/README.md)
+>> 
+> **APL**
+>> * [LLVM](https://github.com/ghsable/dotfiles/blob/master/bin/apl/llvm/README.md)
+>> * [Tex](https://github.com/ghsable/dotfiles/blob/master/bin/apl/tex/README.md)
+>> * [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/README.md)
+>> * [Go](https://github.com/ghsable/dotfiles/blob/master/bin/apl/go/README.md)
+>> * [Python](https://github.com/ghsable/dotfiles/blob/master/bin/apl/python/README.md)
+>> * [Java](https://github.com/ghsable/dotfiles/blob/master/bin/apl/java/README.md)
+>> * [Mono](https://github.com/ghsable/dotfiles/blob/master/bin/apl/mono/README.md)
+>> * [Ruby](https://github.com/ghsable/dotfiles/blob/master/bin/apl/ruby/README.md)
+>> 

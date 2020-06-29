@@ -27,7 +27,7 @@ macOS :
     Graphics      : Intel HD Graphics 4000
     Storage(SATA) : APPLE SSD SM256E
 
-Windows,Arch Linux :
+Windows,ArchLinux :
 
     # ThinkPad X220 Tablet
     Processor           : Intel Core i7-2640M
@@ -75,13 +75,14 @@ Windows :
 
 | <img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_macos/README.gif" width="400"> | <img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.gif" width="400"> |
 |:---:|:---:|
-| `macOS` | `Arch Linux` |
+| `macOS` | `ArchLinux` |
 
 ## Thanks
 I referred to the following :
-> Book
+> **Book**
 >> * [The Principles of Programming](http://www.shuwasystem.co.jp/products/7980html/4614.html)
->
-> Web
+>> 
+> **Web**
 >> * [ArchWiki](https://www.archlinux.jp/)
 >> * [Shell Style Guide](https://google.github.io/styleguide/shell.xml)
+>> 
