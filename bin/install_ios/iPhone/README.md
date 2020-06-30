@@ -74,6 +74,7 @@
 * [ ] [Wickr Me](https://apps.apple.com/jp/app/wickr-me-private-messenger/id528962154)
 * [ ] [Wickr Pro](https://apps.apple.com/jp/app/wickr-pro/id1200926568)
 * [ ] [Siskin IM](https://apps.apple.com/jp/app/siskin-im/id1153516838)
+* [ ] [ZOOM Cloud Meetings](https://apps.apple.com/jp/app/zoom-cloud-meetings/id546505307)
 * [ ] [Tinder](https://apps.apple.com/jp/app/tinder/id547702041)
 * [ ] [MEEFF](https://apps.apple.com/jp/app/meeff-%E3%83%9F%E3%83%BC%E3%83%95/id1064381508)
 
