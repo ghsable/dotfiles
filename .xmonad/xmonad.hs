@@ -58,7 +58,7 @@ myWorkSpaces      = ["1","2","3","4","5"]
 myHandleEventHook = ewmhDesktopsEventHook
 myManageHook      = manageDocks
 myLayoutHook      = onWorkspace "1" (gaps [(U, gwU),(D, gwD),(R, gwR),(L, gwL)]
-                    (noBorders $ simplestFloat ||| Simplest ) ||| noBorders Simplest)
+                    (noBorders $ Simplest) ||| noBorders Simplest)
                   $ gaps [(U, gwU),(D, gwD),(R, gwR),(L, gwL)]
                   $ spacingRaw True (Border 0 0 0 0) True (Border gapwidth gapwidth gapwidth gapwidth) True
                   $ onWorkspace "2" (ResizableTall 1 (3/100) (1/2) [] ||| TwoPane (3/100) (1/2) ||| Simplest)
