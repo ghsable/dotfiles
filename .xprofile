@@ -22,7 +22,7 @@ sh ~/bin/xkb.sh map
 # --- Xbindkeys
 xbindkeys &
 
-# --- Composite manageri
+# --- Composite manager
 picom -CGb -D 0
 
 # --- Xset
@@ -44,10 +44,10 @@ sh ~/bin/xmodmap.sh load
 sh ~/bin/dzen/dzconky.sh
 
 # --- Dropbox
-/usr/bin/dropbox &
+#/usr/bin/dropbox &
 
 # --- VirtualBox
-sh ~/bin/virtualbox/install.sh modprobe
+#sh ~/bin/virtualbox/install.sh modprobe
 
 # --- Feh
 /bin/feh --randomize --bg-fill ~/bin/feh/wallpaper/*
