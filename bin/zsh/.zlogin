@@ -8,6 +8,8 @@ export EDITOR='vim'
 export BROWSER='firefox'
 # LESS
 export LESS='-M -W -R -XXX -N -J -Q -F -X -K -I -a'
+# my commands
+export PATH=${PATH}:${HOME}/bin
 # a programming language env
 source ~/bin/apl/env.sh
 
