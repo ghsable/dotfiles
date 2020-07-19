@@ -27,7 +27,7 @@ case ${1} in
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu
-    sudo pacman -S firefox
+    sudo pacman -S firefox firefox-i18n-ja
     sudo pacman -Sc
     ;;
   deploy)
