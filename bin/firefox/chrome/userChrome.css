@@ -1,0 +1,48 @@
+/* --- piroor/treestyletab - Code snippets for custom style rules --- */
+/* https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules */
+
+/* Hide horizontal tabs at the top of the window #1349 */
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
+  opacity: 0;
+  pointer-events: none;
+}
+#main-window:not([tabsintitlebar="true"]) #TabsToolbar {
+    visibility: collapse !important;
+}
+
+/* For only Tree Style Tab sidebar #1397 */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+  display: none;
+}
+
+/* --- How do I disable the englarged address bar when I focus on it? --- */
+/* https://support.mozilla.org/en-US/questions/1283992 */
+
+/* Tame the Enlarging Address Bar */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+#urlbar[breakout],
+#urlbar[breakout][breakout-extend] {
+  --urlbar-height: 28px !important;
+  --urlbar-toolbar-height: 30px !important;
+
+  width: 100% !important;
+  top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+  left: 0 !important;
+}
+
+#urlbar[breakout][breakout-extend] > #urlbar-input-container,
+#urlbar-input-container {
+  height: var(--urlbar-height) !important;
+  width: 100% !important;
+  padding-block: unset !important;
+  padding-inline: unset !important;
+  transition: none !important;
+}
+
+#urlbar[breakout][breakout-extend] > #urlbar-background {
+  box-shadow: 0 1px 4px rgba(0,0,0,.05) !important;
+  animation: none !important;
+}
+
+/* --- EOF --- */
