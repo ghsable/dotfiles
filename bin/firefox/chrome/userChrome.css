@@ -15,6 +15,11 @@
   display: none;
 }
 
+/* Reduce minimum width of the sidebar #1373 */
+#sidebar {
+  min-width: 100px !important;
+}
+
 /* --- How do I disable the englarged address bar when I focus on it? --- */
 /* https://support.mozilla.org/en-US/questions/1283992 */
 
