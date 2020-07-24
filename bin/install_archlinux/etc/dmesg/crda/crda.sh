@@ -8,8 +8,7 @@ sudo pacman -Syu
 sudo pacman -S crda
 sudo pacman -Sc
 
-# -> Error resolution :D
-# platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+# -> resolution errors(platform regulatory.0: Direct firmware load for regulatory.db failed with error -2)
 
 # --- setting
 function add_config() {
