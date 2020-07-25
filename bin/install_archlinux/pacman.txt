@@ -120,6 +120,8 @@ chromium
 # ------ OTHER TOOL ------
 # --- Editor
 leafpad
+atom
+emacs
 # --- Display AC
 upower
 # --- Screenshot
