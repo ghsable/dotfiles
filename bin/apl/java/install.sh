@@ -23,12 +23,10 @@ case ${1} in
     {
     echo '--------------------------------------------------'
     echo '# jre-*,jdk-*,openjdk-* : OpenJDK'
-    echo '# eclipse-java          : IDE'
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu
     sudo pacman -S jre-openjdk-headless jre-openjdk jdk-openjdk openjdk-doc openjdk-src \
-                   eclipse-java
     sudo pacman -Sc
     ;;
   *)
