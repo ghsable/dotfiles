@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Smart Card Command
+  Smart Card Commands
 
 Usage:
   sh ${0} pcsc_scan : SCAN  Smart_Card

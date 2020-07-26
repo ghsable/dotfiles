@@ -9,7 +9,7 @@
 
 this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/apl/python/install.sh)
 
-## Update(Components)
+## Update Components
 
     # rustup
     sh install.sh update-components

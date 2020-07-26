@@ -1,24 +1,5 @@
 # E-mail
 
-## Installation
-
-    1. INSTALL Packages
-       sh install.sh install
-    2. CREATE Directory/File
-       mkdir *  <- #Tree Description
-       vi    *  <- #Example
-    3. DEPLOY Directory/File
-       sh install.sh deploy
-
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/email/install.sh)
-
-## Permission
-
-    Directory : 0700
-    File      : 0600
-
-## Tree Description
-
     <HOME>
     ├── <CLOUDSTORAGE_DIR>             // CLOSED //
     │   └── email
@@ -89,6 +70,23 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/e
             └── install_archlinux
                 └── etc
                     └── crontab        // MRA(getmail)
+
+## Installation
+
+    1. INSTALL Packages
+       sh install.sh install
+    2. CREATE Directory/File
+       mkdir *  <- #Tree Description
+       vi    *  <- #Example
+    3. DEPLOY Directory/File
+       sh install.sh deploy
+
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/email/install.sh)
+
+## Permission
+
+    Directory : 0700
+    File      : 0600
 
 ## Example
 

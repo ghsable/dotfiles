@@ -4,9 +4,12 @@ echo "${0} ..."
 
 # ------ Finger print ------
 # --- install
-# fprintd     : Driver
-# imagemagick : Library
-
+{
+echo '--------------------------------------------------'
+echo '# fprintd     : Driver'
+echo '# imagemagick : Library'
+echo '--------------------------------------------------'
+}
 sudo pacman -Syu
 sudo pacman -S fprintd \
                imagemagick

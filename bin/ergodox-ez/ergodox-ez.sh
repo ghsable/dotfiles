@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  ErgoDox-EZ Command
+  ErgoDox-EZ Commands
 
 Usage:
   sh ${0} edit    : EDIT   keymap.c

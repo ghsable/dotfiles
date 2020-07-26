@@ -1,7 +1,6 @@
 # Printer
 
 ## Installation
-
 Foomatic:
 
     1. Initialize

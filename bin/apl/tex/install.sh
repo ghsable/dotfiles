@@ -23,7 +23,7 @@ case ${1} in
   install-packages)
     {
     echo '--------------------------------------------------'
-    echo '# texlive-most       : Applications'
+    echo '# texlive-most      : Applications'
     echo '# texlive-lang      : Character set & Non-English speaking function'
     echo '# texlive-core      : texmf-dist tree'
     echo '# texlive-bin       : Binary and library'

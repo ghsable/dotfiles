@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Finger print(fprintd) Command
+  Finger print(fprintd) Commands
 
 Usage:
   sh ${0} fprintd-enroll     <finger_name> : ENROLL  Finger print

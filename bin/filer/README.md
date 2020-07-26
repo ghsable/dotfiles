@@ -14,4 +14,3 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/f
     sh filer.sh usage
 
 this script : [filer.sh](https://github.com/ghsable/dotfiles/blob/master/bin/filer/filer.sh)
-

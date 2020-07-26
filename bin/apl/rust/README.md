@@ -13,13 +13,11 @@
     4. INSTALL Components(cargo)
        sh install.sh cargo-install
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/install.sh)
-
-## Update(Components)
+## Update Components
 
     # rustup
     sh install.sh rustup-update
-    
     # cargo
     sh install.sh cargo-install
 
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/install.sh)

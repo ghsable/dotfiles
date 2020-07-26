@@ -28,11 +28,9 @@ exit 1
 
 case ${1} in
   install-packages)
-    {
     echo '--------------------------------------------------'
     echo '# zsh : shell'
     echo '--------------------------------------------------'
-    }
     sudo pacman -Syu
     sudo pacman -S zsh
     sudo pacman -Sc
@@ -63,7 +61,7 @@ case ${1} in
         else
           echo "UPDATED : ${GITCLONEDIR_NAME}"
           cd ${ZSHPLUGINS_DIR}
-        fi 
+        fi
       else
         echo "PLEASE INSTALL : ${GITCLONEDIR_NAME}"
       fi

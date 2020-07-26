@@ -4,13 +4,16 @@ echo "${0} ..."
 
 # ------ Sound ------
 # --- install
-# alsa-*              : sound driver(alsamixer)
-# pulseaudio          : agency alsa
-# pulseaudio-alsa     : back-end alsa/pulseaudio
-#                       (32bit -> lib32-libpulse,lib32-alsa-plugins)
-# paprefs,pavucontrol : front-end pulseaudio
-# sox                 : rec/play
-
+{
+echo '--------------------------------------------------'
+echo '# alsa-*              : sound driver(alsamixer)'
+echo '# pulseaudio          : agency alsa'
+echo '# pulseaudio-alsa     : back-end alsa/pulseaudio'
+echo '#                       (32bit -> lib32-libpulse,lib32-alsa-plugins)'
+echo '# paprefs,pavucontrol : front-end pulseaudio'
+echo '# sox                 : rec/play'
+echo '--------------------------------------------------'
+}
 sudo pacman -Syu
 sudo pacman -S alsa-utils alsa-firmware \
                pulseaudio \

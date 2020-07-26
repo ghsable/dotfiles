@@ -31,7 +31,6 @@ case ${1} in
     echo '--------------------------------------------------'
     echo '# --- official'
     echo '# rustup     : Rust ecosystem(https://rustup.rs/)'
-
     echo '# --- distribution'
     echo '# rustup     : Rust ecosystem'
     echo '# rust-racer : Rust code completion and navigation'

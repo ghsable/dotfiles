@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Printer Command
+  Printer Commands
 
 Usage:
   sh ${0} lpstat                       : DISPLAY Printers

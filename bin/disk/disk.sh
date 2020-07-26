@@ -7,7 +7,7 @@ readonly DATE_YYMMDD=`date "+%Y%m%d"`
 function usage() {
 cat<< _EOT_
 Description:
-  Disk Command
+  Disk Commands
 
 Usage:
   sh ${0} mount-disk                 : MOUNT   block_device(disk)

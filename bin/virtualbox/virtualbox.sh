@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  VirtualBox Command
+  VirtualBox Commands
 
 Usage:
   sh ${0} virtualbox : START VirtualBox

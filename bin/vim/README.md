@@ -9,6 +9,6 @@
 
 this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/vim/install.sh)
 
-## Management Plugin
+## Management Plugins
 
 * [Vimpacks](https://github.com/ghsable/vimpacks)

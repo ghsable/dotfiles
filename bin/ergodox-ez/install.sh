@@ -8,8 +8,12 @@ readonly ERGODOXEZ_DIR=~/tmp/ergodox-ez
 [ -d ${ERGODOXEZ_DIR} ] || mkdir -pv ${ERGODOXEZ_DIR}
 
 # --- eco system
-# libusb            : https://libusb.info/
-# teensy-loader-cli : https://www.pjrc.com/teensy/loader_cli.html
+{
+echo '--------------------------------------------------'
+echo '# libusb            : https://libusb.info/'
+echo '# teensy-loader-cli : https://www.pjrc.com/teensy/loader_cli.html'
+echo '--------------------------------------------------'
+}
 sudo pacman -Syu
 sudo pacman -S libusb teensy-loader-cli
 sudo pacman -Sc

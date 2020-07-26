@@ -11,4 +11,3 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/s
     sh smartcard.sh usage
 
 this script : [smartcard.sh](https://github.com/ghsable/dotfiles/blob/master/bin/smartcard/smartcard.sh)
-

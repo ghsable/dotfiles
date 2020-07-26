@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Wine Command
+  Wine Commands
 
 Usage:
   sh ${0} wine     <exefile_path> : START *.exe (change user)

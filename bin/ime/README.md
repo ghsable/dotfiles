@@ -31,4 +31,3 @@ other:
     sh fcitx_mozc.sh usage
 
 this script : [fcitx_mozc.sh](https://github.com/ghsable/dotfiles/blob/master/bin/ime/fcitx_mozc.sh)
-

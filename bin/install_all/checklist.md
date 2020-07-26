@@ -1,14 +1,5 @@
 # Checklist
 
-## Bookmark
-**all**
-- - -
-* [ ] [booky.io](https://booky.io)
-
-**iOS**
-- - -
-* [ ] メモリ解放(sysight://allkill)
-
 ## Installed
 * [ ] Application
 * [ ] Addon

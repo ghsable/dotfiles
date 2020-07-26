@@ -7,7 +7,7 @@
 
 this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/apl/java/install.sh)
 
-## Command
+## Tips
 
     # CHANGE Version
     archlinux-java <COMMAND>

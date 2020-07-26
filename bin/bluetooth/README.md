@@ -7,7 +7,6 @@
 this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/install.sh)
 
 ## Usage
-
 bluetoothctl:
 
     # bluetoothctl is a cli tool for setting bluetooth.
@@ -41,4 +40,3 @@ blueberry:
     # Good Job! :D
 
 this script : [bluetooth.sh](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/bluetooth.sh)
-

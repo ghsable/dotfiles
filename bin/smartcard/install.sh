@@ -4,9 +4,12 @@ echo "${0} ..."
 
 # ------ Smart Card ------
 # --- install
-# ccid,opensc : Driver
-# pcsc-tools  : Utility(pcsc_scan)
-
+{
+echo '--------------------------------------------------'
+echo '# ccid,opensc : Driver'
+echo '# pcsc-tools  : Utility(pcsc_scan)'
+echo '--------------------------------------------------'
+}
 sudo pacman -Syu
 sudo pacman -S ccid opensc \
                pcsc-tools

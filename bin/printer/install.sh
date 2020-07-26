@@ -4,15 +4,19 @@ echo "${0} ..."
 
 # ------ Printer ------
 # --- install
-# CUPS        : Print System
-# rpmextract  : Open *.rpm ($ rpmextract.sh *.rpm)
-# a2ps        : Convert Text to PostScript
-# Avahi       : Scan Printer of Local-Arear-Network
-#               nss-mdns : hostname resolution
-# foomastic   : PPD
-# gutenprint  : PPD filter
-# ghostscript : PPD filter
-
+{
+echo '--------------------------------------------------'
+echo '# rpmextract  : Open *.rpm ($ rpmextract.sh *.rpm)'
+echo '# a2ps        : Convert Text to PostScript'
+echo '# cups*       : Print System'
+echo '# avahi       : Scan Printer of Local-Arear-Network'
+echo '# nss-mdns    : hostname resolution'
+echo '# foomastic-* : PPD'
+echo '# gutenprint  : PPD filter'
+echo '# ghostscript : PPD filter'
+echo '# gsfonts     : Font Ghostscript'
+echo '--------------------------------------------------'
+}
 sudo pacman -Syu
 sudo pacman -S rpmextract \
                a2ps \

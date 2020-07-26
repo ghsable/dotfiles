@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  LaTeX Command
+  LaTeX Commands
 
 Usage:
   sh ${0} platex   <*.tex> : [pLaTeX]       CONVERT *.tex -> *.dvi -> *.pdf & OPEN *.pdf

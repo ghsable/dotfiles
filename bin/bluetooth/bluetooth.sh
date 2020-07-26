@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Bluetooth Command
+  Bluetooth Commands
 
 Usage:
   sh ${0} bluetoothctl : SETTING Bluetooth(CUI)

@@ -4,12 +4,15 @@ echo "${0} ..."
 
 # ------ Disk ------
 # --- install
-# mplayer      : movie/music player
-# libdvd*      : play dvd
-# cdrtools     : create *.iso
-# ccd2iso      : convert *.img/ccd -> *.iso
-# dvd+rw-tools : format dvd-rw , write dvd(growisofs)
-
+{
+echo '--------------------------------------------------'
+echo '# mplayer      : movie/music player'
+echo '# libdvd*      : play dvd'
+echo '# cdrtools     : create *.iso'
+echo '# ccd2iso      : convert *.img/ccd -> *.iso'
+echo '# dvd+rw-tools : format dvd-rw , write dvd(growisofs)'
+echo '--------------------------------------------------'
+}
 sudo pacman -Syu
 sudo pacman -S mplayer gnome-mplayer \
                libdvdread libdvdcss libdvdnav \

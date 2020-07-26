@@ -1,19 +1,5 @@
 # ZSH
 
-## Installation
-
-    1. INSTALL Packages/Plugins
-       sh install.sh install-packages
-       sh install.sh install-plugins
-    2. DEPLOY Directory/File
-       sh install.sh deploy
-    3. CHANGE Shell
-       sh install.sh chsh
-
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/install.sh)
-
-## Tree Description
-
     <HOME>
     ├─ .zsh
     │  └─ plugins
@@ -28,7 +14,18 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/z
                ├── .zlogin     : config-file
                └── .zshrc      : config-file
 
-## Update(Plugins)
+## Installation
+
+    1. INSTALL Packages/Plugins
+       sh install.sh install-packages
+       sh install.sh install-plugins
+    2. DEPLOY Directory/File
+       sh install.sh deploy
+    3. CHANGE Shell
+       sh install.sh chsh
+
+## Update Plugins
 
     sh install.sh update-plugins
 
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/install.sh)

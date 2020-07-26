@@ -4,9 +4,12 @@ echo "${0} ..."
 
 # ------ Bluetooth ------
 # --- install
-# bluez*    : bluetooth-protocol/utility
-# blueberry : bluetooth-gui-front-end
-
+{
+echo '--------------------------------------------------'
+echo '# bluez*    : bluetooth-protocol/utility'
+echo '# blueberry : bluetooth-gui-front-end'
+echo '--------------------------------------------------'
+}
 sudo pacman -Syu
 sudo pacman -S bluez bluez-utils \
                blueberry

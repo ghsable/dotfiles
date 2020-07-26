@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  Sound Command
+  Sound Commands
 
 Usage:
   sh ${0} alsamixer             : SETTING ALSA
