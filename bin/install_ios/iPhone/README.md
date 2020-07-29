@@ -11,6 +11,7 @@
 * [x] [ファイル](https://itunes.apple.com/jp/app/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/id1232058109?mt=8)
 * [ ] [GoodReader](https://apps.apple.com/jp/app/goodreader-pro-pdf-editor/id1451012117)
 * [ ] [Refills](https://itunes.apple.com/jp/app/refills-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%B8%B3-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%89%8B%E5%B8%B3/id341691394?mt=8)
+* [ ] [Taskuma TaskChute](https://apps.apple.com/jp/app/taskuma-taskchute-for-iphone/id896335635)
 * [ ] [TimeTree](https://apps.apple.com/jp/app/timetree-%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%84%E3%83%AA%E3%83%BC/id952578473)
 
 **🚨セキュリティ**
@@ -119,6 +120,8 @@
 **🏃Web**
 - - -
 * [x] Safari
+* [ ] [firefox](https://apps.apple.com/jp/app/firefox-%E3%82%A6%E3%82%A7%E3%83%96%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%83%BC/id989804926)
+* [ ] [Brave](https://apps.apple.com/jp/app/brave-%E9%AB%98%E9%80%9F%E3%81%A7%E5%AE%89%E5%85%A8%E3%81%AA%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E4%BF%9D%E8%AD%B7%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6-%E6%A4%9C%E7%B4%A2/id1052879175)
 * [ ] [Ecosia](https://apps.apple.com/jp/app/ecosia/id670881887)
 * [ ] [Sleipnir](https://apps.apple.com/jp/app/sleipnir-mobile-black-edition/id461181338)
 * [ ] [Reeder3](https://itunes.apple.com/jp/app/reeder-3/id697846300?mt=8)
@@ -157,6 +160,7 @@
 * [ ] [TikTok](https://itunes.apple.com/jp/app/tiktok-%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%88%E3%83%83%E3%82%AF/id1235601864?mt=8)
 * [ ] [Snapchat](https://apps.apple.com/jp/app/snapchat/id447188370)
 * [ ] [Pococha](https://apps.apple.com/jp/app/pococha-%E3%83%9D%E3%82%B3%E3%83%81%E3%83%A3-%E3%83%A9%E3%82%A4%E3%83%96%E9%85%8D%E4%BF%A1%E3%82%A2%E3%83%97%E3%83%AA/id1175969205)
+* [ ] [17LIVE](https://apps.apple.com/jp/app/17live-%E3%82%A4%E3%83%81%E3%83%8A%E3%83%8A-%E3%83%A9%E3%82%A4%E3%83%96%E9%85%8D%E4%BF%A1-%E3%82%A2%E3%83%97%E3%83%AA/id988259048)
 
 **🎲ゲーム**
 - - -
