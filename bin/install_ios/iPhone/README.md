@@ -120,7 +120,7 @@
 **🏃Web**
 - - -
 * [x] Safari
-* [ ] [firefox](https://apps.apple.com/jp/app/firefox-%E3%82%A6%E3%82%A7%E3%83%96%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%83%BC/id989804926)
+* [ ] [Firefox](https://apps.apple.com/jp/app/firefox-%E3%82%A6%E3%82%A7%E3%83%96%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%83%BC/id989804926)
 * [ ] [Brave](https://apps.apple.com/jp/app/brave-%E9%AB%98%E9%80%9F%E3%81%A7%E5%AE%89%E5%85%A8%E3%81%AA%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E4%BF%9D%E8%AD%B7%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6-%E6%A4%9C%E7%B4%A2/id1052879175)
 * [ ] [Ecosia](https://apps.apple.com/jp/app/ecosia/id670881887)
 * [ ] [Sleipnir](https://apps.apple.com/jp/app/sleipnir-mobile-black-edition/id461181338)
