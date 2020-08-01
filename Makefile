@@ -54,12 +54,8 @@ archlinux_update_aur:
 archlinux_update_zsh:
 	@sh $(BIN_DIR)/zsh/install.sh update-plugins
 
-archlinux_update_vim:
-	@sh $(BIN_DIR)/vim/install.sh update-plugins
-
 archlinux_upgrade:
 	@sh $(BIN_DIR)/pacman.sh update
 	@make archlinux_update_aur
 	@make archlinux_update_zsh
-	@make archlinux_update_vim
 #################### END ####################
