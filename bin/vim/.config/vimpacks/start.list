@@ -3,7 +3,7 @@
 #   This file is your Vim plugins URL list.
 #
 # FORMAT:
-#   # URL only
+#   # COMMENT
 #   https://github.com/xxx/xxx.git
 # ---------------------------------
 # Create your own list :D

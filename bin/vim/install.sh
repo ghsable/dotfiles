@@ -36,8 +36,8 @@ case ${1} in
     readonly THIS_DIR="${HOME}/bin/vim"
     ln -snfv "${THIS_DIR}/.vimrc"       "${HOME}"
     ln -snfv "${THIS_DIR}/myconfig"     "${HOME}/.vim/myconfig"
-    # my plugins list
-    ln -snfv "${THIS_DIR}/vimpacks.txt" "${THIS_DIR}/vimpacks/vimpacks.txt"
+    # vimpacks(my plugins list)
+    ln -snfv "${THIS_DIR}/.config/vimpacks" "${HOME}/.config/vimpacks"
     ;;
   *)
     usage

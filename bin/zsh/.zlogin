@@ -9,7 +9,7 @@ export BROWSER='firefox'
 # LESS
 export LESS='-M -W -R -XXX -N -J -Q -F -X -K -I -a'
 # my commands
-export PATH=${PATH}:${HOME}/bin
+export PATH=${PATH}:${HOME}/bin:${HOME}/vimpacks
 # a programming language env
 source ~/bin/apl/env.sh
 
