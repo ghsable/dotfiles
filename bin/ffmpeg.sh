@@ -28,8 +28,9 @@ case ${1} in
     ;;
   to-gif)
     readonly RATE_VALUE='15'
-    ffmpeg -i ${2} -vf "palettegen" -y palette.png
-    ffmpeg -i ${2} -an -i palette.png -filter_complex paletteuse -r ${RATE_VALUE} -y ${2%.*}.gif
+    ffmpeg -i ${2} -vf palettegen=max_colors=32 -y palette.png
+    ffmpeg -i ${2} -an -i palette.png -filter_complex 'paletteuse=diff_mode=1:dither=1' -r ${RATE_VALUE} -y ${2%.*}.gif
+    rm -r palette.png
     ;;
   *)
     usage
