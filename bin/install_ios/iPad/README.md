@@ -6,6 +6,7 @@
 * [x] App Store
 * [x] iPhoneを探す
 * [x] 設定
+* [ ] [GoodReader](https://apps.apple.com/jp/app/goodreader-pro-pdf-editor/id1451012117)
 
 **🚨セキュリティ**
 - - -
@@ -33,6 +34,7 @@
 
 **✒️勉強**
 - - -
+* [ ] [Apple Books](https://apps.apple.com/jp/app/apple-books/id364709193)
 * [ ] [Kindle](https://itunes.apple.com/jp/app/kindle/id302584613?mt=8)
 * [ ] [Schoo](https://itunes.apple.com/jp/app/schoo-%E5%8B%95%E7%94%BB%E5%AD%A6%E7%BF%92%E3%82%A2%E3%83%97%E3%83%AA/id903311774?mt=8)
 
