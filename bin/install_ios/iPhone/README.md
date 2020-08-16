@@ -9,11 +9,14 @@
 * [x] iPhoneを探す
 * [x] 設定
 * [x] [ファイル](https://itunes.apple.com/jp/app/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/id1232058109?mt=8)
+* [x] [カレンダー](https://apps.apple.com/jp/app/%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/id1108185179)
+* [x] [Watch](https://apps.apple.com/jp/app/watch/id1069511734)
+* [x] アクティビティ(https://apps.apple.com/jp/app/%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%93%E3%83%86%E3%82%A3/id1208224953)
 * [ ] [GoodReader](https://apps.apple.com/jp/app/goodreader-pro-pdf-editor/id1451012117)
-* [ ] [カレンダー](https://apps.apple.com/jp/app/%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/id1108185179)
 * [ ] [Refills](https://itunes.apple.com/jp/app/refills-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%B8%B3-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%89%8B%E5%B8%B3/id341691394?mt=8)
-* [ ] [Taskuma TaskChute](https://apps.apple.com/jp/app/taskuma-taskchute-for-iphone/id896335635)
 * [ ] [TimeTree](https://apps.apple.com/jp/app/timetree-%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%84%E3%83%AA%E3%83%BC/id952578473)
+* [ ] [Taskuma TaskChute](https://apps.apple.com/jp/app/taskuma-taskchute-for-iphone/id896335635)
+* [ ] [Bear Focus Timer](https://apps.apple.com/jp/app/bft-bear-focus-timer/id1328806990)
 
 **🚨セキュリティ**
 - - -
@@ -56,6 +59,7 @@
 
 **🌋地理**
 - - -
+* [x] [マップ](https://apps.apple.com/jp/app/%E3%83%9E%E3%83%83%E3%83%97/id915056765)
 * [ ] [Google マップ](https://itunes.apple.com/jp/app/google-%E3%83%9E%E3%83%83%E3%83%97/id585027354?mt=8)
 * [ ] [Yahoo!天気](https://itunes.apple.com/jp/app/yahoo-%E5%A4%A9%E6%B0%97/id521974902?mt=8)
 * [ ] [Yahoo!乗換案内](https://apps.apple.com/jp/app/yahoo-%E4%B9%97%E6%8F%9B%E6%A1%88%E5%86%85/id291676451)
@@ -82,7 +86,7 @@
 
 **✒️勉強**
 - - -
-* [ ] [Apple Books](https://apps.apple.com/jp/app/apple-books/id364709193)
+* [x] [Apple Books](https://apps.apple.com/jp/app/apple-books/id364709193)
 * [ ] [Kindle](https://itunes.apple.com/jp/app/kindle/id302584613?mt=8)
 * [ ] [Amazon Audible](https://apps.apple.com/jp/app/amazon%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%83%96%E3%83%AB/id379693831)
 * [ ] [究極英単語](https://itunes.apple.com/jp/app/%E7%A9%B6%E6%A5%B5%E8%8B%B1%E5%8D%98%E8%AA%9E/id556736118?mt=8)
@@ -166,6 +170,7 @@
 **🎲ゲーム**
 - - -
 * [ ] [PlayStation App](https://apps.apple.com/jp/app/playstation-app/id410896080)
+* [ ] [PlayStation Messages](https://apps.apple.com/jp/app/playstation-messages/id1053285387)
 * [ ] [PS4 Remote Play](https://apps.apple.com/jp/app/ps4-remote-play/id1436192460)
 * [ ] [My Nintendo](https://apps.apple.com/jp/app/my-nintendo-%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC/id1495746988)
 * [ ] [Nintendo Switch Online](https://itunes.apple.com/jp/app/nintendo-switch-online/id1234806557?mt=8)
@@ -199,3 +204,4 @@
 * [ ] [ショートカット](https://itunes.apple.com/jp/app/workflow/id915249334?mt=8)
 * [ ] [mineoアプリ](https://apps.apple.com/jp/app/mineo%E3%82%A2%E3%83%97%E3%83%AA/id1333502085)
 * [ ] [hibiku](https://itunes.apple.com/jp/app/hibiku/id673366738?mt=8)
+* [ ] [COCOA](https://apps.apple.com/jp/app/cocoa-%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%8E%A5%E8%A7%A6%E7%A2%BA%E8%AA%8D%E3%82%A2%E3%83%97%E3%83%AA/id1516764458)
