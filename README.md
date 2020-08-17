@@ -71,7 +71,7 @@ Windows :
     * [iOS(iPhone)](https://github.com/ghsable/dotfiles/blob/master/bin/install_ios/iPhone/README.md)
     * [iOS(iPad)](https://github.com/ghsable/dotfiles/blob/master/bin/install_ios/iPad/README.md)
 
-2. Check the settings from the [word](https://github.com/ghsable/dotfiles/blob/master/bin/install_all/checklist.md).
+2. Check the settings from the [words](https://github.com/ghsable/dotfiles/blob/master/bin/install_all/checklist.md).
 
 | <img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_macos/README.gif" width="400"> | <img src="https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/README.gif" width="400"> |
 |:---:|:---:|
