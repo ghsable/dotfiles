@@ -79,10 +79,8 @@ Windows :
 
 ## Thanks
 I referred to the following :
-> **Book**
->> * [The Principles of Programming](http://www.shuwasystem.co.jp/products/7980html/4614.html)
->> 
-> **Web**
->> * [ArchWiki](https://www.archlinux.jp/)
->> * [Shell Style Guide](https://google.github.io/styleguide/shell.xml)
->> 
+> * **Book**
+>   * [The Principles of Programming](http://www.shuwasystem.co.jp/products/7980html/4614.html)
+> * **Web**
+>   * [ArchWiki](https://www.archlinux.jp/)
+>   * [Shell Style Guide](https://google.github.io/styleguide/shell.xml)
