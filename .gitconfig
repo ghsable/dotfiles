@@ -12,3 +12,5 @@
 	ui = 1
 [branch]
 	autosetuprebase = always
+[credential]
+	helper = cache --timeout=3600

@@ -165,33 +165,33 @@ let g:racer_experimental_completer=0
 " --- vim-syntastic/syntastic(https://github.com/vim-syntastic/syntastic)
 "     --- 構文エラーチェック
 " *   構文エラー行に「>>」を表示
-let g:syntastic_enable_signs=1
+"let g:syntastic_enable_signs=1
 " *   各言語のチェッカーを設定
 "     * 言語によって、左サイドのエラー表示(>>)領域が常に表示している/していないがある
 "     例) g:syntastic_<言語名>_checkers=['<Linter名>']
-let g:syntastic_rust_checkers=['cargo']
-let g:syntastic_python_checkers=['flake8']
+"let g:syntastic_rust_checkers=['cargo']
+"let g:syntastic_python_checkers=['flake8']
 " *   ロードするチェッカーを設定(機能を限定する事でロード時間を短縮)
 "     'active':バッファを保存するたびにsyntasticが機能 ,
 "     'passive':":SyntasticCheck"実行時にsyntasticが機能
 "     -> 'active_filetypes'に指定した言語はバッファ保存時に機能、それ以外は":SyntasticCheck"実行時に機能
-let g:syntastic_mode_map={ 'mode': 'passive',
-                         \ 'active_filetypes': ['rust','python'],
-                         \ 'passive_filetypes': []
-                         \ }
+"let g:syntastic_mode_map={ 'mode': 'passive',
+"                         \ 'active_filetypes': ['rust','python'],
+"                         \ 'passive_filetypes': []
+"                         \ }
 " *   他のVimプラグインと競合するのを防ぐ
-let g:syntastic_always_populate_loc_list=1
+"let g:syntastic_always_populate_loc_list=1
 " *   構文エラーリスト(":Errors")の表示設定(0:非表示,1:表示)
-let g:syntastic_auto_loc_list=0
+"let g:syntastic_auto_loc_list=0
 " *   ファイルを開いた時に構文エラーチェックを実行
-let g:syntastic_check_on_open=1
+"let g:syntastic_check_on_open=1
 " *   ":wq"で終了する時に構文エラーチェックを実行しない(":w"でエラーチェックを行う設定にしているため)
-let g:syntastic_check_on_wq=0
+"let g:syntastic_check_on_wq=0
 " *   シンボルの定義(デフォルト:'>>')
-let g:syntastic_error_symbol='✗'
-let g:syntastic_style_error_symbol='✗'
-let g:syntastic_warning_symbol='⚠'
-let g:syntastic_style_warning_symbol='⚠'
+"let g:syntastic_error_symbol='✗'
+"let g:syntastic_style_error_symbol='✗'
+"let g:syntastic_warning_symbol='⚠'
+"let g:syntastic_style_warning_symbol='⚠'
 " --- vim-scripts/taglist.vim(https://github.com/vim-scripts/taglist.vim)
 "     --- ソースコードファイルの構造をリスト表示/タグジャンプ
 " ArchWiki推奨設定(<C-l>で表示/非表示)
@@ -592,7 +592,7 @@ set statusline+=%w
 " これ以降は右寄せ表示
 set statusline+=%=
 " [plugin][syntastic]構文エラーの最終行を表示
-set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%#warningmsg#
 set statusline+=%*
 " [plugin][vim-fugitive]Gitのブランチ名を表示
