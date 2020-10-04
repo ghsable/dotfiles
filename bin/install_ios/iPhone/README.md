@@ -87,6 +87,7 @@
 
 **✒️勉強**
 - - -
+* [x] [翻訳](https://apps.apple.com/jp/app/%E7%BF%BB%E8%A8%B3/id1514844618)
 * [x] [Apple Books](https://apps.apple.com/jp/app/apple-books/id364709193)
 * [ ] [Kindle](https://itunes.apple.com/jp/app/kindle/id302584613?mt=8)
 * [ ] [Amazon Audible](https://apps.apple.com/jp/app/amazon%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA%E3%83%96%E3%83%83%E3%82%AF-%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%83%96%E3%83%AB/id379693831)
