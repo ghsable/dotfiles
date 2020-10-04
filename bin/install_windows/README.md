@@ -79,6 +79,7 @@ Application :
 >> 
 > **APL**
 >> * [ ] [Visual Studio](https://visualstudio.microsoft.com/ja/)
+>> * [ ] [Tera Term](https://forest.watch.impress.co.jp/library/software/utf8teraterm/)
 >> * [ ] [Git for Windows](https://gitforwindows.org/)
 >> * [ ] [Eclipse](http://mergedoc.osdn.jp)
 >>    * [ ] e(fx)clipse
