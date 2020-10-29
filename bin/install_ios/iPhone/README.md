@@ -154,6 +154,7 @@
 
 **📵SNS**
 - - -
+* [ ] [Twitter](https://apps.apple.com/jp/app/twitter-%E3%83%84%E3%82%A4%E3%83%83%E3%82%BF%E3%83%BC/id333903271)
 * [ ] [Tweetbot4](https://itunes.apple.com/jp/app/tweetbot-4-for-twitter/id1018355599?mt=8)
 * [ ] [Buffer](https://itunes.apple.com/jp/app/buffer-manage-social-media/id490474324?mt=8)
 * [ ] [Instagram](https://itunes.apple.com/jp/app/instagram/id389801252?mt=8)
@@ -172,7 +173,6 @@
 **🎲ゲーム**
 - - -
 * [ ] [PlayStation App](https://apps.apple.com/jp/app/playstation-app/id410896080)
-* [ ] [PlayStation Messages](https://apps.apple.com/jp/app/playstation-messages/id1053285387)
 * [ ] [PS4 Remote Play](https://apps.apple.com/jp/app/ps4-remote-play/id1436192460)
 * [ ] [My Nintendo](https://apps.apple.com/jp/app/my-nintendo-%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC/id1495746988)
 * [ ] [Nintendo Switch Online](https://itunes.apple.com/jp/app/nintendo-switch-online/id1234806557?mt=8)
@@ -198,6 +198,7 @@
 * [x] カメラ
 * [x] [計算機](https://itunes.apple.com/jp/app/%E8%A8%88%E7%AE%97%E6%A9%9F/id1069511488?mt=8)
 * [x] [計測](https://itunes.apple.com/jp/app/%E8%A8%88%E6%B8%AC/id1383426740?mt=8)
+* [ ] [iSH Shell](https://apps.apple.com/jp/app/ish-shell/id1436902243)
 * [ ] [Foodie](https://apps.apple.com/jp/app/foodie-%E7%94%9F%E6%B4%BB%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9/id1076859004)
 * [ ] [GoPro](https://apps.apple.com/jp/app/gopro/id561350520)
 * [ ] [Amazon Alexa](https://itunes.apple.com/jp/app/amazon-alexa/id944011620?mt=8)
