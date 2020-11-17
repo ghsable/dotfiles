@@ -146,6 +146,8 @@ libreoffice-still
 #libreoffice-fresh-ja
 #antiword
 unoconv
+# --- Communication
+discord
 
 # ------ JOKE ------
 # --- SL
