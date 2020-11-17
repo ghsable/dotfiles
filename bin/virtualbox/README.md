@@ -11,7 +11,7 @@
     4. load Modules
        sh install.sh modprobe
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/virtualbox/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/virtualbox/install.sh)
 
 ## Tips
 
@@ -23,7 +23,7 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/v
 
     sh virtualbox.sh usage
 
-this script : [virtualbox.sh](https://github.com/ghsable/dotfiles/blob/master/bin/virtualbox/virtualbox.sh)
+this script : [virtualbox.sh](https://github.com/ghsable/dotfiles/blob/main/bin/virtualbox/virtualbox.sh)
 
 ## Downloads
 

@@ -8,4 +8,4 @@
 
     sh install.sh
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/pentablet/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/pentablet/install.sh)

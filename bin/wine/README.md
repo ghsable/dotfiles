@@ -7,7 +7,7 @@
     2. ADD Users(wineuser)
        sh install.sh useradd
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/wine/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/wine/install.sh)
 
 ## Setting
 
@@ -17,4 +17,4 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/w
 
     sh wine.sh usage
 
-this script : [wine.sh](https://github.com/ghsable/dotfiles/blob/master/bin/wine/wine.sh)
+this script : [wine.sh](https://github.com/ghsable/dotfiles/blob/main/bin/wine/wine.sh)

@@ -28,4 +28,4 @@
 
     sh install.sh update-plugins
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/zsh/install.sh)

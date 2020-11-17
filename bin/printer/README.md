@@ -23,7 +23,7 @@ maker:
           Administration/Add Printer
           PPD : ~/path/to/file
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/printer/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/printer/install.sh)
 
 ## Example(Set Printer Options)
 
@@ -42,7 +42,7 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/p
     # SET default_printer
     lpoptions -d EPSON_XX-XXX
 
-this script : [printer.sh](https://github.com/ghsable/dotfiles/blob/master/bin/printer/printer.sh)
+this script : [printer.sh](https://github.com/ghsable/dotfiles/blob/main/bin/printer/printer.sh)
 
 ## EOF
 

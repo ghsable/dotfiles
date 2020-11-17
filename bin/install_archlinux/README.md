@@ -50,12 +50,12 @@ lsblk -f && cat /mnt/etc/fstab
 # インストール先USBに入る
 arch-chroot /mnt
 # 初期設定(GitHubより自動セットアップ)
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/liveusb/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/main/bin/install_archlinux/liveusb/install.sh)"
 # BootLoaderの設定(BootableUSB,MacBookの場合)
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/liveusb/grub-install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/main/bin/install_archlinux/liveusb/grub-install.sh)"
 # BootLoaderの設定(WindowsPCの場合)
 # 次回起動までにWindows環境上で、高速スタートアップ:無効、セキュアブート:無効 に設定しておく事を推奨
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install_archlinux/liveusb/refind-install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/main/bin/install_archlinux/liveusb/refind-install.sh)"
 # 終了処理
 exit            # chrootを抜ける
 umount -R /mnt  # アンマウント
@@ -69,36 +69,36 @@ exit
 nmtui
 ping archlinux.jp
 # GitHubより自動セットアップ(install.sh)
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/master/bin/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ghsable/dotfiles/main/bin/install.sh)"
 reboot
 ```
 
 ## Modules
 * **Hardware**
-  * [Sound](https://github.com/ghsable/dotfiles/blob/master/bin/sound/README.md)
-  * [Bluetooth](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/README.md)
-  * [Pentablet](https://github.com/ghsable/dotfiles/blob/master/bin/pentablet/README.md)
-  * [Disk](https://github.com/ghsable/dotfiles/blob/master/bin/disk/README.md)
-  * [Printer](https://github.com/ghsable/dotfiles/blob/master/bin/printer/README.md)
-  * [ErgoDox-EZ](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/README.md)
-  * [Smart Card](https://github.com/ghsable/dotfiles/blob/master/bin/smartcard/README.md)
-  * [Finger print](https://github.com/ghsable/dotfiles/blob/master/bin/fingerprint/README.md)
-  * [Television](https://github.com/ghsable/dotfiles/blob/master/bin/television/README.md)
+  * [Sound](https://github.com/ghsable/dotfiles/blob/main/bin/sound/README.md)
+  * [Bluetooth](https://github.com/ghsable/dotfiles/blob/main/bin/bluetooth/README.md)
+  * [Pentablet](https://github.com/ghsable/dotfiles/blob/main/bin/pentablet/README.md)
+  * [Disk](https://github.com/ghsable/dotfiles/blob/main/bin/disk/README.md)
+  * [Printer](https://github.com/ghsable/dotfiles/blob/main/bin/printer/README.md)
+  * [ErgoDox-EZ](https://github.com/ghsable/dotfiles/blob/main/bin/ergodox-ez/README.md)
+  * [Smart Card](https://github.com/ghsable/dotfiles/blob/main/bin/smartcard/README.md)
+  * [Finger print](https://github.com/ghsable/dotfiles/blob/main/bin/fingerprint/README.md)
+  * [Television](https://github.com/ghsable/dotfiles/blob/main/bin/television/README.md)
 * **General**
-  * [ZSH](https://github.com/ghsable/dotfiles/blob/master/bin/zsh/README.md)
-  * [Vim](https://github.com/ghsable/dotfiles/blob/master/bin/vim/README.md)
-  * [IME](https://github.com/ghsable/dotfiles/blob/master/bin/ime/README.md)
-  * [Filer](https://github.com/ghsable/dotfiles/blob/master/bin/filer/README.md)
-  * [Firefox](https://github.com/ghsable/dotfiles/blob/master/bin/firefox/README.md)
-  * [E-mail](https://github.com/ghsable/dotfiles/blob/master/bin/email/README.md)
-  * [VirtualBox](https://github.com/ghsable/dotfiles/blob/master/bin/virtualbox/README.md)
-  * [Wine](https://github.com/ghsable/dotfiles/blob/master/bin/wine/README.md)
+  * [ZSH](https://github.com/ghsable/dotfiles/blob/main/bin/zsh/README.md)
+  * [Vim](https://github.com/ghsable/dotfiles/blob/main/bin/vim/README.md)
+  * [IME](https://github.com/ghsable/dotfiles/blob/main/bin/ime/README.md)
+  * [Filer](https://github.com/ghsable/dotfiles/blob/main/bin/filer/README.md)
+  * [Firefox](https://github.com/ghsable/dotfiles/blob/main/bin/firefox/README.md)
+  * [E-mail](https://github.com/ghsable/dotfiles/blob/main/bin/email/README.md)
+  * [VirtualBox](https://github.com/ghsable/dotfiles/blob/main/bin/virtualbox/README.md)
+  * [Wine](https://github.com/ghsable/dotfiles/blob/main/bin/wine/README.md)
 * **APL**
-  * [LLVM](https://github.com/ghsable/dotfiles/blob/master/bin/apl/llvm/README.md)
-  * [Tex](https://github.com/ghsable/dotfiles/blob/master/bin/apl/tex/README.md)
-  * [Rust](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/README.md)
-  * [Go](https://github.com/ghsable/dotfiles/blob/master/bin/apl/go/README.md)
-  * [Python](https://github.com/ghsable/dotfiles/blob/master/bin/apl/python/README.md)
-  * [Java](https://github.com/ghsable/dotfiles/blob/master/bin/apl/java/README.md)
-  * [Mono](https://github.com/ghsable/dotfiles/blob/master/bin/apl/mono/README.md)
-  * [Ruby](https://github.com/ghsable/dotfiles/blob/master/bin/apl/ruby/README.md)
+  * [LLVM](https://github.com/ghsable/dotfiles/blob/main/bin/apl/llvm/README.md)
+  * [Tex](https://github.com/ghsable/dotfiles/blob/main/bin/apl/tex/README.md)
+  * [Rust](https://github.com/ghsable/dotfiles/blob/main/bin/apl/rust/README.md)
+  * [Go](https://github.com/ghsable/dotfiles/blob/main/bin/apl/go/README.md)
+  * [Python](https://github.com/ghsable/dotfiles/blob/main/bin/apl/python/README.md)
+  * [Java](https://github.com/ghsable/dotfiles/blob/main/bin/apl/java/README.md)
+  * [Mono](https://github.com/ghsable/dotfiles/blob/main/bin/apl/mono/README.md)
+  * [Ruby](https://github.com/ghsable/dotfiles/blob/main/bin/apl/ruby/README.md)

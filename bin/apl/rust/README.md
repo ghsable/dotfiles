@@ -20,4 +20,4 @@
     # cargo
     sh install.sh cargo-install
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/apl/rust/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/apl/rust/install.sh)

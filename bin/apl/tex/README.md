@@ -7,11 +7,11 @@
     2. DEPLOY Directory/File
        sh install.sh deploy
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/apl/tex/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/apl/tex/install.sh)
 
 ## Usage
 
     # LaTeX
     sh latex.sh usage
 
-this script : [latex.sh](https://github.com/ghsable/dotfiles/blob/master/bin/apl/tex/latex.sh)
+this script : [latex.sh](https://github.com/ghsable/dotfiles/blob/main/bin/apl/tex/latex.sh)

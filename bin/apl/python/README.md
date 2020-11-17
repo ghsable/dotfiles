@@ -7,7 +7,7 @@
     2. INSTALL Components
        sh install.sh install-components
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/apl/python/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/apl/python/install.sh)
 
 ## Update Components
 

@@ -16,17 +16,17 @@
        -> File > Open HEX File > /path/to/ergodox_ez_my-keymap.hex
        -> Push "AUTO"  button on teensy
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/ergodox-ez/install.sh)
 
 ## Usage
 
     sh ergodox-ez.sh usage
 
-this script : [ergodox-ez.sh](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/ergodox-ez.sh)
+this script : [ergodox-ez.sh](https://github.com/ghsable/dotfiles/blob/main/bin/ergodox-ez/ergodox-ez.sh)
 
 ## Example
 
-[my-keymap](https://github.com/ghsable/dotfiles/blob/master/bin/ergodox-ez/my-keymap/README.md)
+[my-keymap](https://github.com/ghsable/dotfiles/blob/main/bin/ergodox-ez/my-keymap/README.md)
 
 ## Keyboard Layout Editor
 

@@ -4,7 +4,7 @@
 
     sh install.sh
 
-this script : [install.sh](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/install.sh)
+this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/bluetooth/install.sh)
 
 ## Usage
 bluetoothctl:
@@ -39,4 +39,4 @@ blueberry:
     # PAIRING & CONNECT bluetooth-devices
     # Good Job! :D
 
-this script : [bluetooth.sh](https://github.com/ghsable/dotfiles/blob/master/bin/bluetooth/bluetooth.sh)
+this script : [bluetooth.sh](https://github.com/ghsable/dotfiles/blob/main/bin/bluetooth/bluetooth.sh)
