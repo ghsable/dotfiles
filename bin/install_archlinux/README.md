@@ -87,6 +87,7 @@ reboot
 * **General**
   * [ZSH](https://github.com/ghsable/dotfiles/blob/main/bin/zsh/README.md)
   * [Vim](https://github.com/ghsable/dotfiles/blob/main/bin/vim/README.md)
+  * [Emacs](https://github.com/ghsable/dotfiles/blob/main/bin/emacs/README.md)
   * [IME](https://github.com/ghsable/dotfiles/blob/main/bin/ime/README.md)
   * [Filer](https://github.com/ghsable/dotfiles/blob/main/bin/filer/README.md)
   * [Firefox](https://github.com/ghsable/dotfiles/blob/main/bin/firefox/README.md)
@@ -95,6 +96,7 @@ reboot
   * [Wine](https://github.com/ghsable/dotfiles/blob/main/bin/wine/README.md)
 * **APL**
   * [LLVM](https://github.com/ghsable/dotfiles/blob/main/bin/apl/llvm/README.md)
+  * [Lisp](https://github.com/ghsable/dotfiles/blob/main/bin/apl/lisp/README.md)
   * [Tex](https://github.com/ghsable/dotfiles/blob/main/bin/apl/tex/README.md)
   * [Rust](https://github.com/ghsable/dotfiles/blob/main/bin/apl/rust/README.md)
   * [Go](https://github.com/ghsable/dotfiles/blob/main/bin/apl/go/README.md)
