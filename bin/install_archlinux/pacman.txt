@@ -123,7 +123,6 @@ chromium
 # ------ OTHER TOOL ------
 # --- Editor
 leafpad
-emacs
 # --- Display AC
 upower
 # --- Screenshot
