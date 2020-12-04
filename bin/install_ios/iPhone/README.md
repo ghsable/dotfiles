@@ -79,6 +79,8 @@
 - - -
 * [ ] [IndieSquare Wallet](https://itunes.apple.com/jp/app/indiesquare-wallet/id977972108?mt=8)
 * [ ] [Casa Tookan](https://apps.apple.com/jp/app/casa-tookan/id1435616326)
+* [ ] [bitbank](https://apps.apple.com/jp/app/%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3-%E3%83%AA%E3%83%83%E3%83%97%E3%83%AB-%E5%8F%96%E5%BC%95%E3%82%A2%E3%83%97%E3%83%AA-bitbank/id1352242602)
+* [ ] [Coincheck](https://apps.apple.com/jp/app/%E3%82%B3%E3%82%A4%E3%83%B3%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF-%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3-btc-%E3%83%AA%E3%83%83%E3%83%97%E3%83%AB-%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88/id957130004)
 
 **🇯🇵行政向け作業**
 - - -
