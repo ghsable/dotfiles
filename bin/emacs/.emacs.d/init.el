@@ -13,12 +13,18 @@
 ;; package-install
 (defvar my/favorite-packages
   '(
+    ;;;; vim
+    evil
     ;;;; common lisp
     slime
     ))
 (dolist (package my/favorite-packages)
   (unless (package-installed-p package)
     (package-install package)))
+
+;; evil.el
+(require 'evil)
+(evil-mode 1)
 
 ;; common lisp on Steel Bank Common Lisp
 (setq inferior-lisp-program "sbcl")
