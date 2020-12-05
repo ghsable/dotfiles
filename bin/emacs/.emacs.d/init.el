@@ -1,5 +1,17 @@
 ;;; init.el
 
+;; startup-message
+(setq inhibit-startup-message t)
+(setq initial-scratch-message nil)
+;; font
+(add-to-list 'default-frame-alist '(font . "DejaVu Sans Mono-18"))
+;; appearance
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(global-linum-mode t)
+(electric-pair-mode 1)
+(show-paren-mode 1)
+
 ;; package.el
 (require 'package)
 ;; override package-archives
@@ -13,14 +25,16 @@
 ;; package-install
 (defvar my/favorite-packages
   '(
-    ;;;; vim
+    monokai-theme
     evil
-    ;;;; common lisp
     slime
     ))
 (dolist (package my/favorite-packages)
   (unless (package-installed-p package)
     (package-install package)))
+
+;; appearance
+(load-theme 'monokai t)
 
 ;; evil.el
 (require 'evil)
