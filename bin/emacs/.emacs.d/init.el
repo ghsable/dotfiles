@@ -12,3 +12,4 @@
 (require 'slime)
 (slime-setup '(slime-repl slime-fancy slime-banner))
 
+;;; init.el ends here
