@@ -1,10 +1,5 @@
 ;;; init.el
 
-;; load-path
-;;(let ((default-directory (locate-user-emacs-file "./xxx")))
-;;  (add-to-list 'load-path default-directory)
-;;  (normal-top-level-add-subdirs-to-load-path))
-
 ;; package.el
 (require 'package)
 ;; override package-archives
