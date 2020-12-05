@@ -29,9 +29,6 @@ case ${1} in
     sudo pacman -Syu
     sudo pacman -S emacs
     sudo pacman -Sc
-
-    # slime/slime(https://github.com/slime/slime)
-    git clone https://github.com/slime/slime.git ./.emacs.d/repos/slime
     ;;
   deploy)
     readonly THIS_DIR="${HOME}/bin/emacs"
