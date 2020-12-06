@@ -1,6 +1,6 @@
 ;;; init.el
 
-;; startup-message
+;; startup
 (setq inhibit-startup-message t)
 (setq initial-scratch-message nil)
 ;; font
@@ -14,6 +14,9 @@
 ;; directory/file
 (setq default-directory "~/")
 (setq custom-file (locate-user-emacs-file "custom.elc"))
+;; scroll
+(setq scroll-conservatively 1)
+(setq scroll-margin 10)
 
 ;; package.el
 (require 'package)
@@ -28,7 +31,8 @@
 ;; package-install
 (defvar my/favorite-packages
   '(
-    monokai-theme neotree
+    monokai-theme
+    neotree
     evil
     slime
     ))
@@ -52,4 +56,4 @@
 (require 'slime)
 (slime-setup '(slime-repl slime-fancy slime-banner))
 
-;;; init.el ends here
+;; init.el ends here
