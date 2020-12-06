@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### RUST ###
+## RUST ###
 # --- ${PATH}
 # $(curl https://sh.rustup.rs -sSf | sh -s -- --no-modify-path) -> ~/.cargo/bin/*
 export PATH=${PATH}:${HOME}/.cargo/bin
