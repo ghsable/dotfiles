@@ -374,6 +374,8 @@ syntax on
 " --- カーソル位置強調(行列)
 " 行番号を表示(number:絶対番号/relativenumber:相対番号)
 set number
+" 行番号ON/OFF(:set invnumberと同義)
+nnoremap <Leader>n :set number!<CR>
 " 横方向を強調表示/アンダーライン設定/行番号強調設定/カーソル削除
 " -> 行番号のみ強調表示
 set cursorline
