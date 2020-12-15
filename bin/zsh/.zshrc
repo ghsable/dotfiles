@@ -21,6 +21,9 @@ alias incbrightness='sh ~/bin/brightness_acpi.sh +'
 alias decbrightness='sh ~/bin/brightness_acpi.sh -'
 
 # ------ PACMAN ------
+# fzf
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
 # ranger/ranger(https://github.com/ranger/ranger)
 ranger() { [ -n "$RANGER_LEVEL" ] && exit || LESS="$LESS -+F -+X" command ranger "$@"; }
 [ -n "$RANGER_LEVEL" ] && PS1="(RANGER) $PS1"
@@ -28,8 +31,11 @@ ranger() { [ -n "$RANGER_LEVEL" ] && exit || LESS="$LESS -+F -+X" command ranger
 eval $(thefuck --alias)
 
 # ------ PLUGINS ------
-# zsh-users/zsh-syntax-highlighting(https://github.com/zsh-users/zsh-syntax-highlighting)
-source ${HOME}/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# zdharma/fast-syntax-highlighting(https://github.com/zdharma/fast-syntax-highlighting)
+source ${HOME}/.zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+# zsh-users/zsh-autosuggestions(https://github.com/zsh-users/zsh-autosuggestions)
+source ${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+bindkey '^ ' autosuggest-accept
 
 # ------ PROMPT ------
 # No.1
