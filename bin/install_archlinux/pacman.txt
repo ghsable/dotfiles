@@ -42,6 +42,10 @@ teensy-loader-cli
 # GitHub on the command line.
 # https://github.com/cli/cli
 github-cli
+# general-purpose command-line fuzzy finder.
+# https://github.com/junegunn/fzf
+fzf
+tree
 # Magnificent app which corrects your previous console command.
 # https://github.com/nvbn/thefuck
 thefuck
