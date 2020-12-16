@@ -8,7 +8,7 @@
 ;; appearance
 (tool-bar-mode -1)
 (menu-bar-mode -1)
-(global-linum-mode t)
+(global-display-line-numbers-mode)
 (electric-pair-mode 1)
 (show-paren-mode 1)
 ;; directory/file
