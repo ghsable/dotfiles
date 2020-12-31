@@ -4,8 +4,9 @@ export LANG='en_US.UTF-8'
 setfont latarcyrheb-sun32
 # EDITOR
 export EDITOR='vim'
-# BROWSER
+# BROWSER / on touchpad
 export BROWSER='firefox'
+export MOZ_USE_XINPUT2=1
 # LESS
 export LESS='-M -W -R -XXX -N -J -Q -F -X -K -I -a'
 # my commands
