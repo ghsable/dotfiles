@@ -400,7 +400,7 @@ set list
 " Listモード(訳注:オプション'list'がONの時)に使われる文字を設定
 " tab:タブ , extends:折り返した行の行末 , trail:行末のスペース , eol:行末の改行文字 ,
 " precedes:折り返してきた行の行頭 , nbsp:ノンブレーカブル・スペース
-set listchars=tab:>-,extends:<,trail:-,eol:\ 
+set listchars=tab:>-,extends:<,trail:-
 "set listchars=tab:>-,extends:<,trail:-,eol:<
 "set listchars=tab:▸\ ,extends:❯,trail:«,precedes:❮,eol:↲
 " --- 文字入力/表示の折り返し
