@@ -268,6 +268,7 @@
 
 **🍀その他(補助)**
 - - -
+* [ ] [ATOK](https://apps.apple.com/jp/app/atok-%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89/id893918621)
 * [ ] [SoundHound](https://apps.apple.com/jp/app/soundhound-%E9%9F%B3%E6%A5%BD%E6%A4%9C%E7%B4%A2%E8%AA%8D%E8%AD%98-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC/id284972998)
 * [ ] [SySight](https://itunes.apple.com/jp/app/sysight/id568731681?mt=8)
 * [ ] [hibiku](https://itunes.apple.com/jp/app/hibiku/id673366738?mt=8)
