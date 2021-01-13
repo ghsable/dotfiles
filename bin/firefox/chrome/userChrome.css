@@ -1,3 +1,9 @@
+/* Move Find Bar above the page */
+/* https://support.mozilla.org/en-US/questions/1197650 */
+.browserContainer > findbar {
+  -moz-box-ordinal-group: 0;
+}
+
 /* --- piroor/treestyletab - Code snippets for custom style rules --- */
 /* https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules */
 
