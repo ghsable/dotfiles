@@ -1,5 +1,7 @@
-/* Move Find Bar above the page */
+/* --- Is there a way to put the Find Bar at top --- */
 /* https://support.mozilla.org/en-US/questions/1197650 */
+
+/* Move Find Bar above the page */
 .browserContainer > findbar {
   -moz-box-ordinal-group: 0;
 }
