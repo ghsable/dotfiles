@@ -22,10 +22,11 @@
 macOS :
 
     # MacBook Air(13-inch, Mid 2012)
-    Processor     : Intel Core i7-3667U 
+    Processor     : Intel Core i7-3667U
     Memory        : 4GB*2(1600MHz DDR3L)
     Graphics      : Intel HD Graphics 4000
     Storage(SATA) : APPLE SSD SM256E
+    MacBook stand : Twelve South ParcSlope - TWS-ST-000033
 
 Windows,ArchLinux :
 
@@ -46,6 +47,7 @@ Windows,ArchLinux :
     Digitizer Pen       : 04W1477
     Express Card        : AYWS USB3.0 ExpressCard 54mm
     Sticker             : IBM ThinkPad
+    Docking Station     : X220 Ultrabase Docking Station - 0A33932
 
 Windows :
 
@@ -62,6 +64,46 @@ Windows :
     Storage2(M.2_SSD Type 2280) : SSDPEKKW512G8XT
     Power Supply                : Antec HCG1000 EXTREME
     PC Case                     : Projet-M PM-TESTBOARD
+
+Peripheral tools :
+
+    Keyboard         : NMB RT6652TWJP(PART NO.: CMI-6D4Y6 B)
+    Keyboard         : REALFORCE R2 PFU Limited Edition - PZ-R2TLSA-US4-IV
+    Keyboard         : HHKB Professional Type-S - PD-KB420WS
+    Keyboard         : HHKB Lite 2 - PD-KB200B/U
+    Keyboard         : ErgoDox EZ CIY
+    Keyboard         : Majestouch - FKB108M/JB * Thermaltake METALCAPS - EA-MTC-AKCSIL-37
+    Keyboard         : Apple Keyboard - MB110J/B A1243
+    Keyboard         : nintendo bluetooth keyboard
+    Mouse            : Kensington SlimBlade Trackball - K72327JP
+    Mouse            : ELECOM DEFT PRO - M-DPT1MR
+    Mouse            : ELECOM ULTIMATE Blue Mouse - M-DWL01DBBK * Airpad Sole
+    Mouse            : ELECOM DUX MMO Gaming mouse - M-DUX50BK
+    Mouse            : Apple Magic Trackpad 2 - MJ2R2 A1535
+    Mousepad         : SANWA SUPPLY MPD-MU1NWR
+    Mousepad         : POWER SUPPORT Airpad Pro III
+    Mousepad         : ELECOM COMFY - MP-095BK
+    Wrist rest       : FILCO Majestouch Wrist rest - MWR/17M-FO
+    Wrist rest       : HyperX Wrist Rest - HX-WR
+    Wrist rest       : ELECOM FITTIO - MOH-FTRBK
+    Mixing console   : YAMAHA AG03
+    Electronic Piano : YAMAHA PSS-A50
+    Microphone       : RØDE NT2-A
+    Speaker          : Beats Beatbox Portable - BT SP BBP BLK
+    Earphone         : Beats Studio 2 - B0501
+    Webcam           : logicool BRIO - C1000eR
+    Pentablet        : Wacom Intuos Pro small - PTH-451/K2
+    Printer          : EPSON PX-S05B
+    Monitor          : EIZO FlexScan - EV3285-BK * SONY Premium HDMI Cable - DLC-HX20
+    Monitor          : IODATA Touch Display - LCD-MF224FDB-T
+    Monitor mount    : Ergotron LX Desk Mount LCD Arm - 45-295-026
+    Monitor mount    : Ergotron LX Desk Mount LCD Arm - 45-248-026
+    Desk             : Easy Writing Board - 131MB001
+    Desk lamp        : Panasonic LED Desk stand - SQ-LD521-S
+    Chair            : OKAMURA Shift - L434NA-F015
+    Footrest         : Kensington SoleMate - K56144JP
+    Floor mat        : Ergotron WorkFit - 97-620-060
+    Hand spinner     : MixMart W3
 
 ## Installation
 1. Follow the steps below.
