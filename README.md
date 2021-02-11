@@ -26,7 +26,7 @@ macOS :
     Memory        : 4GB*2(1600MHz DDR3L)
     Graphics      : Intel HD Graphics 4000
     Storage(SATA) : APPLE SSD SM256E
-    MacBook stand : Twelve South ParcSlope - TWS-ST-000033
+    MacBook Stand : Twelve South ParcSlope - TWS-ST-000033
 
 Windows,ArchLinux :
 
@@ -83,10 +83,10 @@ Peripheral tools :
     Mousepad         : SANWA SUPPLY MPD-MU1NWR
     Mousepad         : POWER SUPPORT Airpad Pro III
     Mousepad         : ELECOM COMFY - MP-095BK
-    Wrist rest       : FILCO Majestouch Wrist rest - MWR/17M-FO
-    Wrist rest       : HyperX Wrist Rest - HX-WR
-    Wrist rest       : ELECOM FITTIO - MOH-FTRBK
-    Mixing console   : YAMAHA AG03
+    Wrist Rest       : FILCO Majestouch Wrist rest - MWR/17M-FO
+    Wrist Rest       : HyperX Wrist Rest - HX-WR
+    Wrist Rest       : ELECOM FITTIO - MOH-FTRBK
+    Mixing Console   : YAMAHA AG03
     Electronic Piano : YAMAHA PSS-A50
     Microphone       : RØDE NT2-A
     Speaker          : Beats Beatbox Portable - BT SP BBP BLK
@@ -96,14 +96,14 @@ Peripheral tools :
     Printer          : EPSON PX-S05B
     Monitor          : EIZO FlexScan - EV3285-BK * SONY Premium HDMI Cable - DLC-HX20
     Monitor          : IODATA Touch Display - LCD-MF224FDB-T
-    Monitor mount    : Ergotron LX Desk Mount LCD Arm - 45-295-026
-    Monitor mount    : Ergotron LX Desk Mount LCD Arm - 45-248-026
+    Monitor Mount    : Ergotron LX Desk Mount LCD Arm - 45-295-026
+    Monitor Mount    : Ergotron LX Desk Mount LCD Arm - 45-248-026
     Desk             : Easy Writing Board - 131MB001
-    Desk lamp        : Panasonic LED Desk stand - SQ-LD521-S
+    Desk Lamp        : Panasonic LED Desk Stand - SQ-LD521-S
     Chair            : OKAMURA Shift - L434NA-F015
     Footrest         : Kensington SoleMate - K56144JP
-    Floor mat        : Ergotron WorkFit - 97-620-060
-    Hand spinner     : MixMart W3
+    Floor Mat        : Ergotron WorkFit - 97-620-060
+    Hand Spinner     : MixMart W3
 
 ## Installation
 1. Follow the steps below.
