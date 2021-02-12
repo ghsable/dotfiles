@@ -63,7 +63,7 @@ Windows :
     Storage1(M.2_SSD Type 2280) : GP-ASM2NE6100TTTD
     Storage2(M.2_SSD Type 2280) : SSDPEKKW512G8XT
     Power Supply                : Antec HCG1000 EXTREME
-    PC Case                     : Projet-M PM-TESTBOARD
+    PC Case                     : Projet-M PM-TESTBOARD * KINGJIM WD400L
 
 Peripheral tools :
 
