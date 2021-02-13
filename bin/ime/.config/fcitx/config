@@ -1,6 +1,6 @@
 [Hotkey]
 # 入力メソッドのオンオフ
-TriggerKey=HANGULHANJA HANGUL
+TriggerKey=ALT_A ALT_F
 # アクティブでない時だけその他のトリガーキーを使用する
 # Available Value:
 # True False
@@ -34,7 +34,6 @@ SwitchKey=ALT_R_SHIFT
 #ActivateKey=
 # 入力メソッドをオフに
 InactivateKey=CTRL_[
-#InactivateKey=CTRL_[ ESCAPE
 # 入力メソッドの切換をホットキーで
 # Available Value:
 # True False

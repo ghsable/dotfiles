@@ -6,9 +6,10 @@ Description:
   SET Xmodmap
 
 Usage:
-  sh ${0} make : CREATE "~/.Xmodmap"
-  sh ${0} load : LOAD   "~/.Xmodmap"
-  sh ${0} *    : USAGE
+  sh ${0} make_jp : CREATE [jp] "~/.Xmodmap"
+  sh ${0} make_us : CREATE [us] "~/.Xmodmap"
+  sh ${0} load    : LOAD   "~/.Xmodmap"
+  sh ${0} *       : USAGE
 
 EOF:
   cat ~/.Xmodmap
@@ -17,7 +18,7 @@ _EOT_
 exit 1
 }
 
-function add_config() {
+function add_config_jp() {
 cat<< _EOT_
 !!!!!!!!!!!!!!!!!!!! THIS CONFIG !!!!!!!!!!!!!!!!!!!!
 !!! HHKB PRO-JP
@@ -51,10 +52,42 @@ _EOT_
 return 0
 }
 
+function add_config_us() {
+cat<< _EOT_
+!!!!!!!!!!!!!!!!!!!! THIS CONFIG !!!!!!!!!!!!!!!!!!!!
+!!! Realforce
+remove Lock = Caps_Lock
+keysym Caps_Lock = Control_L
+
+!!! Xmonad
+!clear Shift
+!clear Lock
+clear Control
+!clear Mod1
+!clear Mod2
+!clear Mod3
+clear Mod4
+!clear Mod5
+!add Shift = Shift_L Shift_R
+!add Lock = Num_Lock
+add Control = Super_L Super_R
+!add Mod1 = Alt_L Alt_R
+!add Mod2 = Mode_switch
+!add Mod3 =
+add Mod4 = Control_L
+!add Mod5 =
+_EOT_
+return 0
+}
+
 case ${1} in
-  make)
+  make_jp)
     xmodmap -pke >~/.Xmodmap
-    add_config >>~/.Xmodmap
+    add_config_jp >>~/.Xmodmap
+    ;;
+  make_us)
+    xmodmap -pke >~/.Xmodmap
+    add_config_us >>~/.Xmodmap
     ;;
   load)
     xmodmap ~/.Xmodmap

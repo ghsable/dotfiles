@@ -11,10 +11,11 @@ Flow:
   3. sh ${0} load
 
 Usage:
-  sh ${0} make : CREATE "~/.xkbmap"
-  sh ${0} load : LOAD   "~/.xkbmap"
-  sh ${0} map  : MAPPING keyboad Layout
-  sh ${0} *    : USAGE
+  sh ${0} make    : CREATE "~/.xkbmap"
+  sh ${0} load    : LOAD   "~/.xkbmap"
+  sh ${0} map_jp  : MAPPING [jp] keyboad Layout
+  sh ${0} map_us  : MAPPING [us] keyboad Layout
+  sh ${0} *       : USAGE
 
 EOF:
   setxkbmap -print -verbose 10
@@ -30,8 +31,11 @@ case ${1} in
   load)
     xkbcomp -w 0 ~/.xkbmap ${DISPLAY}
     ;;
-  map)
+  map_jp)
     setxkbmap -layout jp
+    ;;
+  map_us)
+    setxkbmap -layout us
     ;;
   *)
     usage
