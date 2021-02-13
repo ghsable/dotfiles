@@ -57,6 +57,7 @@ Application :
 >> * [ ] [ELECOM M-DPT1MRBK,M-DWL01DBBK](https://www.elecom.co.jp/support/download/peripheral/mouse/assistant/)
 >> * [ ] [ELECOM M-DUX50BK](https://www.elecom.co.jp/support/download/peripheral/mouse/m-dux_30_50/)
 >> * [ ] [YAMAHA AG03](https://jp.yamaha.com/products/music_production/webcasting_mixer/ag03/downloads.html)
+>> * [ ] [logicool BRIO](https://prosupport.logi.com/hc/ja/articles/360039591834-Downloads-BRIO)
 >> * [ ] [Elgato](https://www.elgato.com/ja/gaming/downloads)
 >> * [ ] [IODATA GV-USB3/HD](https://www.iodata.jp/lib/product/g/5754.htm)
 >> 
