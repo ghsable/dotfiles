@@ -101,6 +101,7 @@ Peripheral tools :
     Desk             : Easy Writing Board - 131MB001
     Desk Lamp        : Panasonic LED Desk Stand - SQ-LD521-S
     Chair            : OKAMURA Shift - L434NA-F015
+    Chair            : MTG Body Make Seat Style - E1009BS-N
     Footrest         : Kensington SoleMate - K56144JP
     Floor Mat        : Ergotron WorkFit - 97-620-060
     Hand Spinner     : MixMart W3
