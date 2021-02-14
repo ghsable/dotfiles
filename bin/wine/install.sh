@@ -22,13 +22,15 @@ case ${1} in
     echo '# wine_gecko,wine-mono              : support Internet Explorer and .NET'
     echo '# lib32-alsa-lib,lib32-alsa-plugins : ALSA driver'
     echo '# lib32-libpulse                    : PulseAudio driver'
+    echo '# firejail                          : SUID sandbox'
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu
     sudo pacman -S wine \
                    wine_gecko wine-mono \
                    lib32-alsa-lib lib32-alsa-plugins \
-                   lib32-libpulse
+                   lib32-libpulse \
+                   firejail
     sudo pacman -Sc
     ;;
   useradd)
