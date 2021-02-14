@@ -27,7 +27,8 @@ xbindkeys &
 picom -CGb -D 0
 
 # --- Xset
-sh ~/bin/xset.sh on 120
+#sh ~/bin/xset.sh off
+sh ~/bin/xset.sh on 600
 
 # --- XRandR
 # --- Xinput(usbtouchscreen)

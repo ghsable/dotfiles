@@ -38,7 +38,7 @@ readonly DISPLAY2_NAME=`xrandr --query | grep -e " connected" | cut -d " " -f 1-
 readonly DISPLAY1_SIZE="1366x768"
 #readonly DISPLAY1_SIZE="1440x900"
 readonly DISPLAY2_SIZE="1920x1080"
-readonly DISPLAY2_MIRRORING_SIZE=""
+readonly DISPLAY2_MIRRORING_SIZE="1366x768"
 #readonly DISPLAY2_MIRRORING_SIZE="1920x1080"
 #readonly DISPLAY2_MIRRORING_SIZE="2560x1440"
 
