@@ -38,14 +38,8 @@ case ${1} in
     mkdir -pv ~/.config/fcitx
     # --- ln
     readonly THIS_DIR="${HOME}/bin/ime/fcitx5_mozc"
-    # ------ FILE PATH ------
-    # Input Method Framework(fcitx5)
-    ln -snfv "${THIS_DIR}/fcitx5" "${HOME}/.config"
     # ------ DIRECTORY PATH ------
-    # Input Method Framework(fcitx5)
-    #ln -snfv "${THIS_DIR}/.config/fcitx/conf" "${HOME}/.config/fcitx"
-    #ln -snfv "${THIS_DIR}/.config/fcitx/data" "${HOME}/.config/fcitx"
-    #ln -snfv "${THIS_DIR}/.config/fcitx/skin" "${HOME}/.config/fcitx"
+    ln -snfv "${THIS_DIR}/fcitx5" "${HOME}/.config"
     ;;
   *)
     usage
