@@ -14,9 +14,6 @@ Usage:
 
 EOF:
   cd ~/.config/fcitx
-  # ------ NOT USING ------
-  cd ~/.uim.d
-  cd ~/.anthy
 
 _EOT_
 exit 1
@@ -35,24 +32,12 @@ case ${1} in
     sudo pacman -S fcitx-im fcitx-configtool \
                    fcitx-mozc
     sudo pacman -Sc
-    # ------ NOT USING ------
-    #{
-    #echo '# uim   : Input method Framework'
-    #echo '# anthy : Input System'
-    #}
-    #sudo pacman -Syu
-    #sudo pacman -S uim \
-    #               anthy
-    #sudo pacman -Sc
     ;;
   deploy)
     # --- mkdir
     mkdir -pv ~/.config/fcitx
-    # ------ NOT USING ------
-    #mkdir -pv ~/.uim.d ~/.anthy
-
     # --- ln
-    readonly THIS_DIR="${HOME}/bin/ime"
+    readonly THIS_DIR="${HOME}/bin/ime/fcitx_mozc"
     # ------ FILE PATH ------
     # Input Method Framework(fcitx)
     ln -snfv "${THIS_DIR}/.config/fcitx/config" "${HOME}/.config/fcitx"
@@ -61,11 +46,6 @@ case ${1} in
     ln -snfv "${THIS_DIR}/.config/fcitx/conf" "${HOME}/.config/fcitx"
     ln -snfv "${THIS_DIR}/.config/fcitx/data" "${HOME}/.config/fcitx"
     ln -snfv "${THIS_DIR}/.config/fcitx/skin" "${HOME}/.config/fcitx"
-    # ------ NOT USING ------
-    # Input Method Framework(Uim)
-    #ln -snfv "${THIS_DIR}/.uim.d/customs" "${HOME}/.uim.d"
-    # Authy(cannadic)
-    #ln -snfv "${THIS_DIR}/.anthy/imported_words_default.d" "${HOME}/.anthy"
     ;;
   *)
     usage
