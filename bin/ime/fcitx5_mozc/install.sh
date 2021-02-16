@@ -34,8 +34,6 @@ case ${1} in
     sudo pacman -Sc
     ;;
   deploy)
-    # --- mkdir
-    mkdir -pv ~/.config/fcitx
     # --- ln
     readonly THIS_DIR="${HOME}/bin/ime/fcitx5_mozc"
     # ------ DIRECTORY PATH ------
