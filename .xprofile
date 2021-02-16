@@ -4,9 +4,6 @@ export LANG='ja_JP.UTF-8'
 #export LANG='en_US.UTF-8'
 # --- Input Method Framework
 
-# --- DESKTOP
-#export DE='xmonad'
-
 # ------ START ------
 # --- Input Method Framework
 
@@ -41,12 +38,6 @@ sh ~/bin/xmodmap.sh load
 
 # --- dzen
 sh ~/bin/dzen/dzconky.sh
-
-# --- Dropbox
-#/usr/bin/dropbox &
-
-# --- VirtualBox
-#sh ~/bin/virtualbox/install.sh modprobe
 
 # --- Feh
 /bin/feh --randomize --bg-fill ~/bin/feh/wallpaper/*
