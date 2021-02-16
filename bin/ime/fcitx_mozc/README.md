@@ -6,8 +6,8 @@
 * [Fcitx](https://fcitx-im.org/wiki/Special:MyLanguage/Fcitx)
 * [Mozc](https://github.com/google/mozc)
 * [AZIK](http://hp.vector.co.jp/authors/VA002116/azik/azikinfo.htm)
-    * [romantable.txt](https://raw.githubusercontent.com/ghsable/dotfiles/main/bin/ime/romantables/romantable.txt)
-    * [aziktable.txt](https://raw.githubusercontent.com/ghsable/dotfiles/main/bin/ime/romantables/aziktable.txt)
+    * [romantable.txt](https://raw.githubusercontent.com/ghsable/dotfiles/main/bin/ime/fcitx_mozc/romantables/romantable.txt)
+    * [aziktable.txt](https://raw.githubusercontent.com/ghsable/dotfiles/main/bin/ime/fcitx_mozc/romantables/aziktable.txt)
 
 ## Installation
 

@@ -1,11 +1,13 @@
-# ------ EXPORT ------
 # --- LANG(X11)
 export LANG='ja_JP.UTF-8'
 #export LANG='en_US.UTF-8'
-# --- Input Method Framework
 
-# ------ START ------
 # --- Input Method Framework
+export GTK_IM_MODULE='fcitx'
+export QT_IM_MODULE='fcitx'
+export XMODIFIERS=\@im='fcitx'
+export SDL_IM_MODULE='fcitx'
+fcitx5&
 
 # --- XKB(X Keyboard extension)
 sh ~/bin/xkb.sh make
@@ -45,4 +47,3 @@ sh ~/bin/dzen/dzconky.sh
 # --- Window Manager(Xmonad)
 xmonad --recompile
 exec xmonad
-
