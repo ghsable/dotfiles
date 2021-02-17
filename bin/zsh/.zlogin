@@ -4,18 +4,10 @@ export LANG='en_US.UTF-8'
 setfont latarcyrheb-sun32
 # EDITOR
 export EDITOR='vim'
-# BROWSER / on touchpad
-export BROWSER='firefox'
-export MOZ_USE_XINPUT2=1
-# LESS
-export LESS='-M -W -R -XXX -N -J -Q -F -X -K -I -a'
 # my commands
 export PATH=${PATH}:${HOME}/bin:${HOME}/vimpacks
-# a programming language env
+# a programming languages
 source ~/bin/apl/env.sh
-
-# CRONTAB
-crontab ~/bin/install_archlinux/etc/crontab
 
 # AUTO STARTX
 #[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx

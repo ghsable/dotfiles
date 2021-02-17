@@ -78,6 +78,7 @@ xorg-xset
 xorg-xinit
 # Terminal
 rxvt-unicode
+kitty
 # simulate keyboard input and mouse activity
 xdotool
 
