@@ -7,13 +7,13 @@ export GTK_IM_MODULE='fcitx'
 export QT_IM_MODULE='fcitx'
 export XMODIFIERS=\@im='fcitx'
 export SDL_IM_MODULE='fcitx'
-fcitx5&
+fcitx5 -d
 
 # --- XKB(X Keyboard extension)
 sh ~/bin/xkb.sh make
 sh ~/bin/xkb.sh load
-#sh ~/bin/xkb.sh map_jp
-sh ~/bin/xkb.sh map_us
+sh ~/bin/xkb.sh map_jp
+#sh ~/bin/xkb.sh map_us
 
 # --- Xbindkeys
 xbindkeys &
@@ -34,8 +34,8 @@ sh ~/bin/xrandr.sh xinput
 sh ~/bin/xinput.sh mouse-button
 
 # --- Xmodmap
-#sh ~/bin/xmodmap.sh make_jp
-sh ~/bin/xmodmap.sh make_us
+sh ~/bin/xmodmap.sh make_jp
+#sh ~/bin/xmodmap.sh make_us
 sh ~/bin/xmodmap.sh load
 
 # --- dzen

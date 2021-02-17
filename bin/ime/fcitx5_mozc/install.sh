@@ -8,19 +8,21 @@ Description:
   INSTALL Input method Framework
 
 Usage:
-  sh ${0} install : INSTALL Packages
-  sh ${0} deploy  : DEPLOY  Configs
-  sh ${0} *       : USAGE
+  sh ${0} install-packages : INSTALL Packages
+  sh ${0} install-themes   : INSTALL Themes
+  sh ${0} deploy           : DEPLOY  Configs
+  sh ${0} *                : USAGE
 
 EOF:
   cd ~/.config/fcitx5
+  cd ~/.local/share/fcitx5/themes
 
 _EOT_
 exit 1
 }
 
 case ${1} in
-  install)
+  install-packages)
     {
     echo '--------------------------------------------------'
     echo '# fcitx5-im         : Input method Framework(Group)'
@@ -33,19 +35,25 @@ case ${1} in
                    fcitx5-mozc
     sudo pacman -Sc
     ;;
+  install-themes)
+    readonly CONF_DIR="${HOME}/.local/share/fcitx5/themes"
+
+    mkdir -pv ${CONF_DIR}
+
+    # c25vdw/fcitx5-gruvbox(https://github.com/c25vdw/fcitx5-gruvbox)
+    rm -rf ${CONF_DIR}/gruvbox-dark
+    git clone https://github.com/c25vdw/fcitx5-gruvbox.git ${CONF_DIR}/gruvbox-dark
+    cp ${CONF_DIR}/gruvbox-dark/gruvbox-dark/theme.conf ${CONF_DIR}/gruvbox-dark
+
+    # cjxgm/fcitx5-dark-numix(https://github.com/cjxgm/fcitx5-dark-numix)
+    rm -rf ${CONF_DIR}/fcitx5-dark-numix
+    git clone https://github.com/cjxgm/fcitx5-dark-numix.git ${CONF_DIR}/fcitx5-dark-numix
+    ;;
   deploy)
-    # --- mkdir
-    mkdir -pv ~/.config/fcitx
     # --- ln
     readonly THIS_DIR="${HOME}/bin/ime/fcitx5_mozc"
-    # ------ FILE PATH ------
-    # Input Method Framework(fcitx5)
-    ln -snfv "${THIS_DIR}/fcitx5" "${HOME}/.config"
     # ------ DIRECTORY PATH ------
-    # Input Method Framework(fcitx5)
-    #ln -snfv "${THIS_DIR}/.config/fcitx/conf" "${HOME}/.config/fcitx"
-    #ln -snfv "${THIS_DIR}/.config/fcitx/data" "${HOME}/.config/fcitx"
-    #ln -snfv "${THIS_DIR}/.config/fcitx/skin" "${HOME}/.config/fcitx"
+    ln -snfv "${THIS_DIR}/fcitx5" "${HOME}/.config"
     ;;
   *)
     usage

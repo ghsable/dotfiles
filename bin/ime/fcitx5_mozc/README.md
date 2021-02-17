@@ -11,8 +11,9 @@
 
 ## Installation
 
-    1. INSTALL Packages
-       sh install.sh install
+    1. INSTALL Packages + Themes
+       sh install.sh install-packages
+       sh install.sh install-themes
     2. DEPLOY Directory/File
        sh install.sh deploy
 
@@ -24,7 +25,7 @@ set env/start(`~/.xprofile`):
     export QT_IM_MODULE='fcitx'
     export XMODIFIERS=\@im='fcitx'
     export SDL_IM_MODULE='fcitx'
-    fcitx5&
+    fcitx5 -d
 
 ## Usage
 change romantable:

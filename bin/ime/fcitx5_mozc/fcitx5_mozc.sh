@@ -16,7 +16,7 @@ Usage:
   sh ${0} *        : USAGE
 
 EOF:
-  cd ~/.config/fcitx
+  cd ~/.config/fcitx5
 
 _EOT_
 exit 1

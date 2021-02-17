@@ -21,15 +21,9 @@ exit 1
 function add_config_jp() {
 cat<< _EOT_
 !!!!!!!!!!!!!!!!!!!! THIS CONFIG !!!!!!!!!!!!!!!!!!!!
-!!! HHKB PRO-JP
-keysym Muhenkan = Hangul_Hanja
-keysym Henkan_Mode = Hangul
-keysym Zenkaku_Hankaku = Control_L
-keysym Hiragana_Katakana = Super_R
-
 !!! ThinkPad
-remove Lock = Eisu_toggle
-keysym Eisu_toggle = Control_L
+remove Lock = Caps_Lock
+keysym Caps_Lock = Control_L
 
 !!! Xmonad
 !clear Shift
