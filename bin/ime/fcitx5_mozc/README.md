@@ -3,7 +3,7 @@
 *Fcitx5 + Mozc*
 ---
 ## Requirement
-* [Fcitx5](https://github.com/fcitx/fcitx5)
+* [Fcitx5](https://github.com/fcitx/fcitx5) + [Themes](https://github.com/search?q=fcitx5+theme&type=Repositories)
 * [Mozc](https://github.com/google/mozc)
 * [AZIK](http://hp.vector.co.jp/authors/VA002116/azik/azikinfo.htm)
     * [romantable.txt](https://raw.githubusercontent.com/ghsable/dotfiles/main/bin/ime/fcitx5_mozc/romantables/romantable.txt)
