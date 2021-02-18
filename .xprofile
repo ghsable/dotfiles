@@ -2,12 +2,12 @@
 export LANG='ja_JP.UTF-8'
 #export LANG='en_US.UTF-8'
 
-# --- Terminal(Kitty)
-GLFW_IM_MODULE=ibus
-
 # --- Browser(firefox) and Touchpad
 export BROWSER='firefox'
 export MOZ_USE_XINPUT2=1
+
+# --- Terminal(Kitty)
+GLFW_IM_MODULE=ibus
 
 # --- Input Method Framework
 export GTK_IM_MODULE='fcitx'
@@ -35,10 +35,10 @@ sh ~/bin/xset.sh on 600
 # --- XRandR
 # --- Xinput(usbtouchscreen)
 sh ~/bin/xrandr.sh mirror
-sh ~/bin/xrandr.sh xinput
+#sh ~/bin/xrandr.sh xinput
 
 # --- Xinput(input-devices)
-sh ~/bin/xinput.sh mouse-button
+#sh ~/bin/xinput.sh mouse-button
 
 # --- Xmodmap
 #sh ~/bin/xmodmap.sh make_jp
