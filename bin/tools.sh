@@ -11,6 +11,7 @@ Usage:
   sh ${0} launch_b    : rofi
   sh ${0} terminal_a  : xterm(transset-df)
   sh ${0} terminal_b  : urxvt
+  sh ${0} terminal_c  : kitty
   sh ${0} email       : mutt
   sh ${0} addressbook : abook
   sh ${0} note        : leafpad
@@ -37,6 +38,7 @@ case ${1} in
                $(xwininfo -root -tree -int | grep -e 'xterm' -e 'XTerm' | cut -f 6 -d " " | sort | tail -n1) \
                0.75                          ;;
   terminal_b ) urxvt                         ;;
+  terminal_c ) kitty                         ;;
   email      ) sh ~/bin/email/getmail.sh ;
                cd ~/Downloads
                mutt                          ;;

@@ -7,7 +7,7 @@
 
 # ------ Set xbindkeys ------
 # --- Terminal | Mod4 + Return
-"sh ~/bin/tools.sh terminal_b"
+"sh ~/bin/tools.sh terminal_c"
    m:0x40 + c:36
 
 # --- rofi | F3 | F3
