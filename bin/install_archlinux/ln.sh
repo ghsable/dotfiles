@@ -4,7 +4,7 @@ echo "${0} ..."
 
 function mkdir_basedir() {
 # --- mkdir
-mkdir -pv ~/tmp ~/.xmonad
+mkdir -pv ~/tmp ~/.xmonad ~/.config/kitty
 }
 
 function ln_dotfiles() {
@@ -14,6 +14,7 @@ for DOT_FILE in .??*
 do
   [ "${DOT_FILE}" = ".git"    ] && continue
   [ "${DOT_FILE}" = ".github" ] && continue
+  [ "${DOT_FILE}" = ".config" ] && continue
   [ "${DOT_FILE}" = ".xmonad" ] && continue
 
   ln -snfv ~/dotfiles/${DOT_FILE} ~/

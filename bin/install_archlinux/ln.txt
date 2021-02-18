@@ -2,7 +2,7 @@
 
 # ------ FILE PATH ------
 Makefile
-# --- Xmonad
+.config/kitty/kitty.conf
 .xmonad/xmonad.hs
 
 # ------ DIRECTORY PATH ------
