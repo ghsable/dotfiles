@@ -1,7 +1,5 @@
-# IME
+# *Uim + Anthy*
 
-*Uim + Anthy*
----
 ## Requirement
 * [Uim](https://github.com/uim/uim)
 * [Anthy](http://anthy.osdn.jp/)

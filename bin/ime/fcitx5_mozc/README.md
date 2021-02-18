@@ -1,7 +1,5 @@
-# IME
+# *Fcitx5 + Mozc*
 
-*Fcitx5 + Mozc*
----
 ## Requirement
 * [Fcitx5](https://github.com/fcitx/fcitx5) + [Themes](https://github.com/search?q=fcitx5+theme&type=Repositories)
 * [Mozc](https://github.com/google/mozc)

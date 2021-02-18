@@ -1,7 +1,5 @@
-# IME
+# *Fcitx + Mozc*
 
-*Fcitx + Mozc*
----
 ## Requirement
 * [Fcitx](https://fcitx-im.org/wiki/Special:MyLanguage/Fcitx)
 * [Mozc](https://github.com/google/mozc)
