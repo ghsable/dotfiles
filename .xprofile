@@ -7,7 +7,7 @@ export BROWSER='firefox'
 export MOZ_USE_XINPUT2=1
 
 # --- Terminal(Kitty)
-GLFW_IM_MODULE=ibus
+export GLFW_IM_MODULE=ibus
 
 # --- Input Method Framework
 export GTK_IM_MODULE='fcitx'

@@ -168,6 +168,11 @@ Description="キーボード - 英語 (UK) - 英語 (UK, Colemak)"
 Language=en
 Label=gb
 
+[keyboard-gb-colemak_dh]
+Description="キーボード - 英語 (UK) - English (UK, Colemak-DH)"
+Language=en
+Label=gb
+
 [keyboard-gb-pl]
 Description="キーボード - 英語 (UK) - Polish (British keyboard)"
 Language=pl
@@ -175,6 +180,36 @@ Label=pl
 
 [keyboard-gb-sun_type6]
 Description="キーボード - 英語 (UK) - 英語 (UK、Sun Type 6/7)"
+Language=en
+Label=gb
+
+[keyboard-gb-hyena]
+Description="キーボード - 英語 (UK) - English (UK, Hyena Layer5)"
+Language=en
+Label=gb
+
+[keyboard-gb-hyena-intl]
+Description="キーボード - 英語 (UK) - English (UK, intl., with dead keys, Hyena Layer5)"
+Language=en
+Label=gb
+
+[keyboard-gb-miniguru]
+Description="キーボード - 英語 (UK) - English (UK, MiniGuru Layer5)"
+Language=en
+Label=gb
+
+[keyboard-gb-miniguru-intl]
+Description="キーボード - 英語 (UK) - English (UK, intl., with dead keys, MiniGuru Layer5)"
+Language=en
+Label=gb
+
+[keyboard-gb-yoda]
+Description="キーボード - 英語 (UK) - English (UK, TEX Yoda Layer5)"
+Language=en
+Label=gb
+
+[keyboard-gb-yoda-intl]
+Description="キーボード - 英語 (UK) - English (UK, intl., with dead keys, TEX Yoda Layer5)"
 Language=en
 Label=gb
 
@@ -508,16 +543,6 @@ Description="キーボード - アイスランド語"
 Language=is
 Label=is
 
-[keyboard-is-Sundeadkeys]
-Description="キーボード - アイスランド語 - アイスランド語 (Sun デッドキー付き)"
-Language=is
-Label=is
-
-[keyboard-is-nodeadkeys]
-Description="キーボード - アイスランド語 - Icelandic (no dead keys)"
-Language=is
-Label=is
-
 [keyboard-is-mac_legacy]
 Description="キーボード - アイスランド語 - Icelandic (Macintosh, legacy)"
 Language=is
@@ -550,11 +575,6 @@ Label=es
 
 [keyboard-es-deadtilde]
 Description="キーボード - スペイン語 - Spanish (dead tilde)"
-Language=es
-Label=es
-
-[keyboard-es-sundeadkeys]
-Description="キーボード - スペイン語 - スペイン語 (Sun デッドキー付き)"
 Language=es
 Label=es
 
@@ -610,11 +630,6 @@ Label=ee
 
 [keyboard-nl]
 Description="キーボード - オランダ語"
-Language=nl
-Label=nl
-
-[keyboard-nl-sundeadkeys]
-Description="キーボード - オランダ語 - オランダ語 (Sun デッドキー付き)"
 Language=nl
 Label=nl
 
@@ -843,6 +858,11 @@ Description="キーボード - 英語 (US) - 英語 (Colemak)"
 Language=en
 Label=us
 
+[keyboard-us-colemak_dh]
+Description="キーボード - 英語 (US) - English (Colemak-DH)"
+Language=en
+Label=us
+
 [keyboard-us-dvorak]
 Description="キーボード - 英語 (US) - 英語 (Dvorak)"
 Language=en
@@ -1018,6 +1038,66 @@ Description="キーボード - 英語 (US) - Sicilian (US keyboard)"
 Language=en
 Label=us
 
+[keyboard-us-hyena]
+Description="キーボード - 英語 (US) - English (US, Hyena Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-hyena-alt-intl]
+Description="キーボード - 英語 (US) - English (US, alt. intl., with dead keys, Hyena Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-hyena-intl-unicode]
+Description="キーボード - 英語 (US) - English (US, intl., AltGr Unicode combining, Hyena Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-hyena-carpalx]
+Description="キーボード - 英語 (US) - English (Carpalx, full optimization, Hyena Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-hyena-carpalx-intl]
+Description="キーボード - 英語 (US) - English (Carpalx, full optimization, intl., with dead keys, Hyena Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-hyena-carpalx-altgr-intl]
+Description="キーボード - 英語 (US) - English (Carpalx, full optimization, intl., with AltGr dead keys, Hyena Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-miniguru]
+Description="キーボード - 英語 (US) - English (US, MiniGuru Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-miniguru-alt-intl]
+Description="キーボード - 英語 (US) - English (US, alt. intl., with dead keys, MiniGuru Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-miniguru-intl-unicode]
+Description="キーボード - 英語 (US) - English (US, intl., AltGr Unicode combining, MiniGuru Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-yoda]
+Description="キーボード - 英語 (US) - English (US, TEX Yoda Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-yoda-alt-intl]
+Description="キーボード - 英語 (US) - English (US, alt. intl., with dead keys, TEX Yoda Layer5)"
+Language=en
+Label=us
+
+[keyboard-us-yoda-intl-unicode]
+Description="キーボード - 英語 (US) - English (US, intl., AltGr Unicode combining, TEX Yoda Layer5)"
+Language=en
+Label=us
+
 [keyboard-ge]
 Description="キーボード - グルジア語"
 Language=ka
@@ -1169,32 +1249,32 @@ Language=uz
 Label=uz
 
 [keyboard-dz]
-Description="キーボード - Kabylian (azerty layout, no dead keys)"
+Description="キーボード - Berber (Algeria, Latin)"
 Language=
 Label=kab
 
 [keyboard-dz-azerty-deadkeys]
-Description="キーボード - Kabylian (azerty layout, no dead keys) - Kabylian (azerty layout, with dead keys)"
+Description="キーボード - Berber (Algeria, Latin) - Kabyle (azerty layout, dead keys)"
 Language=kab
 Label=kab
 
 [keyboard-dz-qwerty-gb-deadkeys]
-Description="キーボード - Kabylian (azerty layout, no dead keys) - Kabylian (qwerty-gb layout, with dead keys)"
+Description="キーボード - Berber (Algeria, Latin) - Kabyle (qwerty-gb layout, dead keys)"
 Language=kab
 Label=kab
 
 [keyboard-dz-qwerty-us-deadkeys]
-Description="キーボード - Kabylian (azerty layout, no dead keys) - Kabylian (qwerty-us layout, with dead keys)"
+Description="キーボード - Berber (Algeria, Latin) - Kabyle (qwerty-us layout, dead keys)"
 Language=kab
 Label=kab
 
 [keyboard-dz-ber]
-Description="キーボード - Kabylian (azerty layout, no dead keys) - Kabylian (Algeria, Tifinagh)"
+Description="キーボード - Berber (Algeria, Latin) - Berber (Algeria, Tifinagh)"
 Language=kab
 Label=kab
 
 [keyboard-dz-ar]
-Description="キーボード - Kabylian (azerty layout, no dead keys) - Arabic (Algeria)"
+Description="キーボード - Berber (Algeria, Latin) - Arabic (Algeria)"
 Language=ar
 Label=ar
 
@@ -1334,7 +1414,7 @@ Language=ar
 Label=ara
 
 [keyboard-ara-basic_ext_digits]
-Description="キーボード - アラビア語 - Arabic (Eastern Arabic numerals, extensions in the 4th level)"
+Description="キーボード - アラビア語 - h level)"
 Language=ar
 Label=ara
 
@@ -1349,7 +1429,7 @@ Language=en
 Label=ie
 
 [keyboard-ie-CloGaelach]
-Description="キーボード - アイルランド語 - aelach"
+Description="キーボード - アイルランド語 - CloGaelach"
 Language=ga
 Label=ie
 
@@ -1414,8 +1494,8 @@ Language=fil
 Label=ph
 
 [keyboard-ph-qwerty-bay]
-Description="キーボード - フィリピノ語 - Filipino (QWERTY, Baybayin)"
-Language=fil
+Description="キーボード - フィリピノ語 - (QWERTY, Baybayin)"
+Language=bik
 Label=ph
 
 [keyboard-ph-capewell-dvorak]
@@ -1464,7 +1544,7 @@ Language=bn
 Label=bn
 
 [keyboard-bd-probhat]
-Description="キーボード - Bangla - ngla (Probhat)"
+Description="キーボード - Bangla - Bangla (Probhat)"
 Language=bn
 Label=bd
 
@@ -1844,7 +1924,7 @@ Language=ta
 Label=ta
 
 [keyboard-in-tam_tamilnet_TAB]
-Description="キーボード - Indian - '99, TAB encoding)"
+Description="キーボード - Indian - Tamil (TamilNet '99, TAB encoding)"
 Language=ta
 Label=ta
 
@@ -1909,7 +1989,7 @@ Language=sa
 Label=sa
 
 [keyboard-in-mar-kagapa]
-Description="キーボード - Indian - Marathi (KaGaPa, phonetic)"
+Description="キーボード - Indian - aGaPa, phonetic)"
 Language=mr
 Label=mr
 
@@ -1919,7 +1999,7 @@ Language=en
 Label=en
 
 [keyboard-in-iipa]
-Description="キーボード - Indian - Indic (phonetic, IPA)"
+Description="キーボード - Indian - Indic IPA"
 Language=
 Label=in
 
@@ -1932,6 +2012,11 @@ Label=in
 Description="キーボード - Indian - Modi (KaGaPa phonetic)"
 Language=mr
 Label=mr
+
+[keyboard-in-san-misc]
+Description="キーボード - Indian - Sanskrit symbols"
+Language=sa
+Label=sas
 
 [keyboard-be]
 Description="キーボード - ベルギー語"
@@ -1948,11 +2033,6 @@ Description="キーボード - ベルギー語 - Belgian (Latin-9 only, alt.)"
 Language=de
 Label=be
 
-[keyboard-be-oss_sundeadkeys]
-Description="キーボード - ベルギー語 - Belgian (Sun dead keys, alt.)"
-Language=de
-Label=be
-
 [keyboard-be-iso-alternate]
 Description="キーボード - ベルギー語 - Belgian (ISO, alt.)"
 Language=de
@@ -1960,11 +2040,6 @@ Label=be
 
 [keyboard-be-nodeadkeys]
 Description="キーボード - ベルギー語 - Belgian (no dead keys)"
-Language=de
-Label=be
-
-[keyboard-be-sundeadkeys]
-Description="キーボード - ベルギー語 - ベルギー語 (Sun デッドキー付き)"
 Language=de
 Label=be
 
@@ -2143,11 +2218,6 @@ Description="キーボード - ドイツ語 (オーストリア) - German (Austr
 Language=de
 Label=at
 
-[keyboard-at-sundeadkeys]
-Description="キーボード - ドイツ語 (オーストリア) - ドイツ語 (オーストリア、Sun デッドキー付き)"
-Language=de
-Label=at
-
 [keyboard-at-mac]
 Description="キーボード - ドイツ語 (オーストリア) - ドイツ語 (オーストリア、Macintosh)"
 Language=de
@@ -2168,11 +2238,6 @@ Description="キーボード - ドイツ語 (スイス) - German (Switzerland, n
 Language=de
 Label=de
 
-[keyboard-ch-de_sundeadkeys]
-Description="キーボード - ドイツ語 (スイス) - ドイツ語 (スイス語、Sun デッドキー付き)"
-Language=de
-Label=de
-
 [keyboard-ch-fr]
 Description="キーボード - ドイツ語 (スイス) - フランス語 (スイス)"
 Language=fr
@@ -2180,11 +2245,6 @@ Label=fr
 
 [keyboard-ch-fr_nodeadkeys]
 Description="キーボード - ドイツ語 (スイス) - French (Switzerland, no dead keys)"
-Language=fr
-Label=fr
-
-[keyboard-ch-fr_sundeadkeys]
-Description="キーボード - ドイツ語 (スイス) - フランス語 (スイス、Sun デッドキー付き)"
 Language=fr
 Label=fr
 
@@ -2448,11 +2508,6 @@ Description="キーボード - フランス語 - French (no dead keys)"
 Language=fr
 Label=fr
 
-[keyboard-fr-sundeadkeys]
-Description="キーボード - フランス語 - フランス語 (Sun デッドキー付き)"
-Language=fr
-Label=fr
-
 [keyboard-fr-oss]
 Description="キーボード - フランス語 - French (alt.)"
 Language=fr
@@ -2468,11 +2523,6 @@ Description="キーボード - フランス語 - French (alt., no dead keys)"
 Language=fr
 Label=fr
 
-[keyboard-fr-oss_sundeadkeys]
-Description="キーボード - フランス語 - French (alt., Sun dead keys)"
-Language=fr
-Label=fr
-
 [keyboard-fr-latin9]
 Description="キーボード - フランス語 - French (legacy, alt.)"
 Language=fr
@@ -2480,11 +2530,6 @@ Label=fr
 
 [keyboard-fr-latin9_nodeadkeys]
 Description="キーボード - フランス語 - French (legacy, alt., no dead keys)"
-Language=fr
-Label=fr
-
-[keyboard-fr-latin9_sundeadkeys]
-Description="キーボード - フランス語 - French (legacy, alt., Sun dead keys)"
 Language=fr
 Label=fr
 
@@ -2559,9 +2604,9 @@ Language=fr
 Label=fr
 
 [keyboard-gn]
-Description="キーボード - フランス語 (ギニア)"
-Language=fr
-Label=fr
+Description="キーボード - N'Ko (azerty)"
+Language=nqo
+Label=gn
 
 [keyboard-uz]
 Description="キーボード - ウズベク語"
@@ -2604,7 +2649,7 @@ Language=fi
 Label=fi
 
 [keyboard-fi-sun_type6]
-Description="キーボード - フィンランド語 - フィンランド語 (Sun Type 6/7)"
+Description="キーボード - フィンランド語 - un Type 6/7)"
 Language=fi
 Label=fi
 
@@ -2653,6 +2698,11 @@ Description="キーボード - リトアニア語 - Samogitian"
 Language=sgs
 Label=lt
 
+[keyboard-lt-ratise]
+Description="キーボード - リトアニア語 - Lithuanian (Ratise)"
+Language=lt
+Label=lt
+
 [keyboard-lt-us_dvorak]
 Description="キーボード - リトアニア語 - Lithuanian (Dvorak)"
 Language=lt
@@ -2683,11 +2733,6 @@ Description="キーボード - ポルトガル語 - Portuguese (no dead keys)"
 Language=pt
 Label=pt
 
-[keyboard-pt-sundeadkeys]
-Description="キーボード - ポルトガル語 - ポルトガル語 (Sun デッドキー付き)"
-Language=pt
-Label=pt
-
 [keyboard-pt-mac]
 Description="キーボード - ポルトガル語 - ポルトガル語 (Macintosh)"
 Language=pt
@@ -2695,11 +2740,6 @@ Label=pt
 
 [keyboard-pt-mac_nodeadkeys]
 Description="キーボード - ポルトガル語 - Portuguese (Macintosh, no dead keys)"
-Language=pt
-Label=pt
-
-[keyboard-pt-mac_sundeadkeys]
-Description="キーボード - ポルトガル語 - ポルトガル語 (Macintosh, Sun デッドキー付き)"
 Language=pt
 Label=pt
 
@@ -2793,11 +2833,6 @@ Description="キーボード - ドイツ語 - ドイツ語 (Dvorak)"
 Language=de
 Label=de
 
-[keyboard-de-sundeadkeys]
-Description="キーボード - ドイツ語 - ドイツ語 (Sun デッドキー付き)"
-Language=de
-Label=de
-
 [keyboard-de-neo]
 Description="キーボード - ドイツ語 - ドイツ語 (Neo 2)"
 Language=de
@@ -2814,7 +2849,7 @@ Language=de
 Label=de
 
 [keyboard-de-dsb]
-Description="キーボード - ドイツ語 - ian"
+Description="キーボード - ドイツ語 - Lower Sorbian"
 Language=dsb
 Label=de
 
@@ -3003,7 +3038,7 @@ Description="キーボード - ハンガリー語 - Hungarian (QWERTZ, 101-key, 
 Language=hu
 Label=hu
 
-[keyboard-hu-wertz_dot_nodead]
+[keyboard-hu-101_qwertz_dot_nodead]
 Description="キーボード - ハンガリー語 - Hungarian (QWERTZ, 101-key, dot, no dead keys)"
 Language=hu
 Label=hu
@@ -3093,11 +3128,6 @@ Description="キーボード - トルコ語 - トルコ語 (Alt-Q)"
 Language=tr
 Label=tr
 
-[keyboard-tr-sundeadkeys]
-Description="キーボード - トルコ語 - トルコ語 (Sun デッドキー付き)"
-Language=tr
-Label=tr
-
 [keyboard-tr-ku]
 Description="キーボード - トルコ語 - クルド語 (トルコ、ラテン Q)"
 Language=ku
@@ -3129,7 +3159,7 @@ Language=crh
 Label=crh
 
 [keyboard-tr-crh_alt]
-Description="キーボード - トルコ語 - クリミア・タタール語 (トルコ語 Alt-Q)"
+Description="キーボード - トルコ語 - t-Q)"
 Language=crh
 Label=crh
 
@@ -3228,6 +3258,11 @@ Description="キーボード - イタリア語 - Italian (Ladin)"
 Language=lld
 Label=it_lld
 
+[keyboard-it-dvorak]
+Description="キーボード - イタリア語 - Italian (Dvorak)"
+Language=it
+Label=it
+
 [keyboard-jp]
 Description="キーボード - 日本語"
 Language=ja
@@ -3285,11 +3320,6 @@ Label=latam
 
 [keyboard-latam-deadtilde]
 Description="キーボード - スペイン語 (ラテンアメリカ) - Spanish (Latin American, dead tilde)"
-Language=es
-Label=latam
-
-[keyboard-latam-sundeadkeys]
-Description="キーボード - スペイン語 (ラテンアメリカ) - スペイン語 (ラテンアメリカ、Sun デッドキー付き)"
 Language=es
 Label=latam
 
@@ -3438,6 +3468,11 @@ Description="キーボード - ポーランド語 - ポーランド語 (Colemak)
 Language=pl
 Label=pl
 
+[keyboard-pl-colemak_dh]
+Description="キーボード - ポーランド語 - Polish (Colemak-DH)"
+Language=pl
+Label=pl
+
 [keyboard-pl-sun_type6]
 Description="キーボード - ポーランド語 - ポーランド語 (Sun Type 6/7)"
 Language=pl
@@ -3453,18 +3488,8 @@ Description="キーボード - ルーマニア語"
 Language=ro
 Label=ro
 
-[keyboard-ro-cedilla]
-Description="キーボード - ルーマニア語 - ルーマニア語 (cedilla)"
-Language=ro
-Label=ro
-
 [keyboard-ro-std]
 Description="キーボード - ルーマニア語 - ルーマニア語 (標準)"
-Language=ro
-Label=ro
-
-[keyboard-ro-std_cedilla]
-Description="キーボード - ルーマニア語 - ルーマニア語 (standard cedilla)"
 Language=ro
 Label=ro
 
