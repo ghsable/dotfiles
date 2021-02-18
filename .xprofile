@@ -2,6 +2,12 @@
 export LANG='ja_JP.UTF-8'
 #export LANG='en_US.UTF-8'
 
+<<<<<<< HEAD
+=======
+# --- Terminal(Kitty)
+export GLFW_IM_MODULE=ibus
+
+>>>>>>> 21efccf2fdd39d372c3b0858675473e60874ddc8
 # --- Browser(firefox) and Touchpad
 export BROWSER='firefox'
 export MOZ_USE_XINPUT2=1
