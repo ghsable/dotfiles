@@ -26,7 +26,7 @@ case ${1} in
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu
-    sudo pacman -S jre-openjdk-headless jre-openjdk jdk-openjdk openjdk-doc openjdk-src \
+    sudo pacman -S jre-openjdk-headless jre-openjdk jdk-openjdk openjdk-doc openjdk-src
     sudo pacman -Sc
     ;;
   *)

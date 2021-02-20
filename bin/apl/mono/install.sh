@@ -23,12 +23,10 @@ case ${1} in
     {
     echo '--------------------------------------------------'
     echo '# mono  : cross-platform(C#/CLR)'
-    echo '# xterm : terminal emulator'
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu
-    sudo pacman -S mono \
-                   xterm
+    sudo pacman -S mono
     sudo pacman -Sc
     ;;
   *)
