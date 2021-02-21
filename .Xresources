@@ -67,8 +67,8 @@ URxvt*skipBuiltinGlyphs:  true
 URxvt.perl-ext-common:    selection-to-clipboard,default,matcher
 URxvt.url-launcher:       /usr/bin/xdg-open
 URxvt.matcher.button:     1
-!! Font list and Spacing
-URxvt.font:               xft:Fira Code:bold:antialias=true:pixelsize=19,\
+!! Font list and Spacing $ fc-list
+URxvt.font:               xft:Fira Code SemiBold:antialias=true:pixelsize=19,\
                           xft:IPAGothic
 URxvt.letterSpace:        -1
 !URxvt.lineSpace:          0
