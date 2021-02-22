@@ -22,7 +22,7 @@ case ${1} in
   install-packages)
     {
     echo '--------------------------------------------------'
-    echo '# mono  : cross-platform(C#/CLR)'
+    echo '# mono : cross-platform(C#/CLR)'
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu

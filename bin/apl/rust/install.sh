@@ -30,44 +30,39 @@ case ${1} in
     {
     echo '--------------------------------------------------'
     echo '# --- official'
-    echo '# rustup     : Rust ecosystem(https://rustup.rs/)'
+    echo '# rustup     : Rust Toolchain manager(https://rustup.rs/)'
     echo '# --- distribution'
-    echo '# rustup     : Rust ecosystem'
-    echo '# rust-racer : Rust code completion and navigation'
+    echo '# rust       : rustc, Cargo'
+    echo '# rustup     : Rust Toolchain manager'
     echo '--------------------------------------------------'
     }
     # --- official
-    curl https://sh.rustup.rs -sSf | sh -s -- --no-modify-path
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --no-modify-path
 
     # --- distribution
     #sudo pacman -Syu
-    #sudo pacman -S rustup \
-    #               rust-racer
+    #sudo pacman -S rust \
+    #               rustup
     #sudo pacman -Sc
     ;;
   rustup-install)
     {
-    # toolchain
-    echo '# nightly  : rust-nightly'
-    # component
-    echo '# rust-src : rust source code'
+    echo '# nightly : rust-nightly'
     }
-    # toolchain
     rustup toolchain add nightly
-    # component
-    rustup component add rust-src
     ;;
   set-stable | set-nightly)
     rustup default ${1#*-}
+    rustup show
     ;;
   rustup-update)
     rustup self update
     ;;
   cargo-install)
     {
-    echo '# Racer : Rust Auto-Complete-er.'
+    echo '# xxx : xxxxx.'
     }
-    cargo +nightly install -f racer
+    #cargo +nightly install -f xxx
     ;;
   *)
     usage
