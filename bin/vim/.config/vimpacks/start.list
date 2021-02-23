@@ -8,6 +8,9 @@
 # ---------------------------------
 # Create your own list :D
 
+# --- morhetz/gruvbox(https://github.com/morhetz/gruvbox)
+https://github.com/morhetz/gruvbox.git
+
 # --- fuenor/im_control.vim(https://github.com/fuenor/im_control.vim)
 https://github.com/fuenor/im_control.vim.git
 

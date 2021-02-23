@@ -48,7 +48,7 @@ bindkey '^ ' autosuggest-accept
 #RPROMPT="%B[%*]%b"
 # No.2
 PROMPT=" %B%F{cyan}➜%f %F{cyan}( %~ )%f %F{red}✗%f%b "
-RPROMPT="%B(%*)%b"
+#RPROMPT="%B(%*)%b"
 
 # ------ GENERAL ------
 # Set Keybind vi like

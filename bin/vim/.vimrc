@@ -1,6 +1,5 @@
 " --- ~/.vimrc
 
-
 " ------ 説明 ------
 " --- キー割当て変更コマンド(:h key-mapping)
 " ---------------------------------------------------------------------
@@ -62,7 +61,8 @@ autocmd VimEnter * match FullWidthSpace /　/
 " blue , darkblue , delek , evening , morning
 " *1 : autocmd Colorschemeより下に記載しないとエラーが発生する
 " *2 : highlightより上に記載しないと設定が上書きされる
-colorscheme default
+"colorscheme default
+colorscheme gruvbox
 " --- }}} ---
 " --- HTMLを簡易強調表示
 highlight link htmlItalic LineNr
