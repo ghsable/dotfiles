@@ -10,7 +10,6 @@
 /* https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules */
 
 /* Hide horizontal tabs at the top of the window #1349 */
-/*
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
   opacity: 0;
   pointer-events: none;
@@ -18,7 +17,7 @@
 #main-window:not([tabsintitlebar="true"]) #TabsToolbar {
     visibility: collapse !important;
 }
-*/
+
 
 /* For only Tree Style Tab sidebar #1397 */
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
@@ -38,8 +37,8 @@
 
 #urlbar[breakout],
 #urlbar[breakout][breakout-extend] {
-  --urlbar-height: 25px !important;
-  --urlbar-toolbar-height: 27px !important;
+  --urlbar-height: 30px !important;
+  --urlbar-toolbar-height: 40px !important;
 
   width: 100% !important;
   top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;

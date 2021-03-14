@@ -32,7 +32,7 @@ case ${1} in
     ;;
   deploy)
     # userChrome.css
-    ln -snfv "${HOME}/bin/firefox/chrome" "${HOME}/.mozilla/firefox/8im9ova9.default"
+    ln -snfv "${HOME}/bin/firefox/chrome" "${HOME}/.mozilla/firefox/zmcm7evg.default-release"
     ;;
   *)
     usage
