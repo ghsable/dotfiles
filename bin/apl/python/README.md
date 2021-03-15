@@ -13,4 +13,3 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/apl
 
     # rustup
     sh install.sh update-components
-

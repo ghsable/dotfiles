@@ -25,4 +25,3 @@ or [PX-Q1UD1](http://www.plex-net.co.jp/product/px-q1ud/)
 recdvb:
 
     recdvb --b25 --strip <channel> <sec> /path/to/file.ts
-

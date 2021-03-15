@@ -8,4 +8,3 @@
        sh install.sh deploy
 
 this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/emacs/install.sh)
-
