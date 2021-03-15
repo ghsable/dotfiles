@@ -3,7 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  SET ibus/ibus-anthy
+  SET IBus/Anthy
 
 Usage:
   sh ${0} ibus : OPEN ibus-setup

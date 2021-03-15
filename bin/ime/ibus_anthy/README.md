@@ -1,8 +1,8 @@
-# *ibus + anthy*
+# *IBus + Anthy*
 
 ## Requirement
-* [ibus](https://github.com/ibus/ibus)
-* [ibus-anthy](https://github.com/ibus/ibus-anthy)
+* [IBus](https://github.com/ibus/ibus)
+* [IBus-Anthy](https://github.com/ibus/ibus-anthy)
 
 ## Installation
 
@@ -20,10 +20,10 @@ set env/start(`~/.xprofile`):
 
 ## Setup
 
-    # --- ibus
+    # --- IBus
     sh ibus_anthy.sh ibus
     # 一般 > 次の入力メソッド:<Alt>space、入力メソッド > 「日本語 - Anthy」「英語 - 英語(US)」
-    # --- ibus-anthy
+    # --- IBus-Anthy
     # 一般 > プロパティーパネルを表示する:常に表示する > IBus-Anthyの設定を開く
     # 一般 > 入力モード:ひらがな、入力タイプ > キーボードレイアウト:us
 
