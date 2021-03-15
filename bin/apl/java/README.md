@@ -12,4 +12,3 @@ this script : [install.sh](https://github.com/ghsable/dotfiles/blob/main/bin/apl
     # CHANGE Version
     archlinux-java <COMMAND>
     java -version
-
