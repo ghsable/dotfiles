@@ -3,8 +3,7 @@
 function usage() {
 cat<< _EOT_
 Description:
-  SET Fcitx
-  SET Mozc
+  SET Fcitx/Mozc
 
 Usage:
   sh ${0} fcitx_a : OPEN  Fcitx(config_dialog)

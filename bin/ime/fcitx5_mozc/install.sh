@@ -5,7 +5,7 @@ echo "${0} ..."
 function usage() {
 cat<< _EOT_
 Description:
-  INSTALL Input method Framework
+  INSTALL Input Method Framework
 
 Usage:
   sh ${0} install-packages : INSTALL Packages
@@ -25,7 +25,7 @@ case ${1} in
   install-packages)
     {
     echo '--------------------------------------------------'
-    echo '# fcitx5-im         : Input method Framework(Group)'
+    echo '# fcitx5-im         : Input Method Framework(Group)'
     echo '# fcitx5-configtool : fcitx-config-gtk3'
     echo '# fcitx5-mozc       : Input System'
     echo '--------------------------------------------------'

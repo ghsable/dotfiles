@@ -5,7 +5,7 @@ echo "${0} ..."
 function usage() {
 cat<< _EOT_
 Description:
-  INSTALL Input method Framework
+  INSTALL Input Method Framework
 
 Usage:
   sh ${0} install : INSTALL Packages
@@ -23,7 +23,7 @@ exit 1
 case ${1} in
   install)
     {
-    echo '# uim   : Input method Framework'
+    echo '# uim   : Input Method Framework'
     echo '# anthy : Input System'
     }
     sudo pacman -Syu
