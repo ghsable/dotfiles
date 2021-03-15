@@ -23,5 +23,3 @@ set env/start(`~/.xprofile`):
 ## Usage
 
     uim-pref-gtk
-
-
