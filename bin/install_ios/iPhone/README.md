@@ -139,6 +139,7 @@
 
 **📺動画鑑賞**
 - - -
+* [ ] [VLC for Mobile](https://apps.apple.com/jp/app/vlc-for-mobile/id650377962)
 * [ ] [YouTube](https://itunes.apple.com/jp/app/youtube/id544007664?mt=8)
 * [ ] [Amazon プライム・ビデオ](https://apps.apple.com/jp/app/amazon-%E3%83%97%E3%83%A9%E3%82%A4%E3%83%A0-%E3%83%93%E3%83%87%E3%82%AA/id545519333)
 * [ ] [DMM 動画プレイヤー](https://itunes.apple.com/jp/app/dmm-%E5%8B%95%E7%94%BB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC/id663294738?mt=8)
