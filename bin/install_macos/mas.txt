@@ -1,5 +1,4 @@
 1352778147 Bitwarden (1.15.3)
-784466108 ExifPurge (1.0)
 406056744 Evernote (7.8)
 497799835 Xcode (10.1)
 425424353 The Unarchiver (4.1.0)
