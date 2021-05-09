@@ -1,5 +1,4 @@
 appcleaner
-dropbox
 virtualbox
 vnc-viewer
 5kplayer
