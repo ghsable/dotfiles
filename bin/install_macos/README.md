@@ -18,12 +18,6 @@
     * Signature
 * `open -a /Applications/Safari.app`
     * Bookmark ... `~/path/to/Bookmark/*`
-* `open -a /Applications/iTunes.app`
-    * 環境設定
-        * iTunes Media ... /Dropbox/Home/Music
-        * Check ... iTunes Media フォルダを整理
-        * Check ... iTunes Media フォルダにコピーする
-    * /Dropbox/Home/Music -(drag-and-drop)-> iTunesライブラリ
 * Install by binaryfile
     * [moraダウンローダー](https://mora.jp/help/hajimete?fmid=leftbannerA)
     * [HHKB Driver](https://www.pfu.fujitsu.com/hhkeyboard/download.html)
