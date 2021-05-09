@@ -1,4 +1,5 @@
 appcleaner
 virtualbox
 vnc-viewer
+vlc
 firefox
