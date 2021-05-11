@@ -9,6 +9,6 @@ brew upgrade
 brew install $(grep -v -e '^$' -e '^#' $(dirname ${0})/brew.txt)
 
 # --- Delete Cache(all brew file)
-brew cleanup -s
+brew cleanup --prune=all
 
 echo '---------------------------------------->>(EOF)'
