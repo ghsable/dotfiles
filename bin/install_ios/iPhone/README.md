@@ -62,6 +62,7 @@
 * [ ] [住信SBIネット銀行](https://itunes.apple.com/jp/app/%E4%BD%8F%E4%BF%A1sbi%E3%83%8D%E3%83%83%E3%83%88%E9%8A%80%E8%A1%8C/id436755036?mt=8)
 * [ ] [ゆうちょ通帳アプリ](https://apps.apple.com/jp/app/%E3%82%86%E3%81%86%E3%81%A1%E3%82%87%E9%80%9A%E5%B8%B3%E3%82%A2%E3%83%97%E3%83%AA/id1496925861)
 * [ ] [スルガ銀行](https://apps.apple.com/jp/app/%E3%82%B9%E3%83%AB%E3%82%AC%E9%8A%80%E8%A1%8Cconnect/id862906762)
+* [ ] [三井住友カード Vpass](https://apps.apple.com/jp/app/%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%E3%82%AB%E3%83%BC%E3%83%89-vpass%E3%82%A2%E3%83%97%E3%83%AA/id838138452)
 * [ ] [家計簿マネーフォワード](https://itunes.apple.com/jp/app/%E5%AE%B6%E8%A8%88%E7%B0%BF%E3%83%9E%E3%83%8D%E3%83%BC%E3%83%95%E3%82%A9%E3%83%AF%E3%83%BC%E3%83%89-%E8%87%AA%E5%8B%95%E9%80%A3%E6%90%BA%E3%81%A7%E7%B0%A1%E5%8D%98-%E4%BA%BA%E6%B0%97%E3%81%AE%E5%AE%B6%E8%A8%88%E7%B0%BF/id594145971?mt=8) 
 
 **💸FX取引**
@@ -221,7 +222,7 @@
 **🤳画像編集**
 - - -
 * [ ] [Adobe Photoshop Mix](https://itunes.apple.com/jp/app/adobe-photoshop-mix-%E5%86%99%E7%9C%9F%E5%8A%A0%E5%B7%A5%E3%82%A2%E3%83%97%E3%83%AA/id885271158?mt=8)
-* [ ] [モザイク](https://itunes.apple.com/jp/app/%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF-%E3%81%BC%E3%81%8B%E3%81%97-%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF%E5%8A%A0%E5%B7%A5%E3%82%A2%E3%83%97%E3%83%AA-%E6%9C%89%E6%96%99%E7%89%88/id1043821692?mt=8)
+* [ ] [モザイク](https://apps.apple.com/jp/app/%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF-%E3%81%BC%E3%81%8B%E3%81%97-%E3%83%A2%E3%82%B6%E3%82%A4%E3%82%AF%E5%8A%A0%E5%B7%A5%E3%82%A2%E3%83%97%E3%83%AA/id964220645)
 
 **🤳画像のシェア**
 - - -
