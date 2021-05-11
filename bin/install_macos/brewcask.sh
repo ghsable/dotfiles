@@ -9,6 +9,6 @@ brew upgrade --cask --greedy
 brew install --cask $(grep -v -e '^$' -e '^#' $(dirname ${0})/brewcask.txt)
 
 # --- Delete Cache(all brew cask file)
-brew cleanup -s
+brew cleanup --prune=all
 
 echo '---------------------------------------->>(EOF)'
