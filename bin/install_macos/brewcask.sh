@@ -6,7 +6,7 @@ echo "${0} ..."
 brew upgrade
 
 # --- Install(brew cask file)
-brew cask install $(grep -v -e '^$' -e '^#' $(dirname ${0})/brewcask.txt)
+brew install --cask $(grep -v -e '^$' -e '^#' $(dirname ${0})/brewcask.txt)
 
 # --- Delete Cache(all brew cask file)
 brew cleanup -s
