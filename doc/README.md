@@ -1,1 +1,1 @@
-# [doc](https://scrapbox.io/suna-64354306/)
+# [doc](https://github.com/ghsable/Scrapbox)
