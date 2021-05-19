@@ -12,6 +12,7 @@
 * [x] [メモ](https://itunes.apple.com/jp/app/%E3%83%A1%E3%83%A2/id1110145109?mt=8)
 * [x] [ショートカット](https://itunes.apple.com/jp/app/%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88/id915249334?mt=8)
 * [x] [Apple Books](https://apps.apple.com/jp/app/apple-books/id364709193)
+* [x] [株価](https://apps.apple.com/jp/app/%E6%A0%AA%E4%BE%A1/id1069512882)
 * [ ] [GoodReader](https://apps.apple.com/jp/app/goodreader-pro-pdf-editor/id1451012117)
 * [ ] [Kindle](https://itunes.apple.com/jp/app/kindle/id302584613?mt=8)
 * [ ] [GitHub](https://apps.apple.com/jp/app/github/id1477376905)
