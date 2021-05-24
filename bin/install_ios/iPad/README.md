@@ -28,6 +28,7 @@
 * [ ] [PS4 Remote Play](https://apps.apple.com/jp/app/ps4-remote-play/id1436192460)
 * [ ] [将棋ウォーズ](https://apps.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA/id496801169)
 * [ ] [81Dojo](https://apps.apple.com/jp/app/%E6%97%A5%E6%9C%AC%E5%B0%86%E6%A3%8B%E9%80%A3%E7%9B%9F%E5%BE%8C%E6%8F%B4-%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E5%AF%BE%E5%B1%80%E5%A0%B4-81dojo/id1030985569)
+* [ ] [ぴよ将棋](https://apps.apple.com/jp/app/%E3%81%B4%E3%82%88%E5%B0%86%E6%A3%8B/id1104881942)
 * [ ] [Tayasui Sketches Pro](https://itunes.apple.com/jp/app/tayasui-sketches-pro/id671867510?mt=8)
 * [ ] [VNC Viewer](https://itunes.apple.com/jp/app/vnc-viewer-remote-desktop/id352019548?mt=8)
 * [ ] [SySight](https://itunes.apple.com/jp/app/sysight/id568731681?mt=8)
