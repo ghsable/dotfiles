@@ -61,8 +61,8 @@ autocmd VimEnter * match FullWidthSpace /　/
 " blue , darkblue , delek , evening , morning
 " *1 : autocmd Colorschemeより下に記載しないとエラーが発生する
 " *2 : highlightより上に記載しないと設定が上書きされる
-"colorscheme default
-colorscheme gruvbox
+colorscheme default
+"colorscheme gruvbox
 " --- }}} ---
 " --- HTMLを簡易強調表示
 highlight link htmlItalic LineNr

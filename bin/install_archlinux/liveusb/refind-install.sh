@@ -9,7 +9,7 @@ echo "${0} ..."
 # refind-efi  : boot loader
 pacman -Syu
 pacman -S intel-ucode \
-          efibootmgr refind-efi
+          efibootmgr refind
 pacman -Sc
 
 # --- refind-install
