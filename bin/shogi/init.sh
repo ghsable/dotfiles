@@ -2,6 +2,7 @@
 
 readonly SHOGI_DIR=~/shogi
 [ -d ${SHOGI_DIR} ] || mkdir -pv ${SHOGI_DIR}
+[ -d ${SHOGI_DIR}/Engine ] || mkdir -pv ${SHOGI_DIR}/Engine
 ln -snf ~/private/Document/KIF ${SHOGI_DIR}/KIF
 
 #---- Requirement: Mono
@@ -23,6 +24,7 @@ if [ ! -d "${RUST_DIR}/apery_rust" ]; then
   cd ${RUST_DIR}/apery_rust
   cargo build --release
   ln -snfv ${RUST_DIR}/apery_rust/eval ${RUST_DIR}/apery_rust/target/release/eval
+  ln -snfv ${RUST_DIR}/apery_rust ${SHOGI_DIR}/Engine/apery_rust
 fi
 
 # Run
