@@ -104,3 +104,5 @@ reboot
   * [Java](https://github.com/ghsable/dotfiles/blob/main/bin/apl/java/README.md)
   * [Mono](https://github.com/ghsable/dotfiles/blob/main/bin/apl/mono/README.md)
   * [Ruby](https://github.com/ghsable/dotfiles/blob/main/bin/apl/ruby/README.md)
+* **Binary**
+  * [Shogi](https://github.com/ghsable/dotfiles/blob/main/bin/shogi/README.md)
