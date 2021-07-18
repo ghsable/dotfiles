@@ -1,11 +1,15 @@
 # Shogi
 
 ## Requirement
+### GUI
+* [将棋所](http://shogidokoro.starfree.jp/)
+  * [Mono](https://github.com/ghsable/dotfiles/blob/main/bin/apl/mono/README.md)
 
-* [Mono](https://github.com/ghsable/dotfiles/blob/main/bin/apl/mono/README.md)
-  * [将棋所](http://shogidokoro.starfree.jp/)
-* [Rust](https://github.com/ghsable/dotfiles/blob/main/bin/apl/rust/README.md)
-  * [Apery](https://github.com/HiraokaTakuya/apery_rust)
+### USI shogi engine
+* [Apery](https://github.com/HiraokaTakuya/apery_rust)
+  * [Rust](https://github.com/ghsable/dotfiles/blob/main/bin/apl/rust/README.md)
+* [水匠4](https://twitter.com/tayayan_ts/status/1416621532164497411)
+  * none
 
 ## Install/Run
 
