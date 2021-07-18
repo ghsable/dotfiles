@@ -10,7 +10,7 @@ ln -snf ~/private/Document/KIF ${SHOGI_DIR}/KIF
 if [ ! -d "${SHOGI_DIR}/Shogidokoro" ]; then
   cd ${SHOGI_DIR}
   curl -O http://shogidokoro.starfree.jp/download/Shogidokoro.zip
-  unzip -o Shogidokoro.zip
+  unar Shogidokoro.zip
   rm Shogidokoro.zip
 fi
 
