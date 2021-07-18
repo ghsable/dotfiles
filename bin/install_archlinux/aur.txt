@@ -1,2 +1,2 @@
-# geteltorito(https://aur.archlinux.org/packages/geteltorito/)
+# geteltorito - https://aur.archlinux.org/packages/geteltorito/
 https://aur.archlinux.org/geteltorito.git
