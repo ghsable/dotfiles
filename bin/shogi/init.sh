@@ -41,7 +41,7 @@ fi
 # Thanks - https://www.matthuisman.nz/2019/01/download-google-drive-files-wget-curl.html
 function download_google_drive() {
     fileid=${1}
-    readonly filename="opt.zip"
+    filename="opt.zip"
     cd ${SHOGI_DIR}/Engine
     curl -L -c cookies.txt 'https://docs.google.com/uc?export=download&id='$fileid \
          | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1/p' >confirm.txt
@@ -66,7 +66,7 @@ if [ ! -d "${SHOGI_DIR}/Engine/epoch8" ]; then
   mkdir ${SHOGI_DIR}/Engine/epoch8
   mv ${SHOGI_DIR}/Engine/eval ${SHOGI_DIR}/Engine/epoch8/eval
   ln -snfv ${SHOGI_DIR}/Engine/YaneuraOu/source/YaneuraOu-by-gcc ${SHOGI_DIR}/Engine/epoch8/YaneuraOu-by-gcc
-  echo 'epoch8/YaneuraOu' >${SHOGI_DIR}/Engine/epoch8/engine_name.txt
+  echo 'epoch8/YaneuraOu_V6.00_KPPT/100T-shock' >${SHOGI_DIR}/Engine/epoch8/engine_name.txt
 fi
 
 #---- Requirement: YaneuraOu
@@ -74,7 +74,7 @@ fi
 if [ ! -d "${SHOGI_DIR}/Engine/elmo.shogi" ]; then
   download_google_drive "0B0XpI3oPiCmFalVGclpIZjBmdGs"
   ln -snfv ${SHOGI_DIR}/Engine/YaneuraOu/source/YaneuraOu-by-gcc ${SHOGI_DIR}/Engine/elmo.shogi/YaneuraOu-by-gcc
-  echo 'elmo(WCSC28)/YaneuraOu' >${SHOGI_DIR}/Engine/elmo.shogi/engine_name.txt
+  echo 'elmo_WCSC28/YaneuraOu_V6.00_KPPT/100T-shock' >${SHOGI_DIR}/Engine/elmo.shogi/engine_name.txt
 fi
 
 #---- Requirement: YaneuraOu
