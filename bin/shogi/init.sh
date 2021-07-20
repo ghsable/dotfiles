@@ -76,21 +76,6 @@ if [ ! -d "${KPPT_DIR}/elmo.shogi" ]; then
   echo 'elmo_WCSC28/YaneuraOu_V6.00_KPPT' >${KPPT_DIR}/elmo.shogi/engine_name.txt
 fi
 
-# ---------- BOOK ---------- #
-
-#---- Requirement: YaneuraOu
-# Book - 100テラショック定跡 - https://github.com/yaneurao/YaneuraOu/releases/tag/BOOK-100T-Shock
-if [ ! -d "${BOOK_DIR}/100T-shock-book" ]; then
-  #Thanks - https://askubuntu.com/questions/285976/download-zip-file-with-curl-command
-  cd ${BOOK_DIR}
-  curl -O -J -L https://github.com/yaneurao/YaneuraOu/releases/download/BOOK-100T-Shock/100T-shock-book.zip
-  unar 100T-shock-book.zip
-  rm 100T-shock-book.zip
-  # Evaluation function - リゼロ評価関数 epoch8 - https://github.com/yaneurao/YaneuraOu/blob/master/docs/README2017.md
-  mkdir -pv ${KPPT_DIR}/epoch8/book
-  ln -snfv ${BOOK_DIR}/100T-shock-book/user_book1.db ${KPPT_DIR}/epoch8/book/standard_book.db
-fi
-
 # ---------- NNUE ---------- #
 
 #---- Requirement: clang++
@@ -110,6 +95,21 @@ if [ ! -d "${NNUE_DIR}/水匠4" ]; then
   cd ${NNUE_DIR}
   download_google_drive "1YwqmlQhfnRZDSrpISYNa4HvQaS9tEqvy"
   ln -snfv ${NNUE_DIR}/YaneuraOu/source/YaneuraOu-by-gcc ${NNUE_DIR}/水匠4/YaneuraOu-by-gcc
+fi
+
+# ---------- BOOK ---------- #
+
+#---- Requirement: YaneuraOu
+# Book - 100テラショック定跡 - https://github.com/yaneurao/YaneuraOu/releases/tag/BOOK-100T-Shock
+if [ ! -d "${BOOK_DIR}/100T-shock-book" ]; then
+  #Thanks - https://askubuntu.com/questions/285976/download-zip-file-with-curl-command
+  cd ${BOOK_DIR}
+  curl -O -J -L https://github.com/yaneurao/YaneuraOu/releases/download/BOOK-100T-Shock/100T-shock-book.zip
+  unar 100T-shock-book.zip
+  rm 100T-shock-book.zip
+  # Evaluation function - リゼロ評価関数 epoch8 - https://github.com/yaneurao/YaneuraOu/blob/master/docs/README2017.md
+  mkdir -pv ${KPPT_DIR}/epoch8/book
+  ln -snfv ${BOOK_DIR}/100T-shock-book/user_book1.db ${KPPT_DIR}/epoch8/book/standard_book.db
 fi
 
 # Run
