@@ -89,12 +89,21 @@ if [ ! -d "${NNUE_DIR}/YaneuraOu" ]; then
 fi
 
 #---- Requirement: YaneuraOu_NNUE
-# USI shogi engine - 水匠 - https://twitter.com/tayayan_ts
+# Evaluation function - 水匠 - https://twitter.com/tayayan_ts
 # 水匠4 - https://twitter.com/tayayan_ts/status/1416621532164497411
 if [ ! -d "${NNUE_DIR}/水匠4" ]; then
   cd ${NNUE_DIR}
   download_google_drive "1YwqmlQhfnRZDSrpISYNa4HvQaS9tEqvy"
   ln -snfv ${NNUE_DIR}/YaneuraOu/source/YaneuraOu-by-gcc ${NNUE_DIR}/水匠4/YaneuraOu-by-gcc
+fi
+
+#---- Requirement: YaneuraOu_NNUE
+# Evaluation function - elmo_2020 - https://mk-takizawa.github.io/elmo/
+if [ ! -d "${NNUE_DIR}/elmo2020" ]; then
+  cd ${NNUE_DIR}
+  download_google_drive "1qhutTzaog4pHqh0OPAhJuf8mCwPAl5r7"
+  ln -snfv ${NNUE_DIR}/YaneuraOu/source/YaneuraOu-by-gcc ${NNUE_DIR}/elmo2020/YaneuraOu-by-gcc
+  echo 'elmo_2020/YaneuraOu_V6.00_NNUE' >${NNUE_DIR}/elmo2020/engine_name.txt
 fi
 
 # ---------- BOOK ---------- #

@@ -29,6 +29,7 @@
 | Name | Requirement | Addition |
 | :--- | :--- | :--- |
 | [水匠4](https://twitter.com/tayayan_ts/status/1416621532164497411) | [YaneuraOu](https://github.com/yaneurao/YaneuraOu) | `-` |
+| [elmo_2020](https://mk-takizawa.github.io/elmo/) | [YaneuraOu](https://github.com/yaneurao/YaneuraOu) | `-` |
 
 ### Book
 #### KPPT
