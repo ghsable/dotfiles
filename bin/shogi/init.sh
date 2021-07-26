@@ -1,7 +1,7 @@
 #!/bin/bash
 
 readonly KIF_DIR=~/shogi/KIF
-ln -snf ~/private/Document/KIF ${KIF_DIR}
+ln -snf ~/private/Document/shogi/KIF ${KIF_DIR}
 
 readonly KPPT_DIR=~/shogi/Engine/KPPT
 readonly NNUE_DIR=~/shogi/Engine/NNUE
