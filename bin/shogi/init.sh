@@ -2,6 +2,7 @@
 
 readonly KIF_DIR=~/shogi/KIF
 ln -snf ~/private/Document/shogi/KIF ${KIF_DIR}
+ln -snf ~/bin/shogi/rename_ShogiWars.sh ${KIF_DIR}/ShogiWars/tmp/rename_ShogiWars.sh
 
 readonly KPPT_DIR=~/shogi/Engine/KPPT
 readonly NNUE_DIR=~/shogi/Engine/NNUE

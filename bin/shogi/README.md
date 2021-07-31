@@ -47,3 +47,6 @@
     sh init.sh
 
 this script : [init.sh](https://github.com/ghsable/dotfiles/blob/main/bin/shogi/init.sh)
+
+## Support tool
+* [rename_ShogiWars.sh](https://github.com/ghsable/dotfiles/blob/main/bin/shogi/rename_ShogiWars.sh)
