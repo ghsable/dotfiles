@@ -15,7 +15,6 @@ for FILENAME_OLD in $(ls)
 do
   [ "${FILENAME_OLD}" = "rename_ShogiWars.sh" ] && continue
   FILENAME_NEW="${FILENAME_OLD: -19:15}-${FILENAME_OLD%-*}"
-  echo "${FILENAME_NEW}"
 
   # 1.rename kif:
   mv "${FILENAME_OLD}" "${FILENAME_NEW}.kif"
