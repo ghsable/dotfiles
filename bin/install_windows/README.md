@@ -112,3 +112,6 @@ Application :
 >> * [ ] [AviUtl](http://spring-fragrance.mints.ne.jp/aviutl/)
 >> * [ ] [ゆっくりMovieMaker3](https://manjubox.net/ymm3/)
 >> 
+> **Shogi**
+>> * [ ] [Kifu for Windows](http://kakinoki.o.oo7.jp/Kifuw.htm)
+>> 
