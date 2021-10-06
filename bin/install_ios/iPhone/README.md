@@ -239,6 +239,7 @@
 * [ ] [My Nintendo](https://apps.apple.com/jp/app/my-nintendo-%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC/id1495746988)
 * [ ] [Nintendo Switch Online](https://itunes.apple.com/jp/app/nintendo-switch-online/id1234806557?mt=8)
 * [ ] [Pokémon HOME](https://apps.apple.com/jp/app/pok%C3%A9mon-home/id1485352913)
+* [ ] [ブクログ](https://apps.apple.com/jp/app/%E8%AA%AD%E6%9B%B8%E7%AE%A1%E7%90%86%E3%83%96%E3%82%AF%E3%83%AD%E3%82%B0-%E6%9C%AC%E6%A3%9A-%E8%AA%AD%E6%9B%B8%E8%A8%98%E9%8C%B2/id359066582)
 
 **🎲携帯用ゲーム**
 - - -
