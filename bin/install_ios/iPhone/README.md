@@ -126,8 +126,7 @@
 
 **✍️メモ**
 - - -
-* [ ] [Evernote](https://itunes.apple.com/jp/app/evernote/id281796108?mt=8)
-* [ ] [Dynalist](https://apps.apple.com/jp/app/dynalist/id1195392808)
+
 
 **🤖開発**
 - - -
