@@ -248,6 +248,7 @@
 * [ ] [Spells Of Genesis](https://itunes.apple.com/jp/app/spells-of-genesis/id1163689873?mt=8)
 * [ ] [将棋棋譜入力 Kifu](https://apps.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E6%A3%8B%E8%AD%9C%E5%85%A5%E5%8A%9B-kifu/id302532668)
 * [ ] [将棋ウォーズ](https://apps.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA/id496801169)
+* [ ] [将棋クエスト](https://apps.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88/id884971827)
 * [ ] [81Dojo](https://apps.apple.com/jp/app/%E6%97%A5%E6%9C%AC%E5%B0%86%E6%A3%8B%E9%80%A3%E7%9B%9F%E5%BE%8C%E6%8F%B4-%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E5%AF%BE%E5%B1%80%E5%A0%B4-81dojo/id1030985569)
 * [ ] [将棋倶楽部24](https://apps.apple.com/jp/app/%E5%B0%86%E6%A3%8B%E5%80%B6%E6%A5%BD%E9%83%A824/id575771493)
 * [ ] [ぴよ将棋](https://apps.apple.com/jp/app/%E3%81%B4%E3%82%88%E5%B0%86%E6%A3%8B/id1104881942)
