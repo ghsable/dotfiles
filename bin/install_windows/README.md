@@ -80,6 +80,7 @@ Application :
 >> 
 > **APL**
 >> * [ ] [Visual Studio](https://visualstudio.microsoft.com/ja/)
+>> * [ ] [Visual Studio Code](https://code.visualstudio.com/)
 >> * [ ] [Tera Term](https://forest.watch.impress.co.jp/library/software/utf8teraterm/)
 >> * [ ] [Git for Windows](https://gitforwindows.org/)
 >> * [ ] [Eclipse](http://mergedoc.osdn.jp)
