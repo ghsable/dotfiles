@@ -88,6 +88,7 @@ reboot
   * [ZSH](https://github.com/ghsable/dotfiles/blob/main/bin/zsh/README.md)
   * [Vim](https://github.com/ghsable/dotfiles/blob/main/bin/vim/README.md)
   * [Emacs](https://github.com/ghsable/dotfiles/blob/main/bin/emacs/README.md)
+  * [VSCode](https://github.com/ghsable/dotfiles/blob/main/bin/code/README.md)
   * [IME](https://github.com/ghsable/dotfiles/blob/main/bin/ime/README.md)
   * [Filer](https://github.com/ghsable/dotfiles/blob/main/bin/filer/README.md)
   * [Firefox](https://github.com/ghsable/dotfiles/blob/main/bin/firefox/README.md)
