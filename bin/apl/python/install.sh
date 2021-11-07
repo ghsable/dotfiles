@@ -47,7 +47,7 @@ case ${1} in
     }
     python -m pip install --user flake8 pytest codecov sphinx \
                                  Flask gunicorn uWSGI \
-                                 line-bot-sdk newsapi-python pya3rt
+                                 line-bot-sdk newsapi-python
     ;;
   update-components)
     pip install $(pip freeze --local | cut -d "=" -f 1-1) -U --user
