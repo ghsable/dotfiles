@@ -36,12 +36,13 @@ case ${1} in
     {
     echo '--------------------------------------------------'
     echo '# addons-linter : Firefox Add-ons linter(https://github.com/mozilla/addons-linter)'
+    echo '# typescript    : JavaScript With Syntax For Types'
     echo '--------------------------------------------------'
     }
     readonly NODE_DIR=~/javascript
     [ -d ${NODE_DIR} ] || mkdir -pv ${NODE_DIR}
     cd ${NODE_DIR}
-    npm install addons-linter
+    npm install addons-linter typescript
     ;;
   *)
     usage
