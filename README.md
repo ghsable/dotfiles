@@ -1,4 +1,6 @@
 # dotfiles
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fghsable%2Fdotfiles.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fghsable%2Fdotfiles?ref=badge_shield)
+
 [dotfiles](https://ghsable.github.io/dotfiles/) is my Dotfiles + Scripts.
 
     dotfiles
@@ -127,3 +129,7 @@ I referred to the following :
 > * **Web**
 >   * [ArchWiki](https://www.archlinux.jp/)
 >   * [Shell Style Guide](https://google.github.io/styleguide/shell.xml)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fghsable%2Fdotfiles.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fghsable%2Fdotfiles?ref=badge_large)
