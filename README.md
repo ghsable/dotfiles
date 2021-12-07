@@ -121,7 +121,6 @@ Peripheral tools :
 | `macOS` | `ArchLinux` |
 
 ## Thanks
-I referred to the following :
 > * **Book**
 >   * [The Principles of Programming](http://www.shuwasystem.co.jp/products/7980html/4614.html)
 > * **Web**
