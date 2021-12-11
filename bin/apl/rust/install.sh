@@ -34,16 +34,17 @@ case ${1} in
     echo '# --- distribution'
     echo '# rust       : rustc, Cargo'
     echo '# rustup     : Rust Toolchain manager'
+    echo '# zola       : a static HTML and CSS website generator'
     echo '--------------------------------------------------'
     }
     # --- official
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --no-modify-path
 
     # --- distribution
-    #sudo pacman -Syu
-    #sudo pacman -S rust \
-    #               rustup
-    #sudo pacman -Sc
+    sudo pacman -Syu
+    sudo pacman -S zola
+    #              rust rustup
+    sudo pacman -Sc
     ;;
   rustup-install)
     {
