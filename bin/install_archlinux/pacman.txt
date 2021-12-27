@@ -33,10 +33,6 @@ docker
 # $(lspci | grep -e VGA -e 3D)(OpenGL)
 mesa
 
-# ------ DEVICE ------
-# Keyboard
-teensy-loader-cli
-
 # ------ SHELL ------
 # --- command
 # GitHub on the command line.
