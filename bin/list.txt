@@ -1,0 +1,14 @@
+apl
+aur
+code
+convert
+dzen
+emacs
+feh
+filer
+firefox
+ime/fcitx5_mozc
+shogi
+sound
+vim
+zsh
