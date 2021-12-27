@@ -28,9 +28,6 @@ export FZF_DEFAULT_OPTS='--height="90%" --reverse --border --margin=1,1 --inline
 export FZF_CTRL_T_OPTS='--preview="file {}" --preview-window="down:1"'
 export FZF_CTRL_R_OPTS='--preview="echo {}" --preview-window="down:3"'
 export FZF_ALT_C_OPTS='--preview "tree -C {} | head -100"'
-# ranger/ranger(https://github.com/ranger/ranger)
-ranger() { [ -n "$RANGER_LEVEL" ] && exit || LESS="$LESS -+F -+X" command ranger "$@"; }
-[ -n "$RANGER_LEVEL" ] && PS1="(RANGER) $PS1"
 
 # ------ PLUGINS ------
 # zdharma/fast-syntax-highlighting(https://github.com/zdharma/fast-syntax-highlighting)
