@@ -143,12 +143,12 @@ graphicsmagick
 xpdf
 evince
 # --- Office Suite
-libreoffice-still
+#libreoffice-still
 #libreoffice-still-ja
 #libreoffice-fresh
 #libreoffice-fresh-ja
 #antiword
-unoconv
+#unoconv
 
 # ------ JOKE ------
 # --- SL
