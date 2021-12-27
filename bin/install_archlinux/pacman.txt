@@ -48,7 +48,7 @@ fzf
 tree
 # Magnificent app which corrects your previous console command.
 # https://github.com/nvbn/thefuck
-thefuck
+#thefuck
 
 # ------ X WINDOW SYSTEM ------
 # --- Xorg Group
