@@ -42,9 +42,6 @@ tree
 # GitHub on the command line.
 # https://github.com/cli/cli
 github-cli
-# Magnificent app which corrects your previous console command.
-# https://github.com/nvbn/thefuck
-#thefuck
 
 # ------ X WINDOW SYSTEM ------
 # --- Xorg Group
