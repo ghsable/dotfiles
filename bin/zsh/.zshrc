@@ -31,8 +31,6 @@ export FZF_ALT_C_OPTS='--preview "tree -C {} | head -100"'
 # ranger/ranger(https://github.com/ranger/ranger)
 ranger() { [ -n "$RANGER_LEVEL" ] && exit || LESS="$LESS -+F -+X" command ranger "$@"; }
 [ -n "$RANGER_LEVEL" ] && PS1="(RANGER) $PS1"
-# nvbn/thefuck(https://github.com/nvbn/thefuck)
-eval $(thefuck --alias)
 
 # ------ PLUGINS ------
 # zdharma/fast-syntax-highlighting(https://github.com/zdharma/fast-syntax-highlighting)
