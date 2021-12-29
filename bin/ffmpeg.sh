@@ -7,6 +7,7 @@ Description:
 
 Usage:
   sh ${0} cut     <hh:dd>-<hh:dd>  <inputfile_path> : CUT     inputfile
+  sh ${0} resize  <inputfile_path>                  : RESIZE  inputfile
   sh ${0} speedup <inputfile_path>                  : SPEEDUP inputfile
   sh ${0} to-gif  <inputfile_path>                  : CONVERT inputfile -> gif_file
   sh ${0} *                                         : USAGE
@@ -17,10 +18,13 @@ exit 1
 
 case ${1} in
   cut)
-    readonly SCALE_VALUE='640:-1'
     readonly DATE_YYMMDDHHMM=`date "+%Y%m%d%H%M"`
     cd $(dirname ${3})
-    ffmpeg -ss ${2%-*} -i ${3} -t ${2#*-} -vf "scale=${SCALE_VALUE}" -y ffmpeg_${DATE_YYMMDDHHMM}.${3##*.}
+    ffmpeg -i ${3} -ss ${2%-*} -t ${2#*-} -y ffmpeg_${DATE_YYMMDDHHMM}.${3##*.}
+    ;;
+  resize)
+    readonly SCALE_VALUE='640:-1'
+    ffmpeg -i ${2} -vf "scale=${SCALE_VALUE}" ${2%.*}_resize.${2##*.}
     ;;
   speedup)
     readonly SPEED='2.0'
