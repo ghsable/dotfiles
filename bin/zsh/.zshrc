@@ -20,22 +20,6 @@ alias suspend='sh ~/bin/xset.sh suspend'
 alias incbrightness='sh ~/bin/brightness_acpi.sh +'
 alias decbrightness='sh ~/bin/brightness_acpi.sh -'
 
-# ------ PACMAN ------
-# junegunn/fzf(https://github.com/junegunn/fzf)
-source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
-export FZF_DEFAULT_OPTS='--height="90%" --reverse --border --margin=1,1 --inline-info --prompt="✗ " --header="-----" --preview="head -100 {}" --preview-window="down:15"'
-export FZF_CTRL_T_OPTS='--preview="file {}" --preview-window="down:1"'
-export FZF_CTRL_R_OPTS='--preview="echo {}" --preview-window="down:3"'
-export FZF_ALT_C_OPTS='--preview "tree -C {} | head -100"'
-
-# ------ PLUGINS ------
-# zdharma-continuum/fast-syntax-highlighting(https://github.com/zdharma-continuum/fast-syntax-highlighting)
-source ${HOME}/.zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-# zsh-users/zsh-autosuggestions(https://github.com/zsh-users/zsh-autosuggestions)
-source ${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-bindkey '^ ' autosuggest-accept
-
 # ------ PROMPT ------
 # No.1
 #PROMPT="%B%F{cyan}☠%f %F{cyan}[ %m@%U%n%u ] [ %~ ]%f
@@ -101,3 +85,19 @@ alias sd='dirs -v; echo -n "select number: "; read newdir; cd +"$newdir"'
 # export LS_COLORS + Set Completion colors
 export LS_COLORS='di=01;34:ln=01;35:so=01;32:ex=01;31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+
+# ------ PACMAN ------
+# junegunn/fzf(https://github.com/junegunn/fzf)
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
+export FZF_DEFAULT_OPTS='--height="90%" --reverse --border --margin=1,1 --inline-info --prompt="✗ " --header="-----" --preview="head -100 {}" --preview-window="down:15"'
+export FZF_CTRL_T_OPTS='--preview="file {}" --preview-window="down:1"'
+export FZF_CTRL_R_OPTS='--preview="echo {}" --preview-window="down:3"'
+export FZF_ALT_C_OPTS='--preview "tree -C {} | head -100"'
+
+# ------ PLUGINS ------
+# zdharma-continuum/fast-syntax-highlighting(https://github.com/zdharma-continuum/fast-syntax-highlighting)
+source ${HOME}/.zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+# zsh-users/zsh-autosuggestions(https://github.com/zsh-users/zsh-autosuggestions)
+source ${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+bindkey '^ ' autosuggest-accept
