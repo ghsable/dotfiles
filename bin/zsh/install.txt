@@ -1,5 +1,5 @@
-# zdharma/fast-syntax-highlighting | https://github.com/zdharma/fast-syntax-highlighting
-https://github.com/zdharma/fast-syntax-highlighting.git
+# zdharma-continuum/fast-syntax-highlighting | https://github.com/zdharma-continuum/fast-syntax-highlighting
+https://github.com/zdharma-continuum/fast-syntax-highlighting.git
 
 # zsh-users/zsh-autosuggestions | https://github.com/zsh-users/zsh-autosuggestions
 https://github.com/zsh-users/zsh-autosuggestions.git

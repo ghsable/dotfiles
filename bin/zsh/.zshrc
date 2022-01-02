@@ -30,7 +30,7 @@ export FZF_CTRL_R_OPTS='--preview="echo {}" --preview-window="down:3"'
 export FZF_ALT_C_OPTS='--preview "tree -C {} | head -100"'
 
 # ------ PLUGINS ------
-# zdharma/fast-syntax-highlighting(https://github.com/zdharma/fast-syntax-highlighting)
+# zdharma-continuum/fast-syntax-highlighting(https://github.com/zdharma-continuum/fast-syntax-highlighting)
 source ${HOME}/.zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 # zsh-users/zsh-autosuggestions(https://github.com/zsh-users/zsh-autosuggestions)
 source ${HOME}/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
