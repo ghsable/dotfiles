@@ -24,18 +24,18 @@ case ${1} in
     {
     echo '--------------------------------------------------'
     echo '# vim   : text editor'
-    echo '# ctags : tagjump(<C-]>,<C-t>,<C-x><C-]>)($ ctags -R -f .tags)'
     echo '--------------------------------------------------'
     }
     sudo pacman -Syu
-    sudo pacman -S vim \
-                   ctags
+    sudo pacman -S vim
     sudo pacman -Sc
     ;;
   deploy)
     readonly THIS_DIR="${HOME}/bin/vim"
-    ln -snfv "${THIS_DIR}/.vimrc"       "${HOME}"
-    ln -snfv "${THIS_DIR}/myconfig"     "${HOME}/.vim/myconfig"
+    ln -snfv "${THIS_DIR}/.vimrc" "${HOME}"
+    ln -snfv "${THIS_DIR}/.vim/init.vim"    "${HOME}/.vim"
+    ln -snfv "${THIS_DIR}/.vim/package-config" "${HOME}/.vim"
+    ln -snfv "${THIS_DIR}/.vim/plugin-config"  "${HOME}/.vim"
     # vimpacks(my plugins list)
     ln -snfv "${THIS_DIR}/.config/vimpacks" "${HOME}/.config/vimpacks"
     ;;
