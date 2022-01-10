@@ -250,6 +250,7 @@ nnoremap <Leader>n :set number!<CR>
 set shell=/usr/bin/zsh
 " ターミナル起動のショートカット
 nnoremap <Leader>t :terminal<CR>
+" ---
 
 
 " ------ ビジュアルモード ------
