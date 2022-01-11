@@ -250,6 +250,11 @@ nnoremap <Leader>n :set number!<CR>
 set shell=/usr/bin/zsh
 " ターミナル起動のショートカット
 nnoremap <Leader>t :terminal<CR>
+" --- ':help'の設定
+" 表示言語の優先度を設定(:help @enで英語表示)
+set helplang=en
+" ヘルプを画面全体で開く
+set helpheight=999
 " ---
 
 
