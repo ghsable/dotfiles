@@ -131,6 +131,8 @@ simplescreenrecorder
 # img
 imagemagick
 graphicsmagick
+# 3DCG
+blender
 # --- pdf
 # $(pdftotext,evince)
 xpdf
