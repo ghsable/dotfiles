@@ -188,6 +188,7 @@
 
 **💳お店に提示**
 - - -
+* [ ] [セブン-イレブンアプリ](https://apps.apple.com/jp/app/%E3%82%BB%E3%83%96%E3%83%B3-%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id1039171609)
 * [ ] [快活CLUB公式アプリ](https://itunes.apple.com/jp/app/%E5%BF%AB%E6%B4%BBclub%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id958083643?mt=8)
 * [ ] [カラオケBanBan公式アプリ](https://itunes.apple.com/jp/app/%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1banban%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id667211494?mt=8)
 * [ ] [丸亀製麺](https://itunes.apple.com/jp/app/%E4%B8%B8%E4%BA%80%E8%A3%BD%E9%BA%BA/id587248280?mt=8)
