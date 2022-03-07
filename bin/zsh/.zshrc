@@ -8,7 +8,7 @@ alias mkdir='mkdir -pv'
 alias ln='ln -snfv'
 alias grep='grep --color=auto'
 alias df='df -h'
-alias df='du -h'
+alias du='du -h'
 # other
 alias fc-list='fc-list : family | sort'
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -e "time to full:" -e "time to empty:" -e "percentage:"'
