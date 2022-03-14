@@ -2,7 +2,7 @@
 	name = 'ghsable'
 	email = 'sn.sable005@gmail.com'
 [core]
-	editor = vi
+	editor = vim
 [alias]
 	deleted = log --diff-filter=D --summary
 	thisbranch = branch --contains=HEAD
