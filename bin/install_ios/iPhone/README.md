@@ -132,6 +132,7 @@
 **🤖開発**
 - - -
 * [ ] [GitHub](https://apps.apple.com/jp/app/github/id1477376905)
+* [ ] [Keybase](https://apps.apple.com/jp/app/keybase-crypto-for-everyone/id1044461770)
 * [ ] [YouTube Studio](https://apps.apple.com/jp/app/youtube-studio/id888530356)
 * [ ] [Google Analytics](https://apps.apple.com/jp/app/google-analytics/id881599038)
 * [ ] [LINE Creators Studio](https://apps.apple.com/jp/app/line-creators-studio/id1239684967)
