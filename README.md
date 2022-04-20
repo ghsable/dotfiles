@@ -75,6 +75,7 @@ Peripheral tools :
     Keyboard         : Majestouch - FKB108M/JB * Thermaltake METALCAPS - EA-MTC-AKCSIL-37
     Keyboard         : Apple Keyboard - MB110J/B A1243
     Keyboard         : nintendo bluetooth keyboard
+    Keyboard         : Lenovo SK-8845CR
     Keyboard         : IBM F8 Model M - 1397681
     Mouse            : Kensington SlimBlade Trackball - K72327JP
     Mouse            : ELECOM DEFT PRO - M-DPT1MR
