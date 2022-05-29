@@ -20,6 +20,7 @@
 * [ ] [1Password](https://itunes.apple.com/jp/app/1password/id568903335?mt=8)
 * [ ] [LastPass](https://apps.apple.com/jp/app/lastpass-password-manager/id324613447)
 * [ ] [Bitwarden](https://apps.apple.com/jp/app/bitwarden-%E3%83%91%E3%82%B9%E3%83%AF%E3%83%BC%E3%83%89%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC/id1137397744)
+* [ ] [Google Maps](https://apps.apple.com/jp/app/google-%E3%83%9E%E3%83%83%E3%83%97-%E4%B9%97%E6%8F%9B%E6%A1%88%E5%86%85-%E3%82%B0%E3%83%AB%E3%83%A1/id585027354)
 * [ ] [Brave](https://apps.apple.com/jp/app/brave-%E9%AB%98%E9%80%9F%E3%81%AA%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E4%BF%9D%E8%AD%B7%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6-%E6%A4%9C%E7%B4%A2-vpn/id1052879175)
 * [ ] [Discord](https://apps.apple.com/jp/app/discord-%E8%A9%B1%E3%81%9D%E3%81%86-%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%81%97%E3%82%88%E3%81%86-%E9%9B%86%E3%81%BE%E3%82%8D%E3%81%86/id985746746)
 * [ ] [MetaTrader 5](https://itunes.apple.com/jp/app/metatrader-5/id413251709?mt=8)
