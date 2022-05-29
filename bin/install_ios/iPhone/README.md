@@ -198,6 +198,8 @@
 * [ ] [Coke ON](https://itunes.apple.com/jp/app/coke-on-%E3%82%B3%E3%82%AB-%E3%82%B3%E3%83%BC%E3%83%A9%E8%87%AA%E8%B2%A9%E6%A9%9F%E3%81%8C%E3%81%8A%E3%83%88%E3%82%AF%E3%81%AB%E6%A5%BD%E3%81%97%E3%81%8F%E3%81%AA%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA/id1088184021?mt=8)
 * [ ] [MUJI passport](https://apps.apple.com/jp/app/muji-passport/id631993791)
 * [ ] [Tokyo Disney Resort](https://itunes.apple.com/jp/app/tokyo-disney-resort-app/id1313147771?mt=8)
+* [ ] [GHFダイニング](https://apps.apple.com/jp/app/ghf%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id1487788687)
+* [ ] [かんたん netprint](https://apps.apple.com/jp/app/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93netprint-pdf%E3%82%82%E5%86%99%E7%9C%9F%E3%82%82%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%E3%81%A7%E3%81%99%E3%81%90%E5%8D%B0%E5%88%B7/id1552990335)
 
 **🧺ショッピング**
 - - -
