@@ -1,1 +1,5 @@
 *.t linguist-detectable=false
+*.scm linguist-detectable=false
+*.py linguist-detectable=false
+*.vim linguist-detectable=false
+*.c linguist-detectable=false
