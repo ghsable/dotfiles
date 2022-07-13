@@ -83,6 +83,10 @@
 * [ ] [Casa Tookan](https://apps.apple.com/jp/app/casa-tookan/id1435616326)
 * [ ] [bitbank](https://apps.apple.com/jp/app/%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3-%E3%83%AA%E3%83%83%E3%83%97%E3%83%AB-%E5%8F%96%E5%BC%95%E3%82%A2%E3%83%97%E3%83%AA-bitbank/id1352242602)
 * [ ] [Coincheck](https://apps.apple.com/jp/app/%E3%82%B3%E3%82%A4%E3%83%B3%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF-%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3-btc-%E3%83%AA%E3%83%83%E3%83%97%E3%83%AB-%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88/id957130004)
+* [ ] [Uphold](https://apps.apple.com/jp/app/uphold-buy-btc-eth-xrp/id1101145849)
+* [ ] [STEPN](https://apps.apple.com/jp/app/stepn/id1598112424)
+* [ ] [Aglet](https://apps.apple.com/jp/app/aglet/id1504522507)
+* [ ] [Sweatcoin](https://apps.apple.com/jp/app/sweatcoin-%E4%B8%87%E6%AD%A9-%E8%A8%88%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%81%A8%E3%83%A9%E3%83%B3%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA/id971023427)
 
 **🇯🇵行政向け作業**
 - - -
@@ -262,6 +266,7 @@
 * [ ] [モンスターストライク](https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF/id658511662)
 * [ ] [FINAL FANTASY Record Keeper](https://apps.apple.com/jp/app/final-fantasy-record-keeper/id866037912)
 * [ ] [Cluster](https://apps.apple.com/jp/app/cluster-%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC/id1490075175)
+* [ ] [にゃんこリゾート](https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E3%83%AA%E3%82%BE%E3%83%BC%E3%83%88/id1514365988)
 
 **🎨スケッチ**
 - - -
