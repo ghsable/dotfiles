@@ -3,3 +3,4 @@ virtualbox
 vnc-viewer
 vlc
 firefox
+brave
